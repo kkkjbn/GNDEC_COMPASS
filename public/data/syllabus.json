@@ -1,0 +1,1249 @@
+{
+  "generatedAt": "2026-11-02T11:39:01.099Z",
+  "documents": [
+    {
+      "id": "syl-ss-and-syllabus-sem1-2-dec-2025-unsigned",
+      "code": "ALL",
+      "branch": "ALL",
+      "branchName": "All branches",
+      "program": "B.Tech",
+      "semesters": [
+        1,
+        2
+      ],
+      "semester": "Sem 1–2",
+      "scheme": "2026",
+      "title": "B.Tech 1st Year Study Scheme & Syllabus (Dec 2025)",
+      "file": "ss and Syllabus sem1,2 Dec 2025 unsigned",
+      "url": "https://appsc.gndec.ac.in/sites/default/files/2026-03/ss%20and%20Syllabus%20sem1%2C2%20Dec%202025%20unsigned.pdf",
+      "sourcePage": "official"
+    },
+    {
+      "id": "syl-b-tech-1st-year-ss-and-syllabus-2018-onward",
+      "code": "ALL",
+      "branch": "ALL",
+      "branchName": "All branches",
+      "program": "B.Tech",
+      "semesters": [
+        1,
+        2
+      ],
+      "semester": "Sem 1–2",
+      "scheme": "2018",
+      "title": "B.Tech 1st Year Study Scheme & Syllabus (2018 onward)",
+      "file": "B.Tech_1st_year_SS_and_syllabus_2018_onward",
+      "url": "https://appsc.gndec.ac.in/sites/default/files/2024-08/B.Tech_1st_year_SS_and_syllabus_2018_onward.pdf",
+      "sourcePage": "official"
+    },
+    {
+      "id": "syl-ss-syllabus2017",
+      "code": "ALL",
+      "branch": "ALL",
+      "branchName": "All branches",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2017",
+      "title": "Study Scheme & Syllabus 2017",
+      "file": "SS+Syllabus2017",
+      "url": "https://appsc.gndec.ac.in/sites/default/files/2024-08/SS%2BSyllabus2017.pdf",
+      "sourcePage": "official"
+    },
+    {
+      "id": "syl-2014-ss-and-syllabus",
+      "code": "ALL",
+      "branch": "ALL",
+      "branchName": "All branches",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2014",
+      "title": "Study Scheme & Syllabus 2014",
+      "file": "2014 ss and syllabus",
+      "url": "https://appsc.gndec.ac.in/sites/default/files/2024-08/2014%20ss%20and%20syllabus.pdf",
+      "sourcePage": "official"
+    },
+    {
+      "id": "syl-syllabus-3rd-to-8th-semester-of-scheme-2014-website-upload",
+      "code": "IT",
+      "branch": "IT",
+      "branchName": "Information Technology",
+      "program": "B.Tech",
+      "semesters": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "semester": "Sem 3–8",
+      "scheme": "2014",
+      "title": "IT Syllabus 3rd to 8th Semester (Scheme 2014)",
+      "file": "Syllabus 3rd to 8th semester of Scheme 2014 website upload",
+      "url": "https://it.gndec.ac.in/sites/default/files/Syllabus%203rd%20to%208th%20semester%20of%20Scheme%202014%20website%20upload.pdf",
+      "sourcePage": "official"
+    },
+    {
+      "id": "syl-annexure-i-scheme-2014",
+      "code": "IT",
+      "branch": "IT",
+      "branchName": "Information Technology",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2014",
+      "title": "IT Scheme 2014 — Annexure I",
+      "file": "ANNEXURE-I Scheme 2014",
+      "url": "https://it.gndec.ac.in/sites/default/files/ANNEXURE-I%20Scheme%202014.pdf",
+      "sourcePage": "official"
+    },
+    {
+      "id": "syl-3-4-5-6-syllabus-draft-8-3-26-print-website-6th-sem",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "semester": "Sem 3–6",
+      "scheme": "",
+      "title": "3_4_5_6_syllabus_draft_8_3_26_Print_website 6th sem",
+      "file": "3_4_5_6_syllabus_draft_8_3_26_Print_website 6th sem",
+      "url": "https://ce.gndec.ac.in/sites/default/files/3_4_5_6_syllabus_draft_8_3_26_Print_website%206th%20sem.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-study-scheme-and-co-of-ug-2017-jan-2019",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2017",
+      "title": "Study scheme and CO of UG 2017_Jan_2019",
+      "file": "Study scheme and CO of UG 2017_Jan_2019",
+      "url": "https://ce.gndec.ac.in/sites/default/files/Study%20scheme%20and%20CO%20of%20UG%202017_Jan_2019.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-study-scheme-and-co-of-ug-2014-2-1",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2014",
+      "title": "Study scheme and CO of UG 2014_2_1",
+      "file": "Study scheme and CO of UG 2014_2_1",
+      "url": "https://ce.gndec.ac.in/sites/default/files/Study%20scheme%20and%20CO%20of%20UG%202014_2_1.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-syllabus-of-b-tech-civil",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "",
+      "title": "Syllabus_of_B.Tech-Civil",
+      "file": "Syllabus_of_B.Tech-Civil",
+      "url": "https://ce.gndec.ac.in/Syllabus_of_B.Tech-Civil.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-study-scheme-and-syllabus-str-2016-bos-vi-1",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2016",
+      "title": "Study scheme and syllabus STR 2016 BOS-VI_1",
+      "file": "Study scheme and syllabus STR 2016 BOS-VI_1",
+      "url": "https://ce.gndec.ac.in/sites/default/files/Study%20scheme%20and%20syllabus%20STR%202016%20BOS-VI_1.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-study-scheme-and-syllabus-geo-2016-bos-viii-22-7-2018",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2016",
+      "title": "Study scheme and syllabus GEO 2016 BOS-VIII_22_7_2018",
+      "file": "Study scheme and syllabus GEO 2016 BOS-VIII_22_7_2018",
+      "url": "https://ce.gndec.ac.in/sites/default/files/Study%20scheme%20and%20syllabus%20GEO%202016%20BOS-VIII_22_7_2018.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-study-scheme-and-syllabus-env-2016-bos-vi-0",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2016",
+      "title": "Study scheme and syllabus ENV 2016 BOS-VI_0",
+      "file": "Study scheme and syllabus ENV 2016 BOS-VI_0",
+      "url": "https://ce.gndec.ac.in/sites/default/files/Study%20scheme%20and%20syllabus%20ENV%202016%20BOS-VI_0.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-scheme-syllabus-structural-2014-nov-2016",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2014",
+      "title": "Scheme&Syllabus_Structural_2014_Nov 2016",
+      "file": "Scheme&Syllabus_Structural_2014_Nov 2016",
+      "url": "https://ce.gndec.ac.in/sites/default/files/Scheme%26Syllabus_Structural_2014_Nov%202016.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-schemesyllabus-geotech-aug-20161",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2016",
+      "title": "SchemeSyllabus_Geotech_Aug-20161",
+      "file": "SchemeSyllabus_Geotech_Aug-20161",
+      "url": "https://ce.gndec.ac.in/SchemeSyllabus_Geotech_Aug-20161.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-schemesyllabus-env-sci-aug-2016",
+      "code": "CE",
+      "branch": "CE",
+      "branchName": "Civil Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2016",
+      "title": "SchemeSyllabus_Env.Sci-_Aug-2016",
+      "file": "SchemeSyllabus_Env.Sci-_Aug-2016",
+      "url": "https://ce.gndec.ac.in/SchemeSyllabus_Env.Sci-_Aug-2016.pdf",
+      "sourcePage": "CE"
+    },
+    {
+      "id": "syl-study-scheme-mba",
+      "code": "MBA",
+      "branch": "MBA",
+      "branchName": "Business Administration (MBA)",
+      "program": "MBA",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "",
+      "title": "study scheme MBA",
+      "file": "study scheme MBA",
+      "url": "https://mba.gndec.ac.in/sites/default/files/study%20scheme%20MBA.pdf",
+      "sourcePage": "MBA"
+    },
+    {
+      "id": "syl-new-compressed-file-of-3rd-and-4th-sem-syllabus-min-compressed-compressed",
+      "code": "MBA",
+      "branch": "MBA",
+      "branchName": "Business Administration (MBA)",
+      "program": "MBA",
+      "semesters": [
+        3,
+        4
+      ],
+      "semester": "Sem 3–4",
+      "scheme": "",
+      "title": "new compressed file of 3rd and 4th sem syllabus-min_compressed-compressed",
+      "file": "new compressed file of 3rd and 4th sem syllabus-min_compressed-compressed",
+      "url": "https://mba.gndec.ac.in/sites/default/files/new%20compressed%20file%20of%203rd%20and%204th%20sem%20syllabus-min_compressed-compressed.pdf",
+      "sourcePage": "MBA"
+    },
+    {
+      "id": "syl-study-scheme-2024-bba",
+      "code": "BBA",
+      "branch": "BBA",
+      "branchName": "Business Administration (BBA)",
+      "program": "BBA",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2024",
+      "title": "Study Scheme 2024 BBA",
+      "file": "Study Scheme 2024 BBA",
+      "url": "https://mba.gndec.ac.in/sites/default/files/Study%20Scheme%202024%20BBA.pdf",
+      "sourcePage": "MBA"
+    },
+    {
+      "id": "syl-bba-syllabus",
+      "code": "BBA",
+      "branch": "BBA",
+      "branchName": "Business Administration (BBA)",
+      "program": "BBA",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "",
+      "title": "BBA syllabus ",
+      "file": "BBA syllabus ",
+      "url": "https://mba.gndec.ac.in/sites/default/files/BBA%20syllabus%20.pdf",
+      "sourcePage": "MBA"
+    },
+    {
+      "id": "syl-syllabus-disaster-management-bcom-enterpreneurship",
+      "code": "BCOM",
+      "branch": "BCOM",
+      "branchName": "B.Com",
+      "program": "BCOM",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "",
+      "title": "Syllabus Disaster Management (BCom Enterpreneurship)",
+      "file": "Syllabus Disaster Management (BCom Enterpreneurship)",
+      "url": "https://mba.gndec.ac.in/sites/default/files/Syllabus%20Disaster%20Management%20%28BCom%20Enterpreneurship%29.pdf",
+      "sourcePage": "MBA"
+    },
+    {
+      "id": "syl-bba-syllabus-final",
+      "code": "BBA",
+      "branch": "BBA",
+      "branchName": "Business Administration (BBA)",
+      "program": "BBA",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "",
+      "title": "BBA syllabus Final",
+      "file": "BBA syllabus Final",
+      "url": "https://mba.gndec.ac.in/sites/default/files/BBA%20syllabus%20Final.pdf",
+      "sourcePage": "MBA"
+    },
+    {
+      "id": "syl-bcom-study-scheme-2024",
+      "code": "BCOM",
+      "branch": "BCOM",
+      "branchName": "B.Com",
+      "program": "BCOM",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2024",
+      "title": "BCom Study Scheme 2024",
+      "file": "BCom Study Scheme 2024",
+      "url": "https://mba.gndec.ac.in/sites/default/files/BCom%20Study%20Scheme%202024.pdf",
+      "sourcePage": "MBA"
+    }
+  ],
+  "questionBanks": [
+    {
+      "id": "qb-digital-circuits-and-logic-design-esit-101",
+      "title": "Digital circuits and Logic Design(ESIT-101)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DCLD_ESIT-101.pdf"
+    },
+    {
+      "id": "qb-object-oriented-programming-using-c-pcit102",
+      "title": "Object Oriented Programming using C++ (PCIT102)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Object%20Oriented%20Programming%20using%20C%2B%2B%20PCIT102.pdf"
+    },
+    {
+      "id": "qb-data-structures-pcit-101",
+      "title": "Data Structures (PCIT-101)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Data%20Structures%20%28PCIT-101%29.pdf"
+    },
+    {
+      "id": "qb-data-communication-and-computer-networks-pcit-103",
+      "title": "Data Communication and Computer Networks( PCIT-103)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Data%20Communication%20and%20Computer%20Networks%20PCIT-103.pdf"
+    },
+    {
+      "id": "qb-professional-practice-lawa-ethics-for-it-engineers-hsimt-101",
+      "title": "Professional Practice, Lawa & Ethics for IT Engineers(HSIMT_101)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Professional%20Practice%2C%20Lawa%20%26%20Ethics%20for%20IT%20Engineers%28HSIMT_101%29.pdf"
+    },
+    {
+      "id": "qb-theory-of-computation-it-14503",
+      "title": "Theory of computation(IT-14503)",
+      "url": "https://it.gndec.ac.in/sites/default/files/theory%20of%20computation-it-14503.pdf"
+    },
+    {
+      "id": "qb-dot-net-technologies-deit-14514",
+      "title": "DOT NET Technologies (DEIT-14514)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DOT%20NET%20Technologies%20%20%20DEIT-14514.pdf"
+    },
+    {
+      "id": "qb-cloud-infrastructure-and-services-elective-iii-deit-14713",
+      "title": "Cloud Infrastructure and Services (Elective-III)(DEIT-14713)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Cloud%20Infrastructure%20and%20Services%20%28Elective-III%29_DEIT-14713.pdf"
+    },
+    {
+      "id": "qb-java-it-14502",
+      "title": "JAVA(IT-14502)",
+      "url": "https://it.gndec.ac.in/sites/default/files/JAVA_IT-14502.pdf"
+    },
+    {
+      "id": "qb-business-enterprise-application-14701",
+      "title": "Business Enterprise Application (14701)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Business%20Enterprise%20Application%20%2814701%29.pdf"
+    },
+    {
+      "id": "qb-computer-forensics-deit-14718",
+      "title": "Computer Forensics (DEIT-14718)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Computer%20Forensics%20DEIT-14718.pdf"
+    },
+    {
+      "id": "qb-business-intelligence-its-application-deit-14510-elective-1",
+      "title": "Business Intelligence & Its Application(DEIT-14510)(Elective .1)",
+      "url": "https://it.gndec.ac.in/sites/default/files/BIA%20Ques_bank%28Elective%20.1%29-converted.pdf"
+    },
+    {
+      "id": "qb-ict-in-agriculture-and-rural-development-it-14702",
+      "title": "ICT in Agriculture and Rural Development(IT-14702 )",
+      "url": "https://it.gndec.ac.in/sites/default/files/IT-14702%20ICT%20in%20Agriculture%20and%20Rural%20Development.pdf"
+    },
+    {
+      "id": "qb-advanced-web-technologies-deit-14516",
+      "title": "Advanced Web Technologies (DEIT-14516)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Advanced%20Web%20Technologies%20-%20DEIT-14516.pdf"
+    },
+    {
+      "id": "qb-training-tr-102-internal-viva-schedule-july-dec-2026",
+      "title": "Training (TR-102) Internal Viva Schedule (July-Dec 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Internal%20TR-102%20Dec%202026%20-%20Schedule.pdf"
+    },
+    {
+      "id": "qb-b-tech-m-tech-datesheet-mid-semester-examination-i-aug-dec-2026",
+      "title": "B.Tech & M.Tech. Datesheet Mid Semester Examination-I (Aug-Dec 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DATESHEET%20MSE1%20%282%29.pdf"
+    },
+    {
+      "id": "qb-electives-for-session-aug-dec-2026-7th-semester",
+      "title": "Electives for Session Aug-Dec 2026 (7th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/new%20updated%20elective%20list%20.pdf"
+    },
+    {
+      "id": "qb-notice-regarding-professional-elective-iv-for-b-tech-5th-sem-students-",
+      "title": "Notice regarding Professional Elective -IV for B.Tech 5th Sem students ( Batch 2024-2028 ) Study Scheme 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/Professional%20Elective%20July-Dec%202026%20pdf.pdf"
+    },
+    {
+      "id": "qb-honor-minor-degree-notice-july-dec-2026",
+      "title": "Honor Minor Degree Notice ( July - Dec 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Honor%20%20Minor%20Degree%20%28%20July%20-%20Dec%202026.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-answer-sheets-of-ese-june-2026",
+      "title": "Schedule for display of answer sheets of ESE June 2026",
+      "url": "https://it.gndec.ac.in/sites/default/files/Answer%20sheets%20display-%20Aug%202026-20260724152726.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-answer-sheets-of-ese-june-2026-for-final-year-",
+      "title": "Schedule for display of answer sheets of ESE June 2026 for Final Year students",
+      "url": "https://it.gndec.ac.in/sites/default/files/notice_converted.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-for-external-practical-examination-regular-jan-may-20",
+      "title": "B.Tech. Datesheet for External Practical Examination (Regular) (Jan-May 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/ACE%20Scanner_2026_06_03%282%29.pdf"
+    },
+    {
+      "id": "qb-b-tech-m-tech-datesheet-mid-semester-examination-ii-jan-may-2026",
+      "title": "B.Tech & M.Tech. Datesheet Mid Semester Examination-II (Jan-May 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20May%206%2C%202026%202-34%20PM.pdf"
+    },
+    {
+      "id": "qb-datesheet-mid-semester-practical-examination-ii-jan-may-2026",
+      "title": "Datesheet Mid Semester Practical Examination-II (Jan-May 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20May%206%2C%202026%202-34%20PM%281%29.pdf"
+    },
+    {
+      "id": "qb-b-tech-m-tech-datesheet-mid-semester-examination-i-jan-may-2026",
+      "title": "B.Tech & M.Tech. Datesheet Mid Semester Examination-I (Jan-May 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DATESHEET%20MSE1%20%281%29.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-answer-sheets-of-ese-dec-2025",
+      "title": "Schedule for display of answer sheets of ESE Dec 2025",
+      "url": "https://it.gndec.ac.in/sites/default/files/AnswerSheet-Display%20Students.pdf"
+    },
+    {
+      "id": "qb-electives-for-session-jan-may-2026-8th-semester",
+      "title": "Electives for Session Jan-May 2026 (8th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/New%20Final%20List%20Elective%20full%20%281%29.pdf"
+    },
+    {
+      "id": "qb-training-tr-104-internal-viva-schedule-july-dec-2025",
+      "title": "Training (TR-104) Internal Viva Schedule (July-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Internal%20Evaluation%20July-Dec%202025%20-%20Schedule%20TR-104.pdf"
+    },
+    {
+      "id": "qb-training-tr-103-internal-viva-schedule-july-dec-2025",
+      "title": "Training (TR-103) Internal Viva Schedule (July-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Internal%20Evaluation%28T%29%20TR-103%20Dec%202025%20-%20Schedule.pdf"
+    },
+    {
+      "id": "qb-schedule-for-external-practical-reappear-examination-for-b-tech-july-d",
+      "title": "Schedule for External Practical Reappear Examination for B.Tech. (July-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Reapper%20datesheet.pdf"
+    },
+    {
+      "id": "qb-schedule-for-external-practical-regular-examination-for-b-tech-july-de",
+      "title": "Schedule for External Practical Regular Examination for B.Tech. (July-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/datesheet%20External%20Practical%20Aug-dec%202025%20Regular.pdf"
+    },
+    {
+      "id": "qb-schedule-for-external-practical-exam-for-final-year-students-july-dec-",
+      "title": "Schedule for External Practical Exam for Final Year Students (July-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Final%20Yr%20Datesheet%20students.pdf"
+    },
+    {
+      "id": "qb-training-tr-102-internal-viva-schedule-july-dec-2025",
+      "title": "Training (TR-102) Internal Viva Schedule (July-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Internal%20Evaluation%20TR-102%20Dec%202025%20-%20Schedule.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-makeup-answer-sheets-for-may-2025",
+      "title": "Schedule for display of Makeup answer sheets for May 2025",
+      "url": "https://it.gndec.ac.in/sites/default/files/makeup%20Sep%202025.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-i-aug-dec-2025",
+      "title": "B.Tech Datesheet Mid Semester Examination-I (Aug-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20Sep%2016%2C%202025%2010-44%20AM.pdf"
+    },
+    {
+      "id": "qb-m-tech-datesheet-mid-semester-examination-i-aug-dec-2025",
+      "title": "M.Tech Datesheet Mid Semester Examination-I (Aug-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20Sep%2016%2C%202025%2010-45%20AM.pdf"
+    },
+    {
+      "id": "qb-notice-for-honours-and-minor-degree-session-july-dec-2025",
+      "title": "Notice for Honours and Minor Degree (Session July-Dec 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/honor%20minor%20degree%20notice%28July-Dec%202025%29.pdf"
+    },
+    {
+      "id": "qb-institutional-training-tr-101-on-linux-administration-for-batch-2024-2",
+      "title": "Institutional Training (TR 101) on “ Linux Administration” for Batch 2024-2028",
+      "url": "https://it.gndec.ac.in/sites/default/files/WhatsApp%20Image%202025-06-13%20at%2011.33.02%20AM%20%281%29.pdf"
+    },
+    {
+      "id": "qb-m-tech-date-sheet-for-the-internal-external-practical-examination-of-r",
+      "title": "M.Tech. Date sheet for the Internal & External Practical Examination of Regular and Reappear (Jan-May 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20Jun%203%2C%202025%203-39%20PM.pdf"
+    },
+    {
+      "id": "qb-updated-datesheet-mid-semester-examination-ii-jan-may-2025",
+      "title": "Updated Datesheet Mid Semester Examination-II (Jan-May 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/updated%20datesheet%20MST2.pdf"
+    },
+    {
+      "id": "qb-datesheet-mid-semester-examination-ii-jan-may-2025",
+      "title": "Datesheet Mid Semester Examination-II (Jan-May 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20May%205%2C%202025%202-47%20PM.pdf"
+    },
+    {
+      "id": "qb-4-week-summer-training-program-on-smartfusion-june-july-2025",
+      "title": "4 week Summer Training Program on SMARTFUSION ( June-July, 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Training%204%20weeks.pdf"
+    },
+    {
+      "id": "qb-final-allotment-training-semester-batch-2022-2026",
+      "title": "Final Allotment Training Semester Batch(2022-2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Final%20Allotment%20Training%20Semester%20Batch%282022-2026%29.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-makeup-for-nov-2024-answer-sheets-of-b-tech-an",
+      "title": "Schedule for display of Makeup for Nov 2024 answer sheets of B.Tech and M.Tech",
+      "url": "https://it.gndec.ac.in/sites/default/files/Makeup%20%20Display%20sheets.pdf"
+    },
+    {
+      "id": "qb-datesheet-mid-semester-examination-i-jan-may-2025",
+      "title": "Datesheet Mid Semester Examination-I (Jan-May 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Datesheet%20MSE1.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-ese-nov-2024-answer-sheets-of-b-tech-and-m-tec",
+      "title": "Schedule for display of ESE Nov 2024 answer sheets of B.Tech and M.Tech",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%2030-Jan-2025%209-37%20am.pdf"
+    },
+    {
+      "id": "qb-notice-for-honours-and-minor-degree-for-session-jan-may-2025",
+      "title": "Notice for honours and minor degree for session (Jan- May 2025)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20Jan%2024%2C%202025%2012-58%20PM.pdf"
+    },
+    {
+      "id": "qb-notice-for-7th-semester-training-students-aug-dec-2024",
+      "title": "Notice for 7th semester Training students (Aug-Dec 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Training%20Notice%20%28TR-103%2C%20TR-104%29.pdf"
+    },
+    {
+      "id": "qb-b-tech-3rd-sem-and-m-tech-csit-1st-sem-date-sheet-for-the-internal-ext",
+      "title": "B.Tech. ( 3rd Sem) and M.Tech. (CSIT, 1st Sem) Date sheet for the Internal & External Practical Examination of Regular and Reappear (Aug-Dec 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Student%203rd%20sem%20Btech%20Mtech%20duty%20chart_24.pdf"
+    },
+    {
+      "id": "qb-b-tech-3rd-sem-m-tech-it-1st-sem-datesheet-mid-semester-examination-ii",
+      "title": "B.Tech (3rd sem), M.Tech. (IT) (1st sem) Datesheet Mid Semester Examination-II (Aug-Dec 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DATESHEET%20MSE%20II%20SLOT%202.pdf"
+    },
+    {
+      "id": "qb-training-tr-101-internal-viva-schedule-aug-dec-2024",
+      "title": "Training( TR-101) Internal Viva Schedule (Aug-Dec 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Internal%20Evaluation%20Training%20TR-101%20Dec%202024%20-%20Schedule.pdf"
+    },
+    {
+      "id": "qb-training-tr-102-internal-viva-schedule-aug-dec-2024",
+      "title": "Training( TR-102) Internal Viva Schedule (Aug-Dec 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Internal%20Evaluation%20Training%20TR-102%20Dec%202024%20-%20Schedule.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-1-aug-dec-2024",
+      "title": "B.Tech Datesheet Mid Semester Examination-1(Aug-Dec 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Datesheet%20MSE%20l%20%28Sept%202024%29.pdf"
+    },
+    {
+      "id": "qb-nptel-moocs-courses-for-honour-degree-july-dec-2024",
+      "title": "NPTEL MOOCS courses for Honour Degree July-Dec 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20Jul%2023%2C%202024%209-35%20AM.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-answer-sheets-of-ese-of-b-tech-8th-semester-ja",
+      "title": "Schedule for Display of Answer sheets of ESE of B.Tech 8th semester (JAN-MAY 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20May%2022%2C%202024%202-14%20PM.pdf"
+    },
+    {
+      "id": "qb-revised-internal-viva-schedule-jan-may-2024",
+      "title": "Revised Internal Viva Schedule (JAN-MAY 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Revised%20Internal%20Viva%20Schedule%20Jan-May%202024%20Notice.pdf"
+    },
+    {
+      "id": "qb-seating-plan-26th-april-2024-morning-mid-semester-examination-2-jan-ma",
+      "title": "Seating Plan 26th April 2024 (Morning) Mid Semester Examination-2 (JAN-MAY 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/26-4-24%28Friday_Morning%29.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-2-jan-may-2024",
+      "title": "B.Tech Datesheet Mid Semester Examination-2 (JAN-MAY 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/datesheetms2.pdf"
+    },
+    {
+      "id": "qb-training-semester-allotment-batch-2021-25",
+      "title": "Training Semester Allotment Batch 2021-25",
+      "url": "https://it.gndec.ac.in/sites/default/files/Training%20Semester%20Altotment%20Batch%202021-25.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-1-jan-may-2024",
+      "title": "B.Tech Datesheet Mid Semester Examination-1 (JAN-MAY 2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/datesheet_3.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-answer-sheets-ese-dec-2023",
+      "title": "Schedule for Display of Answer Sheets ( ESE Dec, 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/notice%20sheet%20display_24.pdf"
+    },
+    {
+      "id": "qb-performa-for-minor-engineering-degree-session-jan-may-2024",
+      "title": "Performa for Minor Engineering Degree Session Jan - May 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20Jan%208%2C%202024%201-49%20PM%281%29.pdf"
+    },
+    {
+      "id": "qb-list-of-course-for-honor-and-minor-degree-session-jan-may-2024-last-da",
+      "title": "List of. Course for Honor and Minor degree session Jan - May 2024 (Last date for apply 09.01.2024)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%20Jan%208%2C%202024%201-49%20PM.pdf"
+    },
+    {
+      "id": "qb-elective-iii-iv-for-session-jan-june-2024",
+      "title": "Elective-III & IV for session Jan-June 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/Elective%20III%20and%20IV%20for%20session%20Jan-%20May%2C%202024%288th%20Sem%29.pdf"
+    },
+    {
+      "id": "qb-elective-ii-for-session-jan-june-2024",
+      "title": "Elective-II for session Jan-June 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/Elective-II%20for%20session%20Jan-May%202024%20%286th%20Semester%29.pdf"
+    },
+    {
+      "id": "qb-training-tr-103-external-viva-schedule-aug-dec-2023",
+      "title": "Training (TR-103) External Viva Schedule (AUG - DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Training%20%28TR-103%29%20External%20Viva%20Schedule.pdf"
+    },
+    {
+      "id": "qb-training-tr-104-external-viva-schedule-aug-dec-2023",
+      "title": "Training (TR-104) External Viva Schedule (AUG - DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Training%20TR-104%20External%20Viva%20Schedule.pdf"
+    },
+    {
+      "id": "qb-training-tr-104-internal-viva-schedule-aug-dec-2023",
+      "title": "Training (TR-104) Internal Viva Schedule (AUG - DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Training%20TR-104%20Internal%20Viva%20Schedule.pdf"
+    },
+    {
+      "id": "qb-training-tr-103-internal-viva-schedule-aug-dec-2023",
+      "title": "Training (TR-103) Internal Viva Schedule (AUG - DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Training%20%28TR-103%29%20Internal%20Viva%20Schedule.pdf"
+    },
+    {
+      "id": "qb-schedule-for-practical-exam-aug-dec-2023",
+      "title": "Schedule for Practical Exam (AUG - DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Student%20External%20Duty%20Chart_23.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-for-internal-and-external-practical-examination-7th-s",
+      "title": "B.Tech Datesheet for Internal and external Practical Examination (7th sem)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%207%20Dec%202023%204-24%20pm.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-2-aug-dec-2023",
+      "title": "B.Tech Datesheet Mid Semester Examination-2 (AUG-DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Datesheetnov23.pdf"
+    },
+    {
+      "id": "qb-schedule-for-internal-evaluation-of-tr-102-for-3rd-year-students-aug-d",
+      "title": "Schedule for Internal Evaluation of TR-102 for 3rd Year Students(AUG-DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%2027%20Sept%202023%209-11%20am.pdf"
+    },
+    {
+      "id": "qb-schedule-for-internal-evaluation-of-tr-101-for-2nd-year-students-aug-d",
+      "title": "Schedule for Internal Evaluation of TR-101 for 2nd Year Students (AUG-DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%2027%20Sept%202023%209-57%20am.pdf"
+    },
+    {
+      "id": "qb-m-tech-datesheet-mid-semester-examination-1-aug-dec-2023",
+      "title": "M.Tech Datesheet Mid Semester Examination-1 (AUG-DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Datesheet-Mtech%20%281%29.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-1-aug-dec-2023",
+      "title": "B.Tech Datesheet Mid Semester Examination-1 (AUG-DEC 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/datesheet_2.pdf"
+    },
+    {
+      "id": "qb-schedule-internal-evaluation-of-training-iii-tr-103",
+      "title": "Schedule - Internal Evaluation of Training-III (TR-103)",
+      "url": "https://it.gndec.ac.in/sites/default/files/notice%20-%20presentations.pdf"
+    },
+    {
+      "id": "qb-elective-1-for-session-aug-dec-2023-5th-semester-scheme-2018",
+      "title": "Elective-1 for Session Aug-Dec 2023 (5th Semester) (Scheme-2018)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Electives%20for%203rd%20year%20%285th%20Sem%29%20Aug-Dec%202023%20final.pdf"
+    },
+    {
+      "id": "qb-elective-iii-for-session-aug-dec-2023-7th-semester-scheme-2018",
+      "title": "Elective-III for Session Aug-Dec 2023 (7th Semester) (Scheme-2018)",
+      "url": "https://it.gndec.ac.in/sites/default/files/elective%20list%20new%207th%20sem_0.pdf"
+    },
+    {
+      "id": "qb-courses-for-honor-s-and-minor-degree-july-dec-2023",
+      "title": "Courses for Honor's and Minor Degree (July-Dec 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%2024%20Jul%202023%209-49%20am.pdf"
+    },
+    {
+      "id": "qb-summer-training-in-coordination-with-infosys",
+      "title": "Summer Training in Coordination with Infosys",
+      "url": "https://it.gndec.ac.in/sites/default/files/Adobe%20Scan%2027%20Jun%202023.pdf"
+    },
+    {
+      "id": "qb-schedule-of-students-attending-industrial-training-tr-104-in-7th-and-8",
+      "title": "Schedule of students attending Industrial Training TR-104 in 7th and 8th Sem (JAN-MAY2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%2029%20May%202023%203-20%20pm.pdf"
+    },
+    {
+      "id": "qb-final-internal-evaluation-of-six-months-industrial-training-tr-104-jan",
+      "title": "Final Internal Evaluation of Six Months Industrial Training TR-104(JAN-MAY2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%207%20Jun%202023%2012-26%20pm.pdf"
+    },
+    {
+      "id": "qb-schedule-for-internal-evaluation-of-major-project-jan-may2023",
+      "title": "Schedule for Internal Evaluation of Major Project(JAN-MAY2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Notice%20-%20Internal%20Evaluation%20students.pdf"
+    },
+    {
+      "id": "qb-m-tech-datesheet-mid-semester-examination-ii-feb-june-2023",
+      "title": "M.Tech Datesheet Mid Semester Examination-II (FEB-JUNE 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%2015%20May%202023%203-41%20pm.pdf"
+    },
+    {
+      "id": "qb-b-tech-revised-datesheet-mid-semester-examination-ii-feb-june-2023",
+      "title": "B.Tech Revised Datesheet Mid Semester Examination-II (FEB-JUNE 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%2018%20May%202023%202-48%20pm.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-1-feb-june-2023",
+      "title": "B.Tech Datesheet Mid Semester Examination-1 (FEB-JUNE 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/datesheet_1.pdf"
+    },
+    {
+      "id": "qb-elective-2-for-session-jan-jun-2023-6th-semester-scheme-2018",
+      "title": "Elective-2 for session Jan-Jun 2023 (6th Semester) (Scheme-2018)",
+      "url": "https://it.gndec.ac.in/sites/default/files/elec2%206th%20sem.pdf"
+    },
+    {
+      "id": "qb-elective-3-and-elective-4-for-session-jan-june-2023-8th-semester-schem",
+      "title": "Elective-3 and Elective-4 for session Jan-June 2023 (8th Semester) (Scheme-2018)",
+      "url": "https://it.gndec.ac.in/sites/default/files/8th%20sem%20elective%20III%20%26%20IV.pdf"
+    },
+    {
+      "id": "qb-notice-of-internal-viva-tr-103-tr-104-aug-dec-2022",
+      "title": "Notice of Internal Viva (TR-103, TR-104) (AUG - DEC 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/ilovepdf_merged.pdf"
+    },
+    {
+      "id": "qb-schedule-of-industrial-training-tr-104-internal-viva-aug-dec-2022",
+      "title": "Schedule of Industrial Training (TR-104) Internal Viva (AUG - DEC 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/notice.pdf"
+    },
+    {
+      "id": "qb-m-tech-datesheet-mid-semester-examination-2-aug-dec-2022",
+      "title": "M.Tech Datesheet Mid Semester Examination-2 (AUG-DEC 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Mtech_datesheet.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-2-aug-dec-2022",
+      "title": "B.Tech Datesheet Mid Semester Examination-2 (AUG-DEC 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Btech_datesheet.pdf"
+    },
+    {
+      "id": "qb-m-tech-datesheet-mid-semester-examination-1-aug-dec-2022",
+      "title": "M.Tech Datesheet Mid Semester Examination-1 (AUG-DEC 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/20220920101433.pdf"
+    },
+    {
+      "id": "qb-b-tech-datesheet-mid-semester-examination-1-aug-dec-2022",
+      "title": "B.Tech Datesheet Mid Semester Examination-1 (AUG-DEC 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/20220920101352.pdf"
+    },
+    {
+      "id": "qb-updated-elective-3-and-elective-4-for-session-aug-dec-2022-7th-semeste",
+      "title": "Updated:Elective-3 and Elective-4 for session Aug-Dec 2022 (7th Semester) (Scheme-2018)",
+      "url": "https://it.gndec.ac.in/sites/default/files/8th%20sem%20elective%20alotted.pdf"
+    },
+    {
+      "id": "qb-updated-elective-1-for-session-aug-dec-2022-5th-semester-scheme-2018",
+      "title": "Updated: Elective-1 for session Aug-Dec 2022 (5th Semester) (Scheme-2018))",
+      "url": "https://it.gndec.ac.in/sites/default/files/ELECTIVE%203rd%20year%202022final%20list%20%281%29.pdf"
+    },
+    {
+      "id": "qb-nptel-moocs-courses-for-honor-degree-july-dec-2022",
+      "title": "NPTEL MOOCS courses for Honor Degree(july-dec, 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/honors%20.pdf"
+    },
+    {
+      "id": "qb-one-semester-training-tr-104-session-aug-dec-2022",
+      "title": "One Semester Training (TR-104) Session Aug - Dec 2022",
+      "url": "https://it.gndec.ac.in/sites/default/files/One%20Semester%20Training%20%28TR-104%29%20Session%20Aug%20-%20Dec%202022.pdf"
+    },
+    {
+      "id": "qb-notice-guidelines-for-6-months-industrial-training-tr-104",
+      "title": "Notice: Guidelines for 6 Months Industrial Training TR-104",
+      "url": "https://it.gndec.ac.in/sites/default/files/Guidelines%20for%206%20Months%20Industrial%20Training%20TR-104.pdf"
+    },
+    {
+      "id": "qb-notice-guidelines-for-4-weeks-training-tr-102-tr-103",
+      "title": "Notice:Guidelines for 4 Weeks Training TR-102 & TR-103",
+      "url": "https://it.gndec.ac.in/sites/default/files/Guidelines%20for%204%20Weeks%20Training%20TR-102%20%26%20TR-103%20%281%29.pdf"
+    },
+    {
+      "id": "qb-tr-101-training-schedule-revised",
+      "title": "TR- 101 Training- schedule (Revised)",
+      "url": "https://it.gndec.ac.in/sites/default/files/TR-%20101%20Training-%20schedule%20%28Revised-1%29.pdf"
+    },
+    {
+      "id": "qb-tr-101-training-schedule",
+      "title": "TR-101 Training - Schedule",
+      "url": "https://it.gndec.ac.in/sites/default/files/TR-101%20%20Training%20-%20Schedule.pdf"
+    },
+    {
+      "id": "qb-industrial-training-2nd-sem",
+      "title": "Industrial Training 2nd Sem",
+      "url": "https://it.gndec.ac.in/sites/default/files/IMG_20210719_160043.pdf"
+    },
+    {
+      "id": "qb-list-of-supervisors-for-pre-thesis-m-tech",
+      "title": "List of supervisors for pre thesis(M.Tech.)",
+      "url": "https://it.gndec.ac.in/sites/default/files/notice%20%285%29.pdf"
+    },
+    {
+      "id": "qb-list-of-6th-semester-b-tech-students-of-other-departments-who-have-bee",
+      "title": "List of 6th semester B.Tech Students of other departments who have been allotted open elective subject in IT Department",
+      "url": "https://it.gndec.ac.in/sites/default/files/List%20of%206th%20semester%20B.Tech%20Students%20of%20%20other%20departments%20who%20have%20been%20allotted%20open%20elective%20subject%20in%20IT%20Department%20%281%29.pdf"
+    },
+    {
+      "id": "qb-newsletter-july-dec-2025",
+      "title": "Newsletter July-Dec 2025",
+      "url": "https://it.gndec.ac.in/sites/default/files/newsletter-it-dept%20july-dec%202025_compressed.pdf"
+    },
+    {
+      "id": "qb-newsletter-jan-june-2025",
+      "title": "Newsletter Jan-June 2025",
+      "url": "https://it.gndec.ac.in/sites/default/files/newsletter-it-dept%20%281%29_compressed-2.pdf"
+    },
+    {
+      "id": "qb-newsletter-aug-dec-2024",
+      "title": "Newsletter Aug-Dec 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/NW_FINAL_NEWSLETTER_24-11.pdf"
+    },
+    {
+      "id": "qb-electives-for-session-aug-dec-2026-7th-semester",
+      "title": "Electives for Session Aug-Dec 2026 (7th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/new%20updated%20elective%20list%20.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-third-semester-batch-2025-2029-session-aug-dec-202",
+      "title": "List of Students of Third Semester (Batch 2025-2029) session Aug-Dec 2026",
+      "url": "https://it.gndec.ac.in/sites/default/files/SECTIONS%202025-29.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-design-thinking-of-5th-semester-batch-2024-2028-se",
+      "title": "List of Students of Design Thinking of 5th Semester (Batch 2024-2028) session Aug-Dec 2026",
+      "url": "https://it.gndec.ac.in/sites/default/files/Design%20Thinking%20%20Groups%202024-28.pdf"
+    },
+    {
+      "id": "qb-detention-students-subject-allotment-jan-may-2026",
+      "title": "Detention Students Subject Allotment ( Jan-May 2026)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Detension_Subjects_Alotment%20website.pdf"
+    },
+    {
+      "id": "qb-electives-for-session-jan-may-2026-8th-semester",
+      "title": "Electives for Session Jan-May 2026 (8th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/New%20Final%20List%20Elective%20full%20%281%29.pdf"
+    },
+    {
+      "id": "qb-updated-time-table-for-d2it-section-a-b-c-w-e-f-13-october-2025",
+      "title": "Updated time table for D2IT (Section A, B& C) w.e.f 13 October 2025",
+      "url": "https://it.gndec.ac.in/sites/default/files/CLASS%28D2_IT%29.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-third-semester-batch-2024-2028-session-aug-dec-202",
+      "title": "List of Students of Third Semester (Batch 2024-2028) session Aug-Dec 2025",
+      "url": "https://it.gndec.ac.in/sites/default/files/Book1%20%282%29.pdf"
+    },
+    {
+      "id": "qb-electives-for-session-aug-dec-2025-5th-semester",
+      "title": "Electives for Session Aug-Dec 2025 (5th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/course%20choice%20sem%205%20batch%202023%20%281%29.pdf"
+    },
+    {
+      "id": "qb-electives-for-session-aug-dec-2025-7th-semester",
+      "title": "Electives for Session Aug-Dec 2025 (7th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/Elective%20Allotment%28%20Sem%207%29.pdf"
+    },
+    {
+      "id": "qb-list-of-mentors-for-session-jan-june-2025",
+      "title": "List of Mentors for session Jan-June 2025",
+      "url": "https://it.gndec.ac.in/sites/default/files/List%20of%20advisors%20for%20the%20session%20Jan-May%202025.pdf"
+    },
+    {
+      "id": "qb-elective-ii-for-session-jan-june-2025-6th-semester",
+      "title": "Elective-II for Session Jan-June 2025 (6th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/elective_choice%20for%206th%20sem.pdf"
+    },
+    {
+      "id": "qb-elective-iii-iv-for-session-jan-june-2025-8th-semester",
+      "title": "Elective-III & IV for Session Jan-June 2025 (8th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/elective%203rd%20and%204th%20for%208%20sem.pdf"
+    },
+    {
+      "id": "qb-elective-iii-and-iv-for-session-aug-dec-2024-7th-semester",
+      "title": "Elective-III and IV for Session Aug-Dec 2024 (7th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/ELECTIVE%20Choice%20for%20all%20final%20year%20batch%202021-25%20%287th%20sem%29.pdf"
+    },
+    {
+      "id": "qb-elective-i-for-session-aug-dec-2024-5th-semester",
+      "title": "Elective-I for Session Aug-Dec 2024 (5th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/elective_choice_5th-sem-2.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-third-semester-batch-2023-2027-session-aug-dec-202",
+      "title": "List of Students of Third Semester (Batch 2023-2027) session Aug-Dec 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/D2IT2024%20-%20D2IT%2823-27%29.pdf"
+    },
+    {
+      "id": "qb-schedule-for-display-of-answer-sheets-ese-dec-2023",
+      "title": "Schedule for Display of Answer Sheets ( ESE Dec, 2023)",
+      "url": "https://it.gndec.ac.in/sites/default/files/notice%20sheet%20display_24.pdf"
+    },
+    {
+      "id": "qb-elective-iii-iv-for-session-jan-june-2024",
+      "title": "Elective-III & IV for session Jan-June 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/Elective%20III%20and%20IV%20for%20session%20Jan-%20May%2C%202024%288th%20Sem%29.pdf"
+    },
+    {
+      "id": "qb-elective-ii-for-session-jan-june-2024",
+      "title": "Elective-II for session Jan-June 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/Elective-II%20for%20session%20Jan-May%202024%20%286th%20Semester%29.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-sixth-semester-batch-2021-2025-session-jan-june-20",
+      "title": "List of Students of Sixth Semester (Batch 2021-2025) session Jan-June 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/D3IT_2.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-7th-8th-semester-batch-2020-2024-session-jan-june-",
+      "title": "List of Students of 7th/8th Semester (Batch 2020-2024) session Jan-June 2024",
+      "url": "https://it.gndec.ac.in/sites/default/files/D4IT.pdf"
+    },
+    {
+      "id": "qb-laboratory-complaint-survey-form",
+      "title": "Laboratory Complaint Survey Form",
+      "url": "https://it.gndec.ac.in/sites/default/files/SURVEY%20FORM%20IT%20DEPARTMENT.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-third-semester-batch-2022-2026-session-july-dec-20",
+      "title": "List of Students of Third Semester (Batch 2022-2026) session July-Dec 2023",
+      "url": "https://it.gndec.ac.in/sites/default/files/D2IT_3.pdf"
+    },
+    {
+      "id": "qb-list-of-students-of-fifth-semester-batch-2021-2025-session-july-dec-20",
+      "title": "List of Students of Fifth Semester (Batch 2021-2025) session July-Dec 2023",
+      "url": "https://it.gndec.ac.in/sites/default/files/FINAL_D3_IT.pdf"
+    },
+    {
+      "id": "qb-elective-iii-for-session-july-dec-2023",
+      "title": "Elective-III for session July-Dec 2023",
+      "url": "https://it.gndec.ac.in/sites/default/files/elective%20list%20new%207th%20sem_0.pdf"
+    },
+    {
+      "id": "qb-list-of-mentors-for-session-july-dec-2023",
+      "title": "List of Mentors for session July-Dec 2023",
+      "url": "https://it.gndec.ac.in/sites/default/files/List%20of%20advisors%20for%20the%20session%20JUL-DEC%202023_1.pdf"
+    },
+    {
+      "id": "qb-list-of-subjects-for-session-july-dec-2023",
+      "title": "List of Subjects for Session July-Dec 2023",
+      "url": "https://it.gndec.ac.in/sites/default/files/List%20of%20Subjects%20%28July%E2%80%93%20Dec%2C%202023%29.pdf"
+    },
+    {
+      "id": "qb-fee-structure-for-applying-various-documents",
+      "title": "Fee Structure for Applying Various Documents",
+      "url": "https://it.gndec.ac.in/sites/default/files/DocScanner%206%20Apr%202023%2010-57%20am.pdf"
+    },
+    {
+      "id": "qb-list-of-mentors-for-the-session-july-dec-2022",
+      "title": "List of Mentors for the session July-Dec 2022",
+      "url": "https://it.gndec.ac.in/sites/default/files/List%20of%20advisors%20for%20the%20session%20JUL-DEC%2C2022.pdf"
+    },
+    {
+      "id": "qb-list-of-subjects-for-session-july-december-2022",
+      "title": "List of Subjects for Session July– December 2022",
+      "url": "https://it.gndec.ac.in/sites/default/files/List%20of%20sub%20July%E2%80%93%20Dec%202022.pdf"
+    },
+    {
+      "id": "qb-second-year-section-wise-student-list-july-dec-2022",
+      "title": "Second Year Section-wise Student List(July-Dec, 2022)",
+      "url": "https://it.gndec.ac.in/sites/default/files/D2IT%20Section-wise%20Student%20List%20%282%29_0.pdf"
+    },
+    {
+      "id": "qb-third-year-students-5th-semester",
+      "title": "Third Year Students (5th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/D3IT%20Section-wise%20Student%20List.pdf"
+    },
+    {
+      "id": "qb-final-year-students-7th-8th-semester",
+      "title": "Final Year Students (7th/8th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/D4IT%20Students%287th-8th%20Sem%29.pdf"
+    },
+    {
+      "id": "qb-elective-1-for-session-july-dec-2022-5th-semester",
+      "title": "Elective-1 for session JULY-Dec 2022 (5th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/ELECTIVE%203rd%20year%202022final%20list%20%281%29.pdf"
+    },
+    {
+      "id": "qb-elective-3-and-elective-4-for-session-july-dec-2022-7th-semester",
+      "title": "Elective-3 and Elective-4 for session July-Dec 2022 (7th Semester)",
+      "url": "https://it.gndec.ac.in/sites/default/files/8th%20sem%20elective%20alotted.pdf"
+    },
+    {
+      "id": "qb-notice-cum-proforma-of-filling-choice-for-minor-degree",
+      "title": "Notice cum Proforma of Filling Choice for Minor Degree",
+      "url": "https://it.gndec.ac.in/sites/default/files/minor.pdf"
+    },
+    {
+      "id": "qb-notice-for-honors-degree",
+      "title": "Notice for Honors Degree",
+      "url": "https://it.gndec.ac.in/sites/default/files/honours_notice.pdf"
+    },
+    {
+      "id": "qb-performa-for-honors-degree",
+      "title": "Performa for Honors Degree",
+      "url": "https://it.gndec.ac.in/sites/default/files/Honours%20Degree%20Performa%20%281%29.pdf"
+    },
+    {
+      "id": "qb-achievements-of-students",
+      "title": "Achievements of students",
+      "url": "https://it.gndec.ac.in/sites/default/files/student_achievement_fulldata.pdf"
+    },
+    {
+      "id": "qb-stipend-to-student",
+      "title": "Stipend to Student",
+      "url": "https://it.gndec.ac.in/sites/default/files/stiphend_students.pdf"
+    },
+    {
+      "id": "qb-roll-of-honour",
+      "title": "ROLL OF HONOUR",
+      "url": "https://it.gndec.ac.in/sites/default/files/ROLL%20OF%20HONOUR_0.pdf"
+    },
+    {
+      "id": "qb-mentors-session-aug-dec-2021",
+      "title": "Mentors (Session : Aug - Dec, 2021)",
+      "url": "https://it.gndec.ac.in/sites/default/files/List%20of%20advisors%20for%20the%20session%20Aug-Dec%2C2021.pdf"
+    },
+    {
+      "id": "qb-d2-it-student-list-session-aug-dec-2020",
+      "title": "D2-IT Student list (Session : Aug - Dec, 2020)",
+      "url": "https://it.gndec.ac.in/sites/default/files/D2IT%20%282%29_0.pdf"
+    },
+    {
+      "id": "qb-laboratories",
+      "title": "Laboratories",
+      "url": "https://it.gndec.ac.in/sites/default/files/laboratories.pdf"
+    }
+  ],
+  "firstYear": {
+    "source": "https://appsc.gndec.ac.in/sites/default/files/2026-03/ss%20and%20Syllabus%20sem1%2C2%20Dec%202025%20unsigned.pdf",
+    "generatedAt": "2026-08-13T16:19:37.380Z",
+    "pages": [
+      {
+        "number": 1,
+        "text": "Study Scheme B.Tech. first year 2024, (Common for all braches) LEET Course Branch Subject Ext. Scheme Full /Part AICTE / Subject Six Month Subject L T P Sr No. Code Code Subject Title Code Paper ID M Code Sem. T/P Elective Type Int. Marks Marks Credits Code Time RC Group Trg. (Disabled) (Lecture) (Tutorial) (Practical) Basic Electrical and 1 1 14 Electronics Engineering ESC101 17801 17801 1 T Compulsory 90 60 5 2024 Full Time AICTE Chemistry N N 3 1 2 Programming for Problem 2 1 14 Solving ESC103 17802 17802 1 T Compulsory 90 60 3 2024 Full Time AICTE Chemistry N N 2 0 2 3 1 14 Chemistry BSC103 17806 17806 1 T Compulsory 90 60 4 2024 Full Time AICTE Chemistry N N 3 0 2 4 1 14 Mathematics-I BSC102 17807 17807 1 T Compulsory 40 60 4 2024 Full Time AICTE Chemistry N N 3 1 0 Professional English 5 1 14 Communication HSMC101 17808 17808 1 T Compulsory 90 60 4 2024 Full Time AICTE Chemistry N N 3 0 2 6 1 14 Physics BSC101 17809 17809 1 T Compulsory 90 60 5 2024 Full Time AICTE Physics N N 3 1 2 7 1 14 Mathematics-I BSC102 17807 17807 1 T Compulsory 40 60 4 2024 Full Time AICTE Physics N N 3 1 0 8 1 14 Economics HSMC102 17810 17810 1 T Compulsory 40 60 3 2024 Full Time AICTE Physics N N 2 1 0 Engineering Drawing and 9 1 14 Graphics ESC102 17811 17811 1 T Compulsory 40 60 3 2024 Full Time AICTE Physics N N 1 0 4 Programming for Problem 10 1 14 Solving ESC103 17802 17802 1 T Compulsory 90 60 3 2024 Full Time AICTE Physics N N 2 0 2 11 1 14 Manufacturing Practices LESC104 17813 1 P Compulsory 50 0 2 2024 Full Time AICTE Physics N N 0 0 4 1 1 14 Physics BSC101 17809 17809 2 T Compulsory 90 60 5 2024 Full Time AICTE Physics N N 3 1 2 2 1 14 Mathematics-II BSC104 17854 17854 2 T Compulsory 40 60 4 2024 Full Time AICTE Physics N N 3 1 0 3 1 14 Economics HSMC102 17810 17810 2 T Compulsory 40 60 3 2024 Full Time AICTE Physics N N 2 1 0 Engineering Drawing and 4 1 14 Graphics ESC102 17811 17811 2 T Compulsory 40 60 3 2024 Full Time AICTE Physics N N 1 0 4 Programming Fundamentals 5 1 14 using Python ESC105 17855 17855 2 T Compulsory 90 60 3 2024 Full Time AICTE Physics N N 2 0 2 6 1 14 Manufacturing Practices LESC104 17813 2 P Compulsory 50 0 2 2024 Full Time AICTE Physics N N 0 0 4 Mentoring and Professional 7 1 14 Development MPD101 17856 2 P Compulsory 100 0 1 2024 Full Time AICTE Physics N N 0 0 1 8 1 14 Chemistry BSC103 17806 17806 2 T Compulsory 90 60 4 2024 Full Time AICTE Chemistry N N 3 0 2 9 1 14 Mathematics-II BSC104 17854 17854 2 T Compulsory 40 60 4 2024 Full Time AICTE Chemistry N N 3 1 0 Professional English 10 1 14 Communication HSMC101 17808 17808 2 T Compulsory 90 60 4 2024 Full Time AICTE Chemistry N N 3 0 2 Basic Electrical and 11 1 14 Electronics Engineering ESC101 17801 17801 2 T Compulsory 90 60 5 2024 Full Time AICTE Chemistry N N 3 1 2 Programming Fundamentals 12 1 14 using Python ESC105 17855 17855 2 T Compulsory 90 60 3 2024 Full Time AICTE Chemistry N N 2 0 2 Mentoring and Professional 13 1 14 Development MPD101 17856 2 P Compulsory 100 0 1 2024 Full Time AICTE Chemistry N N 0 0 1"
+      },
+      {
+        "number": 2,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: BSC101 Course Title: Physics Programme: B.Tech. L: 3 T: 1 P: 2 Credits: 5 Semester: 1/2 Theory/Practical: Theory Teaching Hours : 45(L)+15(T) +30(P) = 9 0 hrs Total Max. Marks: 1 5 0 Continuous Assessment End Semester Examinatio n (ESE) (CA) Marks: 90 Marks: 60 Minimum Percentage of Numerical / Design / Programming Problems in ESE: 3 0% Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): NIL Additional Material Allowed in ESE: Scientific Calc ulator On completion of the course, the student will have the ability to: CO# Course Outcomes Apply the knowledge of vector calculus and operators to solve complex problems in the 1 field of Electromagnetism, Superconductivity and Quantum Mechanics. U nderstand the physical principles involved in the working of various devices viz., Lasers, 2 Optical fibers, Semiconductors, Superconductors etc. Interpret the effect of various physical parameters and addition of impurities on the 3 behaviour of different materials and devices. Predict and conclude about the possible outcomes of physical processes. 4 Identify the most suitable devices for different applications in the field of Science and 5 Technology. Verify underlying concepts and laws of Physics res ponsible for various phenomenon and 6 processes. Contents Part - A Unit - 1 Basics of electromagnetic theory 8 (L) hrs Concept of Gradient, Divergence and Curl. Relation between Electric Field and Potential. Statements of Gauss divergence theorem and Stoke ’s theorem. Maxwell’s equations in integral form (without derivation). Derivation of Maxwell’s equations in differential form. Physical significance of Maxwell’s equations. Electromagnetic wave equation in vacuum and conducting media. Applications of Elect romagnetism in Engineering. Unit - 2 Laser 7 (L)hrs Characteristics of Lasers. Absorption, Spontaneous and Stimulated Emission. Einstein’s coefficients and relation between them. Population inversion. Metastable state. Types of pumping. Construction and working of: Ruby Laser, He - Ne Laser and CO2 Laser. Applications of Lasers. 1 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 3,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Unit - 3 Fiber optics 8 (L) hrs Introduction to fiber optics. Construction of optical fiber. Propagation mechanism. Types of optical fibe. Acceptance angle. Numerical aperture. V - number. Attenuation and dispersion losses in optical fiber, (Qualitative idea). Applications of optical fibers in the field of Engineering and Technology. Part - B Unit - 4 Quantum Mechanics 8 (L) hrs Need of quantum mechanics. Wave - particle duality. de - Broglie hypothesis. Phase velocity and group velocity. Wave Function - Properties: Physical significance, normalization, Eigen functions and eigen values. Time independent and time dependent Schrodinger wave equations. Energy and momentum operat ors. Expectation values of physical quantities (Position, momentum and energy). Particle in a one - dimensional box. Introduction to Quantum Computing (Qualitative Idea). Unit - 5 Semiconductors 7(L) hrs Formation of bands in solids. Classification of solids as Conductors, Insulators and Semiconductors using band theory. Fermi level (Qualitative Idea) , Position of Fermi level in intrinsic and extrinsic semiconductors. Conductivity of intrinsic and extrinsic semiconductors. Diffusion and drift current. Introduction to LED & Solar cell and their applications in the field of Engineering and Technology. Unit - 6 Superconductivity 7 (L) hrs Introduction to superconductivity. Critical magnetic field. Silsbee’s rule. Meissner effect. Isotopic effect. Type - I and type - II superconductors. Cooper pairs. Electrodynamics of superconductors. penetration depth. S pecific heat. BCS theory. Coherence length. high temperature superconductors. Applications of superconducting materials. Tutorial hours will be used for practice sessions for design/numerical problems/programming/case - studies etc. (as the case may be). Laboratory Work Experiment Experiment Title No. 1 To find the frequency of A.C. supply using an electrical vibrator. 2 To measure (a) Voltage, and (b) Time period of a periodic waveform using CRO. To determine the dielectric constant of solid samples. 3 4 To determine the angle of divergence of laser beam using He - Ne laser. 5 To study diffraction using laser beam and determine the grating element. 6 To determine the wavelength of a laser beam using the Michelson Interferometer. 7 To measure the propagation loss in optical fiber. 8 To determine the numerical aperture (NA) of an optical fiber. 9 To determine the value of Planck’s constant by using p hotoelectric effect. 10 To verify the inverse square law of light using photo electric effect. 2 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 4,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) 11 To determine the resistivity and band gap of a semiconductor by four probe method. 12 To determine the energy band gap in a semiconductor using a p - n junct ion diode. 13 To determine the angle of prism by using spectrometer. (Open ended experiment) 14 To determine the velocity of ultrasonic waves in water and the compressibility of the water. (Open ended experiment) 15 To Trace B - H curve for different ferr omagnetic materials using CRO and find out the coercivity and hysteresis loss. (Open ended experiment) 16 To determine the mass susceptibility of paramagnetic solution (FeCl3) by Quincke's method. (Open ended experiment) Text Books 1. M. N. Avadhanulu, “A Text Book of Engineering Physics”, 11th edition, S. Chand Publishers, 2019. 2. M. N. Khan, S. Panigrahi, “Principles of Engineering Physics” (Vol. I & II), 1st edition, Cambridge University Press, 2016. 3. D. R. Joshi, “Engineering Physics”, 1st edition, second reprint, McGraw Hill, 2014. 4. C. L. Arora, “Practical Physics”, S. Chand & Co., 2010. 5. R.S Sirohi, “A course of Experiments with He – Ne Laser”, 2nd Edition, Wiley Eastern Ltd. 6. Dr. D. Zarena, “Engineering Physics - Laboratory Manual”, Nitya Publications, 20 23. 7. Laboratory Manuals. Reference Books th 1. D. J. Griffiths, “Introduction to Electrodynamics”, 4 edition, Prentice Hall of India, 2012. rd 2. B. B. Laud, “Lasers & Non - Linear Optics”, 3 edition, New Age International Ltd., 2015. nd 3. K. Thyagarajan, A. K. Ghatak, “ Lasers: Fundamentals & Applications”,2 edition, Springer, 2010. th 4. J. C. Palais, “Fibre Optic Communication”, 5 edition, Pearson India, 2011. 5. S. M. Sze, “Semiconductor Devices: Physics & Technology”, Wiley, 1985. 6. D. J. Griffiths, “Quantum Mechanics”, Pearson Education, 2008. 7. Richard Robinett, “Quantum Mechanics”, OUP, 2006. 8. B. S. Rajput, “Advanced Quantum mechanics”, Pragati Parkashan, 2013. th 9. W. D. Callister, “Material Science & Engineering”, 7 edition, John Wiley & Sons, 2007. st 10. D. Wei, “ Solid State P hysics” , 1 edition, Cengage Learning, 2008. nd 11. M. Tinkham, “Introduction to Superconductivity”, 2 edition, Dover Publications, 1996. Online Learning Materials 1. https://ocw.mit.edu/courses/6 - 013 - electromagnetics - and - applications - spring - 2009/pages/lecture - notes/ Accessed on June 11, 2024 2. https://ocw.mit.edu/courses/res - 6 - 005 - understanding - lasers - and - fiberoptics - spring - 2008/resources/fiberoptics - fundamentals/ Accessed on June 11, 2024 3. https://ocw.mit.edu/courses/8 - 04 - quantum - physics - i - spring - 2016/pages/lecture - notes/ Accessed on June 11, 2024 4. https://ocw.mit.edu/courses/6 - 012 - microelectronic - devices - and - circuits - fall - 2009/pages/lecture - notes/ Accessed on June 11, 2024 5. https://ocw.mit.edu/courses/6 - 763 - applied - superconductivity - fall - 2005/pages/lecture - notes/ Accessed on June 11, 2024 6. https://www.youtube.com/watch?v=gDFGj0Iodug Accessed on June 11, 2024 3 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 5,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) 7. https://www.youtube.com/watch?v=mJsNXEiwRJs Accessed on June 11, 2024 8. https://www.youtube.com/watch?v=Lf2Kk9fP4s8 Accessed on June 11, 2024 9. https://www.youtube.com/watch?v=9ycQolopz6g Accessed on June 11, 2024 10. https://www.youtube.com/watch?v=0WLjrKdw79U Acces sed on June 11, 2024 11. https://youtu.be/I8sn4LmmwOI Accessed on June 11, 2024 12. https://youtu.be/ZzDhpPG - QKkm Accessed on June 11, 2024 13. https://youtu.be/zYkuAuQizGI Accessed on June 11, 2024 14. https://youtu.be/OffBBSCNYTU Accessed on June 11, 2024 15. https://youtu.be/5m7r9fx_7Ns Accessed on June 11, 2024 16. https://youtu.be/YYt2NGFtFOc Accessed on June 11, 2024 17. https://youtu.be/B - eTE7jl5mE Accessed on June 11, 2024 18. https://youtu.be/0WLjrKdw79U Accessed on June 11, 2024 19. https://youtu.be/PiQYNeLQPos Accessed on June 11, 2024 20. https:// www.youtube.com/watch?v=a4Fxjw - ZHG4 Accessed on June 11, 2024 Supplementary SWAYAM Course Sr. Course Host URL Instructor No. Institute Name 1 Introduction Prof. IIT https://onlinecourses.nptel.ac.in/noc24_ph37/preview to Manoj Kanpur Electromagn Harbola etic Theory (Hindi) 2 Electromagn Prof. IIT https://onlinecourses.nptel.ac.in/no c24_ee137/preview etic Theory Pradeep Kanpur Kumar K 3 Introduction Prof. M. R. IIT Delhi https://onlinecourses.nptel.ac.in/noc24_ph45/preview to LASER Shenoy 4 Fiber Optic Prof. Deepa IIT https://onlinecourses.nptel.ac.in/noc24_ee131/preview Communicati Venkites h Madras on Technology 5 Foundations Prof. IISER https://onlinecourses.nptel.ac.in/noc24_ph38/preview of Quantum Sandep K. Mohali Theory: Goyal Non - Relativistic Approach 6 Introduction Prof. IIT https://on linecourses.nptel.ac.in/noc24_ee99/preview to Naresh Hyderaba Semiconduct Kumar d or Devices Emani 7 Concepts in Prof. IIT https://onlinecourses.nptel.ac.in/noc24_ph28/preview Magnetism Arghya Kharagpu and Taraphder r Superconduc tivity 4 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 6,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Ex periments to be performed through Virtual Labs Sr. Experiment Name Experiment Link(s) No. 1 To determine the value of Planck’s https://mpv - au.vlabs.ac.in/modern - constant by using photoelectric physics/Determination_of_Plancks_Constant/ effect. 2 To study diffraction using laser https://ov - au.vlabs.ac.in/opt ics/Diffraction_Grating/ beam and determine the grating element. 3 To determine the wavelength of a https://lo - au.vlabs.ac.in/laser - laser beam using the Michelson optics/Mi chelsons_Interferometer_Wavelength_of_Laser_Beam/ Interferometer. 4 To determine the numerical aperture https://bop - iitk.vlabs.ac.in/exp/numerical - aperture - measurem ent/ (NA) of an optical fiber. 5 To determine the angle of prism by https://ov - au.vlabs.ac.in/optics/Angle_of_Prism/ using spectrometer. 6 To determine the angle of https://lo - au.vlabs.ac.in/laser - divergence of laser beam using He - optics/Laser_Beam_Divergence_and_Spot_Size/ Ne laser. 7 Determination of resistivity and https://mpv - au.vlabs.ac.in/modern - band gap of a semiconductor by physics/Resistivity_by_Four_Probe_Method/ four probe method. 8 To determine the energy band gap https://bop - iitk.vlabs.ac.in/exp/energy - band - gap/pretest.html in a semiconductor using a p - n junction diode. 9 To determine the velocity of https://hmw - au.vlabs.ac.in/harmonic - motion - ultrasonic waves in water and the waves/Ultrasonic_Interferometer/ compressibility of the water. 10 To determine the mass https://hmw - au.vlabs.ac.in/harmonic - motion - susceptibility of paramagnetic waves/Quinckes_Method/ solution (FeCl ) by Quincke's 3 method. 11 To measure (a) Voltage, and (b) https://sh orturl.at/Acqtt Time period of a periodic waveform using CRO. 5 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 7,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: BSC102 Course Title: Mathematics - I Programme: B.Tech. L: 3 T: 1 P: 0 Credits: 4 Semester: 1 Theory/Practical: Theory Teaching Hours: 45(L)+15(T)= 60 hrs Total Max. Marks: 100 Continuous Assessment End Semester Examination (ESE) (C A) Marks: 40 Marks: 60 Minimum Percentage of Numerical / Design / Programming Problems in ESE: 95% Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): NIL Additional Material Allowed in ESE: NIL On completion of the course, the student will have the ability to: CO# Course Outcomes Implement the concepts of the Taylor series to tackle advanced mathematical and 1 engineering problems and identify indeterminate forms to compute limits. Understand and explain the concepts of differentiability and continuity in the context of 2 multivariable functions. Develop critical thinking and problem - solving skills by applying partial differentiation 3 techniques to complex engineering problems. Un derstand and explain the basic concepts, terminology, classifications and solutions of 4 ordinary differential equations. Analyze and solve engineering problems involving ODEs to demonstrate the practical 5 application of differential equations in various f ields. Study and analyze elementary functions of complex variables to solve trigonometric series 6 and applications of De - Moivre’s theorem. Contents Part - A Unit - 1 Differential Calculus 8(L) hrs Indeterminate Forms, Taylor and Maclaurin series. U nit - 2 Partial Differentiation and Its Applications 14(L) hrs Functions of several variables: Limit and Continuity, Partial differentiation, variable treated as constant, Total derivative, Partial derivatives of composite functions, Change of variables, Partial differentiation of Implicit functions, Euler’s theorem, Jacobian. Applications of partial differentiation in engineering: Errors and approximation, Taylor’s theorem for functions of two variables, Maxima and minima of functions of two variables, Lagrange’s Method of undetermined multipliers. Part - B Unit - 3 Ordinary Differential Equations and Its Applications 14(L) hrs First - order first - degree differential equations: Formation of ordinary differential equations by elimination of arbitrary const ants, Exact differential equations, Reduction of non - exact differential 6 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 8,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) equations using integrating factors. Applications of first - order first - degree differential equations in engineering: Law of natural growth, Law of natural decay, Newton’s law of cooli ng and Simple electric circuits. Linear differential equations of second and higher order: Second and higher - order linear ordinary differential equations with constant coefficients (Homogeneous and non - homogeneous), Differential equations with variable coefficients reducible to equations with constant coefficients (Euler - Cauchy and Legendre equations), Method of variation of parameter. Applications of higher order linear ordinary differential equations in engineering: Simple harmonic motion, RLC - Circuit s. Unit - 4 Complex Numbers and Elementary Functions of Complex Variables 9(L) hrs Complex Numbers (Cartesian/Polar form), De - Moivre’s theorem and its applications, the root of a complex number, elementary functions: exponential, logarithmic, circular, hy perbolic functions of complex variables, summation of trigonometric series. Tutorial hours will be used for practice sessions for design/numerical problems/programming/case - studies etc. (as the case may be). Text Books th 1. G.B. Thomas and R.L. Finney, “Calcu lus and Analytic geometry”, 9 Edition, Pearson Education, 2007. th 2. B.V. Ramana, “Higher Engineering Mathematics”, 11 Reprint, Tata McGraw Hill, New Delhi, 2010. th 3. B.S. Grewal, “Higher Engineering Mathematics”, 36 Edition, Khanna Publishers, 2010. Referenc e Books th 1. E. Kreyszig, “Advanced Engineering Mathematics”, 9 Edition, John Wiley & Sons, 2006. 2. R.K. Jain and S.R.K Iyenger, “Advanced Engineering Mathematics”, Narosa Publications, New Delhi, 2008. 3. T. Veerarajan, “Engineering Mathematics for first year”, T ata McGraw Hill, New Delhi, 2008. 4. R. Babu, “Engineering Mathematics”, Pearson Education, 2009. Online Learning Materials 1. https://theengineeringmaths.com/ wp - content/uploads/2017/11/ordinary - diff - equations.pdf Accessed on June 11, 2024 2. https://theengineeringmaths.com/wp - content/uploads/2017/11/chapter11di ff - eq.pdf Accessed on June 11, 2024 3. https://www.jntua.ac.in/gate - online - classes/registration/downloads/material/a159358203998.pdf Accessed on June 11, 2024 Supplementary SWAYAM Course Sr. Host URL Course Name Instructor No. Institute 1 Differential Prof. Srinivasa Manam IIT https://nptel.ac.in/courses/111 106100 equations for Madras engineers 2 Complex Analysis Dr. A. Swaminathan, IIT https://nptel.ac.in/courses/111107056 Dr. V. K. Katiyar Roorkee 7 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 9,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: BSC10 3 Course Title: Chemistry Programme: B.Tech. L: 3 T: 0 P: 2 C redits: 4 Semester: 1/2 Theory/Practical: Theory Teaching Hours: 45 (L)+30(P) = 75 hrs Total Max. Marks: 1 5 0 Continuous Assessment End Semester Examination (ESE) (CA) Marks: 9 0 Marks: 60 Minimum Percentage of Numerical / Design / Programming Problems in ESE: 25% Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): NIL Additional Material Allowed in ESE: Scientific Calculator On completion of the course, the student will have the ability to: CO# Course Outcomes Select and use the different treatment methods on waste water for domestic and industrial 1 application. Understand the principle of different analytical techniques and identification of structure of 2 different molecules. Attain essential a nalytical skills for designing of materials for electrical and electronic 3 application. Use the fundamental of chemistry towards developing new technologies based on novel 4 materials. Identify the chemical composition required for design of high - perfor mance materials. 5 Contents Part - A Unit - 1 Water chemistry 10 (L) hrs Introduction, hardness of water (its units, its types, its determination by EDTA method using normality equation). Softening of water by lime - soda method, ion - exchange method an d zeolite method. Boiler feed water: - causes, disadvantages, prevention and removal of - scale and sludge formation, priming, foaming, caustic embrittlement and boiler corrosion. Different steps for water purification to make it fit for drinking: - sedimenta tion, filtration, flocculation, sterilization (using chlorine, bleaching powder, chloramines, ozone & uv rays). Desalination of brackish water by electro dialysis and reverse osmosis. Applications of water chemistry in engineering. Unit - 2 Spectroscopic t echniques and applications 1 2 (L) hrs UV - Visible spectroscopy: - Instrumentation (flow diagram only of single and double beam spectrophotometer and its working) ,principle (electronic transitions), auxochrome, chromophore, eff ect of presence of auxochrome on chromophore, bathochromic shift & hypsochromic shift (explanation by using the concept of auxochrome), hyperchromic shift, hypochromic shift, applications of UV - VIS spectroscopy (detection of functional group, distinction b etween conjugated 8 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 10,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) and non - conjugated dienes, detection of unknown concentration, detection of molecular weight, Fluorescence, phosphorescence and isobestic points). IR spectroscopy : IR range, finger print and functional group region, Instrumentation (flow diagram only of single and double beam spectrophotometer and difference between these), principle (vibrations in diatomic and polyatomic molecules), Hook’s law & applications of IR spectroscopy (Peak positions of some common functional groups of organic mo lecules, detection of conjugation & electronic effect). Nuclear Magnetic Resonance spectroscopy: - Introduction (magnetic nucleus, processional frequency, 1 equivalent and non - equivalent protons), principle and instrumentation, discussion of HNMR of 1 simple o rganic molecules (ethane, ethyl chloride and phenol) &applicationsof HNMR. ( detection of aromaticity, detection of cis and trans isomers, detection of structural isomers and detection of electronegative atom). Significance of spectroscopic techniques in en gineering. Part - B Unit - 3 Electrochemistry 1 1 (L) hrs Fundamentals of electrochemistry: - electrode, electrode potential, electrochemical series, electrochemical cell , its representation. Nernst equation and applications, nu merical based on Nernst equation. Different type of electrodes: - gas, calomel, quinhydrone electrode. Fuel cell. Solar cell. Li ion battery and EV battery. Use of electrochemistry in engineering. Unit - 4 Important engineering materials 1 2 (L) hrs Poly mers: - Introduction (nomenclature, functionality, type of polymerization: addition, condensation and copolymerization). Type of polymers: - thermo plastic resins (cellulose derivatives only), thermo setting resins (detail of phenolic Resin), inorganic (one example each of polyphosphazines, Sulphur based polymer & silicones.) & conducting polymer. Effect of the polymer structure on its properties. Effect of heat on the polymers. The mechanical properties of polymer. Polymer blends and alloys. Engineering pl astics. Nanoparticles – Introduction and properties. Graphene - introduction, fullerenes, nanotubes. Optical materials (OLED) . Open source software in chemical applications. Importance of engineering materials. Laboratory Work Experiment Title Experiment No. 1 Introduction to glass apparatus in chemistry laboratory, its handling, use, cleaning and precautions to be taken in laboratory 2 A demo experiment to explain the solar cell, Li ion battery and EV battery. 3 Determination of total hardness in water. 4 Determination of chloride content in water. 5 Determination of alkalinity in water. 6 Preparation of a polymer. 7 Synthesis of silver nanoparticles. 9 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 11,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) 8 Determination of absolute viscosity of a lubricant. 9 Determination of relative viscosity of a lub ricant. 10 Determination of conc entration of solution conductometrically. 11 Determination of concentration of solution pH metrically. 12 Determination of wavelength absorbed and unknown concentration of solution. 13 Application of open source software in chemistry. Text Books th 1. P. C. Jain and M. Jain, “Engineering Chemistry”, 14 Edition, Dhanpat Rai Publication, 2002. th 2. B. R. Puri, L. R. Sharma and M. D. Pathania, “ Principles of Physical Chemistry”, 46 Edition, Vishal Publishing Co.,2013. 3. D. Sud, “Co mprehensive Engineering Chemistry”, Kataria Publishers, 2000. 4. D. Sud, “Applied Chemistry ” , Kataria Publishers, 1999. Reference Books th 1. G. Odian, “Principle of Polymerization” , 4 Edition, John Wiley &Sons, 2003. th 2. J. D. Lee, “Concise Inorganic Chemistry”, 5 Edition, Chapman & Hall, 2003. th 3. P. Atkins and J.de Paula. “Atkin’s Physical Chemistry”, 10 Edition, Oxford University Press, 2014. 4. P. C. Jain and M. Jain, “Engineering Chemistry”, 14th Edition, Dhanpat Rai Publication, 2002. 5. S Rattan, “Experiments in App lied Chemistry”, 1st Edition, S K Kataria & Sons, 2002. 6. D. Sud, “Comprehensive Engineering Chemistry ”, Kataria Publishers, 2000. 7. D. Sud, “Applied Chemistry ”, Kataria Publishers, 1999. 8. S. Chawla, “Theory and Practicals of Engineering Chemistry”, Dhanpat Rai & Co., 2006. th 9. B.S. Furniss, “Vogel’s Textbook of Practical Organic Chemistry”, 5 Edition, Pearson Education, 2006. 10. Laboratory Manuals. Online Learning Materials 1. https://nptel.ac.in/courses/104104011 Accessed on August 22, 2024 2. https://nptel.ac.in/courses/104101130 Accessed on August 22, 2024 3. https://nptel.ac.in/courses/1 04103019 Accessed on August 22, 2024 4. https://www.youtube.com/watch?v=8SVHLzs35lI&list=PL0KRvN5Kp6y 99cNss5fakomw7rrg dVg1k&index=4 Accessed on August 22, 2024 5. https://www.youtube.com/watch?v=pxC6F7bK8C U Accessed on August 22, 2024 6. https://www.youtube.com/watch?v=WjsCFPrQzkU Accessed on August 22, 2024 7. h ttps://www.youtube.com/watch?v=k_vR0Eqb5gY Accessed on August 22, 2024 8. https://www.youtube.com/watch?v=f1wu56aLkEQ Accessed on August 22, 2024 9. https://www.youtube.com/watch?v=d75GP5M5Tb8&list=PLAOKTXws9mM BuJLbIno Uh98e 9m_wGTK7F Accessed on August 15, 2024 10. https://www.youtube.com/watch?v=6BJlmA0M4Jo Accessed on August 15, 2024 11. https://www.youtube.com/watch?v=Kg40ze9torw Accessed on August 15, 2024 10 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 12,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) 12. https://www.youtube.com/watch?v=E21v6_XxWIw Accessed on August 15, 2024 13. https://www.youtube.com/watch?v=7ANZLU9rsfM Accessed on August 15, 2024 14. https://www.youtube.com/watch?v=d75GP5M5Tb8&list=PLAOKTXws9mM BuJLbInoUh98e 9m_wGTK7F Supplementary SWAYAM Course Sr. Host URL Course Name Instructor No. Institute 1 Elementary Prof. Angshuman IISER https://nptel.ac.in/courses/104106137 Electrochemistry Roy C houdhury Mohali Experiments to be performed through Virtual Labs Sr. Experiment Name Experiment Link(s) No. 1 Determination of https://vlab.amrita.edu/index.php?sub=2&brch=193&sim=1548&cnt=1 hardness of water 2 Determination of h ttps://vlab.amrita.edu/index.php?sub=2&brch=193&sim=1548&cnt=1 alkalinity of water 3 Determination of https://vlab.amrita.edu/index.php?su b=2&brch=190&sim=338&cnt=4 wavelength absorbed and unknown concentration of solution 11 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 13,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: HSMC101 Course Title: Professional English Communication Programme: B.Tech. L: 3 T: 0 P: 2 Credits: 4 Semester: 1/2 Theory/Practical: Theory Teaching Hours: 45(L)+30(P)=75 Total Max. Marks: 1 5 0 Continuous Assessment End Semester Examination (ESE) (CA) Marks: 90 Marks: 60 Minimum P ercentage of Numerical / Design / Programming Problems in ESE : NIL Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): NIL Additional Material Allowed in ESE: NIL On completion of the course, the student will have the ability to: CO # Course Outcomes Listen, compre hend and correspond effectively in various communicative contexts. 1 Speak clearly and fluently wit h proper kinesics and voice dynamics under various academic 2 and professional settings in proper accent, intonation and rhythm. Read, analyze a nd evaluate variety of written texts by focusing on different dimensions of 3 meaning and language. Apply clea r and effective writing skills in variety of styles in coherent manner. 4 Utilis e appropriate vocabulary and grammatical competence for effective communication. 5 Grasp the concept of organizational communication and compose certain business 6 documents in cluding employment seeking documents in precise and efficient manner. Contents Part - A Unit - 1 Principles of Communication 9(L) hrs Importance of communication. Importance of communication in English for E ngineers . Concept of effective communication: assertive communication, communication and self - concept, role of emotions in communic ation. Process of communication. K nowing the purpose and audience. Types of communication: formal and informal communication, verbal and non - verbal communication, interpersonal and intrapersonal communication, cross cultural communication. Organisational communication: formal channels - upward communication, downward communication, horizontal communica tion and diagonal communicati on; informal channel - grapevine. Barriers to communication. Tips for effective communication. Activity: Power point presentations in lab. 12 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 14,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Unit - 2 Listening Skills 6(L) hrs Listening vs. hearing. Role of effective lis tening in communication. Types of listening. Poor listening habits. Active listeni ng - an effective listening skill for engineers. Traits of an effective listener. Barriers to effective listening. Activity: Power point presentations in lab . Unit - 3 Vocabular y Skills 7(L) hrs Idioms and Phrases, One - word substitution, Antonym and Synonyms, Homophone and Homonyms Part - B Unit - 4 Kinesics and Voice Dynamics 5 (L) hrs Kine sics: definition and importance. F eatures of body language: personal appearance, gestures, postures, facial expression, eye contact, silences. Voice modulation: Quality and pitch. Activity: Submission of one - minute video talk in proper tone and body la nguage. Unit - 5 Reading Skills 9 (L) hrs Inferring meaning: lexical and contextual meaning. Reading techniques. Intensive and extensive reading skills. Activities: Reading comprehensi on passages/News article/Essay/Short story - Reading for spe cific points using any kind of resources (Ex. Di ctionary), Drawing inferences, U nderstanding denotative and connotative meaning. To reflect upon how language is being used by writer/are they persuaded to accept particular view point? /How language is being used to do this? Unit - 6 Grammar and Basic Writing Skills 9(L) hrs Sentence structure. Subject - verb concord. Misplaced modifiers. Concept of technical writing:7 c’s of effective technical writing, framing topic sentence, creating unity and coher ence. Argumentative essay. Writing an email. Business letter writing: complaint letter, collection letter, inquiry letter. Preparing cover letter and resume. Activities: Exercises on tenses: sentence completion/correction of sentences. Laboratory Work Ex periment Experiment Title No. 1 Listening to a recorded talk/interview and participation in peer conversation. Listening to Conversation (formal and informal) such as making statements, asking 2 questions, giving commands, expressing opinions etc. Learn ing how to engage in everyday conversation/Developing situational awareness/ Adapting language use/tone of voice to different situations during dialogue presentation. The students will deliver power point presentations. 3 4 The students will be demonstra ted various micro skills involved in group discussion and they will be engaged in mock group discussion sessions. 5 The students will be demonstrated the skill of appearing in selection interview and they will be engaged in mock interview sessions. 6 Pro nunciation, Articulation, Word stress. International Phonetic Alphabet (IPA) Symbols: Vowels & Consonants. Rules of Pronunciation. 13 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 15,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Mini Project : (Group Activity) Preparing a 5 - minute video documentary along with narration in proper accent on any social ev il/societal concern etc. The students will make presentations and submit reports in the lab. Text Books rd 1. M . Raman and S . Sharma, “Technical Communication – Principles and Practices”, 3 Edition, Oxford University Press, 2015. 2. N . Bhatnagar and M . Bhatna gar, “Communicative English for Engineers and Professionals”, st 1 Edition, Pearson education,2010. Reference Books nd 1. S . Sharma and P . Lata, “Communication skills”,2 Edition, Oxford University Press, 2011. th 2. M . Swan, “Practical English Usage”, 4 Edition, O UP, 2016. 3. F.T. W ood, “ Remedial English Grammar”, Macmillan, 2016. 4. J. Sethi, Kamlesh Sadanand and D. V. Jindal, “A Practical Course in English Pronunciation” , Prentice Hall of India Pvt. L t d. , New Delhi. 5. T. Balasubramaniam, “ A Text book of English Phoneti cs for Indian Students” , Macmillan. 6. Daniel Jones, “ English Pronouncing Dictionary” , Current Edition with CD . 7. Laboratory Manuals. Online Learning Materials 1. https://lingua.com/english/reading/ Accessed on August 23, 2024 2. https://lingua.com/english/grammar/ Accessed on August 24, 2024 3. https://lingua.com/businessenglish/reading/ Accessed on August 24, 2024 4. https://lingua.com/english/listening/ Accessed on July 21, 2024 5. https://learnenglishteens.britishcouncil.org/skills Accessed on July 21, 2024 Supplementary SWAYAM Course Sr. Course Host URL Instructor No. Institute Name 1 Technical Prof.Viswa IIT https://onlineco urses.nptel.ac.in/noc24_hs175/preview English for Mohan Madras Engineers 14 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 16,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: HSMC102 Course Title: Economics Programme: B.Tech. L: 2 T: 1 P: 0 Credits: 3 Sem ester: 1/2 Theory/Practical: Theory Teaching Hours: 30(L)+15(T)= 4 5 hrs Total Max. Marks: 100 Continuous A ssessment End Semester Examination (ESE) (C A) Marks: 40 Marks: 60 Minimum P ercentage of Numerical / Design / Programming Problems in ESE : 40 % Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): NIL Add itional Material Allowed in ESE: Scientific Calcu lator On completion of the course, the student will have the ability to: CO# Course Outcomes Understand basic economic principles. 1 Understand consumer behavior analysis. 2 Evaluate cost of various fa ctors of production. 3 Compare different market structures. 4 Analyz e basic concepts of Macroeconomics. 5 Understand National Income and Inflation 6 Contents Part - A Unit - 1 Introduction to Economics 3(L) hrs Why study Economics , Scope of Economics , Types of Economics , Concepts of Economics: Wealth, Welfare and Scarcity . Econom ic Problem: Scarcity and Choice. Concept of Opportu nity Cost . The Question of What to Produce, How to produce and for Whom to Produce. Economic Activities: Consumption, Production, Exchange, Distribution and Public Finance . Relationship of Economics with other Social Sciences and Engineering . Non - Economic Activities . Unit - 2 Theory of Consumer Behaviour 6(L) hrs Demand - Types of Demand , Determinants of Demand , Change in Deman d: Movement and Shift of Demand, Estimatio n of Demand , Law of Demand, Elasticity of Demand and its Application in Engineering. Utility Analysis : Assumptions, Consumpt ion Decision: Budget Constraint, Change s in Consumption Pattern, Laws of Consumption: Concept and Applicability of Law of Diminishin g Marginal Utility and Law of Equi - Marginal Utility . Unit - 3 Cost and Production Analysis 6(L) hrs Cost Concept . Production and Cost . Cost in the Short and Long Run , Short Run Cost and Output Decision , Cost and Output in the Long Run. Relationship between TC, AC and MC. Production: Scale 15 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 17,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) of Production, Short Run Production Function , Long Run Production Function , Stages, Significance and Practical Application of Law of Variab le Proportion and Law of Return to scale. Economies and Diseconomies of Scale: Concept and Types. Relevance of Production and Cost Concept in Real Situation. Part - B Unit - 4 Market Structure 3(L) hrs Perfect Competition. Monopoly. Oligopoly and Monopolistic Competition . Comparison Between Different Forms of Market Structure with Real Life Examples . Government Policies towa rds Different Forms , Nature and Relevance of different Markets in Present Scenario. Unit - 5 Basic Macroeconomic Concepts 4 (L) hrs Importance of studyin g Macroeconomics in Eng ineering, Interest Rates Determination , Sources of Interest Rate Differentials , Unemployment and Full Employment , Profit Concept: Functions of Profit; Economic Profit and Accounting Profit . Unit - 6 National Income, Inflation & Taxes 4(L) hrs National Income Concepts : GDP, GNP, NNP. Measurement of National Income: Income, Expenditure and Value Added Methods . Types of Inflation, Role of In flation in Economic Development. I ntroduction to Taxes and its Types . Unit - 7 Economic Policies 4 (L) hrs Monetary and Fiscal Policy : Instruments of Monetary and Fiscal Po licy . Role of Monetary and Fiscal Policy in a Developing Country. Money: Functions; Determination of Money supply. Tutorial hours will be used for practice sessions for design/numerical problems/programming/case - studies etc. (as the c ase may be). Text Books 1. J.E.Stiglitz and C.E.Walsh, “Principles of Microeconomics”, W.W. Norton & Company, 2016 2. J.E.Stiglitz and C.E.Walsh, “Principles of Macroeconomics”, Pubs: W.W. Norton & Company, 2016. Reference Books 1. C.R.Thomas and S.C. Maurice, “Managerial Economics: Foundations of Business Analysis and Strategy”, McGraw Hill, 2017. 2. S. A. Greenlaw, D. Shapiro, T. Taylor, “Principles of Economics”, Pubs: OpenStax, 2017. 3. D. Miles and A. Scott, “Macroeconomics: Understanding the wealth of Nations”, John Wiley and Sons, 2002. 4. Hal R. Varian, “Intermediate Microeconomics: A Modern Approach”, 8th Edition, W. W. Norton & Co., 2010. Online Learning Materials 1. https://egyankos h.ac.in/bitstream/123456789/53988/1/Block - 2.pdf Accessed on August 19 , 2024 2. https://ncert.nic.in/textbook/pdf/leec202.pdf Accessed on August 19 , 2 024 16 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 18,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) 3. https://math.hawaii.edu/~mchyba/documents/syllabus/Math499/extracredit.pdf Accessed on August 19 , 2024 4. https://www.vedantu.com/commerce/national - income - accounting Accessed on August 19 , 2024 5. https://blog.ipleaders.in/taxation - and - its - effect - on - in flation/ Accessed on August 19 , 2024 Supplementary SWAYAM Course Sr. Course Host URL Instructor No. Institute Name 1 Principles o f Prof. Sabuj IIT https://onlinecourses.nptel.ac.in/noc23_ec06/previe Economics Kumar Ma dras w Mandal 2 Managerial Prof. Trupti IIT https://archive.nptel.ac.in/noc/courses/noc20/SEM2/ Economics Mishra Bombay noc20 - mg67/ 17 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 19,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: ESC101 Course Title: Basic Electrical and Electronics Engineering Programme: B.Tech. L: 3 T: 1 P: 2 Credits: 5 Semester : 1/2 Theory/Practi cal: Theory Teaching Hours: 45 (L)+1 5 (T) +30(P) = 9 0 hrs Total Max. Marks: 1 5 0 Continuous Assessment End Semester Examination (ESE) (CA) Marks: 9 0 Marks: 60 Minimum Percentage of Numerical / Design / Programming Problems in ESE: 30% Duration of End Semes ter Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): NIL Additional Material Allowed in ESE: Scientific C alculator On completion of the course, the student will have the ability to: CO# Course Outcomes Understand the basi c concepts of Electrical and Electronics Engineering. 1 Apply circuit analysis techniques to solve problems related to DC circuits and networks. 2 Apply knowledge of magnetic circuits to select electrical machines required for a particular 3 application. Demonstrate the behavior of electrical and electronic elements in circuits and analyze their 4 characteristics. Apply the knowledge of number systems and binary operations to analyze and design digital 5 circuits. Design simple electrical and electroni c circuits by utilizing various components. 6 Contents Part - A Unit - 1 DC Circuits 6 (L) hrs Circuit elements and connected terminology. Kirchhoff’s Laws: Statement and Illustrations, Method of solving circuits by Kirchhoff’s law. Star - Delta Conver sion. Ohm’s Law: Statement, Illustration and Limitation. Units: Work, Power and Energy (Electrical, Thermal and Mechanical). Unit - 2 AC Fundamentals 7 (L) hrs Principle of AC Voltage waveforms and basic definitions. Peak, Root Mean Square and Aver age value of AC. Phasor representation of alternating quantities. Ohm’s Law in AC circuits. Resistive, Inductive & Capacitive circuits, and their series and parallel combinations. Concept of resonance in series and parallel circuits. Analysis of balanced t hree - phase system with star - delta connections. Unit - 3 Magnetic Circuits and Electrical Machines 8 (L) hrs Comparison between magnetic and electric circuits. Magnetic effects of electric current. Current carrying conductor in magnetic field. Laws of El ectromagnetic Induction. Self and Mutual 18 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 20,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Inductances. Coupling Coefficient between two magnetically coupled circuits. Construction, Working principle, Classification and Applications of: Single - phase Transformer, D.C. machines (motor and generator), Three - phase Induction motor, and Three - phase Synchronous machines (motor and generator). Part - B Unit - 4 Digital Electronics 8 (L) hrs Number Systems: Binary, Decimal, Octal, Hexadecimal and their conversions. Logic gates: symbol and truth table - AND , OR, NOT, EX - OR, EX - NOR, Universal gates: NOR, NAND. Binary addition. Binary subtraction. 1’s complement. 2’s complement. Applications of logic gates: Half adder, full adder. Unit - 5 Semiconductor Diodes 7 (L) hrs Semiconductors: Intrinsic and Ext rinsic. PN junction diode: working and V - I characteristics, Diode applications. Special Diodes: Light Emitting Diode as a circuit element, Photodiode, Zener diode as voltage regulator. Unit - 6 Transistors 9 (L) hrs Transistors: Introduction, c onstruction, working and characteristics, npn and pnp transistors, Basic configurations: common emitter, common base, common collector. Transistor as an amplifier and switch. Operational amplifier: schematic symbol, block diagram, Ideal op - amp and ideal vo ltage transfer curve. Tutorial hours will be used for practice sessions for design/numerical problems/programming/case - studies etc. (as the case may be). Laboratory Work Experiment Experiment Title No. To verify Ohm’s Law. 1 To verify Kirchh off’s Current Law and Kirchhoff’s Voltage Law. 2 To verify series and parallel resonance in AC circuit. 3 To connect, start and reverse the direction of rotation of a 3 - phase induction motor. 4 To find out the line voltage, phase voltage relationshi p, line current and phase current 5 relationship in case of star and delta connected 3 - phase balanced load. To study the use of a multimeter. 6 To find a voltage - current relationship in an R - L, R - C, and R - L - C series circuit and to 7 determine the p ower factor of the circuit. To examine the I - V characteristics of a PN junction diode. 8 To obtain the input and output characteristics of NPN and PNP transistors. 9 To measure and compare the output waveforms of half - wave and center - tap ful l - wave 10 rectifier. To design and analyze an AC to DC power supply using rectifier and capacitive filter. 11 19 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 21,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) To measure the output of an op - amp in the inverting and non - inverting configuration. 12 To design and verify the truth tables of lo gic gates: AND, OR, NOT, NAND, NOR. 13 Text Books rd 1. B.L. Theraja and A.K Theraja,“A Textbook of Electrical Technology”, 23 Edition, S Chand, 1959. nd 2. Vincent Del Toro, “Electrical Engineering Fundamentals”, 2 Edition, Prentice Hall, 2015. th 3. D. P. Kothari and I J Nagrath, “Basic Electrical Engineering”, 4 Edition, Mc Graw Hill, 2019. th 4. C. L. Wadhwa, “Basic Electrical Engineering”, 5 Edition, New Age International Publishers, 2023 th 5. Robert L. Boylestad, “Introductory Circuit Analysis”, 13 Edition, Pearson, 2015. th 6. R. P. Jain, Modern Digital Electronics, 4 Edition, Tata McGraw – Hill, 2009. th 7. R. L. Boylestad and L. Nashelsky, “Electronic Devices and Circuits Theory”, 9 Edition, Prentice Hall, 2006. th 8. R. P. Jain and K. Sarawadekar , “Modern Digital Electronics”, 5 Edition, McGraw – Hill, 2022. Reference Books 1. A. Malvino, D. J. Bates, “Electronic Principles”, 7th Edition, McGraw Hill Education, 2017. 2. J. Millman, C., C. Halkias and S. Jit, “Electronic Devices and Circuits”, 4th Edition, McGraw Hill Education, 2015. 3. S.K. Sahdev, “Basic Electrical Engineering (with Lab Manual)”, First Edition, Khanna Publication, 2022. 4. Laboratory Manuals. Online Learning Materials 1. https://www.youtube.com/watch?v=J4oO7PT_nzQ Accessed on July 08, 2024 2. https://www.youtube.com/watch?v=INEtYZqtjTo Accessed on July 08, 2024 3. https://www.youtube.com/watch?v=WKHKy89QaV0 Accessed on July 08, 2024 4. https://www.youtube.com/watch?v=fdqnYttEzPU&list=PLTntHiTOym6Cp7sufUtj_4CUJ9A LWudh Accessed on August 20, 2024 5. https://youtu.be/qnumeyHBQ6w?list=PL2Q_0aXptwl1foD9eKFGXo3iQfOriDmp5 Accessed on August 20, 2024 Supplementary SWAYAM Course Sr. Course Host URL Instructor No. Institute Name 1 Basic Pro f. IIT https://onlinecourses.nptel.ac.in/noc24_ee112/pr Electrical Gajendranath Hyderabad eview Circuits Chowdary 2 A Basic Prof. Ashok IIT https://onlinecourses.nptel.ac.in/noc24_ee125/pr Course on Kumar Kharagpur eview Electric and Pradhan Magnetic Circuits 20 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 22,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Experiments to be performed through Virtual Labs Sr. No. Experiment Name Experiment Link(s) 1 To verify Ohm’s Law. https://be - iit kgp.vlabs.ac.in/exp/ohm - law/ 2 Extraction of diode SPICE parameters related https://be - iitkgp.vlabs.ac.in/exp/characteristics - to forward Current - Voltage (I - V) diode/ characteristics 3 To measure and compare the output https://be - iitkgp.vlabs.ac.in/exp/half - wave - waveforms of half - wave and center - ta p full - rectification/ wave rectifier. https://be - iitkgp.vlabs. ac.in/exp/full - wave - rectification/ 4 To measure the output of an op - amp in the https://be - iitkgp.vlabs.ac.in/exp/non - inverting - inverting and non - inverting configuration. amplifiers/ 21 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 23,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: ESC102 Course Title: Eng ineering Drawing and Graphics Programme: B.Tech. L: 1 T: 0 P: 4 Credits: 3 Semester: 1/2 Theory/Practical: Theory Teaching Hours : 1 5 (L)+ 60 (P) = 7 5 hrs Total Max. Marks: 100 Continuous Assessment End Semester Examination (ESE) (CA) Marks: 40 Marks: 60 Min imum Percentage of Numerical / Design / Programming Problems in ESE: 80% Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): NIL Additional Material Allowed in ESE: Scientific Calculator and Mini Drafte r NOTE : End semester examination shall be set from Unit - 1 to Unit - 4 only, whereas Unit - 5 and Unit - 6 shall be evaluated through Continuous Assessment (CA) carrying 10% weightage. On completion of the course, the student will have the ability to: CO# Cour se Outcomes Understand various terms used in engineering drawing. 1 Interpret the drawing in terms of engineering requirements. 2 Apply rules and conventions as per international standards for engineering drawing. 3 Learn and apply orthographic as w ell as isometric projections as per engineering 4 requirements. Understand the concept of computer graphics and related aspects. 5 Use CAD software to draw 2D and 3D models by using different types of 6 commands. Contents Part - A Unit - 1 Introduction to En gineering Drawing 3 (L)+ 12 (P) hrs Principles of Engineering Graphics and their significance as per international/national standards SP46:2003 and IS 962 - 1989. Usage of Drawing instruments. Conventional representation. Lettering. Scales: Plain and Diagon al scales. Unit - 2 Orthographic Projections 4(L)+12(P) hrs Principles of Orthographic Projections. Projections of Points. Projection of lines, plane and solid covering inclined/perpendicular/parallel to one plane. Unit - 3 Sections and Sectional Views of Right Re gular Solids 3(L)+12(P) hrs Prism, Cylinder, Pyramid, Cone: Draw the sectional views of geometrical solids. Development of surfaces of Right Regular Solids: Prism, Pyramid, Cylinder and Cone. 22 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 24,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Unit - 4 Isometric Projections 2(L)+ 12 ( P) hrs Principles of Isometric projections: Isometric Scale, Isometric Views and Conventions. Isometric Views of lines, Planes, Simple and compound Solids. Conversion of Isometric Views to Orthographic Views and Vice - versa. Part - B Unit - 5 Overview of Compu ter Graphics and Customization of CAD Drawing 2 (L)+6(P) hrs Demonstrating knowledge of the theory of CAD software such as: The Menu System, Toolbars, Drawing Area, Dialog boxes and windows, The Command Line, Different methods of zoom as used in CAD, Select and erase objects. Isometric Views of lines, Planes, Simple and compound Solids. Snap to objects manually and automatically. Producing drawings by using various coordinate input entry methods to draw straight lines. Applying various ways of drawing circles. Unit - 6 Annotations, layering & other functions 1(L)+6(P) hrs Apply dimensions to objects. Apply annotations to drawings. Setting up and use of Layers. Layers to create drawings. Create, edit and use customized layers. Orthographic pr ojection techniques. Geometry and topology of engineered components: creation of engineering models and their presentation in standard 2D blueprint form and as 3D wire - frame and shaded solids. Parametric and non - parametric solid, surface. Wireframe models. Text Books 1. P. Jain, A. Maheshwari and A.P. Gautam, “ Engineering Graphics & Design”, Khanna Book Publishing, 2021. 2. N.D. Bhatt, V.M. Panchal and P.R. Ingle, “ Engineering Drawing”, Charotar Publishing, 2014. 3. M.B. Shah and B.C. Rana, “Engineering Drawing and Computer Graphics”, Pearson, 2008. 4. B. Agrawal and C.M. Agrawal, “ Engineering Graphics”, TMH Publication, 2012. 5. K.L. Narayana and P. Kannaiah, “ Textbook on Engineering Drawing”, Scitech Publishers, 2008. Reference Books 1. Johle A. Dhananjay, “Engineerin g Drawing with an Introduction to Auto CAD”, Tata McGraw Hill Publishing Ltd., 2008. 2. T. Jeyapoovan, “Engineering Graphics using Auto CAD 2000”, Vikas Publishing Pvt. Ltd., 2003. 3. P. S. Gill, “Engineering Drawing”, Katson Publication, 2016. 4. H. Singh, “Engine ering Drawing and Computer Graphics”, Dhanpat Rai Publishing Company, 2023 Online Learning Materials 1. https://www.iitg.ac.in/rkbc/ME111/Lecture1%20Introduction.pdf Accesse d on September 17, 2024 2. https://ocw.mit.edu/courses/2 - 007 - design - and - manufacturing - i - spring - 2009/p ages/related - resources/drawing_and_sketching/#Cross - Sectional_Views Accessed on September 17, 2024 3. https://static.sdcpublications.com/pdfsample/978 - 1 - 58503 - 610 - 3 - 1.pd f Accessed on September 17, 2024 23 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 25,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) 4. https://resources.saylor.org/wwwresources/archived/site/wp - content/uploads/2013/04/ME1 04 - 1.1.1 - DesignHandbook.pdf Accessed on September 17, 2024 Supplementary SWAYAM Course Sr. Host Institute URL Course Name Instructor No. 1 Engineering Drawing Prof. Rajaram IIT Kharagpur https://onlinecourses.nptel.ac and Computer Lakkaraju .in/noc21_me125/preview Graphics 24 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 26,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: ESC103 Course Title: Programming for Problem Solving Programme: B.Tech. L: 2 T: 0 P: 2 Cre dits: 3 Semester: 1 Theory/Practical: Theory Teaching Hours: 30 (L)+ 30( P) = 60 hrs Total Max. Marks: 150 Continuous Assessment End Semester Examination (ESE) (CA) Marks: 90 Marks: 60 Minimum Percentage of Numerical / Design / Programming Problems in ES E: 60% Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites: NIL Additional Material Allowed in ESE: NIL On completion of the course, the student will have the ability to: CO# Course Outcomes 1 Design simple alg orithms and flowcharts for problem solving. 2 Demonstrate modular programs involving input output operations, decision making and looping constructs by choosing the appropriate data types for writing programs. 3 Test and execute programs and correct synt ax and logical errors. 4 Implement conditional branching, iteration and recursion. 5 Apply the concept of arrays and string handling in problem solving. 6 Use concept of structures and union in problem solving. Contents Part - A Unit - 1 Introduction to Computer Fundamentals 4 (L) + 2 (P) hrs Computer System Components: Input and Output Devices, Memory and Storage Devices, Block diagram of Computer System, Types of Software, Operating System with its types, Compiler, Int erpreter, Assembler, Linker, Loader. Unit - 2 Basics of Programming 4 (L) + 4 (P) hrs Idea of Algorithm: Steps to solve logical and numerical problems. Algorithms, Flowchart, Pseudocode with exampl es. Basic C++ Program, Compile and Execute C++ program, Character Set, Tokens - Identifiers, Keywords, Variables, Literals, Constants, Data Types, Different types of errors. Unit - 3 Operators 4 (L) + 6 (P) hrs Different types of Operators: Assignment Operators, Numeric operators, Prefix and postfix operators, Binary number system, Bitwise operators, Logical operators, Relational operators, Short - circuit operators, sizeof operator, Operator precedence and associa tivity. Type conversion. 25 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 27,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Unit - 4 Control Structures 5 (L) + 4(P) hrs Conditional Statements: if, if - else, conditional operator (?:), switch and nested decision statements; L ooping Statements: for, while, do - while, Nested Loops, and Controlling loop execution keywords: break, continue, goto keyword and labeled statements multiple - selection keywords: switch, case, default keywords Part - B Unit - 5 Functions 5(L) + 6 (P) hrs Functions: Need of functions, Components of Functions, Built - in and User Defined Functions, Parameter passing in function: Call by value, Call by reference, Scope rule s, Default Arguments, Function Overloading, Recursion: Base case and recursive case, Recursion versus Iteration. Unit - 6 Arrays 4(L) + 4(P) hrs Arrays: Sin gle - Dimensional and Multi - Dimensional arrays, Array operations, Character array and strings literals, string literals declaring, initializing, and using strings basic string operations, comparing strings; Pointers: declaring and initializing pointers. Uni t - 7 Structures and Unions 4(L) + 4(P) hrs Structures: Need and syntax of structures, Structure Operations - Passing and returning structures from functions, Nested Structures, Array o f Structures, typedef, Union, Structure versus Union. Laboratory Work To implement programs in C++ Language for various kinds of problems related to the above topics. Text Books 1. D. Ravichandran, “ Programming with C++ ” , Third Edition, Tata McGraw - Hill Educ ation. 2. Harvey M. Deitel and Paul J. Deitel, “ C++ How to Program ” , Tenth Edition, Pearson Education. Reference Books 1. H . Schildt , “ C++: The Complete Reference ” , Fourth Edition, Mc - Graw Hill . 2. E. Balagurusamy, “ Object Oriented Programming with C++ ” , Eighth Ed ition, Mc - Graw Hill. 3. Y . Kanetkar, “ Let Us C++ ” , Third Edition, BPB Publication. O nline Learning M aterials 1. https://www.udemy.com/course/c - plus - plus - programming - beginners/ Acces sed on September 19, 2024 2. https://spoken - tutorial.org/watch/C+and+Cpp/Working+With+2D+Arrays/English/ Accessed on September 19, 2024 3. https://spoken - tutorial.org/watch/C+and+Cpp/Function+Call /English/ Accessed on September 19, 2024 26 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 28,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code: L ESC10 4 Course Title: Manufacturing Practice s Programme: B.Tech. L: 0 T: 0 P: 4 Credits: 2 Semester: 1/2 Theory/Practical: Practical Teaching Hours: 60 h rs Total Max. Marks: 50 Continuous As sessment (CA) End Semester Examination (ESE) Marks: 50 Marks: NIL Duration of End Semester Examination (ESE): NA Course Type: Core Course Prerequisites (if any): NIL On completion of the course, the student will have the ability to: CO# Course Outcome s Make various carpentry utility items with the use of various joints. 1 Practice of various forging, welding, electric, sheet metal tools and equipments. 2 Make mould and cast products of different shapes. 3 Finish various jobs by using finishing to ols. 4 Operate different machines and perform different operations. 5 Contents Experiment No. Experiment Title Carpentry and Pattern Making: Various types of timber, defects in timber, 1 seasoning of wood; tools, wood operations and various joints; ex ercises involving use of important carpentry tools to practice various operations and making joints. Foundry Shop: Introduction to molding materials; moulds; cores; melting furnaces; 2 tools and equipment used in foundry shops; exercises involving prepar ation of small sand moulds and castings. Introduction to Plastic Molding. Forging Practice: Introduction to forging tools; equipments and operations; 3 forgability of metals; exercises on simple smithy and forging. Machine Shop: Introduction to vario us types of Machines; cutting tools and 4 operations; exercises involving machining operations; Introduction to CNC machining and additive manufacturing. Welding Shop: Introduction to different welding methods; sheet metal forming and 5 joining methods; wel ding equipments; electrodes; welding joints; welding defects; exercises involving use of gas/electric arc welding. Electrical Shop: Introduction to electrical wiring and electrical machines; soldering 6 practice for electrical and electronic applications ; Demonstration of various electrical measuring instruments, wiring accessories, modern electrical tools; Introduction to safety devices and earthing; practice on domestic electrical wiring circuits. Fitting Shop: Demonstration of measuring instruments ; tools used in fitting shop; 7 exercise involving marking, cutting, fitting practice (Right Angles), matching parts practice, trapping practice. 27 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 29,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Mini Project : The student must fabricate a model of their interest at the end of the course by taking the hel p of any of the workshops. Reference Books 1. S.K. Hajra Choudhury, A.K. Hajra Choudhury and N . Roy , “Elements of Workshop Technology”, Vol. I 2008 and Vol. II 2010, Media Promoters and P ublishers P rivate limited, Mumbai. th 2. S. Kalpakjian a nd Steven R. Schmid, “Manufacturing Engineering and Technology”,4 edition, Pearson Education India Edition, 2002. 3. P.N. Rao , “Manufacturing Technology”, Vol. I and Vol. II, Tata McGraw Hill Education , 2017. 4. H.S. Shan , “Manufacturing P rocesses”, Second E dition, Cambridge Unive rsity Press, India , 2017. 5. Laboratory Manuals. Online Learning Materials 1. https://rskr.irimee.in/sites/default/files/MET%2012%20 - %20SMITHY%20%26%20FORGIN G.pdf Accessed on September 19, 2024 2. https://instrumentationtools.com/types - of - electrical - wiring/ Accessed on September 19, 2024 3. https://mtcopeland.com/blog/types - of - wood - joints/ Accessed on September 19, 2024 4. https://testbook.com/mechanic al - engineering/gas - welding - process - types - and - applications Accessed on September 19, 2024 5. https://openoregon.pressbooks.pub/manufacturingproc esses45/chapter/chapter - unit - 1 - the - engine - lathe/ Accessed on September 19, 2024 6. https://www.reliance - foundry.com/blog/sand - casting Accessed on September 19, 2024 28 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 30,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Course Code : BSC104 Course Title: Mathematics - II Programme: B.Tech. L: 3 T: 1 P: 0 Credits: 4 Semester: 2 Theory/Practical: Theory Teaching Hours: 45(L)+15(T)= 60 hrs Total Max. Marks: Conti nuous Assessment End Semester Examination (ESE) 100 (CA) Marks: 40 Marks: 60 Minimum Percentage of Numerical / Design / Programming Problems in ESE: 95% Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): N IL Additional Material Allowed in ESE: Non - scientific calculator On completion of the course, the student will have the ability to: CO# Course Outcomes Understand the geometric significance of MVT and use derivative tests to obtain knowledge 1 about the increasing and decreasing nature of functions as well as concavity to accurately sketch function graphs. Develop a clear understanding of double and triple integrals and apply multiple integrals to 2 find area and volume. Identify and elucidate the sa lient characteristics of prevalent discrete and continuous 3 probability distributions, including the Poisson, Normal, and Binomial distributions. Understand the concept of curve fitting to fit curves to data and analyze the data using 4 measures of central tendencies, correlation and regression. Utilize linear algebraic concepts to solve systems of linear equations and become familiar 5 with the diagonalization of matrices. Contents Part - A Unit - 1 Applications of Derivatives 6(L) hrs Mean Value Theorem and their geometrical interpretation, Cartesian graphing with first and second - order derivatives, Asymptotes and Dominant terms, Polar coordinates, graphing in Polar coordinates. Unit - 2 Multiple Integrals and its Applications 9(L) hrs Double Integral in Cartesian - Coordinates, change the order of integration in double integral, Double Integral in Pol ar coordinates, changing of variables from Cartesian to polar in double integrals, Applications of Double integral to the area and volume, Triple Integral in Cartesian - Coordinates, spherical polar and cylindrical polar coordinates. Application of triple integral to find volume. Unit - 3 Probability 8(L) hrs Random variable, Discrete probability Distribution, continuo us probability distribution, Expectation, Mean and variance using Expectation, Theoretical distributions: Binomial distribution, Poisson Distribution, Normal distribution, fitting B.D. and P.D. into given data. 29 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 31,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) Part - B Unit - 4 Statistical methods a nd curve fitting 10(L) hrs Measures of central tendency: Mean, Median and Mode, Measures of Dispersion: range, mean deviation and standard deviation, Correlation, coefficient of correl ation, Lines of regression, Curve fitting: Method of least squares, fitting the straight line and parabola. Uni t - 5 Linear Algebra and its applications 12(L) hrs Gauss - Jordan method to find the inverse of a matrix, reduction to echelon and normal form, rank of a matrix, consistency and solutio n of linear equations, linear dependence and linear independence of vectors, Linear transformations, eigenvalues, eigen vectors, Cayley Hamilton theorem (without proof), reduction to diagonal form (diagonalization). Tutorial hours will be used for prac tice sessions for design/numerical problems/programming/case studies etc. (as the case may be). Text Books th 8. G.B. Thomas and R.L. Finney, “Calculus and Analytic Geometry”, 9 Edition, Pearson Education, 2007. th 9. B.V. Ramana, “Higher Engineering Mathematics”, 11 Reprint, Tata McGraw Hill, New Delhi, 2010. th 10. B.S. Grewal,” Higher Engineering Mathematics”, 36 Edition, Khanna Publishers, 2010. Reference Books th 1. E. Kreyszig, “Advanced Engineering Mathematics”, 9 Edition, John Wiley & Sons, 2006. 2. R.K. Jain and S. R.K Iyengar, “Advanced Engineering Mathematics”, Narosa Publications, New Delhi, 2008. 3. T. Veerarajan, “Engineering Mathematics for first year”, Tata McGraw Hill New Delhi, 2008. nd 4. D. Poole, “Linear Algebra: A modern Introduction”, 2 Edition, Brooks/Cole, 2 005. Online Learning Materials 1. https://www.khanacademy.org/math/statistics - probability/analyzing - categorical - data Accessed on June 11, 2024 2. https://ndl.iitkgp.ac.in/ndl_he Accessed on June 11, 2024 3. https://personal.math.ubc.ca/~carrell/NB.pdf Accessed on June 11, 2024 4. https://www.jntua.ac.in/gate - online - classes/registration/downloads/material/a159360014254.pdf Accessed on June 11, 2024 Supplementary SWAYAM Course Sr. Host Institute URL Course Name Instru ctor No. 1 Introduction to Prof. G. IIT Madras https://nptel.ac.in/courses/111106112 Probability and Srinivasan Statistics 2 Basic Linear Prof. Inder IIT Bombay https://nptel.ac.in/courses/111101115 Algebra Kumar Rana 30 of 30 Scheme Code - 2024"
+      },
+      {
+        "number": 32,
+        "text": "Course Code: E SC10 5 Course Title: P rogramming Fundamentals using Python Programme: B.Tech. L: 2 T: 0 P: 2 Credits: 3 Semester: 2 Theory/Practical: Theory + Teaching Hours : 30 (L) + 30(P) = 6 0 hrs Practical Total Max. Marks: 1 5 0 Continuous Assessment End Semester Examination (ESE) (CA) Marks: 90 Marks: 60 Minimum Percentage of Numerical / Design / Programming Problems in ESE: 6 0% Duration of End Semester Examination (ESE): 3 hours Course Type: Core Course Prerequisites (if any): ESC103 Additional Material Allowed in ESE: NIL On completion of the course, the student will have the ability to: CO# Course Outcomes 1 Understand and apply basic Python syntax and semantics. 2 Develop and manipulate linear and non - linear data structures. 3 Perform string operations and use regular expressions. 4 Design and implement modular Python programs using functions. 5 Apply Object - Oriented Programming (OOP) concepts in Python. 6 Utilize Python libraries such as NumPy, Matplotlib, and Pandas. Contents Part - A Unit - 1 Introduction to Python 8 (L) + 6(P) hrs Python: Language Features, Types of Errors, Comments, Identifiers and Keywords, Variables and Assignment, Expressions and Statements, Indentation, Different Data Types: Numbers, Strings, lists, sets, tuples, dictionaries. Data Type Conversions, Input and O utput Statements, Arithmetic Operators, Comparison Operators, Assignment Operators, Bitwise Operators, Logical Operators, Membership Operators, Identity Operators, Operators Precedence, If Statement, If - else Statement, If - elif - else Statement, While Loop, f or Loop, Break Statement, Continue Statement, Pass Statement. Unit - 2 Data Structures: Lists, Tuples, and Dictionaries 6 (L) + 6(P) hrs Introduction to Lists: Basic List Operations, Built - in List Functions, List Methods, Introduction to Tuples: Basic Tuples Operations, Built - in Tuple Functions, Introduction to Dictionaries: Basic Dictionary Operations, Built - in Dictionary Functions, Built - in Dictionary Methods, List Comprehensions. Part - B Unit - 3 Introduction to Strings, String Operations 4 (L) + 4(P) hrs Introduction to Strings, String Operations, Built - in String Methods, Regular Expressions: String pattern Matching: Meta Characters, Pattern Methods, Compilation flags, Grouping. Unit - 4 Functional and Modular Programming 8 (L) + 10(P) hrs Basics of functions: syntax, defining and calling a function, docstring in python, return statement in a"
+      },
+      {
+        "number": 33,
+        "text": "Guru Nanak Dev Engineering College, Ludhiana An Autonomous College under UGC Act 1956 st B.Tech. 1 Year (Common for all Branches) function, Parameters and Arguments, Keyword Arguments, Default Arguments, Variable Length Arguments, Anonymous Functions: Lambda Functions, map(), filter(), Fruitful Functions, Global and Local Variables, Function Composition, Recursion, Creation of Module s, Import Statement, From Import Statement, Python Modules, Date and Time Module. Unit - 5 Object - Oriented Programming and Data Visualization 4 (L) + 4(P) hrs Classes: Object oriented programming, procedural programming, OOPS concepts, Self variable, Constructors, init method, Methods, Data Hiding, NumPy: NumPy Arrays, Matplotlib: Line Plots, Scatter Plots, Bar Plot, Histogram, Pie Chart, Pandas. Laboratory Work To implement programs in Python Language for various kinds of problems related to the above topics. Text Books 1. Programming and problem solving with Python by Ashok Namdev Kamthane, Amit Ashok Kamthane. 2. Core Python Programming, R. Nageswara Rao, 2nd Edition, Dreamtech. 3. Anurag Gupta, G Biswas, Python Programming, Tata McGraw - Hill Education. 4. Kenneth A. Lambert, Martin Osborne, “Fundamentals of Python First Programs”, 2nd Edition, Cengage Learning, 2023. 5. Kenneth A. Lambert, Martin Osborne, “Fundamentals of Python: First Programs through Data Structures”, 1st Edition, Cengage Learning, 2010. Reference Books 1. Martin C. Brown, “Python The complete Reference”, McGraw Hill Education. 2. Allen B. Downey, “Think Python”, 1 Edition, Green Tea Press, 2012 . Online Learning Materials 1. N PTEL c ourse: Programming, Data Structures and Algorithms using Python, Available at https://nptel.ac.in/courses/106106145 A ccessed on May 1 6 , 2024 2. N PTEL course: The Joy of Computing using Python, Available at https://nptel.ac.in/courses/106106182 Accessed on May 1 6 , 2024 3. Python Programming, Available at https://github.com/ag999git/Book - Python - Programming - Problem - Solving - Packages - and - Libraries/tree/master/book - chapters - html Accessed on May 1 6 , 202 5 4. Online course, Automate the Boring Stuff with Python Programming, Available at https://www.udemy.com/course/automate/?couponCode=NEWYEARCAREER Accessed on May 1 6 , 202 5 2 of 2 Scheme Code - 2024"
+      }
+    ]
+  },
+  "notes": []
+}

@@ -1,0 +1,9451 @@
+{
+  "schemaVersion": 1,
+  "name": "GNDEC + GND Polytechnic campus",
+  "disclaimer": "Walking times are estimates for a fit adult on paved paths. Positions come from OpenStreetMap building footprints and the shared GND Polytechnic campus map; room-to-block links are inferred from the official room codes (F/S/G/A) and are editable in Admin.",
+  "center": [
+    30.8592,
+    75.8613
+  ],
+  "places": [
+    {
+      "id": "main-gate",
+      "name": "Main Gate (Gill Road)",
+      "category": "gate",
+      "lat": 30.8598,
+      "lon": 75.8637,
+      "node": "j-main-gate",
+      "description": "The Gill Road entrance used by most day scholars. Buses and autos drop off just outside.",
+      "aliases": [
+        "main entrance",
+        "gate",
+        "gill road gate",
+        "college gate"
+      ],
+      "photo": "/assets/img/main-gate.jpg",
+      "photoCredit": "GNDEC website",
+      "verified": true,
+      "pos": [
+        0.7558,
+        0.4681
+      ]
+    },
+    {
+      "id": "north-gate",
+      "name": "North Gate (hostels)",
+      "category": "gate",
+      "lat": 30.8627,
+      "lon": 75.8615,
+      "node": "j-northgate",
+      "description": "Service entrance on the hostel side of campus.",
+      "aliases": [
+        "hostel gate",
+        "back gate"
+      ],
+      "verified": false,
+      "pos": [
+        0.5,
+        0.1596
+      ]
+    },
+    {
+      "id": "west-gate",
+      "name": "West Gate (staff colony)",
+      "category": "gate",
+      "lat": 30.8587,
+      "lon": 75.8593,
+      "node": "j-westgate",
+      "description": "Entrance near the staff colony and Director's bungalow.",
+      "aliases": [
+        "staff colony gate"
+      ],
+      "verified": false,
+      "pos": [
+        0.2442,
+        0.5851
+      ]
+    },
+    {
+      "id": "south-gate",
+      "name": "South Gate (polytechnic)",
+      "category": "gate",
+      "lat": 30.8562,
+      "lon": 75.8612,
+      "node": "j-southgate",
+      "description": "Shared entrance towards the polytechnic side of the campus.",
+      "aliases": [
+        "polytechnic gate",
+        "gndp gate"
+      ],
+      "verified": false,
+      "pos": [
+        0.4651,
+        0.8511
+      ]
+    },
+    {
+      "id": "admin-block",
+      "name": "Administration Block",
+      "category": "admin",
+      "lat": 30.85887,
+      "lon": 75.86037,
+      "node": "j-admin",
+      "description": "Principal's office, college office and the main reception. The portico with the college name is the usual meeting point.",
+      "aliases": [
+        "admin",
+        "administration",
+        "principal office",
+        "office"
+      ],
+      "verified": true,
+      "pos": [
+        0.3686,
+        0.567
+      ]
+    },
+    {
+      "id": "admission-cell",
+      "name": "Admission Cell",
+      "category": "admin",
+      "lat": 30.8589,
+      "lon": 75.86042,
+      "node": "j-admin",
+      "floor": 1,
+      "description": "Admission and document verification desk, inside the Administration Block.",
+      "aliases": [
+        "admissions",
+        "admission office",
+        "documents"
+      ],
+      "verified": false,
+      "pos": [
+        0.3744,
+        0.5638
+      ]
+    },
+    {
+      "id": "library",
+      "name": "Central Library",
+      "category": "library",
+      "lat": 30.85835,
+      "lon": 75.86021,
+      "node": "j-library",
+      "description": "Central library and reading room. Reference section and journals are on the upper floor.",
+      "aliases": [
+        "library",
+        "reading room",
+        "central library"
+      ],
+      "verified": true,
+      "pos": [
+        0.35,
+        0.6223
+      ],
+      "photo": "/assets/img/library.jpg",
+      "photoCredit": "GNDEC website"
+    },
+    {
+      "id": "g-block",
+      "name": "G-Block (G1–G18)",
+      "category": "academic",
+      "lat": 30.85862,
+      "lon": 75.86045,
+      "node": "j-admin",
+      "description": "Classroom block next to the Administration Block. Most G-series rooms are on the ground floor.",
+      "aliases": [
+        "g block",
+        "g1",
+        "g17",
+        "g18",
+        "g11",
+        "classrooms"
+      ],
+      "verified": false,
+      "pos": [
+        0.3779,
+        0.5936
+      ],
+      "photo": "/assets/img/rooms/g1.jpg",
+      "photoCredit": "GNDEC official room gallery"
+    },
+    {
+      "id": "f-block",
+      "name": "F-Block (F101–F119)",
+      "category": "academic",
+      "lat": 30.85845,
+      "lon": 75.86098,
+      "node": "j-library",
+      "floor": 1,
+      "description": "First-floor classrooms used mostly by first-year sections.",
+      "aliases": [
+        "f block",
+        "f101",
+        "f107",
+        "f113",
+        "f119"
+      ],
+      "verified": false,
+      "pos": [
+        0.4395,
+        0.6117
+      ],
+      "photo": "/assets/img/rooms/f107.jpg",
+      "photoCredit": "GNDEC official room gallery"
+    },
+    {
+      "id": "s-block",
+      "name": "S-Block (S201–S221)",
+      "category": "academic",
+      "lat": 30.85858,
+      "lon": 75.8613,
+      "node": "j-labs",
+      "floor": 2,
+      "description": "Second-floor classrooms and seminar rooms near the Applied Science building.",
+      "aliases": [
+        "s block",
+        "s201",
+        "s205",
+        "s214",
+        "s217"
+      ],
+      "verified": false,
+      "pos": [
+        0.4767,
+        0.5979
+      ],
+      "photo": "/assets/img/rooms/s201.jpg",
+      "photoCredit": "GNDEC official room gallery"
+    },
+    {
+      "id": "applied-science",
+      "name": "Applied Science Block",
+      "category": "academic",
+      "lat": 30.85869,
+      "lon": 75.86169,
+      "node": "j-labs",
+      "description": "Physics, chemistry, English and measurement laboratories, plus the Applied Science department office.",
+      "aliases": [
+        "applied science",
+        "physics lab",
+        "chemistry lab",
+        "chem lab",
+        "english lab",
+        "measurement lab"
+      ],
+      "verified": true,
+      "pos": [
+        0.5221,
+        0.5862
+      ]
+    },
+    {
+      "id": "it-dept",
+      "name": "Information Technology Department",
+      "category": "academic",
+      "lat": 30.86042,
+      "lon": 75.86025,
+      "node": "j-north",
+      "description": "IT department offices and labs (OS, PL, WD, HPC, DBMS). North side of the academic area.",
+      "aliases": [
+        "it department",
+        "it dept",
+        "it lab",
+        "os1 lab",
+        "hpc lab"
+      ],
+      "verified": true,
+      "pos": [
+        0.3547,
+        0.4021
+      ],
+      "photo": "/assets/img/lab.jpg",
+      "photoCredit": "GNDEC website"
+    },
+    {
+      "id": "cse-dept",
+      "name": "Computer Science & Engineering",
+      "category": "academic",
+      "lat": 30.8601,
+      "lon": 75.8607,
+      "node": "j-north",
+      "description": "CSE department and programming labs. Position is approximate — follow the CSE signage from the north academic area.",
+      "aliases": [
+        "cse",
+        "computer science",
+        "cse dept",
+        "sl lab",
+        "r lab"
+      ],
+      "verified": false,
+      "pos": [
+        0.407,
+        0.4362
+      ],
+      "photo": "/assets/img/lab.jpg",
+      "photoCredit": "GNDEC website"
+    },
+    {
+      "id": "ec-dept",
+      "name": "Electronics & Communication",
+      "category": "academic",
+      "lat": 30.8581,
+      "lon": 75.86115,
+      "node": "j-labs",
+      "description": "ECE department, electronics labs and the computer lab for EC.",
+      "aliases": [
+        "ece",
+        "ec dept",
+        "electronics",
+        "ec lab"
+      ],
+      "verified": true,
+      "pos": [
+        0.4593,
+        0.6489
+      ]
+    },
+    {
+      "id": "me-dept",
+      "name": "Mechanical Engineering",
+      "category": "academic",
+      "lat": 30.85902,
+      "lon": 75.8618,
+      "node": "j-workshop",
+      "description": "Mechanical department, CGL and material testing labs, next to the workshops.",
+      "aliases": [
+        "me dept",
+        "mechanical",
+        "cgl lab",
+        "ht lab",
+        "he lab"
+      ],
+      "verified": true,
+      "pos": [
+        0.5349,
+        0.5511
+      ]
+    },
+    {
+      "id": "ce-dept",
+      "name": "Civil Engineering",
+      "category": "academic",
+      "lat": 30.8583,
+      "lon": 75.86155,
+      "node": "j-labs",
+      "description": "Civil department, geotech and survey labs.",
+      "aliases": [
+        "ce dept",
+        "civil",
+        "geotech lab",
+        "survey lab"
+      ],
+      "verified": true,
+      "pos": [
+        0.5058,
+        0.6277
+      ]
+    },
+    {
+      "id": "ee-dept",
+      "name": "Electrical Engineering",
+      "category": "academic",
+      "lat": 30.8585,
+      "lon": 75.8619,
+      "node": "j-labs",
+      "description": "Electrical department and BEE / PE laboratories.",
+      "aliases": [
+        "ee dept",
+        "electrical",
+        "bee lab",
+        "pe lab"
+      ],
+      "verified": true,
+      "pos": [
+        0.5465,
+        0.6064
+      ]
+    },
+    {
+      "id": "workshops",
+      "name": "Central Workshops",
+      "category": "lab",
+      "lat": 30.85955,
+      "lon": 75.8617,
+      "node": "j-workshop",
+      "description": "Manufacturing practice, welding, carpentry and machine shops. Wear closed shoes for practicals.",
+      "aliases": [
+        "workshop",
+        "workshops",
+        "manufacturing practices",
+        "w/s seminar hall"
+      ],
+      "verified": true,
+      "pos": [
+        0.5233,
+        0.4947
+      ],
+      "photo": "/assets/img/workshop.jpg",
+      "photoCredit": "GNDEC Mechanical department"
+    },
+    {
+      "id": "automobile-block",
+      "name": "Automobile Block",
+      "category": "lab",
+      "lat": 30.85812,
+      "lon": 75.8623,
+      "node": "j-quad",
+      "description": "Automobile engineering workshops and A6/A9 rooms.",
+      "aliases": [
+        "automobile",
+        "auto block",
+        "a6",
+        "a9"
+      ],
+      "verified": true,
+      "pos": [
+        0.593,
+        0.6468
+      ]
+    },
+    {
+      "id": "auditorium",
+      "name": "College Auditorium",
+      "category": "landmark",
+      "lat": 30.85888,
+      "lon": 75.86074,
+      "node": "j-admin",
+      "description": "Indoor auditorium used for orientations, guest lectures and cultural events.",
+      "aliases": [
+        "auditorium",
+        "hall",
+        "seminar"
+      ],
+      "photo": "/assets/img/gallery/auditorium-a.jpg",
+      "photoCredit": "GNDEC gallery",
+      "verified": true,
+      "pos": [
+        0.4116,
+        0.566
+      ]
+    },
+    {
+      "id": "open-air-theatre",
+      "name": "Open Air Theatre",
+      "category": "landmark",
+      "lat": 30.86072,
+      "lon": 75.86205,
+      "node": "j-sports",
+      "description": "Outdoor stage and seating used for fests and cultural nights.",
+      "aliases": [
+        "oat",
+        "open air",
+        "open theatre"
+      ],
+      "verified": true,
+      "pos": [
+        0.564,
+        0.3702
+      ],
+      "photo": "/assets/img/gallery/open-air-theatre.jpg",
+      "photoCredit": "GNDEC gallery"
+    },
+    {
+      "id": "sports-complex",
+      "name": "Sports Complex",
+      "category": "sports",
+      "lat": 30.85816,
+      "lon": 75.8634,
+      "node": "j-sports",
+      "description": "Indoor sports hall, gym and sports office.",
+      "aliases": [
+        "sports",
+        "gym",
+        "indoor games",
+        "sports complex"
+      ],
+      "verified": true,
+      "pos": [
+        0.7209,
+        0.6426
+      ],
+      "photo": "/assets/img/gallery/sports-complex.jpg",
+      "photoCredit": "GNDEC gallery"
+    },
+    {
+      "id": "swimming-pool",
+      "name": "Swimming Pool",
+      "category": "sports",
+      "lat": 30.86121,
+      "lon": 75.86291,
+      "node": "j-sports",
+      "description": "Campus swimming pool, east side near the canal.",
+      "aliases": [
+        "pool",
+        "swimming"
+      ],
+      "verified": true,
+      "pos": [
+        0.664,
+        0.3181
+      ],
+      "photo": "/assets/img/gallery/swimming-pool.jpg",
+      "photoCredit": "GNDEC gallery"
+    },
+    {
+      "id": "football-ground",
+      "name": "Football Ground",
+      "category": "sports",
+      "lat": 30.86073,
+      "lon": 75.86167,
+      "node": "j-north",
+      "description": "Main football field, next to the Open Air Theatre.",
+      "aliases": [
+        "football",
+        "ground",
+        "field"
+      ],
+      "verified": true,
+      "pos": [
+        0.5198,
+        0.3691
+      ],
+      "photo": "/assets/img/gallery/football-ground.jpg",
+      "photoCredit": "GNDEC gallery"
+    },
+    {
+      "id": "hockey-ground",
+      "name": "Hockey Ground",
+      "category": "sports",
+      "lat": 30.86136,
+      "lon": 75.85999,
+      "node": "j-north",
+      "description": "Hockey field on the north-west side of campus.",
+      "aliases": [
+        "hockey"
+      ],
+      "verified": true,
+      "pos": [
+        0.3244,
+        0.3021
+      ]
+    },
+    {
+      "id": "basketball",
+      "name": "Basketball Court",
+      "category": "sports",
+      "lat": 30.86138,
+      "lon": 75.86047,
+      "node": "j-north",
+      "description": "Outdoor basketball courts near the hostels.",
+      "aliases": [
+        "basketball",
+        "court"
+      ],
+      "verified": true,
+      "pos": [
+        0.3802,
+        0.3
+      ]
+    },
+    {
+      "id": "boys-hostel",
+      "name": "Boys Hostel",
+      "category": "hostel",
+      "lat": 30.86195,
+      "lon": 75.8613,
+      "node": "j-hostel",
+      "description": "Boys hostel and mess area on the north side of campus.",
+      "aliases": [
+        "boys hostel",
+        "hostel 2",
+        "hostel"
+      ],
+      "verified": true,
+      "pos": [
+        0.4767,
+        0.2394
+      ]
+    },
+    {
+      "id": "girls-hostel",
+      "name": "Girls Hostel",
+      "category": "hostel",
+      "lat": 30.86308,
+      "lon": 75.86007,
+      "node": "j-hostel",
+      "description": "Girls hostel (Hostel No. 4) at the north-west corner.",
+      "aliases": [
+        "girls hostel",
+        "hostel 4"
+      ],
+      "verified": true,
+      "pos": [
+        0.3337,
+        0.1191
+      ]
+    },
+    {
+      "id": "hostel-5",
+      "name": "Hostel No. 5",
+      "category": "hostel",
+      "lat": 30.85992,
+      "lon": 75.86391,
+      "node": "j-sports",
+      "description": "Hostel and mess building on the east side.",
+      "aliases": [
+        "hostel 5",
+        "mess 5"
+      ],
+      "verified": true,
+      "pos": [
+        0.7802,
+        0.4553
+      ]
+    },
+    {
+      "id": "mess",
+      "name": "Mess No. 1",
+      "category": "food",
+      "lat": 30.86084,
+      "lon": 75.86382,
+      "node": "j-hostel",
+      "description": "Main hostel mess.",
+      "aliases": [
+        "mess",
+        "mess 1"
+      ],
+      "verified": true,
+      "pos": [
+        0.7698,
+        0.3574
+      ]
+    },
+    {
+      "id": "canteen",
+      "name": "Day Scholar Canteen",
+      "category": "food",
+      "lat": 30.8611,
+      "lon": 75.86271,
+      "node": "j-north",
+      "description": "Canteen near the academic area — tea, snacks and quick meals.",
+      "aliases": [
+        "canteen",
+        "food",
+        "samosa",
+        "tea"
+      ],
+      "verified": true,
+      "pos": [
+        0.6407,
+        0.3298
+      ]
+    },
+    {
+      "id": "dispensary",
+      "name": "College Dispensary",
+      "category": "health",
+      "lat": 30.86146,
+      "lon": 75.86113,
+      "node": "j-north",
+      "description": "First-aid and basic medical help on campus.",
+      "aliases": [
+        "dispensary",
+        "doctor",
+        "medical",
+        "first aid"
+      ],
+      "verified": true,
+      "pos": [
+        0.457,
+        0.2915
+      ]
+    },
+    {
+      "id": "punjab-sind-bank",
+      "name": "Punjab & Sind Bank",
+      "category": "bank",
+      "lat": 30.86057,
+      "lon": 75.8597,
+      "node": "j-west",
+      "description": "Bank branch and ATM inside campus.",
+      "aliases": [
+        "bank",
+        "atm",
+        "psb"
+      ],
+      "verified": true,
+      "pos": [
+        0.2907,
+        0.3862
+      ]
+    },
+    {
+      "id": "business-admin",
+      "name": "Business Administration (MBA)",
+      "category": "academic",
+      "lat": 30.858,
+      "lon": 75.8601,
+      "node": "j-mba",
+      "description": "MBA department, computer lab and seminar hall BA. Position is approximate.",
+      "aliases": [
+        "mba",
+        "business administration",
+        "seminar hall ba",
+        "comp lab mba"
+      ],
+      "verified": false,
+      "pos": [
+        0.3372,
+        0.6596
+      ]
+    },
+    {
+      "id": "maintenance-cell",
+      "name": "Maintenance Cell",
+      "category": "admin",
+      "lat": 30.85992,
+      "lon": 75.86302,
+      "node": "j-sports",
+      "description": "Campus maintenance and works office.",
+      "aliases": [
+        "maintenance"
+      ],
+      "verified": true,
+      "pos": [
+        0.6767,
+        0.4553
+      ]
+    },
+    {
+      "id": "cdrt",
+      "name": "CDRT",
+      "category": "lab",
+      "lat": 30.85952,
+      "lon": 75.86286,
+      "node": "j-sports",
+      "description": "CDRT centre and workshops.",
+      "aliases": [
+        "cdrt"
+      ],
+      "verified": true,
+      "pos": [
+        0.6581,
+        0.4979
+      ]
+    },
+    {
+      "id": "tcc",
+      "name": "Testing & Consultancy Cell",
+      "category": "lab",
+      "lat": 30.85817,
+      "lon": 75.86031,
+      "node": "j-west",
+      "description": "Testing and consultancy services, near the library.",
+      "aliases": [
+        "tcc",
+        "testing"
+      ],
+      "verified": true,
+      "pos": [
+        0.3616,
+        0.6415
+      ]
+    },
+    {
+      "id": "director-bungalow",
+      "name": "Director's Bungalow",
+      "category": "landmark",
+      "lat": 30.86207,
+      "lon": 75.8599,
+      "node": "j-westgate",
+      "description": "Director's residence on the north-west side.",
+      "aliases": [
+        "director",
+        "bungalow"
+      ],
+      "verified": true,
+      "pos": [
+        0.314,
+        0.2266
+      ]
+    },
+    {
+      "id": "gndp-main",
+      "name": "GND Polytechnic",
+      "category": "academic",
+      "lat": 30.85751,
+      "lon": 75.86231,
+      "node": "j-gndp",
+      "description": "Guru Nanak Dev Polytechnic, on the shared campus south of GNDEC.",
+      "aliases": [
+        "polytechnic",
+        "gndp",
+        "diploma"
+      ],
+      "verified": true,
+      "pos": [
+        0.5942,
+        0.7117
+      ]
+    },
+    {
+      "id": "gndp-diploma",
+      "name": "Diploma Building",
+      "category": "academic",
+      "lat": 30.85647,
+      "lon": 75.861,
+      "node": "j-gndp",
+      "description": "Polytechnic diploma classrooms and labs.",
+      "aliases": [
+        "diploma building",
+        "gndp building"
+      ],
+      "verified": true,
+      "pos": [
+        0.4419,
+        0.8223
+      ]
+    },
+    {
+      "id": "gndp-canteen",
+      "name": "Diploma Canteen",
+      "category": "food",
+      "lat": 30.85773,
+      "lon": 75.86119,
+      "node": "j-poly",
+      "description": "Canteen shared with the polytechnic side.",
+      "aliases": [
+        "diploma canteen",
+        "poly canteen"
+      ],
+      "verified": true,
+      "pos": [
+        0.464,
+        0.6883
+      ]
+    },
+    {
+      "id": "gndp-sports",
+      "name": "GNDP Hockey Ground",
+      "category": "sports",
+      "lat": 30.85763,
+      "lon": 75.8633,
+      "node": "j-poly",
+      "description": "Polytechnic hockey ground and stadium area.",
+      "aliases": [
+        "poly hockey",
+        "stadium"
+      ],
+      "verified": true,
+      "pos": [
+        0.7093,
+        0.6989
+      ]
+    },
+    {
+      "id": "principal-bungalow",
+      "name": "Principal's Bungalow",
+      "category": "landmark",
+      "lat": 30.85882,
+      "lon": 75.85928,
+      "node": "j-westgate",
+      "description": "The heritage white residence with the blue dome near the staff-colony gate. The sign in the photograph identifies it as the Principal's Bungalow.",
+      "aliases": [
+        "principal house",
+        "principal residence",
+        "white bungalow",
+        "dome building"
+      ],
+      "verified": false,
+      "pos": [
+        0.2419,
+        0.5723
+      ],
+      "photo": "/assets/img/gallery/principal-bungalow.jpg",
+      "photoCredit": "Wikimedia Commons (CC)"
+    },
+    {
+      "id": "tennis-courts",
+      "name": "Tennis Courts",
+      "category": "sports",
+      "lat": 30.85958,
+      "lon": 75.86308,
+      "node": "j-sports",
+      "description": "Outdoor tennis courts beside the sports complex.",
+      "aliases": [
+        "tennis",
+        "lawn tennis"
+      ],
+      "verified": false,
+      "pos": [
+        0.6837,
+        0.4915
+      ],
+      "photo": "/assets/img/gallery/tennis-courts.jpg",
+      "photoCredit": "GNDEC gallery"
+    },
+    {
+      "id": "gym",
+      "name": "College Gym",
+      "category": "sports",
+      "lat": 30.85942,
+      "lon": 75.86292,
+      "node": "j-sports",
+      "description": "Indoor gym with weights and cardio equipment, inside the sports complex.",
+      "aliases": [
+        "gymnasium",
+        "fitness",
+        "weight room"
+      ],
+      "verified": false,
+      "pos": [
+        0.6651,
+        0.5085
+      ],
+      "photo": "/assets/img/gallery/gym-a.jpg",
+      "photoCredit": "GNDEC gallery"
+    }
+  ],
+  "junctions": [
+    {
+      "id": "j-main-gate",
+      "name": "Main Gate",
+      "lat": 30.8598,
+      "lon": 75.8637,
+      "pos": [
+        0.7558,
+        0.4681
+      ]
+    },
+    {
+      "id": "j-east",
+      "name": "East Walk",
+      "lat": 30.8602,
+      "lon": 75.8628,
+      "pos": [
+        0.6512,
+        0.4255
+      ]
+    },
+    {
+      "id": "j-quad",
+      "name": "Central Quad",
+      "lat": 30.8592,
+      "lon": 75.8616,
+      "pos": [
+        0.5116,
+        0.5319
+      ]
+    },
+    {
+      "id": "j-admin",
+      "name": "Admin Forecourt",
+      "lat": 30.85885,
+      "lon": 75.8607,
+      "pos": [
+        0.407,
+        0.5691
+      ]
+    },
+    {
+      "id": "j-library",
+      "name": "Library Corner",
+      "lat": 30.85845,
+      "lon": 75.8604,
+      "pos": [
+        0.3721,
+        0.6117
+      ]
+    },
+    {
+      "id": "j-labs",
+      "name": "Lab Crossing",
+      "lat": 30.85855,
+      "lon": 75.8613,
+      "pos": [
+        0.4767,
+        0.6011
+      ]
+    },
+    {
+      "id": "j-workshop",
+      "name": "Workshop Road",
+      "lat": 30.8593,
+      "lon": 75.86165,
+      "pos": [
+        0.5174,
+        0.5213
+      ]
+    },
+    {
+      "id": "j-sports",
+      "name": "Sports Corner",
+      "lat": 30.8595,
+      "lon": 75.8628,
+      "pos": [
+        0.6512,
+        0.5
+      ]
+    },
+    {
+      "id": "j-north",
+      "name": "North Academic Walk",
+      "lat": 30.8612,
+      "lon": 75.8615,
+      "pos": [
+        0.5,
+        0.3191
+      ]
+    },
+    {
+      "id": "j-hostel",
+      "name": "Hostel Circle",
+      "lat": 30.8618,
+      "lon": 75.8612,
+      "pos": [
+        0.4651,
+        0.2553
+      ]
+    },
+    {
+      "id": "j-northgate",
+      "name": "North Gate",
+      "lat": 30.8627,
+      "lon": 75.8615,
+      "pos": [
+        0.5,
+        0.1596
+      ]
+    },
+    {
+      "id": "j-south",
+      "name": "South Walk",
+      "lat": 30.8573,
+      "lon": 75.8618,
+      "pos": [
+        0.5349,
+        0.734
+      ]
+    },
+    {
+      "id": "j-poly",
+      "name": "Polytechnic Circle",
+      "lat": 30.8568,
+      "lon": 75.8615,
+      "pos": [
+        0.5,
+        0.7872
+      ]
+    },
+    {
+      "id": "j-southgate",
+      "name": "South Gate",
+      "lat": 30.85625,
+      "lon": 75.8612,
+      "pos": [
+        0.4651,
+        0.8457
+      ]
+    },
+    {
+      "id": "j-west",
+      "name": "West Walk",
+      "lat": 30.8588,
+      "lon": 75.8598,
+      "pos": [
+        0.3023,
+        0.5745
+      ]
+    },
+    {
+      "id": "j-westgate",
+      "name": "West Gate",
+      "lat": 30.8587,
+      "lon": 75.85925,
+      "pos": [
+        0.2384,
+        0.5851
+      ]
+    },
+    {
+      "id": "j-mba",
+      "name": "MBA Corner",
+      "lat": 30.8582,
+      "lon": 75.8601,
+      "pos": [
+        0.3372,
+        0.6383
+      ]
+    },
+    {
+      "id": "j-gndp",
+      "name": "Polytechnic Gate",
+      "lat": 30.8575,
+      "lon": 75.8623,
+      "pos": [
+        0.593,
+        0.7128
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "a": "j-main-gate",
+      "b": "j-east",
+      "note": "Walk west from the gate along the boundary road."
+    },
+    {
+      "a": "j-east",
+      "b": "j-sports",
+      "note": "Follow the road past the swimming pool turn."
+    },
+    {
+      "a": "j-sports",
+      "b": "j-quad",
+      "note": "Cut across the central lawn towards the academic blocks."
+    },
+    {
+      "a": "j-quad",
+      "b": "j-workshop",
+      "note": "Pass the automobile block and workshops."
+    },
+    {
+      "a": "j-workshop",
+      "b": "j-labs",
+      "note": "Continue south past the Mechanical department."
+    },
+    {
+      "a": "j-labs",
+      "b": "j-admin",
+      "note": "Walk west along the classroom row."
+    },
+    {
+      "a": "j-admin",
+      "b": "j-library",
+      "note": "Library is the next building west."
+    },
+    {
+      "a": "j-library",
+      "b": "j-west",
+      "note": "Continue west towards the bank and staff colony."
+    },
+    {
+      "a": "j-west",
+      "b": "j-westgate",
+      "note": "Exit towards the staff colony."
+    },
+    {
+      "a": "j-east",
+      "b": "j-north",
+      "note": "Head north along the east boundary."
+    },
+    {
+      "a": "j-north",
+      "b": "j-hostel",
+      "note": "Follow the road to the hostel circle."
+    },
+    {
+      "a": "j-hostel",
+      "b": "j-northgate",
+      "note": "North gate is behind the hostels."
+    },
+    {
+      "a": "j-quad",
+      "b": "j-north",
+      "note": "Walk north past the football ground."
+    },
+    {
+      "a": "j-labs",
+      "b": "j-south",
+      "note": "Head south past the Applied Science block."
+    },
+    {
+      "a": "j-south",
+      "b": "j-poly",
+      "note": "Cross towards the polytechnic side."
+    },
+    {
+      "a": "j-poly",
+      "b": "j-gndp",
+      "note": "Polytechnic main block is ahead."
+    },
+    {
+      "a": "j-gndp",
+      "b": "j-southgate",
+      "note": "Exit at the shared south gate."
+    },
+    {
+      "a": "j-admin",
+      "b": "j-mba",
+      "note": "MBA block is just south of the library."
+    },
+    {
+      "a": "j-mba",
+      "b": "j-west",
+      "note": "Short link back to the west walk."
+    },
+    {
+      "a": "j-quad",
+      "b": "j-labs",
+      "note": "Direct path between the central quad and lab crossing."
+    },
+    {
+      "a": "j-sports",
+      "b": "j-north",
+      "note": "Pass the Open Air Theatre on your left."
+    },
+    {
+      "a": "j-library",
+      "b": "j-labs",
+      "note": "Cut through the classroom row."
+    }
+  ],
+  "geometry": [
+    {
+      "id": "5822857",
+      "type": "amenity",
+      "kind": "school",
+      "name": "Nankana Sahib Public School",
+      "pts": [
+        [
+          0.5838,
+          1.1775
+        ],
+        [
+          0.5848,
+          1.0011
+        ],
+        [
+          0.4206,
+          0.8846
+        ],
+        [
+          0.3667,
+          0.945
+        ],
+        [
+          0.3737,
+          1.0814
+        ],
+        [
+          0.2962,
+          1.0919
+        ],
+        [
+          0.3174,
+          1.179
+        ],
+        [
+          0.4551,
+          1.177
+        ],
+        [
+          0.5838,
+          1.1775
+        ]
+      ]
+    },
+    {
+      "id": "6297884",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.3884,
+          0.5536
+        ],
+        [
+          0.3967,
+          0.5536
+        ],
+        [
+          0.4363,
+          0.5536
+        ],
+        [
+          0.4363,
+          0.5692
+        ],
+        [
+          0.3894,
+          0.5694
+        ],
+        [
+          0.3884,
+          0.5536
+        ]
+      ]
+    },
+    {
+      "id": "6361801",
+      "type": "building",
+      "kind": "yes",
+      "name": "Electronics & communication Engineering",
+      "pts": [
+        [
+          0.4175,
+          0.6444
+        ],
+        [
+          0.4517,
+          0.644
+        ],
+        [
+          0.4519,
+          0.6544
+        ],
+        [
+          0.4175,
+          0.655
+        ],
+        [
+          0.4175,
+          0.6444
+        ]
+      ]
+    },
+    {
+      "id": "6361851",
+      "type": "building",
+      "kind": "yes",
+      "name": "Electronics & communication Engineering",
+      "pts": [
+        [
+          0.4781,
+          0.6418
+        ],
+        [
+          0.511,
+          0.6418
+        ],
+        [
+          0.511,
+          0.6528
+        ],
+        [
+          0.4781,
+          0.6528
+        ],
+        [
+          0.4781,
+          0.6418
+        ]
+      ]
+    },
+    {
+      "id": "6910782",
+      "type": "leisure",
+      "kind": "swimming_pool",
+      "name": "GNDEC SWIMMING POOL",
+      "pts": [
+        [
+          0.6501,
+          0.3199
+        ],
+        [
+          0.6739,
+          0.3052
+        ],
+        [
+          0.6834,
+          0.3138
+        ],
+        [
+          0.66,
+          0.3295
+        ],
+        [
+          0.6501,
+          0.3199
+        ]
+      ]
+    },
+    {
+      "id": "17173187",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "HOCKEY GROUND",
+      "pts": [
+        [
+          0.2838,
+          0.2621
+        ],
+        [
+          0.354,
+          0.2616
+        ],
+        [
+          0.3544,
+          0.2826
+        ],
+        [
+          0.3555,
+          0.3205
+        ],
+        [
+          0.3565,
+          0.3617
+        ],
+        [
+          0.2858,
+          0.3609
+        ],
+        [
+          0.2838,
+          0.2621
+        ]
+      ]
+    },
+    {
+      "id": "17173539",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "",
+      "pts": [
+        [
+          0.3642,
+          0.3263
+        ],
+        [
+          0.3812,
+          0.3263
+        ],
+        [
+          0.3826,
+          0.3546
+        ],
+        [
+          0.3662,
+          0.3545
+        ],
+        [
+          0.3642,
+          0.3263
+        ]
+      ]
+    },
+    {
+      "id": "17579451",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "football ground",
+      "pts": [
+        [
+          0.4607,
+          0.3355
+        ],
+        [
+          0.5474,
+          0.3338
+        ],
+        [
+          0.5469,
+          0.3369
+        ],
+        [
+          0.5409,
+          0.3419
+        ],
+        [
+          0.5363,
+          0.3447
+        ],
+        [
+          0.5348,
+          0.3539
+        ],
+        [
+          0.5295,
+          0.3612
+        ],
+        [
+          0.5396,
+          0.3723
+        ],
+        [
+          0.5401,
+          0.376
+        ],
+        [
+          0.5252,
+          0.383
+        ],
+        [
+          0.55,
+          0.428
+        ],
+        [
+          0.501,
+          0.4313
+        ],
+        [
+          0.4626,
+          0.4283
+        ],
+        [
+          0.4607,
+          0.3355
+        ]
+      ]
+    },
+    {
+      "id": "22944300",
+      "type": "leisure",
+      "kind": "track",
+      "name": "",
+      "pts": [
+        [
+          0.6583,
+          0.5312
+        ],
+        [
+          0.6508,
+          0.5365
+        ],
+        [
+          0.6395,
+          0.5499
+        ],
+        [
+          0.6348,
+          0.5659
+        ],
+        [
+          0.637,
+          0.5873
+        ],
+        [
+          0.6438,
+          0.6059
+        ],
+        [
+          0.6587,
+          0.6161
+        ],
+        [
+          0.6667,
+          0.6189
+        ],
+        [
+          0.6759,
+          0.6209
+        ],
+        [
+          0.8106,
+          0.6183
+        ],
+        [
+          0.83,
+          0.6126
+        ],
+        [
+          0.8374,
+          0.6046
+        ],
+        [
+          0.8411,
+          0.59
+        ],
+        [
+          0.8428,
+          0.5758
+        ],
+        [
+          0.8428,
+          0.558
+        ],
+        [
+          0.8391,
+          0.5432
+        ],
+        [
+          0.8255,
+          0.5293
+        ],
+        [
+          0.8155,
+          0.525
+        ],
+        [
+          0.813,
+          0.5245
+        ],
+        [
+          0.8019,
+          0.5222
+        ],
+        [
+          0.7767,
+          0.5227
+        ],
+        [
+          0.669,
+          0.5246
+        ],
+        [
+          0.6583,
+          0.5312
+        ]
+      ]
+    },
+    {
+      "id": "23072850",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "",
+      "pts": [
+        [
+          0.4214,
+          0.3542
+        ],
+        [
+          0.4207,
+          0.3256
+        ],
+        [
+          0.4058,
+          0.3257
+        ],
+        [
+          0.4069,
+          0.354
+        ],
+        [
+          0.4214,
+          0.3542
+        ]
+      ]
+    },
+    {
+      "id": "27829192",
+      "type": "building",
+      "kind": "yes",
+      "name": "Acedemic Area",
+      "pts": [
+        [
+          0.379,
+          0.5753
+        ],
+        [
+          0.3796,
+          0.5881
+        ],
+        [
+          0.3935,
+          0.5885
+        ],
+        [
+          0.3947,
+          0.6465
+        ],
+        [
+          0.3952,
+          0.6528
+        ],
+        [
+          0.4108,
+          0.6526
+        ],
+        [
+          0.4094,
+          0.5871
+        ],
+        [
+          0.4524,
+          0.5867
+        ],
+        [
+          0.4546,
+          0.6542
+        ],
+        [
+          0.4712,
+          0.6536
+        ],
+        [
+          0.4692,
+          0.586
+        ],
+        [
+          0.513,
+          0.5854
+        ],
+        [
+          0.5144,
+          0.6506
+        ],
+        [
+          0.5288,
+          0.6504
+        ],
+        [
+          0.5281,
+          0.618
+        ],
+        [
+          0.5273,
+          0.5859
+        ],
+        [
+          0.5272,
+          0.581
+        ],
+        [
+          0.527,
+          0.5719
+        ],
+        [
+          0.379,
+          0.5753
+        ]
+      ]
+    },
+    {
+      "id": "38152756",
+      "type": "amenity",
+      "kind": "college",
+      "name": "Guru Nanak Dev Engineering College",
+      "pts": [
+        [
+          0.8747,
+          0.3877
+        ],
+        [
+          0.8645,
+          0.4824
+        ],
+        [
+          0.8644,
+          0.4828
+        ],
+        [
+          0.8453,
+          0.5774
+        ],
+        [
+          0.8217,
+          0.7828
+        ],
+        [
+          0.7821,
+          0.7941
+        ],
+        [
+          0.7821,
+          0.8935
+        ],
+        [
+          0.7034,
+          0.891
+        ],
+        [
+          0.6802,
+          0.9858
+        ],
+        [
+          0.6108,
+          0.9873
+        ],
+        [
+          0.5157,
+          0.9117
+        ],
+        [
+          0.4527,
+          0.8599
+        ],
+        [
+          0.285,
+          0.7339
+        ],
+        [
+          0.2862,
+          0.6673
+        ],
+        [
+          0.262,
+          0.0848
+        ],
+        [
+          0.259,
+          -0.068
+        ],
+        [
+          0.278,
+          -0.068
+        ],
+        [
+          0.8747,
+          0.3877
+        ]
+      ]
+    },
+    {
+      "id": "38173877",
+      "type": "building",
+      "kind": "yes",
+      "name": "Director's Bunglow",
+      "pts": [
+        [
+          0.3035,
+          0.2176
+        ],
+        [
+          0.3361,
+          0.2228
+        ],
+        [
+          0.3297,
+          0.2389
+        ],
+        [
+          0.2986,
+          0.2336
+        ],
+        [
+          0.3035,
+          0.2176
+        ]
+      ]
+    },
+    {
+      "id": "38173913",
+      "type": "amenity",
+      "kind": "parking",
+      "name": "GNE Boys Parking",
+      "pts": [
+        [
+          0.285,
+          0.4058
+        ],
+        [
+          0.3021,
+          0.4054
+        ],
+        [
+          0.3144,
+          0.4051
+        ],
+        [
+          0.3222,
+          0.4049
+        ],
+        [
+          0.3255,
+          0.4286
+        ],
+        [
+          0.3125,
+          0.439
+        ],
+        [
+          0.3081,
+          0.443
+        ],
+        [
+          0.3044,
+          0.446
+        ],
+        [
+          0.3023,
+          0.445
+        ],
+        [
+          0.3046,
+          0.449
+        ],
+        [
+          0.3063,
+          0.4605
+        ],
+        [
+          0.3066,
+          0.4735
+        ],
+        [
+          0.3189,
+          0.4801
+        ],
+        [
+          0.3187,
+          0.4807
+        ],
+        [
+          0.3217,
+          0.5129
+        ],
+        [
+          0.3155,
+          0.5128
+        ],
+        [
+          0.2894,
+          0.5127
+        ],
+        [
+          0.285,
+          0.4058
+        ]
+      ]
+    },
+    {
+      "id": "39817974",
+      "type": "building",
+      "kind": "yes",
+      "name": "Admin Block",
+      "pts": [
+        [
+          0.3815,
+          0.5536
+        ],
+        [
+          0.3815,
+          0.5688
+        ],
+        [
+          0.3783,
+          0.5688
+        ],
+        [
+          0.3783,
+          0.5713
+        ],
+        [
+          0.3683,
+          0.5711
+        ],
+        [
+          0.3683,
+          0.5862
+        ],
+        [
+          0.3462,
+          0.5862
+        ],
+        [
+          0.3462,
+          0.5714
+        ],
+        [
+          0.3462,
+          0.5536
+        ],
+        [
+          0.3768,
+          0.5536
+        ],
+        [
+          0.3815,
+          0.5536
+        ]
+      ]
+    },
+    {
+      "id": "45071736",
+      "type": "building",
+      "kind": "yes",
+      "name": "Sub Tehsil, Gill road",
+      "pts": [
+        [
+          0.3161,
+          0.8354
+        ],
+        [
+          0.3561,
+          0.8356
+        ],
+        [
+          0.3555,
+          0.8988
+        ],
+        [
+          0.3155,
+          0.8986
+        ],
+        [
+          0.3161,
+          0.8354
+        ]
+      ]
+    },
+    {
+      "id": "59734346",
+      "type": "amenity",
+      "kind": "parking",
+      "name": "GNE Girls Parking",
+      "pts": [
+        [
+          0.2894,
+          0.5127
+        ],
+        [
+          0.3155,
+          0.5128
+        ],
+        [
+          0.3217,
+          0.5129
+        ],
+        [
+          0.326,
+          0.5907
+        ],
+        [
+          0.2921,
+          0.5903
+        ],
+        [
+          0.2894,
+          0.5127
+        ]
+      ]
+    },
+    {
+      "id": "59734347",
+      "type": "amenity",
+      "kind": "parking",
+      "name": "",
+      "pts": [
+        [
+          0.2937,
+          0.6574
+        ],
+        [
+          0.3266,
+          0.6577
+        ],
+        [
+          0.326,
+          0.5907
+        ],
+        [
+          0.2921,
+          0.5903
+        ],
+        [
+          0.2937,
+          0.6574
+        ]
+      ]
+    },
+    {
+      "id": "107959920",
+      "type": "building",
+      "kind": "yes",
+      "name": "Mess No.1",
+      "pts": [
+        [
+          0.7856,
+          0.3657
+        ],
+        [
+          0.7819,
+          0.3545
+        ],
+        [
+          0.7741,
+          0.3439
+        ],
+        [
+          0.7588,
+          0.341
+        ],
+        [
+          0.7516,
+          0.3479
+        ],
+        [
+          0.7497,
+          0.3548
+        ],
+        [
+          0.7554,
+          0.366
+        ],
+        [
+          0.767,
+          0.3682
+        ],
+        [
+          0.7853,
+          0.3682
+        ],
+        [
+          0.7856,
+          0.3657
+        ]
+      ]
+    },
+    {
+      "id": "110361783",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.6422,
+          0.4167
+        ],
+        [
+          0.8049,
+          0.4131
+        ],
+        [
+          0.8044,
+          0.3996
+        ],
+        [
+          0.6417,
+          0.4031
+        ],
+        [
+          0.6422,
+          0.4167
+        ]
+      ]
+    },
+    {
+      "id": "110361788",
+      "type": "building",
+      "kind": "yes",
+      "name": "Boys Hostel 2",
+      "pts": [
+        [
+          0.5717,
+          0.2789
+        ],
+        [
+          0.5699,
+          0.2084
+        ],
+        [
+          0.5588,
+          0.2085
+        ],
+        [
+          0.5595,
+          0.2337
+        ],
+        [
+          0.5509,
+          0.2339
+        ],
+        [
+          0.5507,
+          0.2281
+        ],
+        [
+          0.5455,
+          0.2282
+        ],
+        [
+          0.5453,
+          0.239
+        ],
+        [
+          0.5594,
+          0.2375
+        ],
+        [
+          0.5604,
+          0.279
+        ],
+        [
+          0.5717,
+          0.2789
+        ]
+      ]
+    },
+    {
+      "id": "110361791",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.6421,
+          0.3918
+        ],
+        [
+          0.8085,
+          0.3886
+        ],
+        [
+          0.808,
+          0.3749
+        ],
+        [
+          0.6572,
+          0.3778
+        ],
+        [
+          0.6417,
+          0.3781
+        ],
+        [
+          0.6421,
+          0.3918
+        ]
+      ]
+    },
+    {
+      "id": "110363257",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.3797,
+          0.1597
+        ],
+        [
+          0.3929,
+          0.1673
+        ],
+        [
+          0.3904,
+          0.1699
+        ],
+        [
+          0.3988,
+          0.1706
+        ],
+        [
+          0.3994,
+          0.1747
+        ],
+        [
+          0.3959,
+          0.1777
+        ],
+        [
+          0.3924,
+          0.1786
+        ],
+        [
+          0.388,
+          0.1816
+        ],
+        [
+          0.3847,
+          0.1844
+        ],
+        [
+          0.3812,
+          0.1852
+        ],
+        [
+          0.3718,
+          0.1832
+        ],
+        [
+          0.3656,
+          0.1867
+        ],
+        [
+          0.3561,
+          0.181
+        ],
+        [
+          0.356,
+          0.167
+        ],
+        [
+          0.3641,
+          0.1606
+        ],
+        [
+          0.3728,
+          0.1666
+        ],
+        [
+          0.3797,
+          0.1597
+        ]
+      ]
+    },
+    {
+      "id": "110363258",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.4138,
+          0.2237
+        ],
+        [
+          0.4079,
+          0.2238
+        ],
+        [
+          0.4037,
+          0.2214
+        ],
+        [
+          0.3998,
+          0.2197
+        ],
+        [
+          0.3952,
+          0.2185
+        ],
+        [
+          0.3899,
+          0.2183
+        ],
+        [
+          0.3855,
+          0.2193
+        ],
+        [
+          0.3814,
+          0.221
+        ],
+        [
+          0.3789,
+          0.2185
+        ],
+        [
+          0.3743,
+          0.2217
+        ],
+        [
+          0.3715,
+          0.2249
+        ],
+        [
+          0.3705,
+          0.2283
+        ],
+        [
+          0.3708,
+          0.2318
+        ],
+        [
+          0.3721,
+          0.2345
+        ],
+        [
+          0.3749,
+          0.2372
+        ],
+        [
+          0.378,
+          0.2391
+        ],
+        [
+          0.3799,
+          0.2362
+        ],
+        [
+          0.3839,
+          0.238
+        ],
+        [
+          0.3884,
+          0.2394
+        ],
+        [
+          0.3934,
+          0.24
+        ],
+        [
+          0.399,
+          0.2391
+        ],
+        [
+          0.4038,
+          0.2374
+        ],
+        [
+          0.4082,
+          0.235
+        ],
+        [
+          0.4141,
+          0.235
+        ],
+        [
+          0.4138,
+          0.2237
+        ]
+      ]
+    },
+    {
+      "id": "110363259",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.3463,
+          0.1573
+        ],
+        [
+          0.2995,
+          0.119
+        ],
+        [
+          0.2878,
+          0.1284
+        ],
+        [
+          0.3297,
+          0.1607
+        ],
+        [
+          0.3261,
+          0.1638
+        ],
+        [
+          0.3313,
+          0.168
+        ],
+        [
+          0.3463,
+          0.1573
+        ]
+      ]
+    },
+    {
+      "id": "110363260",
+      "type": "building",
+      "kind": "yes",
+      "name": "Hostel No. 4(Girls)",
+      "pts": [
+        [
+          0.349,
+          0.1393
+        ],
+        [
+          0.3119,
+          0.1091
+        ],
+        [
+          0.3185,
+          0.1044
+        ],
+        [
+          0.3205,
+          0.106
+        ],
+        [
+          0.3244,
+          0.1028
+        ],
+        [
+          0.3596,
+          0.1322
+        ],
+        [
+          0.349,
+          0.1393
+        ]
+      ]
+    },
+    {
+      "id": "110364032",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.6428,
+          0.8973
+        ],
+        [
+          0.6068,
+          0.9276
+        ],
+        [
+          0.6233,
+          0.9386
+        ],
+        [
+          0.6249,
+          0.9374
+        ],
+        [
+          0.6332,
+          0.9437
+        ],
+        [
+          0.6372,
+          0.9402
+        ],
+        [
+          0.6653,
+          0.96
+        ],
+        [
+          0.6794,
+          0.9477
+        ],
+        [
+          0.6503,
+          0.9271
+        ],
+        [
+          0.645,
+          0.9317
+        ],
+        [
+          0.6378,
+          0.9267
+        ],
+        [
+          0.6577,
+          0.9093
+        ],
+        [
+          0.6553,
+          0.9076
+        ],
+        [
+          0.6632,
+          0.9008
+        ],
+        [
+          0.6519,
+          0.8928
+        ],
+        [
+          0.6449,
+          0.8988
+        ],
+        [
+          0.6428,
+          0.8973
+        ]
+      ]
+    },
+    {
+      "id": "110364034",
+      "type": "building",
+      "kind": "yes",
+      "name": "SPORTS COMPLEX",
+      "pts": [
+        [
+          0.6894,
+          0.6524
+        ],
+        [
+          0.7162,
+          0.6514
+        ],
+        [
+          0.7158,
+          0.6433
+        ],
+        [
+          0.7259,
+          0.6434
+        ],
+        [
+          0.726,
+          0.6508
+        ],
+        [
+          0.7689,
+          0.6493
+        ],
+        [
+          0.7705,
+          0.631
+        ],
+        [
+          0.7253,
+          0.6324
+        ],
+        [
+          0.7254,
+          0.6386
+        ],
+        [
+          0.7157,
+          0.6389
+        ],
+        [
+          0.7155,
+          0.6329
+        ],
+        [
+          0.6898,
+          0.634
+        ],
+        [
+          0.6894,
+          0.6524
+        ]
+      ]
+    },
+    {
+      "id": "110364035",
+      "type": "building",
+      "kind": "yes",
+      "name": "Diploma Canteen",
+      "pts": [
+        [
+          0.4411,
+          0.6805
+        ],
+        [
+          0.5059,
+          0.6802
+        ],
+        [
+          0.506,
+          0.6921
+        ],
+        [
+          0.4574,
+          0.6924
+        ],
+        [
+          0.4574,
+          0.6953
+        ],
+        [
+          0.4412,
+          0.6954
+        ],
+        [
+          0.4411,
+          0.6805
+        ]
+      ]
+    },
+    {
+      "id": "110364436",
+      "type": "building",
+      "kind": "yes",
+      "name": "AUTOMOBILE WORKSHOP",
+      "pts": [
+        [
+          0.613,
+          0.5983
+        ],
+        [
+          0.6149,
+          0.6356
+        ],
+        [
+          0.5833,
+          0.6364
+        ],
+        [
+          0.5795,
+          0.5995
+        ],
+        [
+          0.613,
+          0.5983
+        ]
+      ]
+    },
+    {
+      "id": "110364438",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.579,
+          0.6814
+        ],
+        [
+          0.6287,
+          0.6807
+        ],
+        [
+          0.629,
+          0.6947
+        ],
+        [
+          0.5787,
+          0.6954
+        ],
+        [
+          0.5788,
+          0.7007
+        ],
+        [
+          0.629,
+          0.7
+        ],
+        [
+          0.6294,
+          0.7205
+        ],
+        [
+          0.5834,
+          0.7211
+        ],
+        [
+          0.5836,
+          0.7305
+        ],
+        [
+          0.6292,
+          0.7299
+        ],
+        [
+          0.6295,
+          0.7434
+        ],
+        [
+          0.5437,
+          0.7445
+        ],
+        [
+          0.5443,
+          0.7705
+        ],
+        [
+          0.5269,
+          0.7707
+        ],
+        [
+          0.5233,
+          0.7336
+        ],
+        [
+          0.5619,
+          0.7333
+        ],
+        [
+          0.5584,
+          0.7283
+        ],
+        [
+          0.5607,
+          0.724
+        ],
+        [
+          0.558,
+          0.7193
+        ],
+        [
+          0.5597,
+          0.7141
+        ],
+        [
+          0.558,
+          0.7084
+        ],
+        [
+          0.5597,
+          0.7007
+        ],
+        [
+          0.538,
+          0.7008
+        ],
+        [
+          0.5385,
+          0.6887
+        ],
+        [
+          0.5676,
+          0.6852
+        ],
+        [
+          0.5673,
+          0.6737
+        ],
+        [
+          0.5788,
+          0.6735
+        ],
+        [
+          0.579,
+          0.6814
+        ]
+      ]
+    },
+    {
+      "id": "110364440",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.6119,
+          0.5837
+        ],
+        [
+          0.5665,
+          0.5841
+        ],
+        [
+          0.5664,
+          0.5766
+        ],
+        [
+          0.5695,
+          0.5766
+        ],
+        [
+          0.5694,
+          0.5732
+        ],
+        [
+          0.595,
+          0.5729
+        ],
+        [
+          0.5948,
+          0.5578
+        ],
+        [
+          0.6115,
+          0.5576
+        ],
+        [
+          0.6119,
+          0.5837
+        ]
+      ]
+    },
+    {
+      "id": "230598493",
+      "type": "building",
+      "kind": "yes",
+      "name": "Library",
+      "pts": [
+        [
+          0.3436,
+          0.6127
+        ],
+        [
+          0.344,
+          0.6241
+        ],
+        [
+          0.3476,
+          0.6258
+        ],
+        [
+          0.3477,
+          0.6349
+        ],
+        [
+          0.3619,
+          0.6348
+        ],
+        [
+          0.3615,
+          0.6129
+        ],
+        [
+          0.3436,
+          0.6127
+        ]
+      ]
+    },
+    {
+      "id": "230598545",
+      "type": "building",
+      "kind": "yes",
+      "name": "Testing and Consultancy Cell, GNDEC",
+      "pts": [
+        [
+          0.3424,
+          0.6359
+        ],
+        [
+          0.3431,
+          0.6511
+        ],
+        [
+          0.3883,
+          0.6516
+        ],
+        [
+          0.3911,
+          0.6352
+        ],
+        [
+          0.3424,
+          0.6359
+        ]
+      ]
+    },
+    {
+      "id": "231059154",
+      "type": "building",
+      "kind": "yes",
+      "name": "Boys Hostel 2",
+      "pts": [
+        [
+          0.5453,
+          0.239
+        ],
+        [
+          0.5406,
+          0.2536
+        ],
+        [
+          0.5202,
+          0.2566
+        ],
+        [
+          0.5067,
+          0.2537
+        ],
+        [
+          0.5093,
+          0.2367
+        ],
+        [
+          0.5113,
+          0.2132
+        ],
+        [
+          0.5445,
+          0.2131
+        ],
+        [
+          0.5453,
+          0.239
+        ]
+      ]
+    },
+    {
+      "id": "250107706",
+      "type": "building",
+      "kind": "college",
+      "name": "Dept. of Information Technology",
+      "pts": [
+        [
+          0.3373,
+          0.3975
+        ],
+        [
+          0.3369,
+          0.4102
+        ],
+        [
+          0.3815,
+          0.4102
+        ],
+        [
+          0.3816,
+          0.3966
+        ],
+        [
+          0.3373,
+          0.3975
+        ]
+      ]
+    },
+    {
+      "id": "254606293",
+      "type": "amenity",
+      "kind": "parking",
+      "name": "GNDP Parking",
+      "pts": [
+        [
+          0.3481,
+          0.6831
+        ],
+        [
+          0.3207,
+          0.6839
+        ],
+        [
+          0.3216,
+          0.7485
+        ],
+        [
+          0.3925,
+          0.8086
+        ],
+        [
+          0.4058,
+          0.8057
+        ],
+        [
+          0.4124,
+          0.7915
+        ],
+        [
+          0.3538,
+          0.7411
+        ],
+        [
+          0.353,
+          0.7186
+        ],
+        [
+          0.3481,
+          0.6831
+        ]
+      ]
+    },
+    {
+      "id": "254606532",
+      "type": "leisure",
+      "kind": "stadium",
+      "name": "GNDP Hockey Ground",
+      "pts": [
+        [
+          0.6569,
+          0.6724
+        ],
+        [
+          0.6613,
+          0.7446
+        ],
+        [
+          0.7878,
+          0.7398
+        ],
+        [
+          0.7834,
+          0.6676
+        ],
+        [
+          0.6569,
+          0.6724
+        ]
+      ]
+    },
+    {
+      "id": "254606535",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "GNDP Football Ground",
+      "pts": [
+        [
+          0.5496,
+          0.7739
+        ],
+        [
+          0.6421,
+          0.772
+        ],
+        [
+          0.6456,
+          0.8759
+        ],
+        [
+          0.5531,
+          0.8778
+        ],
+        [
+          0.5496,
+          0.7739
+        ]
+      ]
+    },
+    {
+      "id": "294683202",
+      "type": "building",
+      "kind": "industrial",
+      "name": "Anand Enterprises",
+      "pts": [
+        [
+          0.1242,
+          0.7891
+        ],
+        [
+          0.1379,
+          0.7893
+        ],
+        [
+          0.1383,
+          0.8028
+        ],
+        [
+          0.1244,
+          0.8026
+        ],
+        [
+          0.1242,
+          0.7891
+        ]
+      ]
+    },
+    {
+      "id": "294683205",
+      "type": "building",
+      "kind": "commercial",
+      "name": "CSIOM",
+      "pts": [
+        [
+          0.1098,
+          0.7887
+        ],
+        [
+          0.1242,
+          0.7891
+        ],
+        [
+          0.1244,
+          0.8026
+        ],
+        [
+          0.1096,
+          0.8023
+        ],
+        [
+          0.1098,
+          0.7887
+        ]
+      ]
+    },
+    {
+      "id": "344735757",
+      "type": "amenity",
+      "kind": "college",
+      "name": "Boys Hostel No. 2",
+      "pts": [
+        [
+          0.4764,
+          0.269
+        ],
+        [
+          0.4794,
+          0.1959
+        ],
+        [
+          0.4666,
+          0.1964
+        ],
+        [
+          0.4643,
+          0.2688
+        ],
+        [
+          0.4764,
+          0.269
+        ]
+      ]
+    },
+    {
+      "id": "344735758",
+      "type": "amenity",
+      "kind": "college",
+      "name": "Hostel No. 2",
+      "pts": [
+        [
+          0.4809,
+          0.2385
+        ],
+        [
+          0.4864,
+          0.2389
+        ],
+        [
+          0.4867,
+          0.2338
+        ],
+        [
+          0.4936,
+          0.2343
+        ],
+        [
+          0.4939,
+          0.2369
+        ],
+        [
+          0.5026,
+          0.2364
+        ],
+        [
+          0.5026,
+          0.2418
+        ],
+        [
+          0.4941,
+          0.2416
+        ],
+        [
+          0.4947,
+          0.2449
+        ],
+        [
+          0.4868,
+          0.245
+        ],
+        [
+          0.4876,
+          0.2424
+        ],
+        [
+          0.4813,
+          0.2438
+        ],
+        [
+          0.4809,
+          0.2385
+        ]
+      ]
+    },
+    {
+      "id": "349682942",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "Baketball",
+      "pts": [
+        [
+          0.3882,
+          0.2891
+        ],
+        [
+          0.39,
+          0.3207
+        ],
+        [
+          0.3697,
+          0.3214
+        ],
+        [
+          0.3678,
+          0.2893
+        ],
+        [
+          0.3781,
+          0.2893
+        ],
+        [
+          0.3882,
+          0.2891
+        ]
+      ]
+    },
+    {
+      "id": "349682943",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "Bsketball Ground",
+      "pts": [
+        [
+          0.3583,
+          0.2847
+        ],
+        [
+          0.3702,
+          0.2849
+        ],
+        [
+          0.382,
+          0.2849
+        ],
+        [
+          0.381,
+          0.2555
+        ],
+        [
+          0.3573,
+          0.2557
+        ],
+        [
+          0.3583,
+          0.2847
+        ]
+      ]
+    },
+    {
+      "id": "355399916",
+      "type": "amenity",
+      "kind": "clinic",
+      "name": "College Dispensary",
+      "pts": [
+        [
+          0.4487,
+          0.2891
+        ],
+        [
+          0.4493,
+          0.2958
+        ],
+        [
+          0.4691,
+          0.2947
+        ],
+        [
+          0.4686,
+          0.2881
+        ],
+        [
+          0.4487,
+          0.2891
+        ]
+      ]
+    },
+    {
+      "id": "439260507",
+      "type": "building",
+      "kind": "yes",
+      "name": "Common Room",
+      "pts": [
+        [
+          0.8214,
+          0.4337
+        ],
+        [
+          0.8223,
+          0.4518
+        ],
+        [
+          0.8467,
+          0.4518
+        ],
+        [
+          0.8464,
+          0.4332
+        ],
+        [
+          0.8214,
+          0.4337
+        ]
+      ]
+    },
+    {
+      "id": "439260508",
+      "type": "building",
+      "kind": "yes",
+      "name": "Mess No. 5",
+      "pts": [
+        [
+          0.8223,
+          0.4518
+        ],
+        [
+          0.8233,
+          0.4724
+        ],
+        [
+          0.8479,
+          0.4729
+        ],
+        [
+          0.8467,
+          0.4518
+        ],
+        [
+          0.8223,
+          0.4518
+        ]
+      ]
+    },
+    {
+      "id": "439862162",
+      "type": "leisure",
+      "kind": "park",
+      "name": "SPORTS COMPLEX",
+      "pts": [
+        [
+          0.669,
+          0.5246
+        ],
+        [
+          0.6583,
+          0.5312
+        ],
+        [
+          0.6508,
+          0.5365
+        ],
+        [
+          0.6395,
+          0.5499
+        ],
+        [
+          0.6348,
+          0.5659
+        ],
+        [
+          0.637,
+          0.5873
+        ],
+        [
+          0.6438,
+          0.6059
+        ],
+        [
+          0.6587,
+          0.6161
+        ],
+        [
+          0.6667,
+          0.6189
+        ],
+        [
+          0.6759,
+          0.6209
+        ],
+        [
+          0.8106,
+          0.6183
+        ],
+        [
+          0.83,
+          0.6126
+        ],
+        [
+          0.8374,
+          0.6046
+        ],
+        [
+          0.8411,
+          0.59
+        ],
+        [
+          0.8428,
+          0.5758
+        ],
+        [
+          0.8428,
+          0.558
+        ],
+        [
+          0.8391,
+          0.5432
+        ],
+        [
+          0.8255,
+          0.5293
+        ],
+        [
+          0.813,
+          0.5245
+        ],
+        [
+          0.8019,
+          0.5222
+        ],
+        [
+          0.7767,
+          0.5227
+        ],
+        [
+          0.669,
+          0.5246
+        ]
+      ]
+    },
+    {
+      "id": "439862163",
+      "type": "building",
+      "kind": "yes",
+      "name": "OPEN AIR THEATRE",
+      "pts": [
+        [
+          0.5465,
+          0.3459
+        ],
+        [
+          0.5458,
+          0.3522
+        ],
+        [
+          0.5443,
+          0.3556
+        ],
+        [
+          0.5436,
+          0.3614
+        ],
+        [
+          0.5449,
+          0.3661
+        ],
+        [
+          0.5448,
+          0.3697
+        ],
+        [
+          0.5447,
+          0.373
+        ],
+        [
+          0.5445,
+          0.3766
+        ],
+        [
+          0.5444,
+          0.379
+        ],
+        [
+          0.544,
+          0.3834
+        ],
+        [
+          0.5432,
+          0.3881
+        ],
+        [
+          0.545,
+          0.3945
+        ],
+        [
+          0.5633,
+          0.394
+        ],
+        [
+          0.5769,
+          0.4014
+        ],
+        [
+          0.5963,
+          0.4136
+        ],
+        [
+          0.6028,
+          0.4033
+        ],
+        [
+          0.6061,
+          0.3903
+        ],
+        [
+          0.6067,
+          0.3715
+        ],
+        [
+          0.6037,
+          0.3541
+        ],
+        [
+          0.5986,
+          0.3405
+        ],
+        [
+          0.591,
+          0.3321
+        ],
+        [
+          0.564,
+          0.3466
+        ],
+        [
+          0.5547,
+          0.3462
+        ],
+        [
+          0.5465,
+          0.3459
+        ]
+      ]
+    },
+    {
+      "id": "439868966",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "",
+      "pts": [
+        [
+          0.3853,
+          0.3261
+        ],
+        [
+          0.3873,
+          0.3542
+        ],
+        [
+          0.404,
+          0.3543
+        ],
+        [
+          0.4028,
+          0.3257
+        ],
+        [
+          0.3853,
+          0.3261
+        ]
+      ]
+    },
+    {
+      "id": "439868967",
+      "type": "building",
+      "kind": "yes",
+      "name": "Maintenance Cell",
+      "pts": [
+        [
+          0.6334,
+          0.4405
+        ],
+        [
+          0.7423,
+          0.4398
+        ],
+        [
+          0.7407,
+          0.4775
+        ],
+        [
+          0.6337,
+          0.4795
+        ],
+        [
+          0.6334,
+          0.4405
+        ]
+      ]
+    },
+    {
+      "id": "503497033",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1392,
+          0.1941
+        ],
+        [
+          0.1983,
+          0.1916
+        ],
+        [
+          0.2036,
+          0.2592
+        ],
+        [
+          0.1401,
+          0.2599
+        ],
+        [
+          0.1392,
+          0.1941
+        ]
+      ]
+    },
+    {
+      "id": "503603691",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.3067,
+          0.7849
+        ],
+        [
+          0.3087,
+          0.7862
+        ],
+        [
+          0.3112,
+          0.7869
+        ],
+        [
+          0.3139,
+          0.787
+        ],
+        [
+          0.3164,
+          0.7864
+        ],
+        [
+          0.3186,
+          0.7852
+        ],
+        [
+          0.3202,
+          0.7835
+        ],
+        [
+          0.3209,
+          0.7815
+        ],
+        [
+          0.3208,
+          0.7794
+        ],
+        [
+          0.3198,
+          0.7774
+        ],
+        [
+          0.3181,
+          0.7758
+        ],
+        [
+          0.3158,
+          0.7747
+        ],
+        [
+          0.3132,
+          0.7743
+        ],
+        [
+          0.3105,
+          0.7746
+        ],
+        [
+          0.3081,
+          0.7755
+        ],
+        [
+          0.3062,
+          0.777
+        ],
+        [
+          0.305,
+          0.7789
+        ],
+        [
+          0.3047,
+          0.781
+        ],
+        [
+          0.3053,
+          0.7831
+        ],
+        [
+          0.3067,
+          0.7849
+        ]
+      ]
+    },
+    {
+      "id": "503991313",
+      "type": "building",
+      "kind": "industrial",
+      "name": "Workshop",
+      "pts": [
+        [
+          0.5118,
+          0.4404
+        ],
+        [
+          0.5227,
+          0.4402
+        ],
+        [
+          0.5233,
+          0.4555
+        ],
+        [
+          0.5262,
+          0.5385
+        ],
+        [
+          0.514,
+          0.5385
+        ],
+        [
+          0.5118,
+          0.4404
+        ]
+      ]
+    },
+    {
+      "id": "506994741",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.6264,
+          0.3233
+        ],
+        [
+          0.6408,
+          0.3406
+        ],
+        [
+          0.6521,
+          0.3347
+        ],
+        [
+          0.6372,
+          0.3175
+        ],
+        [
+          0.6264,
+          0.3233
+        ]
+      ]
+    },
+    {
+      "id": "507298018",
+      "type": "amenity",
+      "kind": "toilets",
+      "name": "",
+      "pts": [
+        [
+          0.3241,
+          0.4462
+        ],
+        [
+          0.3208,
+          0.4485
+        ],
+        [
+          0.3046,
+          0.449
+        ],
+        [
+          0.3026,
+          0.4452
+        ],
+        [
+          0.3125,
+          0.439
+        ],
+        [
+          0.3241,
+          0.4462
+        ]
+      ]
+    },
+    {
+      "id": "507343896",
+      "type": "amenity",
+      "kind": "toilets",
+      "name": "",
+      "pts": [
+        [
+          0.3208,
+          0.4485
+        ],
+        [
+          0.3164,
+          0.4469
+        ],
+        [
+          0.3081,
+          0.443
+        ],
+        [
+          0.3044,
+          0.446
+        ],
+        [
+          0.3046,
+          0.449
+        ],
+        [
+          0.3208,
+          0.4485
+        ]
+      ]
+    },
+    {
+      "id": "507343898",
+      "type": "amenity",
+      "kind": "toilets",
+      "name": "",
+      "pts": [
+        [
+          0.3081,
+          0.443
+        ],
+        [
+          0.3164,
+          0.4469
+        ],
+        [
+          0.3207,
+          0.4441
+        ],
+        [
+          0.3125,
+          0.439
+        ],
+        [
+          0.3081,
+          0.443
+        ]
+      ]
+    },
+    {
+      "id": "507712227",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.5227,
+          0.4402
+        ],
+        [
+          0.5648,
+          0.4385
+        ],
+        [
+          0.5693,
+          0.5443
+        ],
+        [
+          0.5403,
+          0.544
+        ],
+        [
+          0.5389,
+          0.4555
+        ],
+        [
+          0.5233,
+          0.4555
+        ],
+        [
+          0.5227,
+          0.4402
+        ]
+      ]
+    },
+    {
+      "id": "507714384",
+      "type": "amenity",
+      "kind": "college",
+      "name": "Dept of applied science",
+      "pts": [
+        [
+          0.5198,
+          0.5841
+        ],
+        [
+          0.5259,
+          0.5837
+        ],
+        [
+          0.5262,
+          0.5893
+        ],
+        [
+          0.5201,
+          0.5897
+        ],
+        [
+          0.5198,
+          0.5841
+        ]
+      ]
+    },
+    {
+      "id": "511112878",
+      "type": "building",
+      "kind": "yes",
+      "name": "Production Department",
+      "pts": [
+        [
+          0.5281,
+          0.618
+        ],
+        [
+          0.5702,
+          0.6177
+        ],
+        [
+          0.5688,
+          0.5854
+        ],
+        [
+          0.6119,
+          0.5837
+        ],
+        [
+          0.6115,
+          0.5576
+        ],
+        [
+          0.5948,
+          0.5578
+        ],
+        [
+          0.595,
+          0.5729
+        ],
+        [
+          0.5694,
+          0.5732
+        ],
+        [
+          0.5695,
+          0.5766
+        ],
+        [
+          0.5664,
+          0.5766
+        ],
+        [
+          0.5664,
+          0.5723
+        ],
+        [
+          0.5567,
+          0.5722
+        ],
+        [
+          0.5568,
+          0.5809
+        ],
+        [
+          0.5311,
+          0.581
+        ],
+        [
+          0.5272,
+          0.581
+        ],
+        [
+          0.5281,
+          0.618
+        ]
+      ]
+    },
+    {
+      "id": "511187535",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.5582,
+          0.6351
+        ],
+        [
+          0.5583,
+          0.6425
+        ],
+        [
+          0.5657,
+          0.641
+        ],
+        [
+          0.5673,
+          0.634
+        ],
+        [
+          0.5582,
+          0.6351
+        ]
+      ]
+    },
+    {
+      "id": "511618260",
+      "type": "building",
+      "kind": "PG",
+      "name": "Abhay's PG",
+      "pts": [
+        [
+          -0.0144,
+          0.3774
+        ],
+        [
+          -0.014,
+          0.3708
+        ],
+        [
+          -0.0116,
+          0.3708
+        ],
+        [
+          -0.0115,
+          0.364
+        ],
+        [
+          -0.0224,
+          0.3638
+        ],
+        [
+          -0.0233,
+          0.3768
+        ],
+        [
+          -0.0144,
+          0.3774
+        ]
+      ]
+    },
+    {
+      "id": "556749859",
+      "type": "building",
+      "kind": "yes",
+      "name": "CDRT Workshops",
+      "pts": [
+        [
+          0.6867,
+          0.4964
+        ],
+        [
+          0.755,
+          0.4944
+        ],
+        [
+          0.7544,
+          0.5162
+        ],
+        [
+          0.6886,
+          0.5162
+        ],
+        [
+          0.6867,
+          0.4964
+        ]
+      ]
+    },
+    {
+      "id": "556749860",
+      "type": "building",
+      "kind": "yes",
+      "name": "CDRT",
+      "pts": [
+        [
+          0.6504,
+          0.4978
+        ],
+        [
+          0.6538,
+          0.4945
+        ],
+        [
+          0.6579,
+          0.4906
+        ],
+        [
+          0.6705,
+          0.4905
+        ],
+        [
+          0.6702,
+          0.5073
+        ],
+        [
+          0.6508,
+          0.5072
+        ],
+        [
+          0.6504,
+          0.4978
+        ]
+      ]
+    },
+    {
+      "id": "841308413",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.208,
+          0.3586
+        ],
+        [
+          0.2304,
+          0.3594
+        ],
+        [
+          0.2299,
+          0.3682
+        ],
+        [
+          0.2076,
+          0.3675
+        ],
+        [
+          0.208,
+          0.3586
+        ]
+      ]
+    },
+    {
+      "id": "841610637",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.7332,
+          0.9577
+        ],
+        [
+          0.7462,
+          0.9581
+        ],
+        [
+          0.7455,
+          0.9724
+        ],
+        [
+          0.7325,
+          0.972
+        ],
+        [
+          0.7332,
+          0.9577
+        ]
+      ]
+    },
+    {
+      "id": "1244859417",
+      "type": "leisure",
+      "kind": "park",
+      "name": "Childern park",
+      "pts": [
+        [
+          0.6628,
+          0.7974
+        ],
+        [
+          0.6635,
+          0.8467
+        ],
+        [
+          0.7351,
+          0.846
+        ],
+        [
+          0.7351,
+          0.7981
+        ],
+        [
+          0.6628,
+          0.7974
+        ]
+      ]
+    },
+    {
+      "id": "1244859419",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "",
+      "pts": [
+        [
+          0.6415,
+          0.6346
+        ],
+        [
+          0.6857,
+          0.6341
+        ],
+        [
+          0.6861,
+          0.6577
+        ],
+        [
+          0.6425,
+          0.6581
+        ],
+        [
+          0.6415,
+          0.6346
+        ]
+      ]
+    },
+    {
+      "id": "1244859420",
+      "type": "leisure",
+      "kind": "pitch",
+      "name": "",
+      "pts": [
+        [
+          0.5942,
+          0.7277
+        ],
+        [
+          0.6139,
+          0.7279
+        ],
+        [
+          0.6142,
+          0.7222
+        ],
+        [
+          0.5942,
+          0.7221
+        ],
+        [
+          0.5942,
+          0.7277
+        ]
+      ]
+    },
+    {
+      "id": "1247583221",
+      "type": "building",
+      "kind": "yes",
+      "name": "G1",
+      "pts": [
+        [
+          0.3439,
+          0.5912
+        ],
+        [
+          0.3438,
+          0.6018
+        ],
+        [
+          0.3553,
+          0.6016
+        ],
+        [
+          0.3554,
+          0.5912
+        ],
+        [
+          0.3439,
+          0.5912
+        ]
+      ]
+    },
+    {
+      "id": "1247583222",
+      "type": "building",
+      "kind": "yes",
+      "name": "Teacher staff room",
+      "pts": [
+        [
+          0.3438,
+          0.603
+        ],
+        [
+          0.3437,
+          0.6102
+        ],
+        [
+          0.3793,
+          0.6105
+        ],
+        [
+          0.3792,
+          0.6031
+        ],
+        [
+          0.3438,
+          0.603
+        ]
+      ]
+    },
+    {
+      "id": "1247583223",
+      "type": "building",
+      "kind": "yes",
+      "name": "G2",
+      "pts": [
+        [
+          0.3562,
+          0.5911
+        ],
+        [
+          0.3562,
+          0.6016
+        ],
+        [
+          0.3671,
+          0.6016
+        ],
+        [
+          0.3671,
+          0.5912
+        ],
+        [
+          0.3562,
+          0.5911
+        ]
+      ]
+    },
+    {
+      "id": "1247583224",
+      "type": "building",
+      "kind": "yes",
+      "name": "G3",
+      "pts": [
+        [
+          0.368,
+          0.591
+        ],
+        [
+          0.3677,
+          0.6014
+        ],
+        [
+          0.3791,
+          0.6012
+        ],
+        [
+          0.3794,
+          0.5909
+        ],
+        [
+          0.368,
+          0.591
+        ]
+      ]
+    },
+    {
+      "id": "1247583226",
+      "type": "building",
+      "kind": "yes",
+      "name": "Mess Office",
+      "pts": [
+        [
+          0.3634,
+          0.6113
+        ],
+        [
+          0.3636,
+          0.6153
+        ],
+        [
+          0.3719,
+          0.6154
+        ],
+        [
+          0.3719,
+          0.6132
+        ],
+        [
+          0.372,
+          0.6112
+        ],
+        [
+          0.3634,
+          0.6113
+        ]
+      ]
+    },
+    {
+      "id": "1247583228",
+      "type": "amenity",
+      "kind": "fountain",
+      "name": "",
+      "pts": [
+        [
+          0.4048,
+          0.1702
+        ],
+        [
+          0.4063,
+          0.1702
+        ],
+        [
+          0.4071,
+          0.1707
+        ],
+        [
+          0.4086,
+          0.1715
+        ],
+        [
+          0.4091,
+          0.1729
+        ],
+        [
+          0.4085,
+          0.1745
+        ],
+        [
+          0.4068,
+          0.1756
+        ],
+        [
+          0.4053,
+          0.1758
+        ],
+        [
+          0.4037,
+          0.1753
+        ],
+        [
+          0.4025,
+          0.1742
+        ],
+        [
+          0.4021,
+          0.1728
+        ],
+        [
+          0.4025,
+          0.1714
+        ],
+        [
+          0.4035,
+          0.1708
+        ],
+        [
+          0.4048,
+          0.1702
+        ]
+      ]
+    },
+    {
+      "id": "1247583229",
+      "type": "amenity",
+      "kind": "fountain",
+      "name": "",
+      "pts": [
+        [
+          0.3973,
+          0.5249
+        ],
+        [
+          0.3989,
+          0.5254
+        ],
+        [
+          0.3997,
+          0.5259
+        ],
+        [
+          0.4002,
+          0.5264
+        ],
+        [
+          0.4008,
+          0.5271
+        ],
+        [
+          0.4014,
+          0.5286
+        ],
+        [
+          0.4013,
+          0.5298
+        ],
+        [
+          0.4009,
+          0.5308
+        ],
+        [
+          0.4001,
+          0.5319
+        ],
+        [
+          0.3989,
+          0.5329
+        ],
+        [
+          0.3981,
+          0.5332
+        ],
+        [
+          0.3965,
+          0.5333
+        ],
+        [
+          0.3955,
+          0.5333
+        ],
+        [
+          0.3949,
+          0.5333
+        ],
+        [
+          0.3939,
+          0.5331
+        ],
+        [
+          0.3935,
+          0.5329
+        ],
+        [
+          0.3927,
+          0.5327
+        ],
+        [
+          0.3921,
+          0.5323
+        ],
+        [
+          0.3919,
+          0.532
+        ],
+        [
+          0.391,
+          0.5309
+        ],
+        [
+          0.3908,
+          0.5301
+        ],
+        [
+          0.3907,
+          0.5295
+        ],
+        [
+          0.3907,
+          0.5288
+        ],
+        [
+          0.3907,
+          0.5283
+        ],
+        [
+          0.3911,
+          0.5274
+        ],
+        [
+          0.3913,
+          0.5269
+        ],
+        [
+          0.3924,
+          0.5259
+        ],
+        [
+          0.3936,
+          0.5252
+        ],
+        [
+          0.3953,
+          0.5248
+        ],
+        [
+          0.3973,
+          0.5249
+        ]
+      ]
+    },
+    {
+      "id": "1247583230",
+      "type": "building",
+      "kind": "yes",
+      "name": "WORKSHOP",
+      "pts": [
+        [
+          0.5121,
+          0.5414
+        ],
+        [
+          0.5126,
+          0.5702
+        ],
+        [
+          0.5265,
+          0.57
+        ],
+        [
+          0.5263,
+          0.5603
+        ],
+        [
+          0.6056,
+          0.5567
+        ],
+        [
+          0.6042,
+          0.547
+        ],
+        [
+          0.536,
+          0.5483
+        ],
+        [
+          0.5181,
+          0.5493
+        ],
+        [
+          0.518,
+          0.5453
+        ],
+        [
+          0.5205,
+          0.5451
+        ],
+        [
+          0.5204,
+          0.5414
+        ],
+        [
+          0.5121,
+          0.5414
+        ]
+      ]
+    },
+    {
+      "id": "1247583232",
+      "type": "building",
+      "kind": "yes",
+      "name": "Punjab & Sind Bank",
+      "pts": [
+        [
+          0.2853,
+          0.3784
+        ],
+        [
+          0.3003,
+          0.3782
+        ],
+        [
+          0.3004,
+          0.3969
+        ],
+        [
+          0.2851,
+          0.3969
+        ],
+        [
+          0.2853,
+          0.3784
+        ]
+      ]
+    },
+    {
+      "id": "1248036276",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.4082,
+          0.3884
+        ],
+        [
+          0.4089,
+          0.3964
+        ],
+        [
+          0.4157,
+          0.3961
+        ],
+        [
+          0.4151,
+          0.3881
+        ],
+        [
+          0.4082,
+          0.3884
+        ]
+      ]
+    },
+    {
+      "id": "1249082722",
+      "type": "building",
+      "kind": "yes",
+      "name": "AUTOMOBILE BLOCK",
+      "pts": [
+        [
+          0.5814,
+          0.6339
+        ],
+        [
+          0.5714,
+          0.634
+        ],
+        [
+          0.5716,
+          0.6546
+        ],
+        [
+          0.5887,
+          0.655
+        ],
+        [
+          0.5891,
+          0.6596
+        ],
+        [
+          0.5973,
+          0.6593
+        ],
+        [
+          0.5972,
+          0.6542
+        ],
+        [
+          0.6098,
+          0.6543
+        ],
+        [
+          0.6098,
+          0.6449
+        ],
+        [
+          0.6136,
+          0.6451
+        ],
+        [
+          0.6127,
+          0.6375
+        ],
+        [
+          0.5818,
+          0.6378
+        ],
+        [
+          0.5814,
+          0.6339
+        ]
+      ]
+    },
+    {
+      "id": "1249084193",
+      "type": "amenity",
+      "kind": "fountain",
+      "name": "",
+      "pts": [
+        [
+          0.4011,
+          0.4564
+        ],
+        [
+          0.3996,
+          0.4561
+        ],
+        [
+          0.398,
+          0.4562
+        ],
+        [
+          0.3965,
+          0.4568
+        ],
+        [
+          0.3954,
+          0.4577
+        ],
+        [
+          0.3947,
+          0.4588
+        ],
+        [
+          0.3946,
+          0.4599
+        ],
+        [
+          0.3949,
+          0.4611
+        ],
+        [
+          0.3956,
+          0.4621
+        ],
+        [
+          0.3967,
+          0.4628
+        ],
+        [
+          0.398,
+          0.4633
+        ],
+        [
+          0.3995,
+          0.4634
+        ],
+        [
+          0.4009,
+          0.4632
+        ],
+        [
+          0.4022,
+          0.4626
+        ],
+        [
+          0.4032,
+          0.4617
+        ],
+        [
+          0.4038,
+          0.4605
+        ],
+        [
+          0.4039,
+          0.4593
+        ],
+        [
+          0.4034,
+          0.4581
+        ],
+        [
+          0.4024,
+          0.4571
+        ],
+        [
+          0.4011,
+          0.4564
+        ]
+      ]
+    },
+    {
+      "id": "1249084194",
+      "type": "amenity",
+      "kind": "fountain",
+      "name": "",
+      "pts": [
+        [
+          0.3629,
+          0.4225
+        ],
+        [
+          0.3613,
+          0.4236
+        ],
+        [
+          0.3607,
+          0.4247
+        ],
+        [
+          0.361,
+          0.4259
+        ],
+        [
+          0.3622,
+          0.4268
+        ],
+        [
+          0.3642,
+          0.4274
+        ],
+        [
+          0.3662,
+          0.427
+        ],
+        [
+          0.3679,
+          0.4257
+        ],
+        [
+          0.3684,
+          0.4241
+        ],
+        [
+          0.3678,
+          0.4233
+        ],
+        [
+          0.3663,
+          0.4226
+        ],
+        [
+          0.3646,
+          0.4223
+        ],
+        [
+          0.3629,
+          0.4225
+        ]
+      ]
+    },
+    {
+      "id": "1391103455",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0152,
+          0.5249
+        ],
+        [
+          1.0185,
+          0.5206
+        ],
+        [
+          1.0315,
+          0.5299
+        ],
+        [
+          1.0282,
+          0.5327
+        ],
+        [
+          1.0166,
+          0.5258
+        ],
+        [
+          1.0152,
+          0.5249
+        ]
+      ]
+    },
+    {
+      "id": "1391103456",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9842,
+          0.5171
+        ],
+        [
+          0.9835,
+          0.5394
+        ],
+        [
+          1.0041,
+          0.5409
+        ],
+        [
+          1.0065,
+          0.5314
+        ],
+        [
+          0.9842,
+          0.5171
+        ]
+      ]
+    },
+    {
+      "id": "1391103457",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9715,
+          0.5114
+        ],
+        [
+          0.9805,
+          0.5123
+        ],
+        [
+          0.9793,
+          0.5371
+        ],
+        [
+          0.9708,
+          0.537
+        ],
+        [
+          0.9715,
+          0.5114
+        ]
+      ]
+    },
+    {
+      "id": "1391103458",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9805,
+          0.5568
+        ],
+        [
+          0.9939,
+          0.5572
+        ],
+        [
+          0.9918,
+          0.578
+        ],
+        [
+          0.9764,
+          0.5759
+        ],
+        [
+          0.9805,
+          0.5568
+        ]
+      ]
+    },
+    {
+      "id": "1391103459",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9755,
+          0.5891
+        ],
+        [
+          0.9871,
+          0.5904
+        ],
+        [
+          0.9871,
+          0.6047
+        ],
+        [
+          0.9755,
+          0.6038
+        ],
+        [
+          0.9755,
+          0.5891
+        ]
+      ]
+    },
+    {
+      "id": "1391103460",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9937,
+          0.5912
+        ],
+        [
+          1.0036,
+          0.5915
+        ],
+        [
+          1.0024,
+          0.604
+        ],
+        [
+          0.9909,
+          0.6053
+        ],
+        [
+          0.9937,
+          0.5912
+        ]
+      ]
+    },
+    {
+      "id": "1391103461",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0334,
+          0.5927
+        ],
+        [
+          1.0429,
+          0.5923
+        ],
+        [
+          1.0398,
+          0.6053
+        ],
+        [
+          1.032,
+          0.6049
+        ],
+        [
+          1.0334,
+          0.5927
+        ]
+      ]
+    },
+    {
+      "id": "1391103462",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0476,
+          0.5951
+        ],
+        [
+          1.0542,
+          0.5953
+        ],
+        [
+          1.0521,
+          0.6044
+        ],
+        [
+          1.0422,
+          0.6053
+        ],
+        [
+          1.0471,
+          0.5934
+        ],
+        [
+          1.0476,
+          0.5951
+        ]
+      ]
+    },
+    {
+      "id": "1391103463",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0516,
+          0.5811
+        ],
+        [
+          1.0547,
+          0.5706
+        ],
+        [
+          1.0672,
+          0.578
+        ],
+        [
+          1.0658,
+          0.585
+        ],
+        [
+          1.0516,
+          0.5811
+        ]
+      ]
+    },
+    {
+      "id": "1391103464",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0599,
+          0.6023
+        ],
+        [
+          1.0611,
+          0.5984
+        ],
+        [
+          1.0731,
+          0.599
+        ],
+        [
+          1.0724,
+          0.6038
+        ],
+        [
+          1.0599,
+          0.6023
+        ]
+      ]
+    },
+    {
+      "id": "1391103465",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0845,
+          0.579
+        ],
+        [
+          1.0949,
+          0.5866
+        ],
+        [
+          1.0933,
+          0.6055
+        ],
+        [
+          1.0822,
+          0.6042
+        ],
+        [
+          1.0845,
+          0.579
+        ]
+      ]
+    },
+    {
+      "id": "1391103471",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0799,
+          0.6714
+        ],
+        [
+          1.0822,
+          0.6623
+        ],
+        [
+          1.0947,
+          0.6623
+        ],
+        [
+          1.0939,
+          0.6748
+        ],
+        [
+          1.0799,
+          0.6714
+        ]
+      ]
+    },
+    {
+      "id": "1391103478",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0469,
+          0.633
+        ],
+        [
+          1.0482,
+          0.6265
+        ],
+        [
+          1.0613,
+          0.627
+        ],
+        [
+          1.0615,
+          0.6346
+        ],
+        [
+          1.0469,
+          0.633
+        ]
+      ]
+    },
+    {
+      "id": "1391103479",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0183,
+          0.6244
+        ],
+        [
+          1.02,
+          0.6131
+        ],
+        [
+          1.0272,
+          0.6129
+        ],
+        [
+          1.027,
+          0.6255
+        ],
+        [
+          1.0183,
+          0.6244
+        ]
+      ]
+    },
+    {
+      "id": "1391103480",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9912,
+          0.6257
+        ],
+        [
+          1.0134,
+          0.625
+        ],
+        [
+          1.013,
+          0.6181
+        ],
+        [
+          0.9949,
+          0.6162
+        ],
+        [
+          0.9951,
+          0.6197
+        ],
+        [
+          0.9903,
+          0.6197
+        ],
+        [
+          0.9912,
+          0.6257
+        ]
+      ]
+    },
+    {
+      "id": "1391103481",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0115,
+          0.6427
+        ],
+        [
+          1.0099,
+          0.6376
+        ],
+        [
+          1.0214,
+          0.6373
+        ],
+        [
+          1.0224,
+          0.6415
+        ],
+        [
+          1.0158,
+          0.6412
+        ],
+        [
+          1.0154,
+          0.6435
+        ],
+        [
+          1.0115,
+          0.6427
+        ]
+      ]
+    },
+    {
+      "id": "1391103482",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9798,
+          0.6242
+        ],
+        [
+          0.987,
+          0.6247
+        ],
+        [
+          0.987,
+          0.612
+        ],
+        [
+          0.9761,
+          0.6115
+        ],
+        [
+          0.9798,
+          0.6242
+        ]
+      ]
+    },
+    {
+      "id": "1391103483",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0461,
+          0.6128
+        ],
+        [
+          1.0442,
+          0.6244
+        ],
+        [
+          1.0584,
+          0.6246
+        ],
+        [
+          1.0587,
+          0.6124
+        ],
+        [
+          1.0461,
+          0.6128
+        ]
+      ]
+    },
+    {
+      "id": "1391103484",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0393,
+          0.6364
+        ],
+        [
+          1.0547,
+          0.6359
+        ],
+        [
+          1.056,
+          0.6393
+        ],
+        [
+          1.0512,
+          0.6394
+        ],
+        [
+          1.0515,
+          0.6457
+        ],
+        [
+          1.0463,
+          0.6452
+        ],
+        [
+          1.0461,
+          0.6401
+        ],
+        [
+          1.0403,
+          0.6396
+        ],
+        [
+          1.0393,
+          0.6364
+        ]
+      ]
+    },
+    {
+      "id": "1391103485",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9683,
+          0.6412
+        ],
+        [
+          0.9724,
+          0.6415
+        ],
+        [
+          0.9718,
+          0.6436
+        ],
+        [
+          0.9875,
+          0.6433
+        ],
+        [
+          0.9852,
+          0.6341
+        ],
+        [
+          0.9679,
+          0.6338
+        ],
+        [
+          0.9683,
+          0.6412
+        ]
+      ]
+    },
+    {
+      "id": "1391103486",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9689,
+          0.6257
+        ],
+        [
+          0.9866,
+          0.628
+        ],
+        [
+          0.9868,
+          0.6326
+        ],
+        [
+          0.9689,
+          0.6317
+        ],
+        [
+          0.9689,
+          0.6257
+        ]
+      ]
+    },
+    {
+      "id": "1391103487",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0634,
+          0.6221
+        ],
+        [
+          1.0728,
+          0.622
+        ],
+        [
+          1.071,
+          0.6351
+        ],
+        [
+          1.0652,
+          0.6339
+        ],
+        [
+          1.0634,
+          0.6221
+        ]
+      ]
+    },
+    {
+      "id": "1391103488",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0115,
+          0.6276
+        ],
+        [
+          1.0338,
+          0.6273
+        ],
+        [
+          1.0305,
+          0.6356
+        ],
+        [
+          1.0123,
+          0.6351
+        ],
+        [
+          1.0115,
+          0.6276
+        ]
+      ]
+    },
+    {
+      "id": "1391103489",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0503,
+          0.6902
+        ],
+        [
+          1.0531,
+          0.6787
+        ],
+        [
+          1.0672,
+          0.6791
+        ],
+        [
+          1.0669,
+          0.6912
+        ],
+        [
+          1.0503,
+          0.6902
+        ]
+      ]
+    },
+    {
+      "id": "1391103490",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0437,
+          0.6517
+        ],
+        [
+          1.0687,
+          0.6508
+        ],
+        [
+          1.068,
+          0.6617
+        ],
+        [
+          1.0453,
+          0.6601
+        ],
+        [
+          1.0437,
+          0.6517
+        ]
+      ]
+    },
+    {
+      "id": "1391103491",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9692,
+          0.6881
+        ],
+        [
+          0.9706,
+          0.6732
+        ],
+        [
+          0.982,
+          0.6747
+        ],
+        [
+          0.9784,
+          0.6896
+        ],
+        [
+          0.9692,
+          0.6881
+        ]
+      ]
+    },
+    {
+      "id": "1391103492",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9851,
+          0.6879
+        ],
+        [
+          0.9865,
+          0.6747
+        ],
+        [
+          1.0004,
+          0.6751
+        ],
+        [
+          0.9988,
+          0.6888
+        ],
+        [
+          0.9851,
+          0.6879
+        ]
+      ]
+    },
+    {
+      "id": "1391103493",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0468,
+          0.6717
+        ],
+        [
+          1.0468,
+          0.6639
+        ],
+        [
+          1.0699,
+          0.6649
+        ],
+        [
+          1.0697,
+          0.6716
+        ],
+        [
+          1.0468,
+          0.6717
+        ]
+      ]
+    },
+    {
+      "id": "1391103494",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0345,
+          0.6885
+        ],
+        [
+          1.0375,
+          0.6764
+        ],
+        [
+          1.051,
+          0.6777
+        ],
+        [
+          1.0444,
+          0.6899
+        ],
+        [
+          1.0345,
+          0.6885
+        ]
+      ]
+    },
+    {
+      "id": "1391103514",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0274,
+          0.4347
+        ],
+        [
+          1.0317,
+          0.4295
+        ],
+        [
+          1.0465,
+          0.4346
+        ],
+        [
+          1.0418,
+          0.4396
+        ],
+        [
+          1.0274,
+          0.4347
+        ]
+      ]
+    },
+    {
+      "id": "1391103515",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0163,
+          0.4105
+        ],
+        [
+          1.0171,
+          0.3997
+        ],
+        [
+          1.026,
+          0.4005
+        ],
+        [
+          1.0239,
+          0.4111
+        ],
+        [
+          1.0163,
+          0.4105
+        ]
+      ]
+    },
+    {
+      "id": "1391103516",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0066,
+          0.4082
+        ],
+        [
+          1.007,
+          0.3997
+        ],
+        [
+          1.0147,
+          0.4008
+        ],
+        [
+          1.0132,
+          0.4103
+        ],
+        [
+          1.0066,
+          0.4082
+        ]
+      ]
+    },
+    {
+      "id": "1391103517",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0293,
+          0.4095
+        ],
+        [
+          1.0311,
+          0.4016
+        ],
+        [
+          1.0395,
+          0.4018
+        ],
+        [
+          1.0375,
+          0.4145
+        ],
+        [
+          1.0293,
+          0.4095
+        ]
+      ]
+    },
+    {
+      "id": "1391103520",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0132,
+          0.4242
+        ],
+        [
+          1.0165,
+          0.4212
+        ],
+        [
+          1.029,
+          0.4274
+        ],
+        [
+          1.0264,
+          0.4297
+        ],
+        [
+          1.0132,
+          0.4242
+        ]
+      ]
+    },
+    {
+      "id": "1391103521",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9441,
+          0.5069
+        ],
+        [
+          0.9427,
+          0.4995
+        ],
+        [
+          0.9595,
+          0.5006
+        ],
+        [
+          0.9587,
+          0.5077
+        ],
+        [
+          0.9441,
+          0.5069
+        ]
+      ]
+    },
+    {
+      "id": "1391103522",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8961,
+          0.5132
+        ],
+        [
+          0.8961,
+          0.4988
+        ],
+        [
+          0.9067,
+          0.4991
+        ],
+        [
+          0.9063,
+          0.5123
+        ],
+        [
+          0.8961,
+          0.5132
+        ]
+      ]
+    },
+    {
+      "id": "1391103523",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8755,
+          0.5045
+        ],
+        [
+          0.8867,
+          0.5054
+        ],
+        [
+          0.8859,
+          0.4915
+        ],
+        [
+          0.8779,
+          0.4923
+        ],
+        [
+          0.8755,
+          0.5045
+        ]
+      ]
+    },
+    {
+      "id": "1391103524",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8777,
+          0.5093
+        ],
+        [
+          0.8874,
+          0.5095
+        ],
+        [
+          0.8862,
+          0.5181
+        ],
+        [
+          0.8767,
+          0.5168
+        ],
+        [
+          0.8777,
+          0.5093
+        ]
+      ]
+    },
+    {
+      "id": "1391103525",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9181,
+          0.5077
+        ],
+        [
+          0.9297,
+          0.5071
+        ],
+        [
+          0.9294,
+          0.5188
+        ],
+        [
+          0.9178,
+          0.5171
+        ],
+        [
+          0.9181,
+          0.5077
+        ]
+      ]
+    },
+    {
+      "id": "1391103526",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9356,
+          0.5082
+        ],
+        [
+          0.9441,
+          0.5088
+        ],
+        [
+          0.9446,
+          0.5192
+        ],
+        [
+          0.9316,
+          0.5184
+        ],
+        [
+          0.9356,
+          0.5082
+        ]
+      ]
+    },
+    {
+      "id": "1391103527",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9493,
+          0.511
+        ],
+        [
+          0.9599,
+          0.5106
+        ],
+        [
+          0.9606,
+          0.5194
+        ],
+        [
+          0.9476,
+          0.5175
+        ],
+        [
+          0.9493,
+          0.511
+        ]
+      ]
+    },
+    {
+      "id": "1391103528",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9218,
+          0.5262
+        ],
+        [
+          0.9321,
+          0.5264
+        ],
+        [
+          0.9329,
+          0.537
+        ],
+        [
+          0.9213,
+          0.5368
+        ],
+        [
+          0.9218,
+          0.5262
+        ]
+      ]
+    },
+    {
+      "id": "1391103529",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8903,
+          0.5253
+        ],
+        [
+          0.899,
+          0.5251
+        ],
+        [
+          0.899,
+          0.5356
+        ],
+        [
+          0.8909,
+          0.536
+        ],
+        [
+          0.8903,
+          0.5253
+        ]
+      ]
+    },
+    {
+      "id": "1391103530",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9047,
+          0.5257
+        ],
+        [
+          0.9142,
+          0.5272
+        ],
+        [
+          0.9147,
+          0.5349
+        ],
+        [
+          0.9061,
+          0.5356
+        ],
+        [
+          0.9047,
+          0.5257
+        ]
+      ]
+    },
+    {
+      "id": "1391103531",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8988,
+          0.5403
+        ],
+        [
+          0.91,
+          0.5403
+        ],
+        [
+          0.9106,
+          0.555
+        ],
+        [
+          0.8969,
+          0.5545
+        ],
+        [
+          0.8988,
+          0.5403
+        ]
+      ]
+    },
+    {
+      "id": "1391103532",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9124,
+          0.5816
+        ],
+        [
+          0.9361,
+          0.5812
+        ],
+        [
+          0.9385,
+          0.5968
+        ],
+        [
+          0.9135,
+          0.5951
+        ],
+        [
+          0.9124,
+          0.5816
+        ]
+      ]
+    },
+    {
+      "id": "1391103533",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.938,
+          0.5661
+        ],
+        [
+          0.9445,
+          0.5654
+        ],
+        [
+          0.9448,
+          0.5754
+        ],
+        [
+          0.9382,
+          0.575
+        ],
+        [
+          0.938,
+          0.5661
+        ]
+      ]
+    },
+    {
+      "id": "1391103534",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9114,
+          0.565
+        ],
+        [
+          0.9173,
+          0.5648
+        ],
+        [
+          0.9168,
+          0.5771
+        ],
+        [
+          0.9089,
+          0.5765
+        ],
+        [
+          0.9114,
+          0.565
+        ]
+      ]
+    },
+    {
+      "id": "1391103535",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9477,
+          0.5665
+        ],
+        [
+          0.9553,
+          0.5648
+        ],
+        [
+          0.9543,
+          0.574
+        ],
+        [
+          0.9477,
+          0.5735
+        ],
+        [
+          0.9477,
+          0.5665
+        ]
+      ]
+    },
+    {
+      "id": "1391103536",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9027,
+          0.5652
+        ],
+        [
+          0.9081,
+          0.5646
+        ],
+        [
+          0.9065,
+          0.5737
+        ],
+        [
+          0.9008,
+          0.5737
+        ],
+        [
+          0.9027,
+          0.5652
+        ]
+      ]
+    },
+    {
+      "id": "1391103537",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8891,
+          0.5663
+        ],
+        [
+          0.8981,
+          0.5652
+        ],
+        [
+          0.8972,
+          0.5752
+        ],
+        [
+          0.8926,
+          0.5763
+        ],
+        [
+          0.8891,
+          0.5663
+        ]
+      ]
+    },
+    {
+      "id": "1391103538",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8864,
+          0.5795
+        ],
+        [
+          0.8975,
+          0.5799
+        ],
+        [
+          0.8967,
+          0.5931
+        ],
+        [
+          0.8888,
+          0.5934
+        ],
+        [
+          0.8864,
+          0.5795
+        ]
+      ]
+    },
+    {
+      "id": "1391103539",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.872,
+          0.5793
+        ],
+        [
+          0.8831,
+          0.5797
+        ],
+        [
+          0.8834,
+          0.5895
+        ],
+        [
+          0.8712,
+          0.5887
+        ],
+        [
+          0.872,
+          0.5793
+        ]
+      ]
+    },
+    {
+      "id": "1391103546",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.0129,
+          0.3784
+        ],
+        [
+          1.0238,
+          0.3769
+        ],
+        [
+          1.0216,
+          0.3939
+        ],
+        [
+          1.0129,
+          0.3931
+        ],
+        [
+          1.0129,
+          0.3784
+        ]
+      ]
+    },
+    {
+      "id": "1391103554",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          1.007,
+          0.3632
+        ],
+        [
+          1.0179,
+          0.3632
+        ],
+        [
+          1.0148,
+          0.3725
+        ],
+        [
+          1.0063,
+          0.3725
+        ],
+        [
+          1.007,
+          0.3632
+        ]
+      ]
+    },
+    {
+      "id": "1391103555",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9403,
+          0.6161
+        ],
+        [
+          0.9561,
+          0.6158
+        ],
+        [
+          0.9532,
+          0.6226
+        ],
+        [
+          0.9418,
+          0.6214
+        ],
+        [
+          0.9403,
+          0.6161
+        ]
+      ]
+    },
+    {
+      "id": "1391103556",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.94,
+          0.6268
+        ],
+        [
+          0.9597,
+          0.6257
+        ],
+        [
+          0.9579,
+          0.635
+        ],
+        [
+          0.9461,
+          0.6344
+        ],
+        [
+          0.94,
+          0.6268
+        ]
+      ]
+    },
+    {
+      "id": "1391103557",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9217,
+          0.6063
+        ],
+        [
+          0.9289,
+          0.6054
+        ],
+        [
+          0.93,
+          0.6209
+        ],
+        [
+          0.9224,
+          0.6184
+        ],
+        [
+          0.9217,
+          0.6063
+        ]
+      ]
+    },
+    {
+      "id": "1391103558",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9074,
+          0.6049
+        ],
+        [
+          0.9167,
+          0.604
+        ],
+        [
+          0.9163,
+          0.6181
+        ],
+        [
+          0.907,
+          0.6181
+        ],
+        [
+          0.9074,
+          0.6049
+        ]
+      ]
+    },
+    {
+      "id": "1391103559",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.8687,
+          0.6214
+        ],
+        [
+          0.8762,
+          0.6229
+        ],
+        [
+          0.8751,
+          0.6338
+        ],
+        [
+          0.868,
+          0.6316
+        ],
+        [
+          0.8687,
+          0.6214
+        ]
+      ]
+    },
+    {
+      "id": "1391103560",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.9171,
+          0.6268
+        ],
+        [
+          0.9343,
+          0.6268
+        ],
+        [
+          0.936,
+          0.64
+        ],
+        [
+          0.9206,
+          0.64
+        ],
+        [
+          0.9171,
+          0.6268
+        ]
+      ]
+    },
+    {
+      "id": "1391322057",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1991,
+          0.7373
+        ],
+        [
+          0.2073,
+          0.7373
+        ],
+        [
+          0.2102,
+          0.7421
+        ],
+        [
+          0.2155,
+          0.7429
+        ],
+        [
+          0.2145,
+          0.7463
+        ],
+        [
+          0.2098,
+          0.7463
+        ],
+        [
+          0.2098,
+          0.7499
+        ],
+        [
+          0.1958,
+          0.7502
+        ],
+        [
+          0.1991,
+          0.7373
+        ]
+      ]
+    },
+    {
+      "id": "1391322058",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2284,
+          0.7511
+        ],
+        [
+          0.2274,
+          0.7387
+        ],
+        [
+          0.2514,
+          0.7393
+        ],
+        [
+          0.2524,
+          0.7516
+        ],
+        [
+          0.2284,
+          0.7511
+        ]
+      ]
+    },
+    {
+      "id": "1391322059",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2098,
+          0.7837
+        ],
+        [
+          0.2094,
+          0.7711
+        ],
+        [
+          0.2428,
+          0.7725
+        ],
+        [
+          0.2431,
+          0.7834
+        ],
+        [
+          0.2137,
+          0.7834
+        ],
+        [
+          0.2098,
+          0.7837
+        ]
+      ]
+    },
+    {
+      "id": "1391322060",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1546,
+          0.7511
+        ],
+        [
+          0.1536,
+          0.7362
+        ],
+        [
+          0.1736,
+          0.7381
+        ],
+        [
+          0.1733,
+          0.7516
+        ],
+        [
+          0.1546,
+          0.7511
+        ]
+      ]
+    },
+    {
+      "id": "1391322061",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1733,
+          0.7345
+        ],
+        [
+          0.175,
+          0.7218
+        ],
+        [
+          0.1887,
+          0.7224
+        ],
+        [
+          0.1865,
+          0.7376
+        ],
+        [
+          0.1733,
+          0.7345
+        ]
+      ]
+    },
+    {
+      "id": "1391322062",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2084,
+          0.8017
+        ],
+        [
+          0.2109,
+          0.7895
+        ],
+        [
+          0.2293,
+          0.7901
+        ],
+        [
+          0.2348,
+          0.7995
+        ],
+        [
+          0.2348,
+          0.8034
+        ],
+        [
+          0.2084,
+          0.8017
+        ]
+      ]
+    },
+    {
+      "id": "1391322063",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1756,
+          0.7522
+        ],
+        [
+          0.1775,
+          0.7388
+        ],
+        [
+          0.1921,
+          0.7407
+        ],
+        [
+          0.1932,
+          0.752
+        ],
+        [
+          0.1756,
+          0.7522
+        ]
+      ]
+    },
+    {
+      "id": "1391322064",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2122,
+          0.817
+        ],
+        [
+          0.2109,
+          0.8076
+        ],
+        [
+          0.2266,
+          0.8091
+        ],
+        [
+          0.2272,
+          0.8179
+        ],
+        [
+          0.2122,
+          0.817
+        ]
+      ]
+    },
+    {
+      "id": "1391322065",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2399,
+          0.8038
+        ],
+        [
+          0.2394,
+          0.7914
+        ],
+        [
+          0.2535,
+          0.7906
+        ],
+        [
+          0.2535,
+          0.8051
+        ],
+        [
+          0.2399,
+          0.8038
+        ]
+      ]
+    },
+    {
+      "id": "1391322066",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1948,
+          0.8042
+        ],
+        [
+          0.1943,
+          0.7908
+        ],
+        [
+          0.2084,
+          0.7916
+        ],
+        [
+          0.2065,
+          0.8038
+        ],
+        [
+          0.1948,
+          0.8042
+        ]
+      ]
+    },
+    {
+      "id": "1391322067",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1704,
+          0.7729
+        ],
+        [
+          0.1718,
+          0.759
+        ],
+        [
+          0.1805,
+          0.7592
+        ],
+        [
+          0.1823,
+          0.7727
+        ],
+        [
+          0.1704,
+          0.7729
+        ]
+      ]
+    },
+    {
+      "id": "1391322068",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1878,
+          0.7739
+        ],
+        [
+          0.1897,
+          0.7661
+        ],
+        [
+          0.2005,
+          0.7667
+        ],
+        [
+          0.1992,
+          0.7767
+        ],
+        [
+          0.1883,
+          0.7776
+        ],
+        [
+          0.1878,
+          0.7739
+        ]
+      ]
+    },
+    {
+      "id": "1391322069",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1568,
+          0.7717
+        ],
+        [
+          0.1574,
+          0.7641
+        ],
+        [
+          0.1675,
+          0.7648
+        ],
+        [
+          0.1679,
+          0.7714
+        ],
+        [
+          0.1568,
+          0.7717
+        ]
+      ]
+    },
+    {
+      "id": "1391322070",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1245,
+          0.7507
+        ],
+        [
+          0.1234,
+          0.7418
+        ],
+        [
+          0.1329,
+          0.7423
+        ],
+        [
+          0.1335,
+          0.7509
+        ],
+        [
+          0.1245,
+          0.7507
+        ]
+      ]
+    },
+    {
+      "id": "1391322071",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1234,
+          0.7688
+        ],
+        [
+          0.123,
+          0.7561
+        ],
+        [
+          0.1298,
+          0.7564
+        ],
+        [
+          0.1298,
+          0.7685
+        ],
+        [
+          0.1234,
+          0.7688
+        ]
+      ]
+    },
+    {
+      "id": "1391322072",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1691,
+          0.785
+        ],
+        [
+          0.1681,
+          0.7758
+        ],
+        [
+          0.1769,
+          0.7755
+        ],
+        [
+          0.1774,
+          0.7856
+        ],
+        [
+          0.1691,
+          0.785
+        ]
+      ]
+    },
+    {
+      "id": "1391322073",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1082,
+          0.7502
+        ],
+        [
+          0.1084,
+          0.7351
+        ],
+        [
+          0.1167,
+          0.7357
+        ],
+        [
+          0.116,
+          0.7504
+        ],
+        [
+          0.1082,
+          0.7502
+        ]
+      ]
+    },
+    {
+      "id": "1391322074",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1105,
+          0.7685
+        ],
+        [
+          0.1095,
+          0.7561
+        ],
+        [
+          0.1173,
+          0.7567
+        ],
+        [
+          0.1173,
+          0.7687
+        ],
+        [
+          0.1105,
+          0.7685
+        ]
+      ]
+    },
+    {
+      "id": "1391322075",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1033,
+          0.7834
+        ],
+        [
+          0.1016,
+          0.7693
+        ],
+        [
+          0.1148,
+          0.7716
+        ],
+        [
+          0.1138,
+          0.7842
+        ],
+        [
+          0.1033,
+          0.7834
+        ]
+      ]
+    },
+    {
+      "id": "1391322076",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1516,
+          0.8012
+        ],
+        [
+          0.1527,
+          0.7905
+        ],
+        [
+          0.1747,
+          0.7918
+        ],
+        [
+          0.1743,
+          0.8024
+        ],
+        [
+          0.1516,
+          0.8012
+        ]
+      ]
+    },
+    {
+      "id": "1391322077",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1848,
+          0.8044
+        ],
+        [
+          0.1839,
+          0.7919
+        ],
+        [
+          0.1924,
+          0.7921
+        ],
+        [
+          0.1928,
+          0.8052
+        ],
+        [
+          0.1848,
+          0.8044
+        ]
+      ]
+    },
+    {
+      "id": "1391322078",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2195,
+          0.7514
+        ],
+        [
+          0.2177,
+          0.7399
+        ],
+        [
+          0.2239,
+          0.7402
+        ],
+        [
+          0.2261,
+          0.7524
+        ],
+        [
+          0.2195,
+          0.7514
+        ]
+      ]
+    },
+    {
+      "id": "1391322079",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1825,
+          0.7853
+        ],
+        [
+          0.1808,
+          0.7758
+        ],
+        [
+          0.1922,
+          0.7793
+        ],
+        [
+          0.1938,
+          0.785
+        ],
+        [
+          0.1825,
+          0.7853
+        ]
+      ]
+    },
+    {
+      "id": "1391322080",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2302,
+          0.8193
+        ],
+        [
+          0.2331,
+          0.807
+        ],
+        [
+          0.2481,
+          0.81
+        ],
+        [
+          0.2504,
+          0.8202
+        ],
+        [
+          0.2302,
+          0.8193
+        ]
+      ]
+    },
+    {
+      "id": "1391322081",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1977,
+          0.8186
+        ],
+        [
+          0.1981,
+          0.8071
+        ],
+        [
+          0.2066,
+          0.8078
+        ],
+        [
+          0.2103,
+          0.8197
+        ],
+        [
+          0.1977,
+          0.8186
+        ]
+      ]
+    },
+    {
+      "id": "1391322082",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2245,
+          0.8471
+        ],
+        [
+          0.2235,
+          0.837
+        ],
+        [
+          0.243,
+          0.8372
+        ],
+        [
+          0.2434,
+          0.8466
+        ],
+        [
+          0.2245,
+          0.8471
+        ]
+      ]
+    },
+    {
+      "id": "1391322083",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2364,
+          0.834
+        ],
+        [
+          0.2372,
+          0.8252
+        ],
+        [
+          0.2525,
+          0.826
+        ],
+        [
+          0.2528,
+          0.832
+        ],
+        [
+          0.2364,
+          0.834
+        ]
+      ]
+    },
+    {
+      "id": "1391322084",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1979,
+          0.8479
+        ],
+        [
+          0.1983,
+          0.8359
+        ],
+        [
+          0.2105,
+          0.8367
+        ],
+        [
+          0.2093,
+          0.8483
+        ],
+        [
+          0.1979,
+          0.8479
+        ]
+      ]
+    },
+    {
+      "id": "1391322085",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.144,
+          0.8159
+        ],
+        [
+          0.1444,
+          0.8028
+        ],
+        [
+          0.1599,
+          0.8047
+        ],
+        [
+          0.159,
+          0.8172
+        ],
+        [
+          0.144,
+          0.8159
+        ]
+      ]
+    },
+    {
+      "id": "1391322086",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1743,
+          0.8049
+        ],
+        [
+          0.1751,
+          0.8175
+        ],
+        [
+          0.1827,
+          0.8178
+        ],
+        [
+          0.1827,
+          0.8049
+        ],
+        [
+          0.1743,
+          0.8049
+        ]
+      ]
+    },
+    {
+      "id": "1391322087",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1729,
+          0.836
+        ],
+        [
+          0.1701,
+          0.8247
+        ],
+        [
+          0.1829,
+          0.8254
+        ],
+        [
+          0.1841,
+          0.8372
+        ],
+        [
+          0.1729,
+          0.836
+        ]
+      ]
+    },
+    {
+      "id": "1391322088",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1523,
+          0.8338
+        ],
+        [
+          0.1511,
+          0.8232
+        ],
+        [
+          0.167,
+          0.8254
+        ],
+        [
+          0.1688,
+          0.835
+        ],
+        [
+          0.1523,
+          0.8338
+        ]
+      ]
+    },
+    {
+      "id": "1391322089",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.185,
+          0.8467
+        ],
+        [
+          0.1879,
+          0.8376
+        ],
+        [
+          0.194,
+          0.8374
+        ],
+        [
+          0.1955,
+          0.8469
+        ],
+        [
+          0.185,
+          0.8467
+        ]
+      ]
+    },
+    {
+      "id": "1391322090",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1706,
+          0.8472
+        ],
+        [
+          0.1718,
+          0.8383
+        ],
+        [
+          0.1827,
+          0.8402
+        ],
+        [
+          0.1836,
+          0.8474
+        ],
+        [
+          0.1706,
+          0.8472
+        ]
+      ]
+    },
+    {
+      "id": "1391322091",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1373,
+          0.8459
+        ],
+        [
+          0.1366,
+          0.8368
+        ],
+        [
+          0.1472,
+          0.8366
+        ],
+        [
+          0.1479,
+          0.8459
+        ],
+        [
+          0.1373,
+          0.8459
+        ]
+      ]
+    },
+    {
+      "id": "1391322092",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.118,
+          0.7831
+        ],
+        [
+          0.1178,
+          0.7716
+        ],
+        [
+          0.1319,
+          0.7721
+        ],
+        [
+          0.1338,
+          0.7842
+        ],
+        [
+          0.118,
+          0.7831
+        ]
+      ]
+    },
+    {
+      "id": "1391322093",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1398,
+          0.784
+        ],
+        [
+          0.1395,
+          0.7712
+        ],
+        [
+          0.1523,
+          0.7719
+        ],
+        [
+          0.1539,
+          0.7829
+        ],
+        [
+          0.1398,
+          0.784
+        ]
+      ]
+    },
+    {
+      "id": "1391322094",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.162,
+          0.7324
+        ],
+        [
+          0.1626,
+          0.7236
+        ],
+        [
+          0.171,
+          0.7248
+        ],
+        [
+          0.1704,
+          0.7351
+        ],
+        [
+          0.162,
+          0.7324
+        ]
+      ]
+    },
+    {
+      "id": "1391322095",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1824,
+          0.6952
+        ],
+        [
+          0.2029,
+          0.6928
+        ],
+        [
+          0.2107,
+          0.7001
+        ],
+        [
+          0.1793,
+          0.7042
+        ],
+        [
+          0.1824,
+          0.6952
+        ]
+      ]
+    },
+    {
+      "id": "1391322096",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.149,
+          0.7127
+        ],
+        [
+          0.1516,
+          0.6889
+        ],
+        [
+          0.1651,
+          0.69
+        ],
+        [
+          0.1658,
+          0.7121
+        ],
+        [
+          0.149,
+          0.7127
+        ]
+      ]
+    },
+    {
+      "id": "1391322097",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0926,
+          0.6993
+        ],
+        [
+          0.0961,
+          0.6869
+        ],
+        [
+          0.1041,
+          0.6876
+        ],
+        [
+          0.102,
+          0.7004
+        ],
+        [
+          0.0926,
+          0.6993
+        ]
+      ]
+    },
+    {
+      "id": "1391322098",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.106,
+          0.7008
+        ],
+        [
+          0.1077,
+          0.6886
+        ],
+        [
+          0.1183,
+          0.688
+        ],
+        [
+          0.1178,
+          0.7025
+        ],
+        [
+          0.106,
+          0.7008
+        ]
+      ]
+    },
+    {
+      "id": "1391322099",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1334,
+          0.703
+        ],
+        [
+          0.137,
+          0.69
+        ],
+        [
+          0.1457,
+          0.69
+        ],
+        [
+          0.145,
+          0.703
+        ],
+        [
+          0.1334,
+          0.703
+        ]
+      ]
+    },
+    {
+      "id": "1391322100",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1171,
+          0.7121
+        ],
+        [
+          0.1174,
+          0.7077
+        ],
+        [
+          0.129,
+          0.7075
+        ],
+        [
+          0.1285,
+          0.7133
+        ],
+        [
+          0.1171,
+          0.7121
+        ]
+      ]
+    },
+    {
+      "id": "1391322101",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0876,
+          0.7127
+        ],
+        [
+          0.0866,
+          0.7004
+        ],
+        [
+          0.0956,
+          0.7032
+        ],
+        [
+          0.0966,
+          0.7116
+        ],
+        [
+          0.0876,
+          0.7127
+        ]
+      ]
+    },
+    {
+      "id": "1391322102",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1015,
+          0.7123
+        ],
+        [
+          0.1008,
+          0.703
+        ],
+        [
+          0.1115,
+          0.7036
+        ],
+        [
+          0.1117,
+          0.7127
+        ],
+        [
+          0.1015,
+          0.7123
+        ]
+      ]
+    },
+    {
+      "id": "1391322103",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1218,
+          0.7015
+        ],
+        [
+          0.1229,
+          0.6895
+        ],
+        [
+          0.1321,
+          0.6908
+        ],
+        [
+          0.1313,
+          0.7021
+        ],
+        [
+          0.1218,
+          0.7015
+        ]
+      ]
+    },
+    {
+      "id": "1391322104",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1221,
+          0.6697
+        ],
+        [
+          0.1218,
+          0.6575
+        ],
+        [
+          0.1321,
+          0.6573
+        ],
+        [
+          0.1329,
+          0.6697
+        ],
+        [
+          0.1221,
+          0.6697
+        ]
+      ]
+    },
+    {
+      "id": "1391322105",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1354,
+          0.6701
+        ],
+        [
+          0.137,
+          0.6565
+        ],
+        [
+          0.143,
+          0.6565
+        ],
+        [
+          0.1445,
+          0.6702
+        ],
+        [
+          0.1354,
+          0.6701
+        ]
+      ]
+    },
+    {
+      "id": "1391322106",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1115,
+          0.6808
+        ],
+        [
+          0.1136,
+          0.6706
+        ],
+        [
+          0.1261,
+          0.6714
+        ],
+        [
+          0.1272,
+          0.6827
+        ],
+        [
+          0.1115,
+          0.6808
+        ]
+      ]
+    },
+    {
+      "id": "1391322107",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1297,
+          0.6812
+        ],
+        [
+          0.131,
+          0.6723
+        ],
+        [
+          0.1474,
+          0.6724
+        ],
+        [
+          0.1462,
+          0.6808
+        ],
+        [
+          0.1297,
+          0.6812
+        ]
+      ]
+    },
+    {
+      "id": "1391322108",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1472,
+          0.6582
+        ],
+        [
+          0.1585,
+          0.6558
+        ],
+        [
+          0.1698,
+          0.665
+        ],
+        [
+          0.1567,
+          0.6718
+        ],
+        [
+          0.1472,
+          0.6582
+        ]
+      ]
+    },
+    {
+      "id": "1391322109",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1614,
+          0.6729
+        ],
+        [
+          0.1709,
+          0.6678
+        ],
+        [
+          0.1879,
+          0.6792
+        ],
+        [
+          0.1801,
+          0.683
+        ],
+        [
+          0.1625,
+          0.6835
+        ],
+        [
+          0.1614,
+          0.6729
+        ]
+      ]
+    },
+    {
+      "id": "1391322110",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1207,
+          0.6488
+        ],
+        [
+          0.121,
+          0.636
+        ],
+        [
+          0.1294,
+          0.6341
+        ],
+        [
+          0.1506,
+          0.6501
+        ],
+        [
+          0.1207,
+          0.6488
+        ]
+      ]
+    },
+    {
+      "id": "1391322111",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0894,
+          0.6297
+        ],
+        [
+          0.0892,
+          0.6222
+        ],
+        [
+          0.1153,
+          0.6245
+        ],
+        [
+          0.1169,
+          0.6307
+        ],
+        [
+          0.0894,
+          0.6297
+        ]
+      ]
+    },
+    {
+      "id": "1391322112",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0675,
+          0.649
+        ],
+        [
+          0.0688,
+          0.6332
+        ],
+        [
+          0.0824,
+          0.6328
+        ],
+        [
+          0.0824,
+          0.6488
+        ],
+        [
+          0.0675,
+          0.649
+        ]
+      ]
+    },
+    {
+      "id": "1391322113",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0851,
+          0.6482
+        ],
+        [
+          0.0862,
+          0.6337
+        ],
+        [
+          0.0976,
+          0.6339
+        ],
+        [
+          0.0979,
+          0.6484
+        ],
+        [
+          0.0851,
+          0.6482
+        ]
+      ]
+    },
+    {
+      "id": "1391322114",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1267,
+          0.7347
+        ],
+        [
+          0.1261,
+          0.7209
+        ],
+        [
+          0.1497,
+          0.7226
+        ],
+        [
+          0.1487,
+          0.7358
+        ],
+        [
+          0.1267,
+          0.7347
+        ]
+      ]
+    },
+    {
+      "id": "1391322115",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.111,
+          0.8335
+        ],
+        [
+          0.1118,
+          0.8233
+        ],
+        [
+          0.1265,
+          0.8243
+        ],
+        [
+          0.1287,
+          0.8341
+        ],
+        [
+          0.111,
+          0.8335
+        ]
+      ]
+    },
+    {
+      "id": "1391322116",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1322,
+          0.8341
+        ],
+        [
+          0.1319,
+          0.8243
+        ],
+        [
+          0.1458,
+          0.8252
+        ],
+        [
+          0.1488,
+          0.8344
+        ],
+        [
+          0.1322,
+          0.8341
+        ]
+      ]
+    },
+    {
+      "id": "1391322117",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1099,
+          0.8465
+        ],
+        [
+          0.1113,
+          0.8356
+        ],
+        [
+          0.1216,
+          0.8367
+        ],
+        [
+          0.1232,
+          0.8465
+        ],
+        [
+          0.1099,
+          0.8465
+        ]
+      ]
+    },
+    {
+      "id": "1391322118",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.127,
+          0.8461
+        ],
+        [
+          0.1254,
+          0.8371
+        ],
+        [
+          0.1325,
+          0.838
+        ],
+        [
+          0.1352,
+          0.8459
+        ],
+        [
+          0.127,
+          0.8461
+        ]
+      ]
+    },
+    {
+      "id": "1391322119",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0763,
+          0.5629
+        ],
+        [
+          0.0763,
+          0.5533
+        ],
+        [
+          0.0885,
+          0.5548
+        ],
+        [
+          0.0882,
+          0.5685
+        ],
+        [
+          0.0763,
+          0.5629
+        ]
+      ]
+    },
+    {
+      "id": "1391322120",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0807,
+          0.5256
+        ],
+        [
+          0.1,
+          0.5261
+        ],
+        [
+          0.1013,
+          0.5359
+        ],
+        [
+          0.0813,
+          0.5359
+        ],
+        [
+          0.0807,
+          0.5256
+        ]
+      ]
+    },
+    {
+      "id": "1391322121",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0797,
+          0.5423
+        ],
+        [
+          0.0994,
+          0.5428
+        ],
+        [
+          0.1006,
+          0.5514
+        ],
+        [
+          0.0788,
+          0.5506
+        ],
+        [
+          0.0797,
+          0.5423
+        ]
+      ]
+    },
+    {
+      "id": "1391322122",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0819,
+          0.4962
+        ],
+        [
+          0.0972,
+          0.4955
+        ],
+        [
+          0.0997,
+          0.5048
+        ],
+        [
+          0.0813,
+          0.5058
+        ],
+        [
+          0.0819,
+          0.4962
+        ]
+      ]
+    },
+    {
+      "id": "1391322123",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0813,
+          0.5085
+        ],
+        [
+          0.0988,
+          0.5075
+        ],
+        [
+          0.0991,
+          0.5144
+        ],
+        [
+          0.0807,
+          0.5151
+        ],
+        [
+          0.0813,
+          0.5085
+        ]
+      ]
+    },
+    {
+      "id": "1391322124",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0791,
+          0.5163
+        ],
+        [
+          0.0972,
+          0.5166
+        ],
+        [
+          0.0975,
+          0.5229
+        ],
+        [
+          0.0779,
+          0.5237
+        ],
+        [
+          0.0791,
+          0.5163
+        ]
+      ]
+    },
+    {
+      "id": "1391322125",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0803,
+          0.4729
+        ],
+        [
+          0.0997,
+          0.4728
+        ],
+        [
+          0.0993,
+          0.481
+        ],
+        [
+          0.0805,
+          0.4807
+        ],
+        [
+          0.0803,
+          0.4729
+        ]
+      ]
+    },
+    {
+      "id": "1391322126",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0812,
+          0.4829
+        ],
+        [
+          0.1001,
+          0.4831
+        ],
+        [
+          0.1011,
+          0.4894
+        ],
+        [
+          0.0812,
+          0.4897
+        ],
+        [
+          0.0812,
+          0.4829
+        ]
+      ]
+    },
+    {
+      "id": "1391322127",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0807,
+          0.4913
+        ],
+        [
+          0.1009,
+          0.4918
+        ],
+        [
+          0.1011,
+          0.4946
+        ],
+        [
+          0.0793,
+          0.4952
+        ],
+        [
+          0.0807,
+          0.4913
+        ]
+      ]
+    },
+    {
+      "id": "1391322128",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0834,
+          0.4644
+        ],
+        [
+          0.1017,
+          0.4642
+        ],
+        [
+          0.1026,
+          0.47
+        ],
+        [
+          0.0824,
+          0.4711
+        ],
+        [
+          0.0834,
+          0.4644
+        ]
+      ]
+    },
+    {
+      "id": "1391322129",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0328,
+          0.5821
+        ],
+        [
+          0.0487,
+          0.5723
+        ],
+        [
+          0.054,
+          0.5775
+        ],
+        [
+          0.0403,
+          0.5868
+        ],
+        [
+          0.0328,
+          0.5821
+        ]
+      ]
+    },
+    {
+      "id": "1391322130",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          -0.0205,
+          0.5344
+        ],
+        [
+          -0.0112,
+          0.5214
+        ],
+        [
+          -0.0021,
+          0.5273
+        ],
+        [
+          -0.0074,
+          0.5363
+        ],
+        [
+          -0.0205,
+          0.5344
+        ]
+      ]
+    },
+    {
+      "id": "1391322131",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          -0.0018,
+          0.5569
+        ],
+        [
+          -0.0031,
+          0.5427
+        ],
+        [
+          0.0125,
+          0.5447
+        ],
+        [
+          0.0128,
+          0.5584
+        ],
+        [
+          -0.0018,
+          0.5569
+        ]
+      ]
+    },
+    {
+      "id": "1391322132",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          -0.0268,
+          0.5829
+        ],
+        [
+          -0.0249,
+          0.5677
+        ],
+        [
+          -0.0199,
+          0.5677
+        ],
+        [
+          -0.0187,
+          0.5625
+        ],
+        [
+          -0.014,
+          0.5633
+        ],
+        [
+          -0.0143,
+          0.5826
+        ],
+        [
+          -0.0268,
+          0.5829
+        ]
+      ]
+    },
+    {
+      "id": "1391322133",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0939,
+          0.6563
+        ],
+        [
+          0.0939,
+          0.6673
+        ],
+        [
+          0.1015,
+          0.6687
+        ],
+        [
+          0.1011,
+          0.6555
+        ],
+        [
+          0.0939,
+          0.6563
+        ]
+      ]
+    },
+    {
+      "id": "1391322134",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0728,
+          0.6695
+        ],
+        [
+          0.09,
+          0.669
+        ],
+        [
+          0.0893,
+          0.6802
+        ],
+        [
+          0.0828,
+          0.6808
+        ],
+        [
+          0.0832,
+          0.6737
+        ],
+        [
+          0.0724,
+          0.6746
+        ],
+        [
+          0.0728,
+          0.6695
+        ]
+      ]
+    },
+    {
+      "id": "1391322135",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0645,
+          0.8029
+        ],
+        [
+          0.0776,
+          0.8027
+        ],
+        [
+          0.0754,
+          0.8152
+        ],
+        [
+          0.0648,
+          0.8154
+        ],
+        [
+          0.0645,
+          0.8029
+        ]
+      ]
+    },
+    {
+      "id": "1391322136",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0436,
+          0.8017
+        ],
+        [
+          0.0542,
+          0.8024
+        ],
+        [
+          0.0551,
+          0.813
+        ],
+        [
+          0.0427,
+          0.8142
+        ],
+        [
+          0.0436,
+          0.8017
+        ]
+      ]
+    },
+    {
+      "id": "1391322137",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1634,
+          0.8571
+        ],
+        [
+          0.1858,
+          0.8585
+        ],
+        [
+          0.1843,
+          0.8671
+        ],
+        [
+          0.1652,
+          0.8683
+        ],
+        [
+          0.1634,
+          0.8571
+        ]
+      ]
+    },
+    {
+      "id": "1391322138",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1091,
+          0.8649
+        ],
+        [
+          0.1094,
+          0.8551
+        ],
+        [
+          0.1238,
+          0.8556
+        ],
+        [
+          0.1222,
+          0.8681
+        ],
+        [
+          0.1091,
+          0.8649
+        ]
+      ]
+    },
+    {
+      "id": "1391322139",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.0838,
+          0.8651
+        ],
+        [
+          0.0823,
+          0.8534
+        ],
+        [
+          0.0954,
+          0.8544
+        ],
+        [
+          0.0938,
+          0.8671
+        ],
+        [
+          0.0838,
+          0.8651
+        ]
+      ]
+    },
+    {
+      "id": "1391322140",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1917,
+          0.8811
+        ],
+        [
+          0.1933,
+          0.8691
+        ],
+        [
+          0.2092,
+          0.8688
+        ],
+        [
+          0.2108,
+          0.8762
+        ],
+        [
+          0.2064,
+          0.8774
+        ],
+        [
+          0.2048,
+          0.8821
+        ],
+        [
+          0.1917,
+          0.8811
+        ]
+      ]
+    },
+    {
+      "id": "1391322141",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1284,
+          0.8674
+        ],
+        [
+          0.1319,
+          0.8563
+        ],
+        [
+          0.1515,
+          0.8546
+        ],
+        [
+          0.1503,
+          0.8676
+        ],
+        [
+          0.1284,
+          0.8674
+        ]
+      ]
+    },
+    {
+      "id": "1391322142",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.231,
+          0.8813
+        ],
+        [
+          0.2323,
+          0.8774
+        ],
+        [
+          0.2448,
+          0.8774
+        ],
+        [
+          0.246,
+          0.8835
+        ],
+        [
+          0.231,
+          0.8813
+        ]
+      ]
+    },
+    {
+      "id": "1391322143",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.2151,
+          0.8703
+        ],
+        [
+          0.2189,
+          0.8576
+        ],
+        [
+          0.2463,
+          0.858
+        ],
+        [
+          0.2448,
+          0.8671
+        ],
+        [
+          0.2351,
+          0.8671
+        ],
+        [
+          0.2332,
+          0.871
+        ],
+        [
+          0.2151,
+          0.8703
+        ]
+      ]
+    },
+    {
+      "id": "1391322144",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1918,
+          0.8551
+        ],
+        [
+          0.2107,
+          0.857
+        ],
+        [
+          0.2112,
+          0.8672
+        ],
+        [
+          0.1975,
+          0.8665
+        ],
+        [
+          0.198,
+          0.8609
+        ],
+        [
+          0.1902,
+          0.8598
+        ],
+        [
+          0.1918,
+          0.8551
+        ]
+      ]
+    },
+    {
+      "id": "1391322145",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1178,
+          0.87
+        ],
+        [
+          0.1353,
+          0.8704
+        ],
+        [
+          0.1351,
+          0.88
+        ],
+        [
+          0.1207,
+          0.8806
+        ],
+        [
+          0.1178,
+          0.87
+        ]
+      ]
+    },
+    {
+      "id": "1391322146",
+      "type": "building",
+      "kind": "yes",
+      "name": "",
+      "pts": [
+        [
+          0.1512,
+          0.8804
+        ],
+        [
+          0.1542,
+          0.87
+        ],
+        [
+          0.1783,
+          0.872
+        ],
+        [
+          0.1774,
+          0.8823
+        ],
+        [
+          0.1512,
+          0.8804
+        ]
+      ]
+    }
+  ],
+  "bounds": {
+    "minLat": 30.8548,
+    "maxLat": 30.8642,
+    "minLon": 75.8572,
+    "maxLon": 75.8658
+  },
+  "gallery": [
+    {
+      "src": "/assets/img/main-gate.jpg",
+      "title": "College main entrance",
+      "caption": "The GNDEC portico on Gill Road — the landmark most visitors use.",
+      "credit": "GNDEC website",
+      "place": "main-gate"
+    },
+    {
+      "src": "/assets/img/library.jpg",
+      "title": "Central Library",
+      "caption": "The library building, reading rooms and reference section.",
+      "credit": "GNDEC website",
+      "place": "library"
+    },
+    {
+      "src": "/assets/img/gallery/auditorium-a.jpg",
+      "title": "Auditorium",
+      "caption": "Red seating and the main stage inside the college auditorium.",
+      "credit": "GNDEC gallery",
+      "place": "auditorium"
+    },
+    {
+      "src": "/assets/img/gallery/auditorium-b.jpg",
+      "title": "Auditorium balcony",
+      "caption": "Another view of the auditorium seating.",
+      "credit": "GNDEC gallery",
+      "place": "auditorium"
+    },
+    {
+      "src": "/assets/img/gallery/sports-complex.jpg",
+      "title": "Sports complex",
+      "caption": "The indoor sports hall used for badminton and college tournaments.",
+      "credit": "GNDEC gallery",
+      "place": "sports-complex"
+    },
+    {
+      "src": "/assets/img/gallery/gym-a.jpg",
+      "title": "College gym",
+      "caption": "Weights and training equipment inside the gym.",
+      "credit": "GNDEC gallery",
+      "place": "gym"
+    },
+    {
+      "src": "/assets/img/gallery/swimming-pool.jpg",
+      "title": "Swimming pool",
+      "caption": "The campus swimming pool beside the sports area.",
+      "credit": "GNDEC gallery",
+      "place": "swimming-pool"
+    },
+    {
+      "src": "/assets/img/gallery/open-air-theatre.jpg",
+      "title": "Open Air Theatre",
+      "caption": "The stepped OAT used for cultural nights and college events.",
+      "credit": "GNDEC gallery",
+      "place": "open-air-theatre"
+    },
+    {
+      "src": "/assets/img/gallery/tennis-courts.jpg",
+      "title": "Tennis courts",
+      "caption": "Outdoor tennis courts near the sports complex.",
+      "credit": "GNDEC gallery",
+      "place": "tennis-courts"
+    },
+    {
+      "src": "/assets/img/gallery/football-ground.jpg",
+      "title": "Football ground",
+      "caption": "The main playing field on campus.",
+      "credit": "GNDEC gallery",
+      "place": "football-ground"
+    },
+    {
+      "src": "/assets/img/rooms/f107.jpg",
+      "title": "Classroom F107",
+      "caption": "A first-year classroom, photographed from the official room gallery.",
+      "credit": "GNDEC official room gallery",
+      "place": "f-block"
+    },
+    {
+      "src": "/assets/img/rooms/s201.jpg",
+      "title": "Classroom S201",
+      "caption": "A second-year classroom with the room number painted on the wall.",
+      "credit": "GNDEC official room gallery",
+      "place": "s-block"
+    },
+    {
+      "src": "/assets/img/rooms/g1.jpg",
+      "title": "Classroom G1",
+      "caption": "A ground-floor classroom in G-Block.",
+      "credit": "GNDEC official room gallery",
+      "place": "g-block"
+    },
+    {
+      "src": "/assets/img/gallery/campus-road.jpg",
+      "title": "Tree-lined campus road",
+      "caption": "The shaded main walk through the campus.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/academic-block.jpg",
+      "title": "Academic block courtyard",
+      "caption": "The red-brick academic block around the central lawn and fountain.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/red-corridor.jpg",
+      "title": "Red-pillared corridor",
+      "caption": "A covered corridor between academic blocks.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/campus-courtyard.jpg",
+      "title": "Campus courtyard",
+      "caption": "The central courtyard and photostat shop.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/principal-bungalow.jpg",
+      "title": "Principal's Bungalow",
+      "caption": "The heritage white residence with the blue dome, near the west gate.",
+      "credit": "Wikimedia Commons (CC)",
+      "place": "principal-bungalow"
+    },
+    {
+      "src": "/assets/img/gallery/night-campus.jpg",
+      "title": "Campus at night",
+      "caption": "The illuminated fountain and lawns after dark.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/sports-field.jpg",
+      "title": "Sports field",
+      "caption": "The college playing field.",
+      "credit": "Wikimedia Commons (CC)"
+    }
+  ],
+  "facts": {
+    "established": 1953,
+    "campusAcres": 86,
+    "address": "Gill Park, Gill Road, Ludhiana, Punjab 141006",
+    "phone": "0161-5064501",
+    "email": "principal@gndec.ac.in",
+    "website": "https://gndec.ac.in/",
+    "autonomous": true,
+    "affiliatedTo": "IK Gujral Punjab Technical University (PTU)",
+    "distanceBusStandKm": 5,
+    "distanceRailwayStationKm": 8,
+    "hostels": "Three boys' hostels and one girls' hostel, about 1,200 residents",
+    "note": "Campus facts are from the official GNDEC Campus page. GNDEC and GND Polytechnic share the same campus and many facilities."
+  },
+  "mapLinks": [
+    {
+      "label": "OpenStreetMap campus polygon",
+      "url": "https://www.openstreetmap.org/way/38152756"
+    },
+    {
+      "label": "OpenStreetMap (main gate)",
+      "url": "https://www.openstreetmap.org/?mlat=30.8598&mlon=75.8637#map=18/30.8598/75.8637"
+    },
+    {
+      "label": "MapCarta — GNDEC",
+      "url": "https://mapcarta.com/W38152756"
+    },
+    {
+      "label": "Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=I8189CCCAA7E0DDB0"
+    },
+    {
+      "label": "GND Polytechnic campus map",
+      "url": "https://www.gndpoly.org/CollegeMap2.php"
+    },
+    {
+      "label": "Google Maps directions to GNDEC",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=30.8598,75.8637"
+    }
+  ],
+  "generatedAt": "2026-11-02T11:39:01.099Z"
+}

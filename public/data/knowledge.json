@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-11-02T11:39:01.099Z",
+  "version": "2026.09.03",
+  "verifiedDate": "2026-09-03",
+  "policy": "Only current official source pages are stored here. Mutable facts are resolved from the live source or are reported as unavailable.",
+  "portalLinks": [
+    {
+      "category": "Timetables and current rosters",
+      "items": [
+        {
+          "title": "Official GNDEC timetable index",
+          "description": "Current and archived FET timetable releases and current first-year roster links",
+          "url": "https://appsc.gndec.ac.in/time_tables"
+        }
+      ]
+    },
+    {
+      "category": "Academic calendar and holidays",
+      "items": [
+        {
+          "title": "GNDEC academic calendars",
+          "description": "Current and archived autonomous academic calendars",
+          "url": "https://www.gndec.ac.in/?q=node/23"
+        },
+        {
+          "title": "GNDEC holidays portal",
+          "description": "Official holiday lists and notices",
+          "url": "https://gndec.ac.in/?q=holidays"
+        },
+        {
+          "title": "GNDEC List of Holidays 2026",
+          "description": "Official 2026 gazetted, restricted, and half-day notices",
+          "url": "https://gndec.ac.in/sites/default/files/LoH26.pdf"
+        }
+      ]
+    },
+    {
+      "category": "Faculty and academic resources",
+      "items": [
+        {
+          "title": "GNDEC faculty directory",
+          "description": "Current public faculty and staff profiles",
+          "url": "https://gndec.ac.in/faculty/"
+        },
+        {
+          "title": "Applied Sciences",
+          "description": "Official first-year department resources and notices",
+          "url": "https://appsc.gndec.ac.in/"
+        }
+      ]
+    },
+    {
+      "category": "Campus services",
+      "items": [
+        {
+          "title": "GNDEC campus",
+          "description": "Official campus and facilities overview",
+          "url": "https://gndec.ac.in/?q=node/58"
+        },
+        {
+          "title": "GNDEC library",
+          "description": "Current official library services and timings",
+          "url": "https://gndec.ac.in/library/"
+        }
+      ]
+    }
+  ],
+  "hostelRules": {
+    "title": "GNDEC hostel information",
+    "summary": "GNDEC publishes campus hostel information. Current allotment, timing, mess, and conduct rules must be checked from the latest official notice.",
+    "links": [
+      {
+        "title": "Official campus and facilities overview",
+        "url": "https://gndec.ac.in/?q=node/58"
+      }
+    ]
+  },
+  "autonomousRegulations": {
+    "sourceRequired": true,
+    "summary": "Attendance, grading, examination, and credit rules must be answered from the current official regulations or the loaded official course scheme, never from a cached generic rule."
+  },
+  "campusFacts": {
+    "established": 1953,
+    "campusAcres": 86,
+    "address": "Gill Park, Gill Road, Ludhiana, Punjab 141006",
+    "phone": "0161-5064501",
+    "email": "principal@gndec.ac.in",
+    "website": "https://gndec.ac.in/",
+    "autonomous": true,
+    "affiliatedTo": "IK Gujral Punjab Technical University (PTU)",
+    "distanceBusStandKm": 5,
+    "distanceRailwayStationKm": 8,
+    "hostels": "Three boys' hostels and one girls' hostel, about 1,200 residents",
+    "note": "Campus facts are from the official GNDEC Campus page. GNDEC and GND Polytechnic share the same campus and many facilities."
+  },
+  "mapLinks": [
+    {
+      "label": "OpenStreetMap campus polygon",
+      "url": "https://www.openstreetmap.org/way/38152756"
+    },
+    {
+      "label": "OpenStreetMap (main gate)",
+      "url": "https://www.openstreetmap.org/?mlat=30.8598&mlon=75.8637#map=18/30.8598/75.8637"
+    },
+    {
+      "label": "MapCarta — GNDEC",
+      "url": "https://mapcarta.com/W38152756"
+    },
+    {
+      "label": "Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=I8189CCCAA7E0DDB0"
+    },
+    {
+      "label": "GND Polytechnic campus map",
+      "url": "https://www.gndpoly.org/CollegeMap2.php"
+    },
+    {
+      "label": "Google Maps directions to GNDEC",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=30.8598,75.8637"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/assets/img/main-gate.jpg",
+      "title": "College main entrance",
+      "caption": "The GNDEC portico on Gill Road — the landmark most visitors use.",
+      "credit": "GNDEC website",
+      "place": "main-gate"
+    },
+    {
+      "src": "/assets/img/admin.jpg",
+      "title": "Administration Block",
+      "caption": "College office, Principal's office and the admission desk are inside this block.",
+      "credit": "GNDEC website",
+      "place": "admin-block"
+    },
+    {
+      "src": "/assets/img/library.jpg",
+      "title": "Central Library",
+      "caption": "The library building, reading rooms and reference section.",
+      "credit": "GNDEC library page",
+      "place": "library"
+    },
+    {
+      "src": "/assets/img/lab.jpg",
+      "title": "Computer laboratory",
+      "caption": "A typical computing lab used for practicals.",
+      "credit": "GNDEC library page",
+      "place": "it-dept"
+    },
+    {
+      "src": "/assets/img/auditorium.jpg",
+      "title": "Auditorium / seminar stage",
+      "caption": "Indoor gatherings, orientations and guest lectures.",
+      "credit": "GNDEC website",
+      "place": "auditorium"
+    },
+    {
+      "src": "/assets/img/workshop.jpg",
+      "title": "Central Workshops",
+      "caption": "Manufacturing practice and mechanical engineering labs.",
+      "credit": "GNDEC Mechanical department",
+      "place": "workshops"
+    },
+    {
+      "src": "/assets/img/campus-life.jpg",
+      "title": "Campus life",
+      "caption": "Cultural performances during the college fest.",
+      "credit": "GNDEC website",
+      "place": "open-air-theatre"
+    },
+    {
+      "src": "/assets/img/sports.jpg",
+      "title": "Sports day",
+      "caption": "Annual athletics meet on the campus grounds.",
+      "credit": "GNDEC website",
+      "place": "sports-complex"
+    },
+    {
+      "src": "/assets/img/new-gate.jpg",
+      "title": "New gate plaque (2022)",
+      "caption": "The foundation plaque for the new entrance gate.",
+      "credit": "GNDEC website",
+      "place": "north-gate"
+    },
+    {
+      "src": "/assets/img/convocation.jpg",
+      "title": "Convocation",
+      "caption": "Annual convocation ceremony.",
+      "credit": "GNDEC website",
+      "place": "auditorium"
+    },
+    {
+      "src": "/assets/img/admissions.jpg",
+      "title": "Admission enquiry",
+      "caption": "Official admission enquiry poster with the college helpline numbers.",
+      "credit": "GNDEC admissions",
+      "place": "admission-cell"
+    }
+  ],
+  "emergencyNote": "The college publishes office landlines and role emails. Personal mobile numbers are not reproduced here."
+}

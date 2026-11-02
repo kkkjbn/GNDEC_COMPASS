@@ -1,0 +1,81 @@
+{
+  "version": "2026.09.03",
+  "verifiedDate": "2026-09-03",
+  "policy": "Only current official source pages are stored here. Mutable facts are resolved from the live source or are reported as unavailable.",
+  "portalLinks": [
+    {
+      "category": "Timetables and current rosters",
+      "items": [
+        {
+          "title": "Official GNDEC timetable index",
+          "description": "Current and archived FET timetable releases and current first-year roster links",
+          "url": "https://appsc.gndec.ac.in/time_tables"
+        }
+      ]
+    },
+    {
+      "category": "Academic calendar and holidays",
+      "items": [
+        {
+          "title": "GNDEC academic calendars",
+          "description": "Current and archived autonomous academic calendars",
+          "url": "https://www.gndec.ac.in/?q=node/23"
+        },
+        {
+          "title": "GNDEC holidays portal",
+          "description": "Official holiday lists and notices",
+          "url": "https://gndec.ac.in/?q=holidays"
+        },
+        {
+          "title": "GNDEC List of Holidays 2026",
+          "description": "Official 2026 gazetted, restricted, and half-day notices",
+          "url": "https://gndec.ac.in/sites/default/files/LoH26.pdf"
+        }
+      ]
+    },
+    {
+      "category": "Faculty and academic resources",
+      "items": [
+        {
+          "title": "GNDEC faculty directory",
+          "description": "Current public faculty and staff profiles",
+          "url": "https://gndec.ac.in/faculty/"
+        },
+        {
+          "title": "Applied Sciences",
+          "description": "Official first-year department resources and notices",
+          "url": "https://appsc.gndec.ac.in/"
+        }
+      ]
+    },
+    {
+      "category": "Campus services",
+      "items": [
+        {
+          "title": "GNDEC campus",
+          "description": "Official campus and facilities overview",
+          "url": "https://gndec.ac.in/?q=node/58"
+        },
+        {
+          "title": "GNDEC library",
+          "description": "Current official library services and timings",
+          "url": "https://gndec.ac.in/library/"
+        }
+      ]
+    }
+  ],
+  "hostelRules": {
+    "title": "GNDEC hostel information",
+    "summary": "GNDEC publishes campus hostel information. Current allotment, timing, mess, and conduct rules must be checked from the latest official notice.",
+    "links": [
+      {
+        "title": "Official campus and facilities overview",
+        "url": "https://gndec.ac.in/?q=node/58"
+      }
+    ]
+  },
+  "autonomousRegulations": {
+    "sourceRequired": true,
+    "summary": "Attendance, grading, examination, and credit rules must be answered from the current official regulations or the loaded official course scheme, never from a cached generic rule."
+  }
+}

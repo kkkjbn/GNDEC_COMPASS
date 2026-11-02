@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Local build/deploy artefacts
+.wrangler/
+.dev.vars
+.env
+
+# Scratch and research files that are not part of the app
+_research/
+_*.mjs
+_*.js
+_*.json
+_*.jpg
+_*.png
+_*.html
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*

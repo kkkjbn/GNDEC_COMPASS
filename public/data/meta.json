@@ -1,0 +1,75 @@
+{
+  "app": "gndec-one",
+  "dataVersion": "2026.11.02",
+  "generatedAt": "2026-11-02T11:39:01.209Z",
+  "sourceHash": "1d73dcfbd3a2fe0f",
+  "timetableVersion": "17-09-2026",
+  "counts": {
+    "sections": 54,
+    "subgroups": 96,
+    "lectures": 875,
+    "teachers": 268,
+    "verifiedTeachers": 248,
+    "teachingFaculty": 97,
+    "students": 2108,
+    "rooms": 101,
+    "notices": 28,
+    "holidays": 35,
+    "papers": 1600,
+    "paperCodes": 373,
+    "syllabus": 23,
+    "questionBanks": 152,
+    "places": 42,
+    "photos": 11,
+    "contacts": 20,
+    "firstYearSyllabusPages": 33,
+    "searchEntries": 4387
+  },
+  "coverage": {
+    "timetableYears": [
+      1,
+      2,
+      3
+    ],
+    "timetableBranches": [
+      "ARCH",
+      "BBA",
+      "BCA",
+      "BCOM",
+      "BVOC",
+      "CE",
+      "CS",
+      "EC",
+      "EE",
+      "IT",
+      "MCA",
+      "ME",
+      "RAI"
+    ],
+    "studentBatches": [
+      "2026",
+      "2025"
+    ],
+    "programs": [
+      "B.Arch",
+      "B.Com",
+      "B.Tech",
+      "B.Voc",
+      "BBA",
+      "BCA",
+      "MCA"
+    ],
+    "missing": [
+      "4th-year timetable is not present in the official FET export",
+      "4th-year (2023 batch) student roster is not published",
+      "3rd-year rosters are not published (the 2025-10 PDFs are Batch 2025, not Batch 2024)",
+      "Exam seating plans and consolidated date sheets are login-only (not public)",
+      "Faculty cabin numbers are not published",
+      "Classroom interiors, library reading hall and admission cell photos are not published on the official site",
+      "Official room-to-block mapping is not published; block links in the app are inferred from room codes",
+      "Notes and question banks are only published by the IT department; other departments publish none publicly",
+      "Attendance, internal marks and personalised exam data require the student ERP login",
+      "Hostel allotment, mess menu and bus route timings are not published as live data"
+    ]
+  }
+}
