@@ -302,8 +302,10 @@ export function shortestRoute(campus, fromId, toId) {
       const edge = next.edge;
       const target = next.node;
       if (target?.kind === "place") {
+        // The final leg of every route must read as an arrival, never as a
+        // departure note copied from the edge.
         steps.push({
-          text: edge?.note && edge.note.startsWith("Leave") ? edge.note : `Arrive at ${target.name}.`,
+          text: `Arrive at ${target.name}.`,
           metres: edge?.weight || 0,
         });
       } else if (edge?.note) {
@@ -327,6 +329,7 @@ export function shortestRoute(campus, fromId, toId) {
     minutes,
     steps: steps.filter((step, index, list) => index === 0 || step.text !== list[index - 1].text),
     points,
+    via: chain.map((item) => item.node).filter((node) => node?.kind === "place"),
   };
 }
 
@@ -633,6 +636,8 @@ function extractBranch(text) {
   if (/\brai\b/.test(text)) return "RAI";
   if (/\b(?:it)\s+(?:dept|department|branch|section|student|teacher|faculty|timetable|year)\b/.test(text)) return "IT";
   if (text.trim() === "it") return "IT";
+  // "in IT", "IT mein", "IT ke students" — a bare IT token at a phrase boundary.
+  if (/\bit\b(?=\s*(?:$|(?:mein|me|ke|ka|ki|se|wal[ae]|students?|bachche|bachay|sections?|branch|dept|department|faculty|teachers?|timetable|year|group)\b))/.test(text)) return "IT";
   if (/\b(?:me)\s+(?:dept|department|branch|section|student|teacher|faculty|timetable|year)\b/.test(text)) return "ME";
   if (/\b(?:ce)\s+(?:dept|department|branch|section)\b/.test(text)) return "CE";
   if (/\b(?:ee)\s+(?:dept|department|branch|section)\b/.test(text)) return "EE";
@@ -675,6 +680,19 @@ export function findSections(timetable, text) {
     return pattern.test(upper);
   });
   if (direct.length) return direct;
+
+  // Subgroup ids (ECB1, D2CSA2) resolve to their parent section. A student's
+  // practical group is a first-class way to ask about a class.
+  const subgroupParents = [];
+  for (const group of timetable?.subgroups || []) {
+    if (!group?.id) continue;
+    const pattern = new RegExp(`(^|[^A-Z0-9])${escapeRe(group.id)}([^A-Z0-9]|$)`);
+    if (!pattern.test(upper)) continue;
+    const parentId = String(group.id).replace(/\d+$/, "");
+    const parent = list.find((section) => section.id === parentId);
+    if (parent && !subgroupParents.includes(parent)) subgroupParents.push(parent);
+  }
+  if (subgroupParents.length) return subgroupParents;
 
   // "2 cse b", "cse 2 b" and "2nd year cse b" style shorthand.
   const branch = extractBranch(original.toLowerCase());
@@ -1009,6 +1027,7 @@ const NAME_INTENT_WORDS = new Set([
   "who", "is", "teaches", "teach", "the", "subject", "teacher", "faculty", "professor", "of", "for",
   "find", "profile", "email", "phone", "contact", "details", "detail", "sir", "mam", "madam", "about",
   "tell", "me", "what", "where", "when", "does", "do", "hod", "head", "department", "cabin", "room",
+  "kaun", "koun", "kon", "kaunsa", "konsa", "kis", "kiska", "kiski", "hai", "hain", "he", "h", "mera", "meri",
 ]);
 
 function nameTokens(name) {
@@ -1256,7 +1275,7 @@ function teacherNowReply(teacher, now) {
 
 function findRoom(rooms, text) {
   const original = String(text || "").toUpperCase();
-  const codes = [...original.matchAll(/\b([FSG])\s*-?\s*(\d{2,3})\b/g)].map((m) => `${m[1]}${m[2]}`);
+  const codes = [...original.matchAll(/\b([FSG])\s*-?\s*(\d{1,3})\b/g)].map((m) => `${m[1]}${m[2]}`);
   const automobile = [...original.matchAll(/\bA\s*-?\s*([69])\b/g)].map((m) => `A${m[1]}`);
   const wanted = [...codes, ...automobile];
   if (!wanted.length && /\bworkshop/i.test(original)) return { name: "WORKSHOPS", place: "workshops" };
@@ -1281,8 +1300,9 @@ function roomReply(room, place, campus, extra = {}) {
   if (!place) {
     bullets.push("This room is in the timetable, but its block is not published. You can map it in the admin console.");
   }
-  return reply(room ? `${room.name}` : "Room location", {
-    bullets,
+  const { bullets: extraBullets = [], ...rest } = extra;
+  return reply(room ? (place ? `${room.name} is in ${place.name}.` : `${room.name} — room location`) : "Room location", {
+    bullets: [...bullets, ...extraBullets],
     actions: [
       place ? { label: "Show on map", to: `#/rasta/place/${place.id}` } : { label: "Open Rasta", to: "#/rasta" },
       place ? { label: "Route from main gate", to: `#/rasta?from=main-gate&to=${place.id}` } : null,
@@ -1291,7 +1311,7 @@ function roomReply(room, place, campus, extra = {}) {
     media: place?.photo ? { src: place.photo, credit: place.photoCredit || "" } : room?.photo ? { src: room.photo, credit: room.photoCredit || "" } : null,
     entities: { room: room?.name || "", place: place?.id || "" },
     kind: "room",
-    ...extra,
+    ...rest,
   });
 }
 
@@ -1514,7 +1534,7 @@ function evaluateExpression(input) {
 /* ---------------------------- counting ---------------------------- */
 
 function countReply(canon, ctx) {
-  const { timetable, teachers, students, papers, notices, rooms, campus } = ctx;
+  const { timetable, teachers, students, papers, notices, rooms, campus, profile } = ctx;
   const wantsStudents = /\b(student|students|bachche|bachay|vidyarthi)\b/.test(canon);
   const wantsTeachers = /\b(teacher|teachers|faculty|professor|professors|staff)\b/.test(canon);
   const wantsSections = /\b(section|sections|group|groups|class|classes)\b/.test(canon);
@@ -1526,6 +1546,14 @@ function countReply(canon, ctx) {
   const sections = findSections(timetable, canon);
   const branch = extractBranch(canon);
   const year = extractYear(canon);
+  const subgroupIds = (timetable?.subgroups || [])
+    .filter((group) => {
+      if (!group?.id) return false;
+      const pattern = new RegExp(`(^|[^A-Z0-9])${escapeRe(group.id)}([^A-Z0-9]|$)`);
+      return pattern.test(String(canon).toUpperCase());
+    })
+    .map((group) => String(group.id).toUpperCase());
+  const allBranches = /\b(all|every|sab|saare|total)\b/.test(canon);
 
   if (wantsBranches && !wantsStudents && !wantsTeachers) {
     const branches = [...new Set((timetable?.sections || []).map((section) => section.branch))].sort();
@@ -1541,12 +1569,27 @@ function countReply(canon, ctx) {
 
   if (wantsStudents) {
     let pool = [...(students || [])];
+    let scopeBranch = branch;
+    let scopeYear = year;
+    let scopeLabel = "";
+
     if (sections.length) {
       const ids = new Set(sections.map((section) => section.id));
       pool = pool.filter((student) => ids.has(student.section) || ids.has(student.group) || [...ids].some((id) => String(student.subgroup || "").startsWith(id)));
+      scopeLabel = sections.map((section) => section.id).join(", ");
+    } else if (subgroupIds.length) {
+      const ids = new Set(subgroupIds);
+      pool = pool.filter((student) => ids.has(String(student.subgroup || student.subsection || "").toUpperCase()));
+      scopeLabel = subgroupIds.join(", ");
+    } else if (!branch && !year && !allBranches && profile?.branch) {
+      // Personal context: "how many students" means the user's own year and
+      // branch until they explicitly widen the question.
+      scopeBranch = profile.branch;
+      scopeYear = profile.year ?? null;
     }
-    if (branch) pool = pool.filter((student) => student.branch === branch);
-    if (year) pool = pool.filter((student) => student.year === year);
+
+    if (scopeBranch) pool = pool.filter((student) => student.branch === scopeBranch);
+    if (scopeYear) pool = pool.filter((student) => student.year === scopeYear);
     const mentorMatch = bestPersonMatch(nameTokens(canon), (students || []).map((student) => ({ name: student.mentor, student })));
     if (mentorMatch && /\bmentor\b/.test(canon)) {
       const mentorName = mentorMatch.item.name;
@@ -1562,14 +1605,14 @@ function countReply(canon, ctx) {
         kind: "count",
       });
     }
-    const label = sections.length ? sections.map((section) => section.id).join(", ") : branch || "all branches";
-    const bullets = [`${pool.length} student record${pool.length === 1 ? "" : "s"} match ${label}${year ? ` · year ${year}` : ""}.`];
+    if (!scopeLabel) scopeLabel = scopeBranch || "all branches";
+    const bullets = [`${pool.length} student record${pool.length === 1 ? "" : "s"} match ${scopeLabel}${scopeYear ? ` · year ${scopeYear}` : ""}.`];
     if (sections.length && pool.length) {
       for (const section of sections.slice(0, 8)) {
         const count = pool.filter((student) => student.section === section.id || student.group === section.id).length;
         bullets.push(`${section.id}: ${count}`);
       }
-    } else if (branch && pool.length) {
+    } else if (scopeBranch && pool.length) {
       const bySection = new Map();
       for (const student of pool) bySection.set(student.section, (bySection.get(student.section) || 0) + 1);
       for (const [section, count] of [...bySection.entries()].sort()) bullets.push(`${section}: ${count}`);
@@ -1843,6 +1886,44 @@ function answerInner(question, ctx = {}) {
     return helpReply();
   }
 
+  /* ---- personal identity / attendance ---- */
+  if (/\b(attendance|hazri|haziri|present|absent|detention)\b/.test(canon)) {
+    return reply("Your attendance is not published in any public GNDEC source, so I cannot show a percentage.", {
+      bullets: [
+        "Attendance lives in the college ERP and is visible only after you sign in there.",
+        "I will not invent an attendance figure or a detention warning.",
+        "Use the ERP or ask your mentor/CRN coordinator for the official record.",
+      ],
+      actions: [
+        { label: "Open settings", to: "#/settings" },
+        { label: "Open people", to: "#/people?tab=contacts" },
+      ],
+      kind: "attendance",
+    });
+  }
+  if (/\b(my|mera|meri|mujhe|apna|apni)\s+(section|group|branch|year|crn|registration)\b/.test(canon)) {
+    if (!profile?.section && !profile?.crn) {
+      return reply("I do not have your section yet. Set it once and I will remember it.", {
+        actions: [{ label: "Set my section", to: "#/settings" }],
+        kind: "profile",
+      });
+    }
+    return reply(`${profile.name ? `${profile.name}, you are` : "You are"} in ${[profile.branch, profile.section, profile.subgroup].filter(Boolean).join(" · ")}${profile.year ? ` · Year ${profile.year}` : ""}.`, {
+      bullets: [
+        profile.crn ? `CRN ${profile.crn}${profile.registrationNo ? ` · Registration ${profile.registrationNo}` : ""}` : "",
+        profile.mentor ? `Mentor: ${profile.mentor}${profile.mentorPhone ? ` · ${profile.mentorPhone}` : ""}` : "",
+        profile.venue ? `Mentoring venue: ${profile.venue}` : "",
+        profile.batch ? `Batch ${profile.batch}` : "",
+      ],
+      actions: [
+        profile.crn ? { label: "Open my profile", to: `#/people/student/${profile.crn}` } : null,
+        { label: "Change in settings", to: "#/settings" },
+      ].filter(Boolean),
+      entities: { section: profile.section, subgroup: profile.subgroup },
+      kind: "profile",
+    });
+  }
+
   /* ---- math ---- */
   const math = mathReply(canon);
   if (math) return math;
@@ -1898,6 +1979,34 @@ function answerInner(question, ctx = {}) {
   }
   if (hasAny(canon, ["free", "khali", "vacant"]) && !section && /\bnow\b|abhi/.test(canon)) {
     return freeRoomsReply(timetable, rooms, when, nowMinutes(now), nowMinutes(now) + 60, now);
+  }
+
+  /* ---- my classroom / mentoring venue ---- */
+  if (!findRoom(rooms, original) && /\b(my|mera|meri|apna|apni)\b/.test(canon) && /\b(classroom|class room|room|venue)\b/.test(canon)) {
+    if (!profile?.venue) {
+      return reply("Set your section once and I can show your classroom and mentoring venue.", {
+        bullets: [
+          "Enter your CRN or name in Settings → Your section.",
+          "Your profile stays on this device and is never uploaded.",
+        ],
+        actions: [
+          { label: "Set up my profile", to: "#/settings" },
+          { label: "Browse sections", to: "#/timetable" },
+        ],
+        kind: "room",
+      });
+    }
+    const venueRoom = findRoom(rooms, profile.venue);
+    if (venueRoom) {
+      const place = (campus?.places || []).find((item) => item.id === venueRoom.place) || null;
+      const base = roomReply(venueRoom, place, campus, {
+        bullets: [
+          `This is your mentoring / home-room venue from the official roster (${profile.venue}).`,
+          profile.mentor ? `Mentor: ${profile.mentor}${profile.mentorPhone ? ` · ${profile.mentorPhone}` : ""}` : "",
+        ].filter(Boolean),
+      });
+      return { ...base, entities: { ...base.entities, ...baseEntities } };
+    }
   }
 
   /* ---- room queries ---- */
@@ -1997,6 +2106,38 @@ function answerInner(question, ctx = {}) {
     if (student) return studentReply(student);
   }
   if (/\bmentor\b/.test(canon)) {
+    const mentorTokens = nameTokens(canon).filter((token) => token !== "mentor" && token !== "mentors");
+    const wantsPersonal = /\b(my|mera|meri|mujhe|apna|apni)\b/.test(canon) || (!mentorTokens.length && profile?.mentor);
+    if (wantsPersonal && profile?.mentor) {
+      return reply(`Your mentor is ${profile.mentor}.`, {
+        bullets: [
+          `${profile.branch || ""}${profile.section ? ` · ${profile.section}` : ""}${profile.subgroup ? ` · ${profile.subgroup}` : ""}${profile.year ? ` · Year ${profile.year}` : ""}`.trim(),
+          profile.mentorPhone ? `Mentor phone: ${profile.mentorPhone}` : "",
+          profile.venue ? `Mentoring venue: ${profile.venue}` : "",
+          profile.name ? `Saved student: ${profile.name}${profile.crn ? ` · CRN ${profile.crn}` : ""}` : "",
+        ],
+        actions: [
+          profile.crn ? { label: "Open my profile", to: `#/people/student/${profile.crn}` } : null,
+          { label: "Open settings", to: "#/settings" },
+        ].filter(Boolean),
+        cites: profile.sourceUrl ? [cite("Official roster", profile.sourceUrl, profile.sourceUrl)] : [],
+        entities: { mentor: profile.mentor },
+        kind: "mentor",
+      });
+    }
+    if (!profile?.mentor && (wantsPersonal || !mentorTokens.length)) {
+      return reply("Tell me your CRN or name once, and I will remember your mentor.", {
+        bullets: [
+          "Your profile stays on this device and is never uploaded.",
+          "You can also set it from Settings → Your section.",
+        ],
+        actions: [
+          { label: "Set up my profile", to: "#/settings" },
+          { label: "Search students", to: "#/people?tab=students" },
+        ],
+        kind: "mentor",
+      });
+    }
     const student = bestPersonMatch(nameTokens(canon), students || [])?.item || null;
     if (student) {
       return reply(`${student.name}'s mentor is ${student.mentor || "not published"}.`, {
@@ -2200,6 +2341,26 @@ function answerInner(question, ctx = {}) {
   }
 
   /* ---- campus facts / contacts ---- */
+  if (/\b(library|lib)\b/.test(canon) && /\b(timing|timings|hours|open|opens|close|closes|closing|kab|khul|khula|band)\b/.test(canon)) {
+    const hours = campus?.facts?.libraryHours;
+    if (hours) {
+      return reply("Central Library timings", {
+        bullets: [
+          `Weekdays: ${hours.weekdays}`,
+          `Weekends: ${hours.weekend}`,
+          "Reading rooms and the digital section follow the same published hours.",
+          "Exam weeks can extend hours; check the notice board before a late visit.",
+        ],
+        actions: [
+          { label: "Library on map", to: "#/rasta/place/library" },
+          { label: "Route to library", to: "#/rasta?from=main-gate&to=library" },
+        ],
+        cites: [cite("Official library page", "#/rasta/place/library", hours.source)],
+        entities: { place: "library" },
+        kind: "library",
+      });
+    }
+  }
   if (hasAny(canon, ["hostel", "campus", "acre", "established", "history", "address", "bus", "bank", "dispensary", "canteen", "sports", "swimming", "library", "mess", "gym", "ground"])) {
     const facts = campus?.facts || knowledge?.campusFacts || {};
     return reply("GNDEC campus facts", {

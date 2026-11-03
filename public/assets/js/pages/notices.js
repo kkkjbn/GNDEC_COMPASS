@@ -127,7 +127,7 @@ async function renderDetail(root, data, id) {
         title: "Notice not found",
         text: "It may have been removed from the official site.",
         actionLabel: "All notices",
-        onAction: () => { location.hash = "#/notices"; },
+        onAction: () => { window.gndecNavigate?.("/notices") || (location.hash = "#/notices"); },
       }),
     );
     return;

@@ -24,6 +24,7 @@ import { $, $$, el, icon, setPageMeta, scrollTop, toast, openSheet, closeSheet, 
 import { getState, subscribe, cycleTheme, themeLabel, resolvedTheme, dismiss } from "./store.js";
 import { openProfileEditor } from "./components.js";
 import { openSearch, close as closeSearch, isOpen as searchIsOpen, preloadSearch } from "./search.js";
+import { currentPath, navigateTo, rewriteLinks, syncHashToPath, isInternalUrl } from "./router.js";
 
 const PAGES = {
   today: () => import("./pages/today.js"),
@@ -31,6 +32,7 @@ const PAGES = {
   people: () => import("./pages/people.js"),
   rasta: () => import("./pages/rasta.js"),
   study: () => import("./pages/study.js"),
+  community: () => import("./pages/community.js"),
   notices: () => import("./pages/notices.js"),
   exams: () => import("./pages/exams.js"),
   assistant: () => import("./pages/assistant-page.js"),
@@ -47,6 +49,7 @@ const sectionMeta = {
   people: ["People", "People"],
   rasta: ["Rasta · campus navigation", "Campus map"],
   study: ["Study", "Study"],
+  community: ["Campus life", "Clubs & events"],
   notices: ["Notice board", "Notices"],
   exams: ["Examinations", "Exams"],
   assistant: ["Grounded assistant", "Assistant"],
@@ -66,7 +69,7 @@ let installTimer = 0;
 /* ------------------------------------------------------------------ */
 
 function parseRoute() {
-  const raw = location.hash.replace(/^#/, "") || "/today";
+  const raw = currentPath().replace(/^#/, "") || "/today";
   const [pathPart, queryPart = ""] = raw.split("?");
   const segments = pathPart
     .split("/")
@@ -164,13 +167,17 @@ async function navigate() {
           text: "The link may be old. Start from Today or search everything.",
           actionLabel: "Go to Today",
           onAction: () => {
-            location.hash = "#/today";
+            navigateTo("/today");
           },
         }),
       );
     }
     main.dataset.route = root;
     currentRoute = route;
+    rewriteLinks(main);
+    rewriteLinks(document.querySelector(".sidebar"));
+    rewriteLinks(document.querySelector(".tabbar"));
+    paintCanonical(route, params);
   } catch (err) {
     console.error("route failed", err);
     if (token !== renderToken) return;
@@ -195,6 +202,36 @@ async function navigate() {
 function rerender() {
   if (!currentRoute) return;
   navigate();
+}
+
+function paintCanonical(route, params) {
+  const path = currentPath().split("?")[0] || "/today";
+  const absolute = `${location.origin}${path}`;
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement("link");
+    canonical.rel = "canonical";
+    document.head.appendChild(canonical);
+  }
+  canonical.href = absolute;
+  for (const [property, value] of [
+    ["og:url", absolute],
+    ["og:title", document.title],
+  ]) {
+    let node = document.querySelector(`meta[property="${property}"]`);
+    if (!node) {
+      node = document.createElement("meta");
+      node.setAttribute("property", property);
+      document.head.appendChild(node);
+    }
+    node.setAttribute("content", value);
+  }
+  // Keep the page description useful for shares and crawlers even after SPA navigation.
+  const description = document.querySelector('meta[name="description"]');
+  if (description && !description.dataset.static) {
+    const text = document.querySelector(".page-head .lede")?.textContent?.trim() || document.querySelector(".lede")?.textContent?.trim();
+    if (text) description.setAttribute("content", text.slice(0, 300));
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -317,19 +354,31 @@ function wireTheme() {
 function paintNetwork() {
   const bar = $("#offline-bar");
   if (!bar) return;
+  // navigator.onLine only says "the device has a network interface". It can
+  // briefly lie to false during page load (Wi-Fi handoff, VPN, captive
+  // portal), so we respect the dismiss for the current incident only and
+  // re-check on focus/visibility/load to avoid a stuck stale banner.
   const offline = navigator.onLine === false;
-  const dismissed = getState().dismissed.offline;
-  bar.hidden = !offline || dismissed;
+  if (!offline) {
+    bar.hidden = true;
+    return;
+  }
+  bar.hidden = Boolean(getState().dismissed.offline);
 }
 
 function wireNetwork() {
   window.addEventListener("online", () => {
     paintNetwork();
-    toast("Back online");
+    if (navigator.onLine) toast("Back online");
   });
-  window.addEventListener("offline", () => {
-    paintNetwork();
-  });
+  window.addEventListener("offline", paintNetwork);
+  document.addEventListener("visibilitychange", paintNetwork);
+  window.addEventListener("focus", paintNetwork);
+  // Catches the race where the browser posted "online" before this listener
+  // existed. Paint now, and settle again shortly after startup.
+  if (document.readyState !== "complete") window.addEventListener("load", paintNetwork);
+  setTimeout(paintNetwork, 400);
+  setTimeout(paintNetwork, 1600);
   $("#offline-dismiss")?.addEventListener("click", () => {
     dismiss("offline");
     paintNetwork();
@@ -501,13 +550,42 @@ function boot() {
   registerServiceWorker();
 
   $("#avatar-btn")?.addEventListener("click", () => {
-    if (getState().profile.section) location.hash = "#/settings";
+    if (getState().profile.section) navigateTo("/settings");
     else openProfileEditor({ onSaved: () => rerender() });
   });
 
-  window.addEventListener("hashchange", navigate);
-  if (!location.hash) {
-    location.replace(`${location.pathname}#/today`);
+  // Real paths, with `#/...` kept as a backwards-compatible fallback.
+  syncHashToPath();
+  window.gndecNavigate = navigateTo;
+  window.addEventListener("popstate", navigate);
+  window.addEventListener("gndec:navigate", navigate);
+  window.addEventListener("hashchange", () => {
+    if (location.hash.startsWith("#/")) {
+      syncHashToPath();
+      navigate();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+    const anchor = event.target.closest?.("a[href]");
+    if (!anchor || anchor.target === "_blank" || anchor.hasAttribute("download")) return;
+    const href = anchor.getAttribute("href");
+    if (!href) return;
+    let url;
+    try {
+      url = new URL(href, location.origin);
+    } catch {
+      return;
+    }
+    if (url.origin !== location.origin) return;
+    const path = `${url.pathname}${url.search}`;
+    if (!isInternalUrl(path)) return;
+    event.preventDefault();
+    if (path === currentPath()) return;
+    navigateTo(path);
+  });
+  if (location.pathname === "/index.html") {
+    navigateTo("/today", { replace: true });
     return;
   }
   navigate();

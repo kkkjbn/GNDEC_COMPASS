@@ -182,7 +182,7 @@ export async function render(root, params = {}) {
         text: "The official timetable export does not contain this section. It may be a 4th-year group (not published) or a typo.",
         actionLabel: "Browse all sections",
         onAction: () => {
-          location.hash = "#/timetable";
+          window.gndecNavigate?.("/timetable") || (location.hash = "#/timetable");
         },
       }),
     );
@@ -275,6 +275,113 @@ function renderPicker(root, timetable) {
     ),
   );
   draw();
+}
+
+function baseSubject(name) {
+  return String(name || "")
+    .replace(/\s+[LTP]$/i, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+function comparePanel(section, timetable, subgroup, roomMap) {
+  const card = el("div", { class: "card card--pad" });
+  const options = [...(timetable.sections || [])]
+    .filter((item) => item.id !== section.id)
+    .sort((a, b) => a.year - b.year || String(a.branch).localeCompare(String(b.branch)) || String(a.group).localeCompare(String(b.group)));
+  const otherSelect = el("select", { class: "select", "aria-label": "Compare with section" });
+  otherSelect.appendChild(el("option", { value: "", text: "Choose a section to compare…" }));
+  for (const item of options) {
+    otherSelect.appendChild(el("option", { value: item.id, text: `${item.id} — ${item.branchName}${item.group ? ` · Group ${item.group}` : ""}` }));
+  }
+  const otherSubSelect = el("select", { class: "select", "aria-label": "Compare with subgroup" });
+  const body = el("div", { style: { marginTop: "10px" } });
+
+  const fillSubgroups = () => {
+    otherSubSelect.replaceChildren(el("option", { value: "", text: "Whole section" }));
+    const other = (timetable.sections || []).find((item) => item.id === otherSelect.value);
+    if (!other) return;
+    for (const group of subgroupsFor(timetable, other.id)) {
+      otherSubSelect.appendChild(el("option", { value: group.id, text: group.id }));
+    }
+  };
+
+  const render = () => {
+    const other = (timetable.sections || []).find((item) => item.id === otherSelect.value);
+    if (!other) {
+      body.replaceChildren(el("p", { class: "small muted", text: "Pick a friend's section to see both weeks side by side. Useful for planning a shared free period or a group study slot." }));
+      return;
+    }
+    const otherSub = otherSubSelect.value;
+    const subjectsA = new Set(uniqueSubjects(section, subgroup).map((item) => baseSubject(item.subject)));
+    const subjectsB = new Set(uniqueSubjects(other, otherSub).map((item) => baseSubject(item.subject)));
+    const shared = [...subjectsA].filter((name) => subjectsB.has(name));
+    const onlyA = [...subjectsA].filter((name) => !subjectsB.has(name));
+    const onlyB = [...subjectsB].filter((name) => !subjectsA.has(name));
+
+    const days = DAY_NAMES.map((dayName, day) => {
+      const a = lecturesForDay(section, day, subgroup);
+      const b = lecturesForDay(other, day, otherSub);
+      const row = (lecture, mine) => {
+        if (!lecture) return el("div", { class: "compare-row is-empty" }, el("time", { text: "—" }), el("span", { text: "No class" }));
+        const sharedSubject = subjectsB.has(baseSubject(lecture.subject)) && subjectsA.has(baseSubject(lecture.subject));
+        return el(
+          "div",
+          { class: `compare-row ${sharedSubject ? "is-shared" : ""}`.trim() },
+          el("time", { text: fmtTime(lecture.start) }),
+          el("span", {}, el("strong", { text: lecture.subject || "Class" }), el("small", { class: "faint", text: ` · ${lecture.room || "room TBA"}${mine ? "" : ""}` })),
+        );
+      };
+      return el(
+        "div",
+        { class: "compare-day" },
+        el("h4", { text: dayName }),
+        el("div", { class: "tiny faint", text: `${section.id}${subgroup ? ` · ${subgroup}` : ""}` }),
+        ...a.map((lecture) => row(lecture, true)),
+        a.length ? null : el("div", { class: "compare-row is-empty" }, el("time", { text: "—" }), el("span", { text: "Free day" })),
+        el("div", { class: "divider", style: { margin: "8px 0" } }),
+        el("div", { class: "tiny faint", text: `${other.id}${otherSub ? ` · ${otherSub}` : ""}` }),
+        ...b.map((lecture) => row(lecture, false)),
+        b.length ? null : el("div", { class: "compare-row is-empty" }, el("time", { text: "—" }), el("span", { text: "Free day" })),
+      );
+    });
+
+    body.replaceChildren(
+      el(
+        "div",
+        { class: "grid grid--3", style: { marginBottom: "10px" } },
+        el("div", { class: "stat" }, el("strong", { text: shared.length }), el("small", { text: "Shared subjects" })),
+        el("div", { class: "stat" }, el("strong", { text: onlyA.length }), el("small", { text: `${section.id} only` })),
+        el("div", { class: "stat" }, el("strong", { text: onlyB.length }), el("small", { text: `${other.id} only` })),
+      ),
+      shared.length
+        ? el("p", { class: "small", text: `Common subjects: ${shared.slice(0, 8).join(", ")}. Highlighted rows are shared.` })
+        : el("p", { class: "small muted", text: "No shared subject names in the published timetable. Lab groups may still overlap." }),
+      el("div", { class: "compare-grid", style: { marginTop: "10px" } }, ...days),
+      el(
+        "div",
+        { class: "row", style: { marginTop: "10px", gap: "6px", flexWrap: "wrap" } },
+        el("a", { class: "btn btn--sm", href: `#/timetable/${other.id}` }, icon("calendar"), `Open ${other.id}`),
+        el("button", { class: "btn btn--sm", type: "button", onclick: () => copyText(`Shared subjects between ${section.id} and ${other.id}: ${shared.join(", ") || "none"}`, "Comparison copied") }, icon("copy"), "Copy summary"),
+      ),
+    );
+  };
+
+  otherSelect.addEventListener("change", () => {
+    fillSubgroups();
+    render();
+  });
+  otherSubSelect.addEventListener("change", render);
+  fillSubgroups();
+  render();
+
+  card.append(
+    el("div", { class: "section-head" }, el("h2", { text: "Compare with a friend" }), el("span", { class: "badge badge--muted" }, icon("users"), "timetable comparison")),
+    el("div", { class: "route-selects" }, el("div", { class: "field" }, el("label", { text: "Their section" }), otherSelect), el("div", { class: "field" }, el("label", { text: "Their practical group" }), otherSubSelect)),
+    body,
+  );
+  return card;
 }
 
 function drawSection(root, section, timetable, rooms, roomMap, campus) {
@@ -395,6 +502,7 @@ function drawSection(root, section, timetable, rooms, roomMap, campus) {
           mobile,
           legend,
         ),
+        comparePanel(section, timetable, subgroup, roomMap),
         el("section", { class: "section" }, el("div", { class: "section-head" }, el("h2", { text: "Subjects & teachers" })), subjectSummary(section, subgroup)),
         el(
           "p",

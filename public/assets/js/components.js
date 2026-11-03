@@ -4,7 +4,7 @@
 
 import { el, icon, fmtTime, relativeDay, noticeIcon, avatarEl, openSheet, closeSheet, toast, safeUrl } from "./ui.js";
 import { load, placeForRoom, getPlace, studentsMatching } from "./data.js";
-import { setProfile, getState, isFavourite, toggleFavourite } from "./store.js";
+import { setProfile, setProfileFromStudent, getState, isFavourite, toggleFavourite } from "./store.js";
 import { DAY_NAMES } from "./logic.js";
 
 export function pageHead({ kicker = "", title, lede = "", actions = [] } = {}) {
@@ -201,6 +201,7 @@ export function placeOf(campus, placeId) {
 
 export async function openProfileEditor({ onSaved } = {}) {
   let timetable;
+  let students = null;
   try {
     timetable = await load("timetable");
   } catch {
@@ -211,7 +212,15 @@ export async function openProfileEditor({ onSaved } = {}) {
   const state = getState();
   const profile = state.profile;
   const nameInput = el("input", { class: "input", type: "text", placeholder: "Your name (optional)", value: profile.name || "", autocomplete: "name" });
-  const crnInput = el("input", { class: "input", type: "text", placeholder: "CRN (optional, for quick lookup)", value: profile.crn || "", inputmode: "numeric" });
+  const lookupInput = el("input", {
+    class: "input",
+    type: "search",
+    placeholder: "CRN (e.g. 2617070) or your full name",
+    autocomplete: "off",
+    enterkeyhint: "search",
+  });
+  const lookupStatus = el("p", { class: "small muted", style: { margin: "6px 0 0" }, text: "Enter your CRN or name once — we will find your branch, section, subgroup and mentor." });
+  const lookupResults = el("div", { class: "stack", style: { marginTop: "10px" } });
 
   const sections = [...(timetable.sections || [])].sort((a, b) => a.year - b.year || String(a.branch).localeCompare(String(b.branch)) || String(a.group).localeCompare(String(b.group)));
   const sectionSelect = el("select", { class: "select", "aria-label": "Your section" });
@@ -242,6 +251,63 @@ export async function openProfileEditor({ onSaved } = {}) {
   fillSubgroups();
   sectionSelect.addEventListener("change", fillSubgroups);
 
+  function finish(student) {
+    setProfileFromStudent(student);
+    closeSheet();
+    toast(`Found ${student.name} · ${student.section}${student.subgroup ? ` · ${student.subgroup}` : ""}`);
+    if (onSaved) onSaved();
+    else window.dispatchEvent(new CustomEvent("gndec:profile-changed"));
+  }
+
+  function studentButton(student) {
+    return el(
+      "button",
+      { class: "person-card", type: "button", style: { textAlign: "left", width: "100%" }, onclick: () => finish(student) },
+      avatarEl(student.name, "", "sm"),
+      el(
+        "div",
+        { class: "person-main" },
+        el("strong", { text: student.name }),
+        el("span", { class: "person-sub", text: `${student.branch} · ${student.section}${student.subgroup ? ` · ${student.subgroup}` : ""} · Year ${student.year} · CRN ${student.crn}` }),
+        el("div", { class: "person-foot" }, el("span", { class: "badge", text: student.batch ? `Batch ${student.batch}` : "Roster" }), student.mentor ? el("span", { class: "badge badge--muted", text: student.mentor }) : null),
+      ),
+      icon("arrow-right"),
+    );
+  }
+
+  async function doLookup() {
+    const query = lookupInput.value.trim();
+    if (!query) {
+      lookupStatus.textContent = "Type a 7-digit CRN or at least two letters of your name.";
+      return;
+    }
+    lookupStatus.textContent = "Searching the official rosters…";
+    lookupResults.replaceChildren();
+    if (!students) {
+      try {
+        students = (await load("students")).students || [];
+      } catch {
+        lookupStatus.textContent = "The roster could not load. Check your connection, or choose your section manually below.";
+        return;
+      }
+    }
+    const matches = studentsMatching(students, query).slice(0, 8);
+    if (!matches.length) {
+      lookupStatus.textContent = `No roster match for “${query}”. Rosters currently cover the 2025 and 2026 first-year batches. Choose your section manually below.`;
+      return;
+    }
+    lookupStatus.textContent = matches.length === 1 ? "One match found. Tap to use it." : `${matches.length} matches found. Pick the right person.`;
+    lookupResults.replaceChildren(...matches.map(studentButton));
+    if (matches.length === 1) finish(matches[0]);
+  }
+
+  lookupInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      doLookup();
+    }
+  });
+
   const form = el(
     "form",
     {
@@ -255,8 +321,9 @@ export async function openProfileEditor({ onSaved } = {}) {
           return;
         }
         setProfile({
+          ...getState().profile,
           name: nameInput.value.trim(),
-          crn: crnInput.value.trim(),
+          crn: lookupInput.value.trim() || getState().profile.crn || "",
           section: chosen,
           subgroup: subgroupSelect.value,
         });
@@ -267,10 +334,18 @@ export async function openProfileEditor({ onSaved } = {}) {
       },
     },
     el("div", { class: "callout" }, icon("lock"), el("div", { text: "This stays on your device. Nothing is uploaded, and no login is needed." })),
+    el(
+      "div",
+      { class: "field" },
+      el("label", { for: "profile-lookup", text: "Find me automatically" }),
+      el("div", { class: "row", style: { gap: "8px", alignItems: "stretch" } }, lookupInput, el("button", { class: "btn btn--primary", type: "button", onclick: doLookup }, icon("search"), "Find")),
+      lookupStatus,
+      lookupResults,
+    ),
+    el("div", { class: "divider", style: { margin: "8px 0" } }),
     el("div", { class: "field" }, el("label", { for: "profile-name", text: "Name (optional)" }), nameInput),
     el("div", { class: "field" }, el("label", { for: "profile-section", text: "Section" }), sectionSelect),
     el("div", { class: "field" }, el("label", { for: "profile-subgroup", text: "Subgroup (optional)" }), subgroupSelect),
-    el("div", { class: "field" }, el("label", { for: "profile-crn", text: "CRN (optional)" }), crnInput),
     el(
       "div",
       { style: { marginTop: "4px" } },
@@ -278,11 +353,12 @@ export async function openProfileEditor({ onSaved } = {}) {
     ),
   );
 
-  openSheet({ title: "Your section", body: form, wide: true });
+  openSheet({ title: "Find your classes", body: form, wide: true });
+  lookupInput.id = "profile-lookup";
   nameInput.id = "profile-name";
   sectionSelect.id = "profile-section";
   subgroupSelect.id = "profile-subgroup";
-  crnInput.id = "profile-crn";
+  setTimeout(() => lookupInput.focus(), 80);
 }
 
 export function favouriteButton(item) {

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1220" />
+    <meta name="color-scheme" content="light dark" />
+    <title>GNDEC Compass 2.0 — Timetable, campus routes, people and notices</title>
+    <meta name="description" content="One calm place for GNDEC Ludhiana: your timetable, free rooms, teachers, students, photo-guided campus routes, syllabus, previous-year papers, notices and an offline campus assistant." />
+    <link rel="canonical" href="https://gndec-compass.koushikjain2007.workers.dev/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="GNDEC Compass" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="GNDEC Compass" />
+    <meta property="og:title" content="GNDEC Compass 2.0 — your campus, in one place" />
+    <meta property="og:description" content="Timetable, free rooms, people, photo-guided campus routes, syllabus, papers, notices and an offline assistant for GNDEC Ludhiana." />
+    <meta property="og:url" content="https://gndec-compass.koushikjain2007.workers.dev/" />
+    <meta property="og:image" content="https://gndec-compass.koushikjain2007.workers.dev/assets/img/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GNDEC Compass 2.0" />
+    <meta name="twitter:description" content="Your GNDEC timetable, routes, people and study material in one fast, offline-ready app." />
+    <meta name="twitter:image" content="https://gndec-compass.koushikjain2007.workers.dev/assets/img/og.jpg" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="preload" href="/fonts/InstrumentSans.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/BricolageGrotesque.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://gndec-compass.koushikjain2007.workers.dev/#college",
+            "name": "Guru Nanak Dev Engineering College",
+            "alternateName": "GNDEC Ludhiana",
+            "url": "https://gndec.ac.in/",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Gill Road, Gill Park, Issar Singh Nagar",
+              "addressLocality": "Ludhiana",
+              "addressRegion": "Punjab",
+              "postalCode": "141006",
+              "addressCountry": "IN"
+            },
+            "geo": { "@type": "GeoCoordinates", "latitude": 30.8598, "longitude": 75.8637 }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://gndec-compass.koushikjain2007.workers.dev/#website",
+            "name": "GNDEC Compass",
+            "url": "https://gndec-compass.koushikjain2007.workers.dev/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://gndec-compass.koushikjain2007.workers.dev/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      :root { color-scheme: light dark; }
+      html, body { margin: 0; background: #f6f7fb; color: #0b1220; }
+      .boot { min-height: 100vh; display: grid; place-items: center; font-family: system-ui, sans-serif; }
+      .boot-card { text-align: center; padding: 32px; }
+      .boot-mark { width: 56px; height: 56px; border-radius: 16px; background: #0b1220; color: #d7ff4f; display: grid; place-items: center; margin: 0 auto 16px; font-size: 24px; font-weight: 800; }
+      .boot h1 { font-size: 20px; margin: 0 0 6px; }
+      .boot p { margin: 0; color: #5b6478; font-size: 14px; }
+      @media (prefers-color-scheme: dark) { html, body { background: #070b14; color: #e8edf7; } .boot-mark { background: #d7ff4f; color: #0b1220; } .boot p { color: #98a2b3; } }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot">
+        <div class="boot-card">
+          <div class="boot-mark">C</div>
+          <h1>GNDEC Compass 2.0</h1>
+          <p>Timetable · routes · people · notices · study</p>
+        </div>
+      </div>
+    </div>
+    <noscript>
+      <main style="max-width:720px;margin:40px auto;padding:0 20px;font-family:system-ui,sans-serif">
+        <h1>GNDEC Compass 2.0</h1>
+        <p>GNDEC Compass is a student-built campus companion for Guru Nanak Dev Engineering College, Ludhiana. It brings your timetable, section and subject timetable comparison, teacher and student search, photo-guided campus routes, syllabus, previous-year papers, notices and exam updates into one place.</p>
+        <p>JavaScript is needed for live timetables and route finding. You can still read about the project and find official source links at gndec.ac.in.</p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

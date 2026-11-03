@@ -1,13 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "gndec-one",
+  "name": "gndec-compass",
   "compatibility_date": "2026-11-01",
   "main": "src/worker.js",
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": true
   },
   "observability": {
     "enabled": true
@@ -18,8 +18,22 @@
   "ai": {
     "binding": "AI"
   },
+  "kv_namespaces": [
+    {
+      "binding": "CACHE",
+      "id": "e6b56ba29c4e43a3bea55b2ce0d0366c"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "gndec-compass",
+      "database_id": "817bd43e-7cf1-4190-bc99-40c67e0655bf"
+    }
+  ],
   "vars": {
+    "APP_NAME": "GNDEC Compass 2.0",
     "DATA_VERSION": "1",
-    "GITHUB_REPO": ""
+    "GITHUB_REPO": "kkkjbn/GNDEC_COMPASS"
   }
 }

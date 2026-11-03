@@ -15,6 +15,17 @@ const DEFAULTS = {
     section: "",
     subgroup: "",
     crn: "",
+    registrationNo: "",
+    branch: "",
+    year: null,
+    batch: "",
+    mentor: "",
+    mentorPhone: "",
+    venue: "",
+    academicGroup: "",
+    coordinator: "",
+    sourceUrl: "",
+    savedAt: "",
   },
   settings: {
     theme: "auto", // auto | light | dark
@@ -114,6 +125,32 @@ export function setProfile(patch) {
   }, "profile");
 }
 
+export function studentProfile(student = {}) {
+  return {
+    name: student.name || "",
+    crn: String(student.crn || ""),
+    registrationNo: String(student.registrationNo || ""),
+    section: String(student.section || student.group || ""),
+    subgroup: String(student.subgroup || student.subsection || ""),
+    branch: String(student.branch || ""),
+    year: student.year ?? null,
+    batch: String(student.batch || ""),
+    mentor: String(student.mentor || ""),
+    mentorPhone: String(student.mentorPhone || ""),
+    venue: String(student.venue || ""),
+    academicGroup: String(student.academicGroup || ""),
+    coordinator: String(student.coordinator || ""),
+    sourceUrl: String(student.sourceUrl || ""),
+    savedAt: new Date().toISOString(),
+  };
+}
+
+export function setProfileFromStudent(student) {
+  return update((draft) => {
+    draft.profile = { ...clone(DEFAULTS.profile), ...studentProfile(student) };
+  }, "profile");
+}
+
 export function clearProfile() {
   return update((draft) => {
     draft.profile = clone(DEFAULTS.profile);
@@ -121,7 +158,7 @@ export function clearProfile() {
 }
 
 export function hasProfile() {
-  return Boolean(state.profile.section);
+  return Boolean(state.profile.section || state.profile.crn);
 }
 
 export function setSetting(key, value) {

@@ -8,7 +8,7 @@
  *  - /api/*: never cached (AI answers and health checks must be live).
  */
 
-const VERSION = "gndec-one-v1.0.0";
+const VERSION = "gndec-one-v2.0.0";
 const SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
 const MEDIA_CACHE = `${VERSION}-media`;
@@ -33,6 +33,7 @@ const SHELL = [
   "/assets/js/pages/people.js",
   "/assets/js/pages/rasta.js",
   "/assets/js/pages/study.js",
+  "/assets/js/pages/community.js",
   "/assets/js/pages/notices.js",
   "/assets/js/pages/exams.js",
   "/assets/js/pages/assistant-page.js",
@@ -59,7 +60,7 @@ const SHELL = [
   "/assets/img/og.jpg",
 ];
 
-const CORE_DATA = ["/data/meta.json", "/data/timetable.json", "/data/notices.json", "/data/campus.json"];
+const CORE_DATA = ["/data/meta.json", "/data/timetable.json", "/data/notices.json", "/data/campus.json", "/data/community.json"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

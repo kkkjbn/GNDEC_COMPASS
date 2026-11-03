@@ -3,6 +3,15 @@
    A calm, editorial campus interface. No frameworks, no external fonts.
    ========================================================================== */
 
+/* The HTML `hidden` attribute must win over any component `display` value.
+   `.offline-bar`, `.install-banner` and `.install-mini` set `display: flex`,
+   which is an author rule and therefore beats the user-agent
+   `[hidden] { display: none }` rule. Without this reset those elements stayed
+   on screen and ignored both `el.hidden = true` and their dismiss buttons. */
+[hidden] {
+  display: none !important;
+}
+
 :root {
   --bg: #f6f4ed;
   --bg-tint: #efede3;
@@ -4036,4 +4045,309 @@ html[data-reduce-motion="true"] *::after {
   a {
     color: #000;
   }
+}
+
+/* ------------------------------------------------------------------ */
+/* Photo walk (Rasta step-by-step navigation)                          */
+/* ------------------------------------------------------------------ */
+
+.photo-walk {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.walk-frame {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--primary-soft), var(--card-2));
+  aspect-ratio: 16 / 10;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+}
+
+.walk-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.walk-placeholder {
+  display: grid;
+  place-items: center;
+  gap: 6px;
+  padding: 24px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.walk-placeholder .icon {
+  width: 34px;
+  height: 34px;
+  color: var(--primary-2);
+}
+
+.walk-placeholder strong {
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.walk-badge {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--card) 88%, transparent);
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: capitalize;
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-sm);
+}
+
+.walk-badge .icon {
+  width: 13px;
+  height: 13px;
+  color: var(--primary-2);
+}
+
+.walk-progress {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0 8px;
+}
+
+.walk-dot {
+  flex: 1;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--line);
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.walk-dot.is-done {
+  background: var(--primary-3);
+}
+
+.walk-dot.is-current {
+  background: var(--primary);
+  transform: scaleY(1.35);
+}
+
+.walk-caption {
+  display: grid;
+  gap: 3px;
+  margin-bottom: 10px;
+}
+
+.walk-caption strong {
+  font-size: 15px;
+}
+
+.walk-caption p {
+  margin: 0;
+}
+
+.photo-walk .btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ------------------------------------------------------------------ */
+/* Timetable comparison                                                */
+/* ------------------------------------------------------------------ */
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 720px) {
+  .compare-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.compare-day {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  background: var(--card);
+}
+
+.compare-day h4 {
+  margin: 0 0 6px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.compare-row {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 8px;
+  padding: 5px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 12px;
+}
+
+.compare-row:last-child {
+  border-bottom: 0;
+}
+
+.compare-row time {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.compare-row.is-shared {
+  color: var(--primary-ink);
+  font-weight: 600;
+}
+
+.compare-row.is-empty {
+  color: var(--faint);
+  font-style: italic;
+}
+
+/* ------------------------------------------------------------------ */
+/* Community / clubs / events                                          */
+/* ------------------------------------------------------------------ */
+
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.community-card {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.community-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.community-card .community-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.community-card .community-top .icon {
+  width: 18px;
+  height: 18px;
+  color: var(--primary-2);
+}
+
+.community-card strong {
+  font-size: 14px;
+}
+
+.community-card p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.community-card .chip-row {
+  margin-top: 4px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Admin token gate                                                    */
+/* ------------------------------------------------------------------ */
+
+.admin-gate {
+  max-width: 440px;
+  margin: 40px auto;
+  display: grid;
+  gap: 12px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.admin-gate .icon {
+  width: 28px;
+  height: 28px;
+  color: var(--primary-2);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 7px 8px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.admin-table th {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.admin-table td .btn {
+  padding: 3px 8px;
+  font-size: 11px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Small polish                                                       */
+/* ------------------------------------------------------------------ */
+
+.divider {
+  height: 1px;
+  background: var(--line);
+}
+
+.more-grid .more-card:nth-child(3n + 1) .more-icon {
+  background: color-mix(in srgb, var(--primary-soft) 80%, var(--card));
+}
+
+.quick-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.kbd {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  color: var(--muted);
+  background: var(--card-2);
 }

@@ -20,6 +20,7 @@ export const DATA_FILES = {
   campus: "campus.json",
   contacts: "contacts.json",
   knowledge: "knowledge.json",
+  community: "community.json",
   sources: "sources.json",
   search: "search.json",
 };
@@ -46,6 +47,7 @@ const OFFLINE_ASSETS = [
   "/assets/js/pages/people.js",
   "/assets/js/pages/rasta.js",
   "/assets/js/pages/study.js",
+  "/assets/js/pages/community.js",
   "/assets/js/pages/notices.js",
   "/assets/js/pages/exams.js",
   "/assets/js/pages/assistant-page.js",
@@ -121,6 +123,32 @@ export function cached(name) {
 export async function loadMany(names) {
   const list = await Promise.all(names.map((name) => load(name).catch((err) => ({ __error: err }))));
   return Object.fromEntries(names.map((name, i) => [name, list[i]]));
+}
+
+/**
+ * Flatten the envelope shapes used by the generated JSON into the shapes the
+ * assistant and a few pages expect. Keeping this in one place prevents the
+ * "people is not iterable" class of bug.
+ */
+export function assistantData(data = {}) {
+  return {
+    timetable: data.timetable || { sections: [], subgroups: [] },
+    teachers: data.teachers?.teachers || (Array.isArray(data.teachers) ? data.teachers : []),
+    students: data.students?.students || (Array.isArray(data.students) ? data.students : []),
+    papers: data.papers?.papers || (Array.isArray(data.papers) ? data.papers : []),
+    syllabus: data.syllabus || {},
+    notices: data.notices || {},
+    campus: data.campus || {},
+    contacts: data.contacts || {},
+    knowledge: data.knowledge || {},
+    rooms: data.rooms || { rooms: [] },
+    community: data.community || {},
+  };
+}
+
+export function roomListOf(rooms) {
+  if (Array.isArray(rooms)) return rooms;
+  return rooms?.rooms || [];
 }
 
 /* ------------------------------------------------------------------ */

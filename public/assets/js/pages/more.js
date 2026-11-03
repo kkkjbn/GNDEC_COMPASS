@@ -8,6 +8,7 @@ const LINKS = [
   ["users", "People", "Teachers, students and offices", "#/people"],
   ["map", "Rasta", "Rooms, blocks, gates and routes", "#/rasta"],
   ["book", "Study", "Syllabus, papers and question banks", "#/study"],
+  ["heart", "Campus life", "Clubs, events and resources", "#/community"],
   ["bell", "Notices", "Circulars and the holiday list", "#/notices"],
   ["file-check", "Exams", "Notices, countdown and revision tips", "#/exams"],
   ["sparkles", "Assistant", "Ask in plain language", "#/assistant"],

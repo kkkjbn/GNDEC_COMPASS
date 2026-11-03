@@ -3,23 +3,42 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "GNDEC Compass 2.0 — one calm place for timetables, people, rooms, routes, syllabus, papers and notices.",
+  "description": "GNDEC Compass 2.0 — timetable, people, campus routes, study material and notices for GNDEC Ludhiana.",
   "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4173",
+    "build": "tsc --noEmit && vite build && node scripts/postbuild.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "deploy": "node scripts/build-sitemap.mjs && wrangler deploy",
+    "sitemap": "node scripts/build-sitemap.mjs",
     "data": "node scripts/build-data.mjs",
     "data:fast": "node scripts/build-data.mjs --skip-pdf",
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "test": "node --test tests/*.test.mjs",
-    "check": "node scripts/check-data.mjs"
+    "check": "node scripts/check-data.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "test:watch": "node --test --watch \"tests/*.test.mjs\"",
+    "db:local": "wrangler d1 execute gndec-compass --local --file=./migrations/0001_init.sql",
+    "db:remote": "wrangler d1 execute gndec-compass --remote --file=./migrations/0001_init.sql",
+    "db:content:remote": "wrangler d1 execute gndec-compass --remote --file=./migrations/0002_content.sql",
+    "db:content:local": "wrangler d1 execute gndec-compass --local --file=./migrations/0002_content.sql"
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^25.0.1",
     "pdfjs-dist": "^4.10.38",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vite-plugin-pwa": "^0.21.1",
+    "vitest": "^2.1.8",
     "wrangler": "^4.40.0"
   },
   "dependencies": {
-    "sharp": "^0.35.5"
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.5"
   }
 }

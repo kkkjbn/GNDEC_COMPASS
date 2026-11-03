@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Offline · GNDEC One</title>
+    <meta name="theme-color" content="#0f3d2e" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f6f4ef;
+        --card: #fffdf8;
+        --ink: #17201b;
+        --muted: #63706a;
+        --line: #e3e0d7;
+        --primary: #0f513b;
+        --primary-soft: #e3efe8;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0e1411;
+          --card: #151d18;
+          --ink: #e9efe9;
+          --muted: #9aa8a1;
+          --line: #26332b;
+          --primary: #6fd0a4;
+          --primary-soft: #16261d;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 22px;
+        background: radial-gradient(120% 90% at 50% 0%, var(--primary-soft), var(--bg) 65%);
+        color: var(--ink);
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      main {
+        width: min(100%, 520px);
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: clamp(22px, 5vw, 36px);
+        box-shadow: 0 24px 60px rgb(0 0 0 / 0.12);
+      }
+      .mark {
+        width: 52px;
+        height: 52px;
+        display: grid;
+        place-items: center;
+        border-radius: 15px;
+        background: var(--primary);
+        color: #fff;
+        font-weight: 800;
+        letter-spacing: -0.04em;
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+      .kicker {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 10px;
+        font-weight: 700;
+        color: var(--primary);
+      }
+      h1 { font-size: clamp(26px, 5vw, 34px); letter-spacing: -0.035em; margin: 6px 0 8px; }
+      p { color: var(--muted); line-height: 1.6; margin: 0 0 14px; font-size: 14px; }
+      ul { margin: 0 0 20px 18px; padding: 0; color: var(--muted); line-height: 1.8; font-size: 13px; }
+      .actions { display: flex; flex-wrap: wrap; gap: 8px; }
+      button, a {
+        appearance: none;
+        border: 0;
+        border-radius: 999px;
+        padding: 11px 18px;
+        font: inherit;
+        font-size: 13px;
+        font-weight: 650;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      button { background: var(--primary); color: #fff; }
+      a { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+      footer { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 11px; color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark">G1</div>
+      <span class="kicker">GNDEC One</span>
+      <h1>You are offline.</h1>
+      <p>The page you asked for has not been downloaded yet. Anything you have already opened still works.</p>
+      <ul>
+        <li>Today, timetable, people and Rasta</li>
+        <li>Previous papers, syllabus and notices</li>
+        <li>Your saved section, favourites and room notes</li>
+      </ul>
+      <div class="actions">
+        <button type="button" onclick="location.reload()">Try again</button>
+        <a href="/#/today">Open Today</a>
+        <a href="/#/settings">Offline settings</a>
+      </div>
+      <footer>If this keeps happening, go to Settings → Download for offline while connected.</footer>
+    </main>
+  </body>
+</html>

@@ -270,7 +270,7 @@
         "D2EEA",
         "D2EEB"
       ],
-      "photo": "/assets/img/rooms/f101.jpg",
+      "photo": "/assets/img/webp/rooms/f101.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -287,7 +287,7 @@
         "D2EEB",
         "D2ECB"
       ],
-      "photo": "/assets/img/rooms/f102.jpg",
+      "photo": "/assets/img/webp/rooms/f102.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -300,7 +300,7 @@
       "sections": [
         "D2CEA"
       ],
-      "photo": "/assets/img/rooms/f103.jpg",
+      "photo": "/assets/img/webp/rooms/f103.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -314,7 +314,7 @@
         "D2ECA",
         "D2ECB"
       ],
-      "photo": "/assets/img/rooms/f104.jpg",
+      "photo": "/assets/img/webp/rooms/f104.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -327,7 +327,7 @@
       "sections": [
         "D2ECA"
       ],
-      "photo": "/assets/img/rooms/f105.jpg",
+      "photo": "/assets/img/webp/rooms/f105.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -349,7 +349,7 @@
         "ITA",
         "ITC"
       ],
-      "photo": "/assets/img/rooms/f106.jpg",
+      "photo": "/assets/img/webp/rooms/f106.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -376,7 +376,7 @@
         "ITB",
         "ITC"
       ],
-      "photo": "/assets/img/rooms/f107.jpg",
+      "photo": "/assets/img/webp/rooms/f107.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -403,7 +403,7 @@
         "ITB",
         "ITC"
       ],
-      "photo": "/assets/img/rooms/f108.jpg",
+      "photo": "/assets/img/webp/rooms/f108.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -424,7 +424,7 @@
         "CSF",
         "ITA"
       ],
-      "photo": "/assets/img/rooms/f109.jpg",
+      "photo": "/assets/img/webp/rooms/f109.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -435,7 +435,7 @@
       "inferred": true,
       "lecturesPerWeek": 0,
       "sections": [],
-      "photo": "/assets/img/rooms/f110.jpg",
+      "photo": "/assets/img/webp/rooms/f110.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -448,7 +448,7 @@
       "sections": [
         "D2RAI"
       ],
-      "photo": "/assets/img/rooms/f111.jpg",
+      "photo": "/assets/img/webp/rooms/f111.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -469,7 +469,7 @@
         "ITB",
         "ITC"
       ],
-      "photo": "/assets/img/rooms/f112.jpg",
+      "photo": "/assets/img/webp/rooms/f112.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -493,7 +493,7 @@
         "ITA",
         "ITB"
       ],
-      "photo": "/assets/img/rooms/f113.jpg",
+      "photo": "/assets/img/webp/rooms/f113.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -514,7 +514,7 @@
         "CSF",
         "ITC"
       ],
-      "photo": "/assets/img/rooms/f114.jpg",
+      "photo": "/assets/img/webp/rooms/f114.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -525,7 +525,7 @@
       "inferred": true,
       "lecturesPerWeek": 0,
       "sections": [],
-      "photo": "/assets/img/rooms/f115.jpg",
+      "photo": "/assets/img/webp/rooms/f115.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -536,7 +536,7 @@
       "inferred": true,
       "lecturesPerWeek": 0,
       "sections": [],
-      "photo": "/assets/img/rooms/f117.jpg",
+      "photo": "/assets/img/webp/rooms/f117.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -547,7 +547,7 @@
       "inferred": true,
       "lecturesPerWeek": 0,
       "sections": [],
-      "photo": "/assets/img/rooms/f118.jpg",
+      "photo": "/assets/img/webp/rooms/f118.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -587,7 +587,7 @@
         "D2CEA",
         "D2CEB"
       ],
-      "photo": "/assets/img/rooms/g1.jpg",
+      "photo": "/assets/img/webp/rooms/g1.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -601,7 +601,7 @@
         "D3MEA",
         "D3MEB"
       ],
-      "photo": "/assets/img/rooms/g10.jpg",
+      "photo": "/assets/img/webp/rooms/g10.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -614,7 +614,7 @@
       "sections": [
         "D2RAI"
       ],
-      "photo": "/assets/img/rooms/g11.jpg",
+      "photo": "/assets/img/webp/rooms/g11.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -671,7 +671,7 @@
         "D2CSE",
         "D2CSF"
       ],
-      "photo": "/assets/img/rooms/g12.jpg",
+      "photo": "/assets/img/webp/rooms/g12.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -689,7 +689,7 @@
         "D3CSB",
         "BCA1B"
       ],
-      "photo": "/assets/img/rooms/g13.jpg",
+      "photo": "/assets/img/webp/rooms/g13.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -704,7 +704,7 @@
         "D2CSE",
         "BCA1B"
       ],
-      "photo": "/assets/img/rooms/g14.jpg",
+      "photo": "/assets/img/webp/rooms/g14.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -720,7 +720,7 @@
         "D3CSC",
         "BCA1C"
       ],
-      "photo": "/assets/img/rooms/g15.jpg",
+      "photo": "/assets/img/webp/rooms/g15.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -736,7 +736,7 @@
         "D2CSD",
         "BCA1C"
       ],
-      "photo": "/assets/img/rooms/g16.jpg",
+      "photo": "/assets/img/webp/rooms/g16.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -753,7 +753,7 @@
         "D2CSF",
         "D3CSE"
       ],
-      "photo": "/assets/img/rooms/g17.jpg",
+      "photo": "/assets/img/webp/rooms/g17.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -769,7 +769,7 @@
         "D3CSD",
         "D3CSF"
       ],
-      "photo": "/assets/img/rooms/g18.jpg",
+      "photo": "/assets/img/webp/rooms/g18.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -784,7 +784,7 @@
         "D2CEB",
         "D3CEA"
       ],
-      "photo": "/assets/img/rooms/g2.jpg",
+      "photo": "/assets/img/webp/rooms/g2.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -799,7 +799,7 @@
         "D3CEA",
         "D3CEB"
       ],
-      "photo": "/assets/img/rooms/g3.jpg",
+      "photo": "/assets/img/webp/rooms/g3.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -810,7 +810,7 @@
       "inferred": true,
       "lecturesPerWeek": 0,
       "sections": [],
-      "photo": "/assets/img/rooms/g4.jpg",
+      "photo": "/assets/img/webp/rooms/g4.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -823,7 +823,7 @@
       "sections": [
         "D2EEB"
       ],
-      "photo": "/assets/img/rooms/g5.jpg",
+      "photo": "/assets/img/webp/rooms/g5.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -837,7 +837,7 @@
         "CSA",
         "D2ECA"
       ],
-      "photo": "/assets/img/rooms/g6.jpg",
+      "photo": "/assets/img/webp/rooms/g6.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -854,7 +854,7 @@
         "D2ECA",
         "D2ECB"
       ],
-      "photo": "/assets/img/rooms/g7.jpg",
+      "photo": "/assets/img/webp/rooms/g7.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -868,7 +868,7 @@
         "MEA",
         "D2ECA"
       ],
-      "photo": "/assets/img/rooms/g8.jpg",
+      "photo": "/assets/img/webp/rooms/g8.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1159,7 +1159,7 @@
         "ECB",
         "RAI"
       ],
-      "photo": "/assets/img/rooms/s201.jpg",
+      "photo": "/assets/img/webp/rooms/s201.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1177,7 +1177,7 @@
         "ECB",
         "RAI"
       ],
-      "photo": "/assets/img/rooms/s202.jpg",
+      "photo": "/assets/img/webp/rooms/s202.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1195,7 +1195,7 @@
         "EEB",
         "ECB"
       ],
-      "photo": "/assets/img/rooms/s203.jpg",
+      "photo": "/assets/img/webp/rooms/s203.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1215,7 +1215,7 @@
         "ECB",
         "CSD"
       ],
-      "photo": "/assets/img/rooms/s204.jpg",
+      "photo": "/assets/img/webp/rooms/s204.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1236,7 +1236,7 @@
         "ITB",
         "ITC"
       ],
-      "photo": "/assets/img/rooms/s205.jpg",
+      "photo": "/assets/img/webp/rooms/s205.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1253,7 +1253,7 @@
         "D3CSE",
         "D3ITB"
       ],
-      "photo": "/assets/img/rooms/s213.jpg",
+      "photo": "/assets/img/webp/rooms/s213.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1271,7 +1271,7 @@
         "D2CSF",
         "D3CSC"
       ],
-      "photo": "/assets/img/rooms/s214.jpg",
+      "photo": "/assets/img/webp/rooms/s214.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1285,7 +1285,7 @@
         "BCA1A",
         "BCA1C"
       ],
-      "photo": "/assets/img/rooms/s215.jpg",
+      "photo": "/assets/img/webp/rooms/s215.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1301,7 +1301,7 @@
         "BCA1C",
         "MCA1"
       ],
-      "photo": "/assets/img/rooms/s216.jpg",
+      "photo": "/assets/img/webp/rooms/s216.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1315,7 +1315,7 @@
         "BCA1A",
         "BCA1B"
       ],
-      "photo": "/assets/img/rooms/s217.jpg",
+      "photo": "/assets/img/webp/rooms/s217.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1333,7 +1333,7 @@
         "D3CSB",
         "D3CSD"
       ],
-      "photo": "/assets/img/rooms/s218.jpg",
+      "photo": "/assets/img/webp/rooms/s218.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -1349,7 +1349,7 @@
         "BCA1C",
         "MCA1"
       ],
-      "photo": "/assets/img/rooms/s219.jpg",
+      "photo": "/assets/img/webp/rooms/s219.webp",
       "photoCredit": "GNDEC official room gallery"
     },
     {

@@ -9,7 +9,7 @@
  */
 
 import { el, icon, toast } from "./ui.js";
-import { loadMany } from "./data.js";
+import { loadMany, assistantData } from "./data.js";
 import { answerQuestion, buildAssistantContext } from "./logic.js";
 import { getState, pushChat } from "./store.js";
 
@@ -26,13 +26,14 @@ export async function assistantContext() {
     "contacts",
     "knowledge",
     "rooms",
+    "community",
   ]);
-  return { ...data, profile: state.profile };
+  return { ...assistantData(data), profile: state.profile };
 }
 
 async function cloudAnswer(question, ctx) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 9000);
+  const timer = setTimeout(() => controller.abort(), 6000);
   try {
     const response = await fetch("/api/ai", {
       method: "POST",
@@ -67,6 +68,12 @@ export async function askAssistant(question, ctx = null) {
   if (!online || state.settings.ai === "local") {
     return { reply: local, source: "local" };
   }
+
+  // Deterministic answers are already better than a rephrasing. Only ask the
+  // cloud model when the local engine genuinely could not classify the
+  // question, so a normal campus question stays instant.
+  const deterministic = local.kind && !["fallback", "unknown"].includes(local.kind);
+  if (deterministic) return { reply: local, source: "local" };
 
   const answer = await cloudAnswer(clean, context);
   if (answer) {

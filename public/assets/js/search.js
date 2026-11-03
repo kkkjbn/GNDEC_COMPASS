@@ -219,7 +219,7 @@ function choose(item) {
   if (!item) return;
   close();
   if (item.url) window.open(item.url, "_blank", "noopener");
-  else location.hash = item.to;
+  else window.gndecNavigate?.(item.to) || (location.hash = item.to);
 }
 
 export function openSearch(initial = "") {

@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-11-03T00:00:00.000Z",
+  "verifiedDate": "2026-11-03",
+  "note": "Clubs and committees are taken from the official GNDEC navigation and their own pages. Student chapter names marked verified=false should be confirmed with the college before publishing a formal list.",
+  "clubs": [
+    {
+      "id": "ncc",
+      "name": "National Cadet Corps (NCC)",
+      "short": "NCC",
+      "category": "Uniformed service",
+      "description": "3 Punjab Battalion NCC cadets train at the sports complex with drill, camps, adventure and SSB preparation.",
+      "url": "https://ncc.gndec.ac.in",
+      "photo": "/assets/img/webp/hero/sports.webp",
+      "meets": "Sports complex, early morning",
+      "verified": true
+    },
+    {
+      "id": "nss",
+      "name": "National Service Scheme (NSS)",
+      "short": "NSS",
+      "category": "Community service",
+      "description": "Blood donation, cleanliness drives, village outreach and social service camps run through the NSS unit.",
+      "url": "https://gndec.ac.in/?q=node/338",
+      "photo": "/assets/img/webp/hero/campus-life.webp",
+      "meets": "Notice board / NSS office",
+      "verified": true
+    },
+    {
+      "id": "cultural-committee",
+      "name": "Cultural Committee",
+      "short": "Cultural",
+      "category": "Arts & culture",
+      "description": "Music, dance, theatre, fine arts, literary events and the annual Anand Utsav youth festival.",
+      "url": "https://gndec.ac.in/cultural/",
+      "photo": "/assets/img/webp/hero/auditorium.webp",
+      "meets": "College Auditorium / S-213, S-214",
+      "verified": true
+    },
+    {
+      "id": "sports",
+      "name": "Department of Sports",
+      "short": "Sports",
+      "category": "Sports",
+      "description": "Cricket, football, basketball, athletics, gym and inter-college tournaments. The department was established in 1956.",
+      "url": "http://sports.gndec.ac.in",
+      "photo": "/assets/img/webp/hero/sports.webp",
+      "meets": "Sports complex",
+      "verified": true
+    },
+    {
+      "id": "iste",
+      "name": "ISTE Student Chapter",
+      "short": "ISTE",
+      "category": "Technical society",
+      "description": "Indian Society for Technical Education student chapter — workshops, technical talks and paper presentations.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/lab.webp",
+      "meets": "Department notice boards",
+      "verified": false
+    },
+    {
+      "id": "ieee",
+      "name": "IEEE Student Branch",
+      "short": "IEEE",
+      "category": "Technical society",
+      "description": "Student branch for electronics, communication and computing talks, competitions and IEEE events.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/lab.webp",
+      "meets": "EC Department",
+      "verified": false
+    },
+    {
+      "id": "csi",
+      "name": "CSI Student Chapter",
+      "short": "CSI",
+      "category": "Technical society",
+      "description": "Computer Society of India student chapter — coding events, seminars and industry interaction.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/lab.webp",
+      "meets": "CSE / IT Department",
+      "verified": false
+    },
+    {
+      "id": "sae",
+      "name": "SAE Collegiate Club",
+      "short": "SAE",
+      "category": "Technical society",
+      "description": "Automotive and mobility projects, including formula-style and go-kart build teams.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/workshop.webp",
+      "meets": "Mechanical workshops",
+      "verified": false
+    },
+    {
+      "id": "robotics",
+      "name": "Robotics & Automation Club",
+      "short": "Robotics",
+      "category": "Technical society",
+      "description": "Hands-on robotics, drones, embedded systems and competition teams.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/lab.webp",
+      "meets": "EC / Mechanical labs",
+      "verified": false
+    },
+    {
+      "id": "ecell",
+      "name": "Entrepreneurship Development Cell",
+      "short": "E-Cell",
+      "category": "Innovation",
+      "description": "Startup awareness, ideathons, pitch events and incubation support through the college innovation ecosystem.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/admin.webp",
+      "meets": "Innovation / EDC office",
+      "verified": false
+    }
+  ],
+  "events": [
+    {
+      "id": "anand-utsav",
+      "name": "Anand Utsav",
+      "kind": "Cultural festival",
+      "when": "Annual (usually September–October)",
+      "description": "The college cultural festival with music, dance, drama, fine arts and literary competitions. Auditions are announced on the Cultural Committee site.",
+      "url": "https://gndec.ac.in/cultural/?q=events",
+      "photo": "/assets/img/webp/hero/auditorium.webp",
+      "verified": true
+    },
+    {
+      "id": "youth-festival",
+      "name": "IKGPTU Youth Festival",
+      "kind": "Inter-university festival",
+      "when": "Annual",
+      "description": "GNDEC teams audition for the IKG Punjab Technical University youth festival in singing, dance, theatre, fine arts and literary events.",
+      "url": "https://gndec.ac.in/cultural/?q=youth-festival",
+      "photo": "/assets/img/webp/hero/auditorium.webp",
+      "verified": true
+    },
+    {
+      "id": "convocation",
+      "name": "Annual Convocation",
+      "kind": "Academic ceremony",
+      "when": "Annual",
+      "description": "Degree award ceremony for graduating batches. Dates and rehearsal instructions are published through notices.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/convocation.webp",
+      "verified": true
+    },
+    {
+      "id": "sports-meet",
+      "name": "Annual Sports Meet",
+      "kind": "Sports",
+      "when": "Annual",
+      "description": "Track and field, team sports and inter-department competitions organised by the Sports Department.",
+      "url": "http://sports.gndec.ac.in",
+      "photo": "/assets/img/webp/hero/sports.webp",
+      "verified": true
+    },
+    {
+      "id": "tech-fest",
+      "name": "Department technical festivals",
+      "kind": "Technical",
+      "when": "Throughout the year",
+      "description": "Departments and student chapters run hackathons, coding contests, project exhibitions and guest lectures. Watch the notice board and department pages.",
+      "url": "https://gndec.ac.in/",
+      "photo": "/assets/img/webp/hero/lab.webp",
+      "verified": false
+    }
+  ],
+  "resources": [
+    {
+      "id": "nptel",
+      "title": "SWAYAM-NPTEL",
+      "description": "Free certified online courses that can count towards credits under the college's NPTEL policy.",
+      "url": "https://gndec.ac.in/?q=nptel",
+      "kind": "Online courses"
+    },
+    {
+      "id": "library",
+      "title": "Central Library (CML)",
+      "description": "Books, journals, reference section and reading rooms. Weekdays 8:00 am–10:00 pm, weekends 9:00 am–5:00 pm.",
+      "url": "http://library.gndec.ac.in/",
+      "kind": "Library"
+    },
+    {
+      "id": "papers",
+      "title": "Previous-year papers",
+      "description": "Search 1,600+ papers by subject code and session inside the app.",
+      "url": "/study?tab=papers",
+      "kind": "Study"
+    },
+    {
+      "id": "syllabus",
+      "title": "Syllabus library",
+      "description": "First-year pages and branch-wise syllabus documents.",
+      "url": "/study?tab=syllabus",
+      "kind": "Study"
+    },
+    {
+      "id": "placements",
+      "title": "Training & Placement Cell",
+      "description": "Placement drives, internships and company announcements.",
+      "url": "https://gndec.ac.in/?q=placement",
+      "kind": "Career"
+    }
+  ]
+}

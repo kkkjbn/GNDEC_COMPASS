@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# API responses are JSON, never pages.
+Disallow: /api/
+# The offline fallback is a shell, not a destination.
+Disallow: /offline.html
+# Private editorial console.
+Disallow: /admin
+# Student profile pages are for signed-in campus use, not search results.
+Disallow: /people/student/
+
+Sitemap: https://gndec-compass.koushikjain2007.workers.dev/sitemap.xml

@@ -266,7 +266,7 @@ async function renderTeacher(root, id) {
   }
   const teacher = (teachersData.teachers || []).find((t) => t.id === id) || (teachersData.teachers || []).find((t) => normName(t.name) === normName(id));
   if (!teacher) {
-    root.replaceChildren(emptyState({ iconName: "users", title: "Teacher not found", text: "This profile is not in the public directory.", actionLabel: "Back to people", onAction: () => { location.hash = "#/people"; } }));
+    root.replaceChildren(emptyState({ iconName: "users", title: "Teacher not found", text: "This profile is not in the public directory.", actionLabel: "Back to people", onAction: () => { window.gndecNavigate?.("/people") || (location.hash = "#/people"); } }));
     return;
   }
   setPageMeta({ kicker: "Faculty profile", title: teacher.name });
@@ -419,7 +419,7 @@ async function renderStudent(root, id) {
   const key = String(id || "").toLowerCase();
   const student = students.find((s) => String(s.crn).toLowerCase() === key || String(s.registrationNo).toLowerCase() === key) || students.find((s) => s.name.toLowerCase() === key);
   if (!student) {
-    root.replaceChildren(emptyState({ iconName: "graduation", title: "Student not found", text: "Only the 2026 and 2025 batch rosters are public.", actionLabel: "Back to people", onAction: () => { location.hash = "#/people?tab=students"; } }));
+    root.replaceChildren(emptyState({ iconName: "graduation", title: "Student not found", text: "Only the 2026 and 2025 batch rosters are public.", actionLabel: "Back to people", onAction: () => { window.gndecNavigate?.("/people?tab=students") || (location.hash = "#/people?tab=students"); } }));
     return;
   }
   setPageMeta({ kicker: "Student roster", title: student.name });

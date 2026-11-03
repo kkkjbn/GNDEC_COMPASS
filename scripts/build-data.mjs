@@ -858,7 +858,8 @@ try {
     source: n.source || "GNDEC",
     kind: classifyNotice(n.title),
   }));
-  source("College notices (homepage + ERP)", "https://gndec.ac.in/ · https://erp.gndec.ac.in/notice", "notices", { count: notices.length });
+  source("College notices (homepage)", "https://gndec.ac.in/", "notices", { count: notices.length });
+  source("ERP notice board", "https://erp.gndec.ac.in/notice", "notices");
 } catch (err) {
   console.warn("  ! notices:", err.message);
 }
@@ -1066,6 +1067,12 @@ campus.facts = {
   distanceBusStandKm: 5,
   distanceRailwayStationKm: 8,
   hostels: "Three boys' hostels and one girls' hostel, about 1,200 residents",
+  libraryHours: {
+    weekdays: "8:00 am – 10:00 pm",
+    weekend: "9:00 am – 5:00 pm",
+    source: "https://gndec.ac.in/library/",
+    verifiedDate: "2026-11-02",
+  },
   note: "Campus facts are from the official GNDEC Campus page. GNDEC and GND Polytechnic share the same campus and many facilities.",
 };
 
@@ -1173,6 +1180,7 @@ for (const [label, to, keywords] of [
   ["People", "#/people", "teachers faculty students search crn"],
   ["Rasta", "#/rasta", "map route directions campus places rooms"],
   ["Study", "#/study", "syllabus papers notes question bank"],
+  ["Campus life", "#/community", "clubs events ncc nss cultural sports resources"],
   ["Notices", "#/notices", "notice circular holidays"],
   ["Exams", "#/exams", "exam date sheet tips"],
   ["Assistant", "#/assistant", "ai ask compass help"],

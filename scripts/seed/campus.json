@@ -3,6 +3,14 @@
   "name": "GNDEC + GND Polytechnic campus",
   "disclaimer": "Walking times are estimates for a fit adult on paved paths. Positions come from OpenStreetMap building footprints and the shared GND Polytechnic campus map; room-to-block links are inferred from the official room codes (F/S/G/A) and are editable in Admin.",
   "center": [30.8592, 75.8613],
+  "facts": {
+    "libraryHours": {
+      "weekdays": "8:00 am – 10:00 pm, Monday to Friday",
+      "weekend": "9:00 am – 5:00 pm, Saturday and Sunday",
+      "source": "https://gndec.ac.in/library/",
+      "verifiedDate": "2026-11-02"
+    }
+  },
   "places": [
     {
       "id": "main-gate",

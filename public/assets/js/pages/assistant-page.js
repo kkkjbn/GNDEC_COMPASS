@@ -163,7 +163,7 @@ export async function render(root, params = {}) {
       el("li", { text: "875 scheduled lectures across 54 sections and 96 practical groups." }),
       el("li", { text: "268 public faculty profiles and 2,108 students from published rosters." }),
       el("li", { text: "1,600 previous-year papers, 23 syllabus documents and the full first-year reader." }),
-      el("li", { text: "Official notices, holidays, contacts and 42 mapped campus places." }),
+      el("li", { text: "Official notices, holidays, contacts and 45 mapped campus places." }),
     ),
     el(
       "p",

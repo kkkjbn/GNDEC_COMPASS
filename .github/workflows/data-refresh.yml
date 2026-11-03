@@ -1,0 +1,57 @@
+name: Refresh official data
+
+on:
+  schedule:
+    # Every six hours. The Worker cron checks sources every four hours and
+    # dispatches this workflow only when an official page actually changes.
+    - cron: "37 */6 * * *"
+  repository_dispatch:
+    types: [data-refresh]
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: Why this refresh was started
+        required: false
+        default: manual
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Rebuild public/data from official sources
+        run: npm run data
+        continue-on-error: true
+      - name: Validate the rebuilt data
+        run: npm run check
+      - name: Commit and push when the data changed
+        run: |
+          git config user.name "gndec-compass-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data scripts/seed
+          if git diff --cached --quiet; then
+            echo "No official data changes detected."
+            exit 0
+          fi
+          git commit -m "data: refresh from official GNDEC sources"
+          git push
+      - name: Report
+        if: always()
+        run: |
+          echo "Refresh reason: ${{ github.event.client_payload.reason || inputs.reason || 'schedule' }}"
+          git log -1 --oneline

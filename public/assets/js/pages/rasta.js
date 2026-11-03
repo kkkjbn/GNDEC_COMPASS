@@ -261,6 +261,115 @@ function drawRoute(mapData, route, state) {
   }
 }
 
+function photoWalk(campus, route) {
+  const places = (route.via && route.via.length ? route.via : [route.from, route.to]).filter(Boolean);
+  if (!places.length) return null;
+  let index = 0;
+
+  const frame = el("div", { class: "walk-frame" });
+  const progress = el("div", { class: "walk-progress" });
+  const caption = el("div", { class: "walk-caption" });
+  const counter = el("span", { class: "tiny faint" });
+  const prev = el("button", { class: "btn btn--sm", type: "button" }, icon("chevron-left"), "Previous");
+  const next = el("button", { class: "btn btn--sm btn--primary", type: "button" }, "Next", icon("chevron-right"));
+
+  const report = el(
+    "button",
+    {
+      class: "btn btn--sm btn--ghost",
+      type: "button",
+      onclick: async () => {
+        const reason = window.prompt("What is wrong with this step? (wrong photo, blocked path, wrong location…)");
+        if (!reason) return;
+        const payload = {
+          from: route.from?.id || "",
+          to: route.to?.id || "",
+          place: places[index]?.id || "",
+          reason: String(reason).slice(0, 500),
+          page: location.pathname,
+          at: new Date().toISOString(),
+        };
+        try {
+          const response = await fetch("/api/report-route", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+          if (!response.ok) throw new Error("report failed");
+          toast("Thanks — the route report was sent for review.");
+        } catch {
+          try {
+            const key = "gndec-one:route-reports";
+            const list = JSON.parse(localStorage.getItem(key) || "[]");
+            list.push(payload);
+            localStorage.setItem(key, JSON.stringify(list.slice(-50)));
+          } catch {}
+          toast("Report saved on this device. It will be reviewed when you reconnect.");
+        }
+      },
+    },
+    icon("flag"),
+    "Report this step",
+  );
+
+  const render = () => {
+    const place = places[index];
+    const photo = place.photo || campus.gallery?.find((item) => item.place === place.id)?.src || "";
+    frame.replaceChildren(
+      photo
+        ? el("img", { src: photo, alt: place.name, loading: "lazy", decoding: "async" })
+        : el(
+            "div",
+            { class: "walk-placeholder" },
+            icon(CATEGORY_ICON[place.category] || "pin"),
+            el("strong", { text: "Photo not published yet" }),
+            el("small", { text: "Use the map and the written directions for this step." }),
+          ),
+      el("span", { class: "walk-badge" }, icon(CATEGORY_ICON[place.category] || "pin"), place.category || "place"),
+    );
+    const nextPlace = places[index + 1];
+    const distance = nextPlace ? Math.round(haversineM(place, nextPlace)) : 0;
+    caption.replaceChildren(
+      el("strong", { text: place.name }),
+      el("p", { class: "small muted", text: place.description || `Step ${index + 1} of the walking route.` }),
+      nextPlace
+        ? el("p", { class: "small", text: `Continue towards ${nextPlace.name} · about ${distance} m` })
+        : el("p", { class: "small", text: "You have arrived. The destination is on your right/left according to the block entrance." }),
+    );
+    progress.replaceChildren(
+      ...places.map((_, i) => el("span", { class: `walk-dot ${i <= index ? "is-done" : ""} ${i === index ? "is-current" : ""}`.trim() })),
+    );
+    counter.textContent = `Step ${index + 1} of ${places.length}`;
+    prev.disabled = index === 0;
+    next.disabled = index === places.length - 1;
+  };
+
+  prev.addEventListener("click", () => {
+    if (index > 0) {
+      index -= 1;
+      render();
+    }
+  });
+  next.addEventListener("click", () => {
+    if (index < places.length - 1) {
+      index += 1;
+      render();
+    }
+  });
+
+  render();
+
+  return el(
+    "div",
+    { class: "photo-walk" },
+    el("div", { class: "section-head" }, el("h3", { text: "Photo walk" }), counter),
+    frame,
+    progress,
+    caption,
+    el("div", { class: "row", style: { gap: "6px", flexWrap: "wrap" } }, prev, next, el("span", { class: "spacer" }), report),
+  );
+}
+
 function routePanel(campus, state, onChange) {
   const panel = el("div", { class: "card card--pad route-panel" });
   const fromSelect = el("select", { class: "select", "aria-label": "Start place" });
@@ -315,6 +424,7 @@ function routePanel(campus, state, onChange) {
             el("div", { class: "route-step" }, el("span", { class: "step-dot" }), el("span", {}, step.text, step.metres ? el("small", { class: "faint", text: ` · ${step.metres} m` }) : null)),
           ),
         ),
+        photoWalk(campus, route),
         el(
           "div",
           { class: "row", style: { gap: "6px", marginTop: "9px", flexWrap: "wrap" } },
@@ -487,7 +597,7 @@ export async function render(root, params = {}) {
 async function renderPlace(root, placeId, campus, rooms) {
   const place = getPlace(campus, placeId);
   if (!place) {
-    root.replaceChildren(emptyState({ iconName: "map", title: "Place not found", text: "This place is not in the campus map.", actionLabel: "Open Rasta", onAction: () => { location.hash = "#/rasta"; } }));
+    root.replaceChildren(emptyState({ iconName: "map", title: "Place not found", text: "This place is not in the campus map.", actionLabel: "Open Rasta", onAction: () => { window.gndecNavigate?.("/rasta") || (location.hash = "#/rasta"); } }));
     return;
   }
   setPageMeta({ kicker: "Rasta · place", title: place.name });
@@ -536,6 +646,7 @@ async function renderPlace(root, placeId, campus, rooms) {
           { class: "route-steps" },
           ...route.steps.map((step) => el("div", { class: "route-step" }, el("span", { class: "step-dot" }), el("span", {}, step.text, step.metres ? el("small", { class: "faint", text: ` · ${step.metres} m` }) : null))),
         ),
+        photoWalk(campus, route),
       )
     : null;
 
@@ -587,7 +698,7 @@ async function renderPlace(root, placeId, campus, rooms) {
 async function renderRoom(root, roomId, campus, rooms) {
   const room = (rooms.rooms || []).find((item) => item.id === roomId) || (rooms.rooms || []).find((item) => item.name.toLowerCase() === roomId.toLowerCase());
   if (!room) {
-    root.replaceChildren(emptyState({ iconName: "pin", title: "Room not found", text: "This room does not appear in the current timetable.", actionLabel: "Open Rasta", onAction: () => { location.hash = "#/rasta"; } }));
+    root.replaceChildren(emptyState({ iconName: "pin", title: "Room not found", text: "This room does not appear in the current timetable.", actionLabel: "Open Rasta", onAction: () => { window.gndecNavigate?.("/rasta") || (location.hash = "#/rasta"); } }));
     return;
   }
   setPageMeta({ kicker: "Rasta · room", title: room.name });
