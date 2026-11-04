@@ -186,48 +186,54 @@ function buildMap(campus, state, handlers) {
   map.addEventListener("pointercancel", endDrag);
   map.addEventListener("pointerleave", endDrag);
 
-  const zoom = (factor) => {
+  const pointInMap = (event) => {
+    const point = map.createSVGPoint();
+    point.x = event.clientX;
+    point.y = event.clientY;
+    const matrix = map.getScreenCTM();
+    return matrix ? point.matrixTransform(matrix.inverse()) : null;
+  };
+
+  const zoom = (factor, focus = null) => {
     const [x, y, w, h] = viewBox();
-    const cx = x + w / 2;
-    const cy = y + h / 2;
+    const cx = focus?.[0] ?? x + w / 2;
+    const cy = focus?.[1] ?? y + h / 2;
     const nw = Math.max(24, Math.min(160, w * factor));
     const nh = Math.max(24, Math.min(160, h * factor));
     setViewBox([cx - nw / 2, cy - nh / 2, nw, nh]);
   };
 
+  const zoomAtPointer = (factor, event) => {
+    const point = pointInMap(event);
+    if (!point) return zoom(factor);
+    const [x, y, w, h] = viewBox();
+    const nw = Math.max(24, Math.min(160, w * factor));
+    const nh = Math.max(24, Math.min(160, h * factor));
+    setViewBox([
+      point.x - ((point.x - x) / w) * nw,
+      point.y - ((point.y - y) / h) * nh,
+      nw,
+      nh,
+    ]);
+  };
+
+  map.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    zoomAtPointer(event.deltaY < 0 ? 0.82 : 1.22, event);
+  }, { passive: false });
+
+  const focusPlace = (place) => {
+    if (!place?.pos) return;
+    const size = 48;
+    setViewBox([place.pos[0] - size / 2, place.pos[1] - size / 2, size, size]);
+  };
+
   const controls = el(
     "div",
     { class: "map-controls" },
-    el("button", { type: "button", "aria-label": "Zoom in", onclick: () => zoom(0.78) }, icon("plus")),
-    el("button", { type: "button", "aria-label": "Zoom out", onclick: () => zoom(1.28) }, icon("minus")),
+    el("button", { type: "button", "aria-label": "Zoom in", onclick: () => zoom(0.78, state.selected ? campus.places.find((place) => place.id === state.selected)?.pos : null) }, icon("plus")),
+    el("button", { type: "button", "aria-label": "Zoom out", onclick: () => zoom(1.28, state.selected ? campus.places.find((place) => place.id === state.selected)?.pos : null) }, icon("minus")),
     el("button", { type: "button", "aria-label": "Reset map", onclick: () => setViewBox([-4, -4, 112, 112]) }, icon("refresh")),
-    el(
-      "button",
-      {
-        type: "button",
-        "aria-label": "Use my location",
-        onclick: () => {
-          if (!navigator.geolocation) {
-            toast("Location is not available on this device.", "error");
-            return;
-          }
-          toast("Finding your location…");
-          navigator.geolocation.getCurrentPosition(
-            (position) => {
-              const here = { lat: position.coords.latitude, lon: position.coords.longitude };
-              const nearest = [...(campus.places || [])].sort((a, b) => haversineM(here, a) - haversineM(here, b))[0];
-              if (nearest) {
-                handlers.onPlace(nearest);
-                toast(`Nearest: ${nearest.name} (${Math.round(haversineM(here, nearest))} m)`);
-              }
-            },
-            () => toast("Location permission was denied.", "error"),
-            { enableHighAccuracy: true, timeout: 8000, maximumAge: 60000 },
-          );
-        },
-      },
-      icon("locate"),
-    ),
   );
 
   const badge = el("span", { class: "map-badge" }, icon("compass"), "GNDEC + GND Polytechnic");
@@ -242,7 +248,7 @@ function buildMap(campus, state, handlers) {
   );
 
   wrap.append(map, badge, controls, legend);
-  return { wrap, map, routeGroup, markers };
+  return { wrap, map, routeGroup, markers, focusPlace };
 }
 
 function drawRoute(mapData, route, state) {
@@ -404,7 +410,6 @@ function routePanel(campus, state, onChange) {
       onChange();
       return;
     }
-    const destination = getPlace(campus, state.to);
     result.replaceChildren(
       el(
         "div",
@@ -428,9 +433,6 @@ function routePanel(campus, state, onChange) {
         el(
           "div",
           { class: "row", style: { gap: "6px", marginTop: "9px", flexWrap: "wrap" } },
-          destination
-            ? el("a", { class: "btn btn--sm", href: `https://www.google.com/maps/dir/?api=1&destination=${destination.lat},${destination.lon}&travelmode=walking`, target: "_blank", rel: "noopener" }, icon("navigation"), "Google Maps")
-            : null,
           el(
             "button",
             {
@@ -512,6 +514,7 @@ export async function render(root, params = {}) {
       if (!state.from) state.from = "main-gate";
       state.to = state.to === place.id ? "" : place.id;
       state.selected = place.id;
+      mapData.focusPlace(place);
       routeHost.replaceChildren();
       const panel = routePanel(campus, state, () => {
         state.selected = state.to || state.from;
@@ -547,6 +550,7 @@ export async function render(root, params = {}) {
             onclick: () => {
               state.to = place.id;
               state.selected = place.id;
+              mapData.focusPlace(place);
               routeHost.replaceChildren(routePanel(campus, state, () => drawRoute(mapData, state.route, state)));
               drawPlaces();
               drawRoute(mapData, state.route, state);
@@ -577,11 +581,8 @@ export async function render(root, params = {}) {
       pageHead({
         kicker: "Rasta · campus navigation",
         title: "Find your way",
-        lede: "A hand-mapped guide to classrooms, departments, hostels, food and the gates. Tap any marker to route there.",
-        actions: [
-          el("a", { class: "btn btn--soft btn--sm", href: "#/timetable" }, icon("calendar"), "My rooms"),
-          el("a", { class: "btn btn--sm", href: "https://www.gndpoly.org/CollegeMap2.php", target: "_blank", rel: "noopener" }, icon("external"), "GND Poly map"),
-        ],
+        lede: "A campus guide to classrooms, departments, hostels, food and gates. Tap a marker to focus it and plan the shortest mapped walking route.",
+        actions: [el("a", { class: "btn btn--soft btn--sm", href: "#/timetable" }, icon("calendar"), "My rooms")],
       }),
       el(
         "div",
@@ -629,8 +630,6 @@ async function renderPlace(root, placeId, campus, rooms) {
         "div",
         { class: "detail-actions" },
         el("a", { class: "btn btn--primary btn--sm", href: `#/rasta?from=main-gate&to=${place.id}` }, icon("route"), "Route from main gate"),
-        el("a", { class: "btn btn--sm", href: `https://www.google.com/maps/dir/?api=1&destination=${place.lat},${place.lon}&travelmode=walking`, target: "_blank", rel: "noopener" }, icon("navigation"), "Google Maps"),
-        el("a", { class: "btn btn--sm", href: `https://www.openstreetmap.org/?mlat=${place.lat}&mlon=${place.lon}#map=19/${place.lat}/${place.lon}`, target: "_blank", rel: "noopener" }, icon("external"), "OpenStreetMap"),
         el("button", { class: "btn btn--sm", type: "button", onclick: () => copyText(`${place.lat}, ${place.lon}`, "Coordinates copied") }, icon("copy"), "Coordinates"),
       ),
     ),
@@ -690,7 +689,7 @@ async function renderPlace(root, placeId, campus, rooms) {
       { class: "page-enter stack", style: { gap: "16px" } },
       breadcrumb("Back to Rasta", "#/rasta"),
       hero,
-      el("div", { class: "grid grid--2", style: { alignItems: "start" } }, el("div", { class: "stack" }, routeCard, roomsCard), el("div", { class: "stack" }, nearbyCard, callout("Positions come from OpenStreetMap building footprints and the shared GND Polytechnic campus map. Indoor room locations are inferred from room codes.", { iconName: "info" }))),
+      el("div", { class: "grid grid--2", style: { alignItems: "start" } }, el("div", { class: "stack" }, routeCard, roomsCard), el("div", { class: "stack" }, nearbyCard, callout("Building outlines use OpenStreetMap footprints. Indoor room positions and several room-to-block links are inferred from room codes, not surveyed.", { iconName: "info" }))),
     ),
   );
 }

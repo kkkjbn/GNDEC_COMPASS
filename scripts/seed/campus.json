@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "GNDEC + GND Polytechnic campus",
-  "disclaimer": "Walking times are estimates for a fit adult on paved paths. Positions come from OpenStreetMap building footprints and the shared GND Polytechnic campus map; room-to-block links are inferred from the official room codes (F/S/G/A) and are editable in Admin.",
+  "disclaimer": "Walking times are estimates along mapped campus paths. Building outlines use OpenStreetMap footprints. Room-to-block links are inferred from official room codes (F/S/G/A) and can be corrected in Admin; indoor room positions are not surveyed.",
   "center": [30.8592, 75.8613],
   "facts": {
     "libraryHours": {

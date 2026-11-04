@@ -84,6 +84,8 @@ test("free rooms returns real rooms", () => {
   const reply = answerQuestion("free rooms now", baseContext);
   assert.equal(reply.kind, "free-rooms");
   assert.ok(reply.bullets.length > 2);
+  assert.ok(reply.bullets.some((line) => line.includes("Central Library")));
+  assert.ok(reply.bullets.some((line) => line.includes("year timetable")));
 });
 
 test("room lookups show a block instead of a bare code", () => {

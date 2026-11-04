@@ -3,6 +3,7 @@ node_modules/
 
 # Local build/deploy artefacts
 .wrangler/
+dist/
 .dev.vars
 .env
 

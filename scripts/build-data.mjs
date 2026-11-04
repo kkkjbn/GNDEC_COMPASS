@@ -1076,15 +1076,6 @@ campus.facts = {
   note: "Campus facts are from the official GNDEC Campus page. GNDEC and GND Polytechnic share the same campus and many facilities.",
 };
 
-campus.mapLinks = [
-  { label: "OpenStreetMap campus polygon", url: "https://www.openstreetmap.org/way/38152756" },
-  { label: "OpenStreetMap (main gate)", url: "https://www.openstreetmap.org/?mlat=30.8598&mlon=75.8637#map=18/30.8598/75.8637" },
-  { label: "MapCarta — GNDEC", url: "https://mapcarta.com/W38152756" },
-  { label: "Apple Maps", url: "https://maps.apple.com/place?place-id=I8189CCCAA7E0DDB0" },
-  { label: "GND Polytechnic campus map", url: "https://www.gndpoly.org/CollegeMap2.php" },
-  { label: "Google Maps directions to GNDEC", url: "https://www.google.com/maps/dir/?api=1&destination=30.8598,75.8637" },
-];
-
 campus.generatedAt = new Date().toISOString();
 
 /* ------------------------------------------------------------------ */
@@ -1121,7 +1112,6 @@ const knowledge = {
   generatedAt: now,
   ...knowledgeSeed,
   campusFacts: campus.facts,
-  mapLinks: campus.mapLinks,
   gallery: campus.gallery,
   emergencyNote:
     "The college publishes office landlines and role emails. Personal mobile numbers are not reproduced here.",

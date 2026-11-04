@@ -5,9 +5,9 @@
   "type": "module",
   "description": "GNDEC Compass 2.0 — timetable, people, campus routes, study material and notices for GNDEC Ludhiana.",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --port 4173",
-    "build": "tsc --noEmit && vite build && node scripts/postbuild.mjs",
-    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "dev": "wrangler dev --port 4173 --ip 0.0.0.0",
+    "build": "tsc --noEmit && node scripts/build-sitemap.mjs && wrangler deploy --dry-run",
+    "preview": "wrangler dev --port 4173 --ip 0.0.0.0",
     "deploy": "node scripts/build-sitemap.mjs && wrangler deploy",
     "sitemap": "node scripts/build-sitemap.mjs",
     "data": "node scripts/build-data.mjs",

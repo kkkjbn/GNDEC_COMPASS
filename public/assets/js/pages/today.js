@@ -189,7 +189,7 @@ export async function render(root) {
     el(
       "div",
       {},
-      el("div", { class: "hero-date" }, icon("calendar"), fmtDate(now, { weekday: true, month: "long", year: true })),
+      el("div", { class: "hero-date" }, icon("calendar"), `${fmtDate(now, { weekday: true, month: "long", year: true })} · ${now.toLocaleTimeString("en-IN", { hour: "numeric", minute: "2-digit" })}`),
       el("h2", { class: "display", text: greetingText }),
       el(
         "p",

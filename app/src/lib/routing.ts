@@ -295,7 +295,7 @@ export function routeBetween(
   const distance = path.cost + startConnector + endConnector * PATH_FACTOR;
   const steps = buildSteps(campus, from, to, startJ, endJ, path.path, path.edges, options.room);
   const floor = options.room?.floor ?? 0;
-  const accessible = options.accessibility !== false && options.accessible !== false;
+  const accessible = options.accessible !== false;
   return {
     from,
     to,

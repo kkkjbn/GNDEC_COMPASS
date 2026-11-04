@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "GNDEC + GND Polytechnic campus",
-  "disclaimer": "Walking times are estimates for a fit adult on paved paths. Positions come from OpenStreetMap building footprints and the shared GND Polytechnic campus map; room-to-block links are inferred from the official room codes (F/S/G/A) and are editable in Admin.",
+  "disclaimer": "Walking times are estimates along mapped campus paths. Building outlines use OpenStreetMap footprints. Room-to-block links are inferred from official room codes (F/S/G/A) and can be corrected in Admin; indoor room positions are not surveyed.",
   "center": [
     30.8592,
     75.8613
@@ -9427,31 +9427,5 @@
       "verifiedDate": "2026-11-02"
     }
   },
-  "mapLinks": [
-    {
-      "label": "OpenStreetMap campus polygon",
-      "url": "https://www.openstreetmap.org/way/38152756"
-    },
-    {
-      "label": "OpenStreetMap (main gate)",
-      "url": "https://www.openstreetmap.org/?mlat=30.8598&mlon=75.8637#map=18/30.8598/75.8637"
-    },
-    {
-      "label": "MapCarta — GNDEC",
-      "url": "https://mapcarta.com/W38152756"
-    },
-    {
-      "label": "Apple Maps",
-      "url": "https://maps.apple.com/place?place-id=I8189CCCAA7E0DDB0"
-    },
-    {
-      "label": "GND Polytechnic campus map",
-      "url": "https://www.gndpoly.org/CollegeMap2.php"
-    },
-    {
-      "label": "Google Maps directions to GNDEC",
-      "url": "https://www.google.com/maps/dir/?api=1&destination=30.8598,75.8637"
-    }
-  ],
   "generatedAt": "2026-11-02T11:39:01.099Z"
 }

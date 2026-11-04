@@ -494,7 +494,7 @@ function drawSection(root, section, timetable, rooms, roomMap, campus) {
             "div",
             { class: "tt-toolbar" },
             el("span", { class: "badge badge--muted" }, icon("clock"), `${timetable.source?.version || "current"} release`),
-            el("span", { class: "small muted", text: "Sunday has no scheduled classes." }),
+            el("span", { class: "small muted", text: `${fmtDate(new Date(), { weekday: true, month: "short", year: true })} · ${new Date().toLocaleTimeString("en-IN", { hour: "numeric", minute: "2-digit" })} · Sunday has no scheduled classes.` }),
             el("span", { class: "spacer" }),
             el("button", { class: "btn btn--sm", type: "button", onclick: () => share({ title: section.id, text: section.label, url: `${location.origin}${location.pathname}#/timetable/${section.id}` }) }, icon("share"), "Share link"),
           ),

@@ -929,10 +929,14 @@ function freeRoomsAt(timetable, rooms, day, start, end) {
       if (overlap(start, end, lectureStart, lectureEnd)) busy.add(normRoom(lecture.room));
     }
   }
-  return (rooms?.rooms || []).filter((room) => {
+  const available = (rooms?.rooms || []).filter((room) => {
     if (!room.name || room.name === "---") return false;
     return !busy.has(normRoom(room.name));
   });
+  if (!available.some((room) => room.place === "library" || normRoom(room.name) === "CENTRALLIBRARY")) {
+    available.push({ id: "central-library", name: "Central Library", place: "library", fixed: true });
+  }
+  return available;
 }
 
 function roomIsFree(timetable, roomName, day, start, end) {
@@ -950,10 +954,18 @@ function freeRoomsReply(timetable, rooms, when, start, end, now) {
   const list = wholeDay
     ? (rooms?.rooms || []).filter((room) => room.name !== "---" && roomLectures(timetable, room.name, day).length === 0)
     : freeRoomsAt(timetable, rooms, day, start, end);
+  if (!list.some((room) => room.place === "library" || normRoom(room.name) === "CENTRALLIBRARY")) {
+    list.push({ id: "central-library", name: "Central Library", place: "library", fixed: true });
+  }
   const label = wholeDay ? `all of ${when.label}` : `${when.label} at ${minuteLabel(start)}`;
+  const years = new Set((timetable?.sections || []).map((section) => Number(section.year)).filter(Number.isFinite));
+  const missingYears = [1, 2, 3, 4].filter((year) => !years.has(year));
+  const coverageNote = missingYears.length
+    ? `The current public timetable has no ${missingYears.map((year) => `${year}${year === 1 ? "st" : year === 2 ? "nd" : year === 3 ? "rd" : "th"}`).join(", ")} year timetable, so those rooms' use is not included.`
+    : "Availability is checked against all published year timetables.";
   if (day < 0) {
-    return reply("Sunday — the whole campus is free.", {
-      bullets: ["No scheduled lectures are published for Sunday."],
+    return reply("Sunday — no scheduled lectures are published.", {
+      bullets: [coverageNote, "Central Library is listed as a fixed study space; check its opening hours."],
       actions: [{ label: "Campus map", to: "#/rasta" }],
       kind: "free-rooms",
     });
@@ -970,7 +982,8 @@ function freeRoomsReply(timetable, rooms, when, start, end, now) {
     bullets: [
       ...withBlocks,
       list.length > 18 ? `…and ${list.length - 18} more.` : "",
-      "Free means no lecture from the published timetable. Labs and offices may still be in use.",
+      "Central Library is a fixed study-space option; check its opening hours. Other rooms are free only when the published timetable shows no class; labs and offices may still be in use.",
+      coverageNote,
     ],
     actions: [{ label: "Campus map", to: "#/rasta" }],
     cites: [cite("Published room timetable", "#/timetable", "https://appsc.gndec.ac.in/time_tables")],
