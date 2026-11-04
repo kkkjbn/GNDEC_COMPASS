@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:39:01.099Z",
+  "generatedAt": "2026-11-04T20:00:38.406Z",
   "rooms": [
     {
       "id": "a6-automobile-block",
@@ -7,6 +7,8 @@
       "place": "automobile-block",
       "floor": 0,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 12,
       "sections": [
         "MEB",
@@ -15,9 +17,7 @@
         "ECB",
         "CSE",
         "ITB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "a9-automobile-block",
@@ -25,6 +25,8 @@
       "place": "automobile-block",
       "floor": 0,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 18,
       "sections": [
         "MEA",
@@ -35,9 +37,7 @@
         "RAI",
         "CSD",
         "ITA"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "advance-measurement-lab",
@@ -45,15 +45,15 @@
       "place": "applied-science",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "CSC",
         "CSD",
         "ITA",
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "bee-lab-1",
@@ -61,6 +61,8 @@
       "place": "ee-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 22,
       "sections": [
         "CSA",
@@ -70,9 +72,7 @@
         "ITA",
         "ITB",
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "cgl-lab-me-dept",
@@ -80,15 +80,15 @@
       "place": "me-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 24,
       "sections": [
         "MEA",
         "MEB",
         "RAI",
         "CSD"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "chem-lab-1",
@@ -96,6 +96,8 @@
       "place": "applied-science",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 28,
       "sections": [
         "CSA",
@@ -107,9 +109,7 @@
         "ITA",
         "ITB",
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "chem-lab-2-material-science-lab",
@@ -117,15 +117,15 @@
       "place": "applied-science",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 8,
       "sections": [
         "CSC",
         "CSE",
         "ITA",
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "comm-l",
@@ -133,10 +133,10 @@
       "place": "ec-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "comp-lab-ce",
@@ -144,13 +144,13 @@
       "place": "ce-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 14,
       "sections": [
         "CEA",
         "CEB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "comp-lab-ec",
@@ -158,14 +158,14 @@
       "place": "ec-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 16,
       "sections": [
         "EEB",
         "ECA",
         "ECB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "comp-lab-ee",
@@ -173,15 +173,15 @@
       "place": "ee-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 18,
       "sections": [
         "CEB",
         "EEA",
         "EEB",
         "ECA"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "comp-lab-mba",
@@ -189,6 +189,8 @@
       "place": "business-admin",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 16,
       "sections": [
         "CSA",
@@ -197,9 +199,7 @@
         "CSD",
         "CSE",
         "CSF"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "dbms-lab",
@@ -207,12 +207,12 @@
       "place": null,
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 2,
       "sections": [
         "CSB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "dbms-lab-it-dept",
@@ -220,12 +220,12 @@
       "place": "it-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "doms-lab",
@@ -233,10 +233,10 @@
       "place": "me-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "eng-lab",
@@ -244,6 +244,8 @@
       "place": "applied-science",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 28,
       "sections": [
         "CSA",
@@ -255,9 +257,7 @@
         "ITA",
         "ITB",
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "f101",
@@ -265,13 +265,13 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f101.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 12,
       "sections": [
         "D2EEA",
         "D2EEB"
-      ],
-      "photo": "/assets/img/webp/rooms/f101.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f102",
@@ -279,6 +279,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f102.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 8,
       "sections": [
         "EEA",
@@ -286,9 +288,7 @@
         "D2EEA",
         "D2EEB",
         "D2ECB"
-      ],
-      "photo": "/assets/img/webp/rooms/f102.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f103",
@@ -296,12 +296,12 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f103.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 1,
       "sections": [
         "D2CEA"
-      ],
-      "photo": "/assets/img/webp/rooms/f103.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f104",
@@ -309,13 +309,13 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f104.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 2,
       "sections": [
         "D2ECA",
         "D2ECB"
-      ],
-      "photo": "/assets/img/webp/rooms/f104.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f105",
@@ -323,12 +323,12 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f105.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 1,
       "sections": [
         "D2ECA"
-      ],
-      "photo": "/assets/img/webp/rooms/f105.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f106",
@@ -336,6 +336,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f106.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 19,
       "sections": [
         "MEA",
@@ -348,9 +350,7 @@
         "CSB",
         "ITA",
         "ITC"
-      ],
-      "photo": "/assets/img/webp/rooms/f106.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f107",
@@ -358,6 +358,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f107.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 29,
       "sections": [
         "MEA",
@@ -375,9 +377,7 @@
         "ITA",
         "ITB",
         "ITC"
-      ],
-      "photo": "/assets/img/webp/rooms/f107.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f108",
@@ -385,6 +385,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f108.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 31,
       "sections": [
         "MEA",
@@ -402,9 +404,7 @@
         "CSF",
         "ITB",
         "ITC"
-      ],
-      "photo": "/assets/img/webp/rooms/f108.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f109",
@@ -412,6 +412,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f109.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 27,
       "sections": [
         "MEA",
@@ -423,9 +425,7 @@
         "CSD",
         "CSF",
         "ITA"
-      ],
-      "photo": "/assets/img/webp/rooms/f109.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f110",
@@ -433,10 +433,10 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f110.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 0,
-      "sections": [],
-      "photo": "/assets/img/webp/rooms/f110.webp",
-      "photoCredit": "GNDEC official room gallery"
+      "sections": []
     },
     {
       "id": "f111",
@@ -444,12 +444,12 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f111.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 2,
       "sections": [
         "D2RAI"
-      ],
-      "photo": "/assets/img/webp/rooms/f111.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f112",
@@ -457,6 +457,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f112.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 24,
       "sections": [
         "MEB",
@@ -468,9 +470,7 @@
         "CSF",
         "ITB",
         "ITC"
-      ],
-      "photo": "/assets/img/webp/rooms/f112.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f113",
@@ -478,6 +478,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f113.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 29,
       "sections": [
         "MEA",
@@ -492,9 +494,7 @@
         "CSE",
         "ITA",
         "ITB"
-      ],
-      "photo": "/assets/img/webp/rooms/f113.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f114",
@@ -502,6 +502,8 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f114.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 27,
       "sections": [
         "MEA",
@@ -513,9 +515,7 @@
         "CSE",
         "CSF",
         "ITC"
-      ],
-      "photo": "/assets/img/webp/rooms/f114.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "f115",
@@ -523,10 +523,10 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f115.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 0,
-      "sections": [],
-      "photo": "/assets/img/webp/rooms/f115.webp",
-      "photoCredit": "GNDEC official room gallery"
+      "sections": []
     },
     {
       "id": "f117",
@@ -534,10 +534,10 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f117.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 0,
-      "sections": [],
-      "photo": "/assets/img/webp/rooms/f117.webp",
-      "photoCredit": "GNDEC official room gallery"
+      "sections": []
     },
     {
       "id": "f118",
@@ -545,10 +545,10 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "/assets/img/rooms/f118.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 0,
-      "sections": [],
-      "photo": "/assets/img/webp/rooms/f118.webp",
-      "photoCredit": "GNDEC official room gallery"
+      "sections": []
     },
     {
       "id": "f119",
@@ -556,14 +556,14 @@
       "place": "f-block",
       "floor": 1,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 5,
       "sections": [
         "D2ITA",
         "D3ITA",
         "D3ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "g-3a",
@@ -571,10 +571,10 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "g1",
@@ -582,13 +582,13 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g1.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 3,
       "sections": [
         "D2CEA",
         "D2CEB"
-      ],
-      "photo": "/assets/img/webp/rooms/g1.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g10",
@@ -596,13 +596,13 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g10.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 4,
       "sections": [
         "D3MEA",
         "D3MEB"
-      ],
-      "photo": "/assets/img/webp/rooms/g10.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g11",
@@ -610,12 +610,12 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g11.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 1,
       "sections": [
         "D2RAI"
-      ],
-      "photo": "/assets/img/webp/rooms/g11.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g11a",
@@ -623,12 +623,12 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 1,
       "sections": [
         "BCOM1"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "g11b",
@@ -636,14 +636,14 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "BCOM1",
         "BBA1",
         "BCOM3"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "g11c",
@@ -651,12 +651,12 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 1,
       "sections": [
         "D2RAI"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "g12",
@@ -664,15 +664,15 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g12.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "D2CSC",
         "D2CSD",
         "D2CSE",
         "D2CSF"
-      ],
-      "photo": "/assets/img/webp/rooms/g12.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g13",
@@ -680,6 +680,8 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g13.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "D2CSA",
@@ -688,9 +690,7 @@
         "D2CSF",
         "D3CSB",
         "BCA1B"
-      ],
-      "photo": "/assets/img/webp/rooms/g13.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g14",
@@ -698,14 +698,14 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g14.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 4,
       "sections": [
         "D2CSD",
         "D2CSE",
         "BCA1B"
-      ],
-      "photo": "/assets/img/webp/rooms/g14.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g15",
@@ -713,15 +713,15 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g15.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 4,
       "sections": [
         "D2CSA",
         "D2CSB",
         "D3CSC",
         "BCA1C"
-      ],
-      "photo": "/assets/img/webp/rooms/g15.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g16",
@@ -729,15 +729,15 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g16.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 5,
       "sections": [
         "D2CSB",
         "D2CSC",
         "D2CSD",
         "BCA1C"
-      ],
-      "photo": "/assets/img/webp/rooms/g16.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g17",
@@ -745,6 +745,8 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g17.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 8,
       "sections": [
         "D2CSA",
@@ -752,9 +754,7 @@
         "D2CSC",
         "D2CSF",
         "D3CSE"
-      ],
-      "photo": "/assets/img/webp/rooms/g17.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g18",
@@ -762,15 +762,15 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g18.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "D2CSA",
         "D2CSE",
         "D3CSD",
         "D3CSF"
-      ],
-      "photo": "/assets/img/webp/rooms/g18.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g2",
@@ -778,14 +778,14 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g2.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 8,
       "sections": [
         "D2CEA",
         "D2CEB",
         "D3CEA"
-      ],
-      "photo": "/assets/img/webp/rooms/g2.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g3",
@@ -793,14 +793,14 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g3.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 4,
       "sections": [
         "D2CEB",
         "D3CEA",
         "D3CEB"
-      ],
-      "photo": "/assets/img/webp/rooms/g3.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g4",
@@ -808,10 +808,10 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g4.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 0,
-      "sections": [],
-      "photo": "/assets/img/webp/rooms/g4.webp",
-      "photoCredit": "GNDEC official room gallery"
+      "sections": []
     },
     {
       "id": "g5",
@@ -819,12 +819,12 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g5.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 1,
       "sections": [
         "D2EEB"
-      ],
-      "photo": "/assets/img/webp/rooms/g5.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g6",
@@ -832,13 +832,13 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g6.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "CSA",
         "D2ECA"
-      ],
-      "photo": "/assets/img/webp/rooms/g6.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g7",
@@ -846,6 +846,8 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g7.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 10,
       "sections": [
         "MEB",
@@ -853,9 +855,7 @@
         "RAI",
         "D2ECA",
         "D2ECB"
-      ],
-      "photo": "/assets/img/webp/rooms/g7.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "g8",
@@ -863,13 +863,13 @@
       "place": "g-block",
       "floor": 0,
       "inferred": true,
+      "photo": "/assets/img/rooms/g8.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 2,
       "sections": [
         "MEA",
         "D2ECA"
-      ],
-      "photo": "/assets/img/webp/rooms/g8.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "geotech-lab",
@@ -877,10 +877,10 @@
       "place": "ce-dept",
       "floor": 0,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "he-lab-me",
@@ -888,10 +888,10 @@
       "place": "me-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "hpc-lab-it-dept",
@@ -899,13 +899,13 @@
       "place": "it-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 6,
       "sections": [
         "ITA",
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "ht-lab-me",
@@ -913,10 +913,10 @@
       "place": "me-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "hw-lab",
@@ -924,13 +924,13 @@
       "place": "ec-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 3,
       "sections": [
         "CSF",
         "D2CSE"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "iar-lab",
@@ -938,10 +938,10 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "id-lab",
@@ -949,10 +949,10 @@
       "place": "ec-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "measurement-lab",
@@ -960,10 +960,10 @@
       "place": "applied-science",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "mwr-l",
@@ -971,10 +971,10 @@
       "place": "ec-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "os-lab-cse-dept",
@@ -982,13 +982,13 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 6,
       "sections": [
         "CSA",
         "CSB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "os1-lab-it-dept",
@@ -996,13 +996,13 @@
       "place": "it-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 8,
       "sections": [
         "ITA",
         "ITB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "pe-lab-bee-lab-2",
@@ -1010,6 +1010,8 @@
       "place": "ee-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 14,
       "sections": [
         "CSA",
@@ -1017,9 +1019,7 @@
         "CSE",
         "CSF",
         "ITA"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "phy-lab",
@@ -1027,6 +1027,8 @@
       "place": "applied-science",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 36,
       "sections": [
         "MEA",
@@ -1038,9 +1040,7 @@
         "ECA",
         "ECB",
         "RAI"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "pl-lab-cse-dept",
@@ -1048,10 +1048,10 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "pl-lab-cse-dept",
@@ -1059,12 +1059,12 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 2,
       "sections": [
         "CSE"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "pl1-lab-it-dept",
@@ -1072,13 +1072,13 @@
       "place": "it-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "ITA",
         "ITB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "ps-lab",
@@ -1086,10 +1086,10 @@
       "place": "ec-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "r-lab-cse-dept",
@@ -1097,13 +1097,13 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "CSA",
         "CSB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "s-r-lab",
@@ -1111,10 +1111,10 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "s-220",
@@ -1122,12 +1122,12 @@
       "place": "s-block",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 1,
       "sections": [
         "D2ITA"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "s-221",
@@ -1135,12 +1135,12 @@
       "place": "s-block",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 1,
       "sections": [
         "D3ITB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "s201",
@@ -1148,6 +1148,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s201.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 23,
       "sections": [
         "MEB",
@@ -1158,9 +1160,7 @@
         "ECA",
         "ECB",
         "RAI"
-      ],
-      "photo": "/assets/img/webp/rooms/s201.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s202",
@@ -1168,6 +1168,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s202.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 26,
       "sections": [
         "MEA",
@@ -1176,9 +1178,7 @@
         "ECA",
         "ECB",
         "RAI"
-      ],
-      "photo": "/assets/img/webp/rooms/s202.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s203",
@@ -1186,6 +1186,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s203.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 24,
       "sections": [
         "MEB",
@@ -1194,9 +1196,7 @@
         "EEA",
         "EEB",
         "ECB"
-      ],
-      "photo": "/assets/img/webp/rooms/s203.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s204",
@@ -1204,6 +1204,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s204.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 22,
       "sections": [
         "MEA",
@@ -1214,9 +1216,7 @@
         "ECA",
         "ECB",
         "CSD"
-      ],
-      "photo": "/assets/img/webp/rooms/s204.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s205",
@@ -1224,6 +1224,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s205.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 22,
       "sections": [
         "MEB",
@@ -1235,9 +1237,7 @@
         "ITA",
         "ITB",
         "ITC"
-      ],
-      "photo": "/assets/img/webp/rooms/s205.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s213",
@@ -1245,6 +1245,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s213.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 5,
       "sections": [
         "D2CSD",
@@ -1252,9 +1254,7 @@
         "D3CSA",
         "D3CSE",
         "D3ITB"
-      ],
-      "photo": "/assets/img/webp/rooms/s213.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s214",
@@ -1262,6 +1262,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s214.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 7,
       "sections": [
         "D2CSA",
@@ -1270,9 +1272,7 @@
         "D2CSD",
         "D2CSF",
         "D3CSC"
-      ],
-      "photo": "/assets/img/webp/rooms/s214.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s215",
@@ -1280,13 +1280,13 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s215.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "BCA1A",
         "BCA1C"
-      ],
-      "photo": "/assets/img/webp/rooms/s215.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s216",
@@ -1294,15 +1294,15 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s216.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "BCA1A",
         "BCA1B",
         "BCA1C",
         "MCA1"
-      ],
-      "photo": "/assets/img/webp/rooms/s216.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s217",
@@ -1310,13 +1310,13 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s217.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 5,
       "sections": [
         "BCA1A",
         "BCA1B"
-      ],
-      "photo": "/assets/img/webp/rooms/s217.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s218",
@@ -1324,6 +1324,8 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s218.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "D2CSB",
@@ -1332,9 +1334,7 @@
         "D3CSA",
         "D3CSB",
         "D3CSD"
-      ],
-      "photo": "/assets/img/webp/rooms/s218.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "s219",
@@ -1342,15 +1342,15 @@
       "place": "s-block",
       "floor": 2,
       "inferred": true,
+      "photo": "/assets/img/rooms/s219.jpg",
+      "photoCredit": "GNDEC official room gallery",
       "lecturesPerWeek": 6,
       "sections": [
         "BCA1A",
         "BCA1B",
         "BCA1C",
         "MCA1"
-      ],
-      "photo": "/assets/img/webp/rooms/s219.webp",
-      "photoCredit": "GNDEC official room gallery"
+      ]
     },
     {
       "id": "seminar-hall-ba",
@@ -1358,12 +1358,12 @@
       "place": "business-admin",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 1,
       "sections": [
         "BBA1"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "sl-i-lab",
@@ -1371,13 +1371,13 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 3,
       "sections": [
         "CSD",
         "D2CSD"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "sl-ii-lab-cse-dept",
@@ -1385,10 +1385,10 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "sl-ii-lab-cse-dept",
@@ -1396,13 +1396,13 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "CSC",
         "CSE"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "sl-iii-lab-cse",
@@ -1410,12 +1410,12 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "CSC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "sl-iv-lab-cse",
@@ -1423,13 +1423,13 @@
       "place": "cse-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 4,
       "sections": [
         "CSD",
         "CSE"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "survey-lab",
@@ -1437,10 +1437,10 @@
       "place": "ce-dept",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "ti-l",
@@ -1448,12 +1448,12 @@
       "place": "ec-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 2,
       "sections": [
         "D2ECB"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "tnp-seminar-hall",
@@ -1461,10 +1461,10 @@
       "place": "admin-block",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "tnp-seminar-hall-1",
@@ -1472,10 +1472,10 @@
       "place": "admin-block",
       "floor": null,
       "inferred": true,
-      "lecturesPerWeek": 0,
-      "sections": [],
       "photo": "",
-      "photoCredit": ""
+      "photoCredit": "",
+      "lecturesPerWeek": 0,
+      "sections": []
     },
     {
       "id": "w-s-seminar-hall",
@@ -1483,6 +1483,8 @@
       "place": "workshops",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 22,
       "sections": [
         "ECA",
@@ -1493,9 +1495,7 @@
         "CSF",
         "ITA",
         "ITC"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "wd-lab-it-dept",
@@ -1503,12 +1503,12 @@
       "place": "it-dept",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 2,
       "sections": [
         "ITA"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     },
     {
       "id": "workshops",
@@ -1516,6 +1516,8 @@
       "place": "workshops",
       "floor": null,
       "inferred": true,
+      "photo": "",
+      "photoCredit": "",
       "lecturesPerWeek": 36,
       "sections": [
         "MEA",
@@ -1527,9 +1529,7 @@
         "ECA",
         "ECB",
         "RAI"
-      ],
-      "photo": "",
-      "photoCredit": ""
+      ]
     }
   ]
 }

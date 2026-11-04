@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:39:01.099Z",
+  "generatedAt": "2026-11-04T20:00:38.406Z",
   "version": "2026.09.03",
   "verifiedDate": "2026-09-03",
   "policy": "Only current official source pages are stored here. Mutable facts are resolved from the live source or are reported as unavailable.",
@@ -91,6 +91,12 @@
     "distanceBusStandKm": 5,
     "distanceRailwayStationKm": 8,
     "hostels": "Three boys' hostels and one girls' hostel, about 1,200 residents",
+    "libraryHours": {
+      "weekdays": "8:00 am – 10:00 pm",
+      "weekend": "9:00 am – 5:00 pm",
+      "source": "https://gndec.ac.in/library/",
+      "verifiedDate": "2026-11-02"
+    },
     "note": "Campus facts are from the official GNDEC Campus page. GNDEC and GND Polytechnic share the same campus and many facilities."
   },
   "gallery": [
@@ -102,74 +108,131 @@
       "place": "main-gate"
     },
     {
-      "src": "/assets/img/admin.jpg",
-      "title": "Administration Block",
-      "caption": "College office, Principal's office and the admission desk are inside this block.",
-      "credit": "GNDEC website",
-      "place": "admin-block"
-    },
-    {
       "src": "/assets/img/library.jpg",
       "title": "Central Library",
       "caption": "The library building, reading rooms and reference section.",
-      "credit": "GNDEC library page",
+      "credit": "GNDEC website",
       "place": "library"
     },
     {
-      "src": "/assets/img/lab.jpg",
-      "title": "Computer laboratory",
-      "caption": "A typical computing lab used for practicals.",
-      "credit": "GNDEC library page",
-      "place": "it-dept"
-    },
-    {
-      "src": "/assets/img/auditorium.jpg",
-      "title": "Auditorium / seminar stage",
-      "caption": "Indoor gatherings, orientations and guest lectures.",
-      "credit": "GNDEC website",
+      "src": "/assets/img/gallery/auditorium-a.jpg",
+      "title": "Auditorium",
+      "caption": "Red seating and the main stage inside the college auditorium.",
+      "credit": "GNDEC gallery",
       "place": "auditorium"
     },
     {
-      "src": "/assets/img/workshop.jpg",
-      "title": "Central Workshops",
-      "caption": "Manufacturing practice and mechanical engineering labs.",
-      "credit": "GNDEC Mechanical department",
-      "place": "workshops"
+      "src": "/assets/img/gallery/auditorium-b.jpg",
+      "title": "Auditorium balcony",
+      "caption": "Another view of the auditorium seating.",
+      "credit": "GNDEC gallery",
+      "place": "auditorium"
     },
     {
-      "src": "/assets/img/campus-life.jpg",
-      "title": "Campus life",
-      "caption": "Cultural performances during the college fest.",
-      "credit": "GNDEC website",
-      "place": "open-air-theatre"
-    },
-    {
-      "src": "/assets/img/sports.jpg",
-      "title": "Sports day",
-      "caption": "Annual athletics meet on the campus grounds.",
-      "credit": "GNDEC website",
+      "src": "/assets/img/gallery/sports-complex.jpg",
+      "title": "Sports complex",
+      "caption": "The indoor sports hall used for badminton and college tournaments.",
+      "credit": "GNDEC gallery",
       "place": "sports-complex"
     },
     {
-      "src": "/assets/img/new-gate.jpg",
-      "title": "New gate plaque (2022)",
-      "caption": "The foundation plaque for the new entrance gate.",
-      "credit": "GNDEC website",
-      "place": "north-gate"
+      "src": "/assets/img/gallery/gym-a.jpg",
+      "title": "College gym",
+      "caption": "Weights and training equipment inside the gym.",
+      "credit": "GNDEC gallery",
+      "place": "gym"
     },
     {
-      "src": "/assets/img/convocation.jpg",
-      "title": "Convocation",
-      "caption": "Annual convocation ceremony.",
-      "credit": "GNDEC website",
-      "place": "auditorium"
+      "src": "/assets/img/gallery/swimming-pool.jpg",
+      "title": "Swimming pool",
+      "caption": "The campus swimming pool beside the sports area.",
+      "credit": "GNDEC gallery",
+      "place": "swimming-pool"
     },
     {
-      "src": "/assets/img/admissions.jpg",
-      "title": "Admission enquiry",
-      "caption": "Official admission enquiry poster with the college helpline numbers.",
-      "credit": "GNDEC admissions",
-      "place": "admission-cell"
+      "src": "/assets/img/gallery/open-air-theatre.jpg",
+      "title": "Open Air Theatre",
+      "caption": "The stepped OAT used for cultural nights and college events.",
+      "credit": "GNDEC gallery",
+      "place": "open-air-theatre"
+    },
+    {
+      "src": "/assets/img/gallery/tennis-courts.jpg",
+      "title": "Tennis courts",
+      "caption": "Outdoor tennis courts near the sports complex.",
+      "credit": "GNDEC gallery",
+      "place": "tennis-courts"
+    },
+    {
+      "src": "/assets/img/gallery/football-ground.jpg",
+      "title": "Football ground",
+      "caption": "The main playing field on campus.",
+      "credit": "GNDEC gallery",
+      "place": "football-ground"
+    },
+    {
+      "src": "/assets/img/rooms/f107.jpg",
+      "title": "Classroom F107",
+      "caption": "A first-year classroom, photographed from the official room gallery.",
+      "credit": "GNDEC official room gallery",
+      "place": "f-block"
+    },
+    {
+      "src": "/assets/img/rooms/s201.jpg",
+      "title": "Classroom S201",
+      "caption": "A second-year classroom with the room number painted on the wall.",
+      "credit": "GNDEC official room gallery",
+      "place": "s-block"
+    },
+    {
+      "src": "/assets/img/rooms/g1.jpg",
+      "title": "Classroom G1",
+      "caption": "A ground-floor classroom in G-Block.",
+      "credit": "GNDEC official room gallery",
+      "place": "g-block"
+    },
+    {
+      "src": "/assets/img/gallery/campus-road.jpg",
+      "title": "Tree-lined campus road",
+      "caption": "The shaded main walk through the campus.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/academic-block.jpg",
+      "title": "Academic block courtyard",
+      "caption": "The red-brick academic block around the central lawn and fountain.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/red-corridor.jpg",
+      "title": "Red-pillared corridor",
+      "caption": "A covered corridor between academic blocks.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/campus-courtyard.jpg",
+      "title": "Campus courtyard",
+      "caption": "The central courtyard and photostat shop.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/principal-bungalow.jpg",
+      "title": "Principal's Bungalow",
+      "caption": "The heritage white residence with the blue dome, near the west gate.",
+      "credit": "Wikimedia Commons (CC)",
+      "place": "principal-bungalow"
+    },
+    {
+      "src": "/assets/img/gallery/night-campus.jpg",
+      "title": "Campus at night",
+      "caption": "The illuminated fountain and lawns after dark.",
+      "credit": "Wikimedia Commons (CC)"
+    },
+    {
+      "src": "/assets/img/gallery/sports-field.jpg",
+      "title": "Sports field",
+      "caption": "The college playing field.",
+      "credit": "Wikimedia Commons (CC)"
     }
   ],
   "emergencyNote": "The college publishes office landlines and role emails. Personal mobile numbers are not reproduced here."

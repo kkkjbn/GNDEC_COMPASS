@@ -6,6 +6,26 @@
     30.8592,
     75.8613
   ],
+  "facts": {
+    "established": 1953,
+    "campusAcres": 86,
+    "address": "Gill Park, Gill Road, Ludhiana, Punjab 141006",
+    "phone": "0161-5064501",
+    "email": "principal@gndec.ac.in",
+    "website": "https://gndec.ac.in/",
+    "autonomous": true,
+    "affiliatedTo": "IK Gujral Punjab Technical University (PTU)",
+    "distanceBusStandKm": 5,
+    "distanceRailwayStationKm": 8,
+    "hostels": "Three boys' hostels and one girls' hostel, about 1,200 residents",
+    "libraryHours": {
+      "weekdays": "8:00 am – 10:00 pm",
+      "weekend": "9:00 am – 5:00 pm",
+      "source": "https://gndec.ac.in/library/",
+      "verifiedDate": "2026-11-02"
+    },
+    "note": "Campus facts are from the official GNDEC Campus page. GNDEC and GND Polytechnic share the same campus and many facilities."
+  },
   "places": [
     {
       "id": "main-gate",
@@ -21,7 +41,7 @@
         "gill road gate",
         "college gate"
       ],
-      "photo": "/assets/img/webp/hero/gndec_2022_newgate.webp",
+      "photo": "/assets/img/main-gate.jpg",
       "photoCredit": "GNDEC website",
       "verified": true,
       "pos": [
@@ -96,6 +116,8 @@
         "principal office",
         "office"
       ],
+      "photo": "/assets/img/main-gate.jpg",
+      "photoCredit": "GNDEC website",
       "verified": true,
       "pos": [
         0.3686,
@@ -140,7 +162,7 @@
         0.35,
         0.6223
       ],
-      "photo": "/assets/img/webp/hero/library.webp",
+      "photo": "/assets/img/library.jpg",
       "photoCredit": "GNDEC website"
     },
     {
@@ -164,7 +186,7 @@
         0.3779,
         0.5936
       ],
-      "photo": "/assets/img/webp/rooms/g1.webp",
+      "photo": "/assets/img/rooms/g1.jpg",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -188,7 +210,7 @@
         0.4395,
         0.6117
       ],
-      "photo": "/assets/img/webp/rooms/f107.webp",
+      "photo": "/assets/img/rooms/f107.jpg",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -212,7 +234,7 @@
         0.4767,
         0.5979
       ],
-      "photo": "/assets/img/webp/rooms/s201.webp",
+      "photo": "/assets/img/rooms/s201.jpg",
       "photoCredit": "GNDEC official room gallery"
     },
     {
@@ -257,7 +279,7 @@
         0.3547,
         0.4021
       ],
-      "photo": "/assets/img/webp/hero/lab.webp",
+      "photo": "/assets/img/lab.jpg",
       "photoCredit": "GNDEC website"
     },
     {
@@ -280,7 +302,7 @@
         0.407,
         0.4362
       ],
-      "photo": "/assets/img/webp/hero/lab.webp",
+      "photo": "/assets/img/lab.jpg",
       "photoCredit": "GNDEC website"
     },
     {
@@ -383,7 +405,7 @@
         0.5233,
         0.4947
       ],
-      "photo": "/assets/img/webp/hero/workshop.webp",
+      "photo": "/assets/img/workshop.jpg",
       "photoCredit": "GNDEC Mechanical department"
     },
     {
@@ -419,7 +441,7 @@
         "hall",
         "seminar"
       ],
-      "photo": "/assets/img/webp/gallery/auditorium-a.webp",
+      "photo": "/assets/img/gallery/auditorium-a.jpg",
       "photoCredit": "GNDEC gallery",
       "verified": true,
       "pos": [
@@ -445,7 +467,7 @@
         0.564,
         0.3702
       ],
-      "photo": "/assets/img/webp/gallery/open-air-theatre.webp",
+      "photo": "/assets/img/gallery/open-air-theatre.jpg",
       "photoCredit": "GNDEC gallery"
     },
     {
@@ -467,7 +489,7 @@
         0.7209,
         0.6426
       ],
-      "photo": "/assets/img/webp/gallery/sports-complex.webp",
+      "photo": "/assets/img/gallery/sports-complex.jpg",
       "photoCredit": "GNDEC gallery"
     },
     {
@@ -487,7 +509,7 @@
         0.664,
         0.3181
       ],
-      "photo": "/assets/img/webp/gallery/swimming-pool.webp",
+      "photo": "/assets/img/gallery/swimming-pool.jpg",
       "photoCredit": "GNDEC gallery"
     },
     {
@@ -508,7 +530,7 @@
         0.5198,
         0.3691
       ],
-      "photo": "/assets/img/webp/gallery/football-ground.webp",
+      "photo": "/assets/img/gallery/football-ground.jpg",
       "photoCredit": "GNDEC gallery"
     },
     {
@@ -860,7 +882,7 @@
         0.2419,
         0.5723
       ],
-      "photo": "/assets/img/webp/gallery/principal-bungalow.webp",
+      "photo": "/assets/img/gallery/principal-bungalow.jpg",
       "photoCredit": "Wikimedia Commons (CC)"
     },
     {
@@ -880,7 +902,7 @@
         0.6837,
         0.4915
       ],
-      "photo": "/assets/img/webp/gallery/tennis-courts.webp",
+      "photo": "/assets/img/gallery/tennis-courts.jpg",
       "photoCredit": "GNDEC gallery"
     },
     {
@@ -901,7 +923,7 @@
         0.6651,
         0.5085
       ],
-      "photo": "/assets/img/webp/gallery/gym-a.webp",
+      "photo": "/assets/img/gallery/gym-a.jpg",
       "photoCredit": "GNDEC gallery"
     }
   ],
@@ -9273,159 +9295,139 @@
   },
   "gallery": [
     {
-      "src": "/assets/img/webp/hero/gndec_2022_newgate.webp",
+      "src": "/assets/img/main-gate.jpg",
       "title": "College main entrance",
       "caption": "The GNDEC portico on Gill Road — the landmark most visitors use.",
       "credit": "GNDEC website",
       "place": "main-gate"
     },
     {
-      "src": "/assets/img/webp/hero/library.webp",
+      "src": "/assets/img/library.jpg",
       "title": "Central Library",
       "caption": "The library building, reading rooms and reference section.",
       "credit": "GNDEC website",
       "place": "library"
     },
     {
-      "src": "/assets/img/webp/gallery/auditorium-a.webp",
+      "src": "/assets/img/gallery/auditorium-a.jpg",
       "title": "Auditorium",
       "caption": "Red seating and the main stage inside the college auditorium.",
       "credit": "GNDEC gallery",
       "place": "auditorium"
     },
     {
-      "src": "/assets/img/webp/gallery/auditorium-b.webp",
+      "src": "/assets/img/gallery/auditorium-b.jpg",
       "title": "Auditorium balcony",
       "caption": "Another view of the auditorium seating.",
       "credit": "GNDEC gallery",
       "place": "auditorium"
     },
     {
-      "src": "/assets/img/webp/gallery/sports-complex.webp",
+      "src": "/assets/img/gallery/sports-complex.jpg",
       "title": "Sports complex",
       "caption": "The indoor sports hall used for badminton and college tournaments.",
       "credit": "GNDEC gallery",
       "place": "sports-complex"
     },
     {
-      "src": "/assets/img/webp/gallery/gym-a.webp",
+      "src": "/assets/img/gallery/gym-a.jpg",
       "title": "College gym",
       "caption": "Weights and training equipment inside the gym.",
       "credit": "GNDEC gallery",
       "place": "gym"
     },
     {
-      "src": "/assets/img/webp/gallery/swimming-pool.webp",
+      "src": "/assets/img/gallery/swimming-pool.jpg",
       "title": "Swimming pool",
       "caption": "The campus swimming pool beside the sports area.",
       "credit": "GNDEC gallery",
       "place": "swimming-pool"
     },
     {
-      "src": "/assets/img/webp/gallery/open-air-theatre.webp",
+      "src": "/assets/img/gallery/open-air-theatre.jpg",
       "title": "Open Air Theatre",
       "caption": "The stepped OAT used for cultural nights and college events.",
       "credit": "GNDEC gallery",
       "place": "open-air-theatre"
     },
     {
-      "src": "/assets/img/webp/gallery/tennis-courts.webp",
+      "src": "/assets/img/gallery/tennis-courts.jpg",
       "title": "Tennis courts",
       "caption": "Outdoor tennis courts near the sports complex.",
       "credit": "GNDEC gallery",
       "place": "tennis-courts"
     },
     {
-      "src": "/assets/img/webp/gallery/football-ground.webp",
+      "src": "/assets/img/gallery/football-ground.jpg",
       "title": "Football ground",
       "caption": "The main playing field on campus.",
       "credit": "GNDEC gallery",
       "place": "football-ground"
     },
     {
-      "src": "/assets/img/webp/rooms/f107.webp",
+      "src": "/assets/img/rooms/f107.jpg",
       "title": "Classroom F107",
       "caption": "A first-year classroom, photographed from the official room gallery.",
       "credit": "GNDEC official room gallery",
       "place": "f-block"
     },
     {
-      "src": "/assets/img/webp/rooms/s201.webp",
+      "src": "/assets/img/rooms/s201.jpg",
       "title": "Classroom S201",
       "caption": "A second-year classroom with the room number painted on the wall.",
       "credit": "GNDEC official room gallery",
       "place": "s-block"
     },
     {
-      "src": "/assets/img/webp/rooms/g1.webp",
+      "src": "/assets/img/rooms/g1.jpg",
       "title": "Classroom G1",
       "caption": "A ground-floor classroom in G-Block.",
       "credit": "GNDEC official room gallery",
       "place": "g-block"
     },
     {
-      "src": "/assets/img/webp/gallery/campus-road.webp",
+      "src": "/assets/img/gallery/campus-road.jpg",
       "title": "Tree-lined campus road",
       "caption": "The shaded main walk through the campus.",
       "credit": "Wikimedia Commons (CC)"
     },
     {
-      "src": "/assets/img/webp/gallery/academic-block.webp",
+      "src": "/assets/img/gallery/academic-block.jpg",
       "title": "Academic block courtyard",
       "caption": "The red-brick academic block around the central lawn and fountain.",
       "credit": "Wikimedia Commons (CC)"
     },
     {
-      "src": "/assets/img/webp/gallery/red-corridor.webp",
+      "src": "/assets/img/gallery/red-corridor.jpg",
       "title": "Red-pillared corridor",
       "caption": "A covered corridor between academic blocks.",
       "credit": "Wikimedia Commons (CC)"
     },
     {
-      "src": "/assets/img/webp/gallery/campus-courtyard.webp",
+      "src": "/assets/img/gallery/campus-courtyard.jpg",
       "title": "Campus courtyard",
       "caption": "The central courtyard and photostat shop.",
       "credit": "Wikimedia Commons (CC)"
     },
     {
-      "src": "/assets/img/webp/gallery/principal-bungalow.webp",
+      "src": "/assets/img/gallery/principal-bungalow.jpg",
       "title": "Principal's Bungalow",
       "caption": "The heritage white residence with the blue dome, near the west gate.",
       "credit": "Wikimedia Commons (CC)",
       "place": "principal-bungalow"
     },
     {
-      "src": "/assets/img/webp/gallery/night-campus.webp",
+      "src": "/assets/img/gallery/night-campus.jpg",
       "title": "Campus at night",
       "caption": "The illuminated fountain and lawns after dark.",
       "credit": "Wikimedia Commons (CC)"
     },
     {
-      "src": "/assets/img/webp/gallery/sports-field.webp",
+      "src": "/assets/img/gallery/sports-field.jpg",
       "title": "Sports field",
       "caption": "The college playing field.",
       "credit": "Wikimedia Commons (CC)"
     }
   ],
-  "facts": {
-    "established": 1953,
-    "campusAcres": 86,
-    "address": "Gill Park, Gill Road, Ludhiana, Punjab 141006",
-    "phone": "0161-5064501",
-    "email": "principal@gndec.ac.in",
-    "website": "https://gndec.ac.in/",
-    "autonomous": true,
-    "affiliatedTo": "IK Gujral Punjab Technical University (PTU)",
-    "distanceBusStandKm": 5,
-    "distanceRailwayStationKm": 8,
-    "hostels": "Three boys' hostels and one girls' hostel, about 1,200 residents",
-    "note": "Campus facts are from the official GNDEC Campus page. GNDEC and GND Polytechnic share the same campus and many facilities.",
-    "libraryHours": {
-      "weekdays": "8:00 am – 10:00 pm",
-      "weekend": "9:00 am – 5:00 pm",
-      "source": "https://gndec.ac.in/library/",
-      "verifiedDate": "2026-11-02"
-    }
-  },
-  "generatedAt": "2026-11-02T11:39:01.099Z"
+  "generatedAt": "2026-11-04T20:00:38.406Z"
 }
