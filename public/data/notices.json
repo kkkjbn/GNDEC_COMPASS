@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-11-06T07:17:53.016Z",
+  "generatedAt": "2026-11-06T19:40:54.619Z",
   "notices": [
+    {
+      "id": "gndec-erp-notice-board-6fd33a82b0a2ff6730f7",
+      "title": "Tentative Date Sheet for Regular End Semester Examinations – November 2026",
+      "date": "2026-11-06",
+      "displayDate": "November 6, 2026",
+      "url": "https://erp.gndec.ac.in/noticeboard/tentative-date-sheet-for-end-semester-examinations-%E2%80%93-november-2026",
+      "author": "coe_office",
+      "source": "GNDEC ERP Notice Board",
+      "kind": "exam"
+    },
     {
       "id": "gndec-homepage-03b408ca8a9840bcc16e",
       "title": "Notice and Complaint Form regarding Caste Based Discrimination",
@@ -270,16 +280,6 @@
       "author": "administrator",
       "source": "GNDEC ERP Notice Board",
       "kind": "general"
-    },
-    {
-      "id": "gndec-erp-notice-board-67e469ad97c4d3a50f07",
-      "title": "The provisional results of the End Semester Examinations May 2026",
-      "date": "2026-07-23",
-      "displayDate": "July 23, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/the-provisional-results-of-the-end-semester-examinations-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
     }
   ],
   "holidays": [
@@ -636,6 +636,16 @@
   ],
   "exams": [
     {
+      "id": "gndec-erp-notice-board-6fd33a82b0a2ff6730f7",
+      "title": "Tentative Date Sheet for Regular End Semester Examinations – November 2026",
+      "date": "2026-11-06",
+      "displayDate": "November 6, 2026",
+      "url": "https://erp.gndec.ac.in/noticeboard/tentative-date-sheet-for-end-semester-examinations-%E2%80%93-november-2026",
+      "author": "coe_office",
+      "source": "GNDEC ERP Notice Board",
+      "kind": "exam"
+    },
+    {
       "id": "gndec-erp-notice-board-a31a453e6d937c087674",
       "title": "Venue and Timing of Makeup Examination May-2026",
       "date": "2026-09-09",
@@ -671,16 +681,6 @@
       "date": "2026-09-02",
       "displayDate": "September 2, 2026",
       "url": "https://erp.gndec.ac.in/noticeboard/schedule-for-end-semester-makeup-examination-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-67e469ad97c4d3a50f07",
-      "title": "The provisional results of the End Semester Examinations May 2026",
-      "date": "2026-07-23",
-      "displayDate": "July 23, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/the-provisional-results-of-the-end-semester-examinations-may-2026",
       "author": "coe_office",
       "source": "GNDEC ERP Notice Board",
       "kind": "exam"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T07:17:53.016Z",
+  "generatedAt": "2026-11-06T19:40:54.619Z",
   "count": 4391,
   "entries": [
     {
@@ -33508,6 +33508,14 @@
     },
     {
       "t": "notice",
+      "id": "gndec-erp-notice-board-6fd33a82b0a2ff6730f7",
+      "title": "Tentative Date Sheet for Regular End Semester Examinations – November 2026",
+      "sub": "exam · November 6, 2026",
+      "to": "#/notices/gndec-erp-notice-board-6fd33a82b0a2ff6730f7",
+      "k": "exam coe_office GNDEC ERP Notice Board"
+    },
+    {
+      "t": "notice",
       "id": "gndec-homepage-03b408ca8a9840bcc16e",
       "title": "Notice and Complaint Form regarding Caste Based Discrimination",
       "sub": "general · October 24, 2026",
@@ -33721,14 +33729,6 @@
       "sub": "general · July 23, 2026",
       "to": "#/notices/gndec-erp-notice-board-5419b59fc9cd931dc978",
       "k": "general administrator GNDEC ERP Notice Board"
-    },
-    {
-      "t": "notice",
-      "id": "gndec-erp-notice-board-67e469ad97c4d3a50f07",
-      "title": "The provisional results of the End Semester Examinations May 2026",
-      "sub": "exam · July 23, 2026",
-      "to": "#/notices/gndec-erp-notice-board-67e469ad97c4d3a50f07",
-      "k": "exam coe_office GNDEC ERP Notice Board"
     },
     {
       "t": "syllabus",
