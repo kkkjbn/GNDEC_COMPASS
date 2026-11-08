@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-08T06:37:52.908Z",
+  "generatedAt": "2026-11-08T13:50:44.730Z",
   "notices": [
     {
-      "id": "gndec-erp-notice-board-6fd33a82b0a2ff6730f7",
-      "title": "Tentative Date Sheet for Regular End Semester Examinations – November 2026",
-      "date": "2026-11-06",
-      "displayDate": "November 6, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/tentative-date-sheet-for-end-semester-examinations-%E2%80%93-november-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
+      "id": "gndec-homepage-ca65afaa7ca801d7a009",
+      "title": "CMC QUOTATION INVITING NOTICE",
+      "date": "2026-11-08",
+      "displayDate": "November 8, 2026",
+      "url": "https://gndec.ac.in/?q=node/591",
+      "author": "",
+      "source": "GNDEC homepage",
+      "kind": "general"
     },
     {
       "id": "gndec-homepage-03b408ca8a9840bcc16e",
@@ -89,196 +89,6 @@
       "url": "https://gndec.ac.in/gallery/index.php?/category/37",
       "author": "",
       "source": "GNDEC homepage",
-      "kind": "general"
-    },
-    {
-      "id": "gndec-erp-notice-board-f84947ba5dead75d807b",
-      "title": "Reminder Pending Original Documents Admissions 2026",
-      "date": "2026-10-23",
-      "displayDate": "October 23, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/reminder-pending-original-documents-admissions-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-d5ed5de60165ada0bd4d",
-      "title": "Readmission_Notice 13_30.09.26, Neelam Kumari",
-      "date": "2026-09-30",
-      "displayDate": "September 30, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/readmission-notice-13-300926-neelam-kumari",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-4493b9afb4e6b3f63128",
-      "title": "ID Card Reminder Notice 28.9.26",
-      "date": "2026-09-28",
-      "displayDate": "September 28, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/id-card-reminder-notice-28926",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-9f2f7ad280d5955ce69d",
-      "title": "Original Documents Uploading Reminder I 2026",
-      "date": "2026-09-22",
-      "displayDate": "September 22, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/original-documents-collection-reminder-i-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-b2046a5306f88b4baeff",
-      "title": "ID Cards Warning Notice 2026",
-      "date": "2026-09-16",
-      "displayDate": "September 16, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/id-cards-warning-notice-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-0ba7f97eeeceba0ae1b4",
-      "title": "Final ID Card Notice & Pendancy List 2026",
-      "date": "2026-09-10",
-      "displayDate": "September 10, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/final-id-card-notice-pendancy-list-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-546a40717d6df939bfb4",
-      "title": "Revised Notice for Students regarding PMS Scholarship 2026-27",
-      "date": "2026-09-09",
-      "displayDate": "September 9, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/revised-notice-for-students-regarding-pms-scholarship-2026-27",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-a31a453e6d937c087674",
-      "title": "Venue and Timing of Makeup Examination May-2026",
-      "date": "2026-09-09",
-      "displayDate": "September 9, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/venue-and-timing-of-makeup-examination-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-00a3326c5e9c9a4bfe54",
-      "title": "Final date sheet for Makeup Examinations May -2026",
-      "date": "2026-09-08",
-      "displayDate": "September 8, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/final-date-sheet-for-makeup-examinations-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-c8a42f38584d0ae20dc5",
-      "title": "RE-OPENING OF ONLINE REGISTRATION PROCESS FOR THE COURSE(S) DETENTION (JULY-DEC, 2026)",
-      "date": "2026-09-02",
-      "displayDate": "September 2, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/re-opening-of-online-registration-process-for-the-courses-detention-july-dec-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-fd4a1f10997cc6146763",
-      "title": "Examination form filling process of Makeup Examination May-2026",
-      "date": "2026-09-02",
-      "displayDate": "September 2, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/examination-form-filling-process-of-makeup-examination-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-0fe40e75603dbdeba31f",
-      "title": "Schedule for End Semester Makeup Examination May-2026.",
-      "date": "2026-09-02",
-      "displayDate": "September 2, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/schedule-for-end-semester-makeup-examination-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-16233dcd3495ec3a7520",
-      "title": "Original Documents Collection Notice for Newly Admitted UG/PG Students in 2026",
-      "date": "2026-08-25",
-      "displayDate": "August 25, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/original-documents-collection-notice-for-newly-admitted-ug-pg-students-in-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-14d22324fc6a8592e745",
-      "title": "ID Cards Final Notice 2026",
-      "date": "2026-08-18",
-      "displayDate": "August 18, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/id-cards-final-notice-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-ae3c2e921e4ef029dedd",
-      "title": "Original Documents Uploading Notice 2026",
-      "date": "2026-08-18",
-      "displayDate": "August 18, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/original-documents-uploading-notice-2026",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-025d7ffdc0977932c97f",
-      "title": "Readmission_Notice 12_04.08.26",
-      "date": "2026-08-04",
-      "displayDate": "August 4, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/readmission-notice-12-040826",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-ebb5efd3cffb18b5f6e3",
-      "title": "Struck_off_Notice_43_25.07.26.pdf",
-      "date": "2026-07-28",
-      "displayDate": "July 28, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/struck-off-notice-43-250726pdf",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "admin"
-    },
-    {
-      "id": "gndec-erp-notice-board-a5bcc5756285fc474231",
-      "title": "Six Months Progress Presentation of Ms. Ritu, PhD. Regd. No.1903009, URN 1935251",
-      "date": "2026-07-28",
-      "displayDate": "July 28, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/six-months-progress-presentation-of-ms-ritu-phd-regd-no1903009-urn-1935251",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "general"
-    },
-    {
-      "id": "gndec-erp-notice-board-5419b59fc9cd931dc978",
-      "title": "Notice regarding classes of Odd Semester",
-      "date": "2026-07-23",
-      "displayDate": "July 23, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/notice-regarding-classes-of-odd-semester",
-      "author": "administrator",
-      "source": "GNDEC ERP Notice Board",
       "kind": "general"
     }
   ],
@@ -634,56 +444,5 @@
       "source": "https://gndec.ac.in/?q=holidays"
     }
   ],
-  "exams": [
-    {
-      "id": "gndec-erp-notice-board-6fd33a82b0a2ff6730f7",
-      "title": "Tentative Date Sheet for Regular End Semester Examinations – November 2026",
-      "date": "2026-11-06",
-      "displayDate": "November 6, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/tentative-date-sheet-for-end-semester-examinations-%E2%80%93-november-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-a31a453e6d937c087674",
-      "title": "Venue and Timing of Makeup Examination May-2026",
-      "date": "2026-09-09",
-      "displayDate": "September 9, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/venue-and-timing-of-makeup-examination-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-00a3326c5e9c9a4bfe54",
-      "title": "Final date sheet for Makeup Examinations May -2026",
-      "date": "2026-09-08",
-      "displayDate": "September 8, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/final-date-sheet-for-makeup-examinations-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-fd4a1f10997cc6146763",
-      "title": "Examination form filling process of Makeup Examination May-2026",
-      "date": "2026-09-02",
-      "displayDate": "September 2, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/examination-form-filling-process-of-makeup-examination-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    },
-    {
-      "id": "gndec-erp-notice-board-0fe40e75603dbdeba31f",
-      "title": "Schedule for End Semester Makeup Examination May-2026.",
-      "date": "2026-09-02",
-      "displayDate": "September 2, 2026",
-      "url": "https://erp.gndec.ac.in/noticeboard/schedule-for-end-semester-makeup-examination-may-2026",
-      "author": "coe_office",
-      "source": "GNDEC ERP Notice Board",
-      "kind": "exam"
-    }
-  ]
+  "exams": []
 }
