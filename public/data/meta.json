@@ -1,7 +1,7 @@
 {
   "app": "gndec-one",
-  "dataVersion": "2026.11.08",
-  "generatedAt": "2026-11-08T22:25:45.798Z",
+  "dataVersion": "2026.11.09",
+  "generatedAt": "2026-11-09T07:06:03.531Z",
   "sourceHash": "1d73dcfbd3a2fe0f",
   "timetableVersion": "17-09-2026",
   "counts": {
@@ -13,7 +13,7 @@
     "teachingFaculty": 97,
     "students": 2108,
     "rooms": 101,
-    "notices": 9,
+    "notices": 29,
     "holidays": 35,
     "papers": 1600,
     "paperCodes": 407,
@@ -23,7 +23,7 @@
     "photos": 20,
     "contacts": 20,
     "firstYearSyllabusPages": 33,
-    "searchEntries": 4372
+    "searchEntries": 4392
   },
   "coverage": {
     "timetableYears": [
