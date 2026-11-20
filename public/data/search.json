@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T07:41:52.563Z",
-  "count": 2763,
+  "generatedAt": "2026-11-20T20:41:14.666Z",
+  "count": 2764,
   "entries": [
     {
       "t": "page",
@@ -21001,6 +21001,14 @@
       "sub": "Question bank · IT department",
       "to": "#/study?tab=notes&q=Advanced%20Web%20Technologies%20(DEIT-14516)",
       "k": "Advanced Web Technologies (DEIT-14516)"
+    },
+    {
+      "t": "notes",
+      "id": "qb-b-tech-m-tech-datesheet-mid-semester-examination-ii-july-dec-2026",
+      "title": "B.Tech & M.Tech. Datesheet Mid Semester Examination-II (July-Dec 2026)",
+      "sub": "Question bank · IT department",
+      "to": "#/study?tab=notes&q=B.Tech%20%26%20M.Tech.%20Datesheet%20Mid%20Semester%20Examination-II%20(July-Dec%202026)",
+      "k": "B.Tech & M.Tech. Datesheet Mid Semester Examination-II (July-Dec 2026)"
     },
     {
       "t": "notes",
