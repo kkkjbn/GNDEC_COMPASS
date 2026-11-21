@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:41:14.666Z",
+  "generatedAt": "2026-11-21T07:39:04.988Z",
   "documents": [
     {
       "id": "syl-ss-and-syllabus-sem1-2-dec-2025-unsigned",
@@ -242,6 +242,34 @@
       "file": "SchemeSyllabus_Env.Sci-_Aug-2016",
       "url": "https://ce.gndec.ac.in/SchemeSyllabus_Env.Sci-_Aug-2016.pdf",
       "sourcePage": "CE"
+    },
+    {
+      "id": "syl-mse-1-syllabus-july-dec-2026-responses-1",
+      "code": "CS",
+      "branch": "CS",
+      "branchName": "Computer Science & Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "2026",
+      "title": "MSE 1  SYLLABUS (JULY-DEC 2026) (Responses) (1)",
+      "file": "MSE 1  SYLLABUS (JULY-DEC 2026) (Responses) (1)",
+      "url": "https://cse.gndec.ac.in/sites/default/files/MSE%201%20%20SYLLABUS%20%28JULY-DEC%202026%29%20%28Responses%29%20%281%29.pdf",
+      "sourcePage": "CSE"
+    },
+    {
+      "id": "syl-study-scheme-trcs-102",
+      "code": "CS",
+      "branch": "CS",
+      "branchName": "Computer Science & Engineering",
+      "program": "B.Tech",
+      "semesters": [],
+      "semester": "Not stated",
+      "scheme": "",
+      "title": "Study scheme (TRCS 102)",
+      "file": "Study scheme (TRCS 102)",
+      "url": "https://cse.gndec.ac.in/sites/default/files/Study%20scheme%20%28TRCS%20102%29.pdf",
+      "sourcePage": "CSE"
     },
     {
       "id": "syl-study-scheme-mba",

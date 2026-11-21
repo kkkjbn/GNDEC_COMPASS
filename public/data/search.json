@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T20:41:14.666Z",
-  "count": 2764,
+  "generatedAt": "2026-11-21T07:39:04.988Z",
+  "count": 2766,
   "entries": [
     {
       "t": "page",
@@ -20833,6 +20833,22 @@
       "sub": "Civil Engineering · Not stated · Scheme 2016",
       "to": "#/study?tab=syllabus&q=SchemeSyllabus_Env.Sci-_Aug-2016",
       "k": "CE Not stated 2016"
+    },
+    {
+      "t": "syllabus",
+      "id": "syl-mse-1-syllabus-july-dec-2026-responses-1",
+      "title": "MSE 1  SYLLABUS (JULY-DEC 2026) (Responses) (1)",
+      "sub": "Computer Science & Engineering · Not stated · Scheme 2026",
+      "to": "#/study?tab=syllabus&q=MSE%201%20%20SYLLABUS%20(JULY-DEC%202026)%20(Responses)%20(1)",
+      "k": "CS Not stated 2026"
+    },
+    {
+      "t": "syllabus",
+      "id": "syl-study-scheme-trcs-102",
+      "title": "Study scheme (TRCS 102)",
+      "sub": "Computer Science & Engineering · Not stated",
+      "to": "#/study?tab=syllabus&q=Study%20scheme%20(TRCS%20102)",
+      "k": "CS Not stated "
     },
     {
       "t": "syllabus",
