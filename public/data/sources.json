@@ -1,293 +1,293 @@
 {
-  "generatedAt": "2026-11-22T19:57:05.720Z",
+  "generatedAt": "2026-11-23T08:06:05.364Z",
   "sources": [
     {
       "label": "Section-wise timetable (FET)",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/17_09_2026_groups_days_horizontal.html",
       "kind": "timetable",
-      "fetchedAt": "2026-11-22T19:56:26.264Z",
+      "fetchedAt": "2026-11-23T08:05:08.253Z",
       "contentHash": "1d73dcfbd3a2fe0f"
     },
     {
       "label": "Sub-section-wise timetable (FET)",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/17_09_2026_subgroups_days_horizontal.html",
       "kind": "timetable",
-      "fetchedAt": "2026-11-22T19:56:26.265Z"
+      "fetchedAt": "2026-11-23T08:05:08.253Z"
     },
     {
       "label": "Faculty timetable (FET)",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/17_09_2026_teachers_days_horizontal.html",
       "kind": "timetable",
-      "fetchedAt": "2026-11-22T19:56:26.265Z"
+      "fetchedAt": "2026-11-23T08:05:08.253Z"
     },
     {
       "label": "Room timetable (FET)",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/17_09_2026_rooms_days_horizontal.html",
       "kind": "timetable",
-      "fetchedAt": "2026-11-22T19:56:26.265Z"
+      "fetchedAt": "2026-11-23T08:05:08.253Z"
     },
     {
       "label": "Timetable index (APPSC)",
       "url": "https://appsc.gndec.ac.in/time_tables",
       "kind": "index",
-      "fetchedAt": "2026-11-22T19:56:26.265Z"
+      "fetchedAt": "2026-11-23T08:05:08.253Z"
     },
     {
       "label": "Faculty directory — Applied Science",
       "url": "https://gndec.ac.in/faculty/?deptt=1",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:27.915Z"
+      "fetchedAt": "2026-11-23T08:05:14.832Z"
     },
     {
       "label": "Faculty directory — Computer Centre",
       "url": "https://gndec.ac.in/faculty/?deptt=2",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:28.137Z"
+      "fetchedAt": "2026-11-23T08:05:15.100Z"
     },
     {
       "label": "Faculty directory — Workshops",
       "url": "https://gndec.ac.in/faculty/?deptt=3",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:28.359Z"
+      "fetchedAt": "2026-11-23T08:05:15.369Z"
     },
     {
       "label": "Faculty directory — Sports",
       "url": "https://gndec.ac.in/faculty/?deptt=4",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:28.581Z"
+      "fetchedAt": "2026-11-23T08:05:15.638Z"
     },
     {
       "label": "Faculty directory — Civil Engineering",
       "url": "https://gndec.ac.in/faculty/?deptt=14",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:28.805Z"
+      "fetchedAt": "2026-11-23T08:05:15.908Z"
     },
     {
       "label": "Faculty directory — Computer Science & Engineering",
       "url": "https://gndec.ac.in/faculty/?deptt=15",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:29.027Z"
+      "fetchedAt": "2026-11-23T08:05:16.179Z"
     },
     {
       "label": "Faculty directory — Electrical Engineering",
       "url": "https://gndec.ac.in/faculty/?deptt=16",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:29.250Z"
+      "fetchedAt": "2026-11-23T08:05:16.449Z"
     },
     {
       "label": "Faculty directory — Electronics & Communication",
       "url": "https://gndec.ac.in/faculty/?deptt=17",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:29.472Z"
+      "fetchedAt": "2026-11-23T08:05:16.718Z"
     },
     {
       "label": "Faculty directory — Information Technology",
       "url": "https://gndec.ac.in/faculty/?deptt=21",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:29.693Z"
+      "fetchedAt": "2026-11-23T08:05:16.985Z"
     },
     {
       "label": "Faculty directory — Business Administration",
       "url": "https://gndec.ac.in/faculty/?deptt=28",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:29.913Z"
+      "fetchedAt": "2026-11-23T08:05:17.254Z"
     },
     {
       "label": "Faculty directory — Computer Applications",
       "url": "https://gndec.ac.in/faculty/?deptt=29",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:30.134Z"
+      "fetchedAt": "2026-11-23T08:05:17.524Z"
     },
     {
       "label": "Faculty directory — Mechanical Engineering",
       "url": "https://gndec.ac.in/faculty/?deptt=30",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:30.363Z"
+      "fetchedAt": "2026-11-23T08:05:17.794Z"
     },
     {
       "label": "Faculty directory — Production Engineering",
       "url": "https://gndec.ac.in/faculty/?deptt=31",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:30.584Z"
+      "fetchedAt": "2026-11-23T08:05:18.063Z"
     },
     {
       "label": "Faculty directory — School of Architecture",
       "url": "https://gndec.ac.in/faculty/?deptt=99",
       "kind": "faculty",
-      "fetchedAt": "2026-11-22T19:56:30.806Z"
+      "fetchedAt": "2026-11-23T08:05:18.331Z"
     },
     {
       "label": "Public faculty directory with photos and profiles",
       "url": "https://gndec.ac.in/faculty/",
       "kind": "faculty-profiles",
-      "fetchedAt": "2026-11-22T19:56:30.808Z",
+      "fetchedAt": "2026-11-23T08:05:18.332Z",
       "count": 272
     },
     {
       "label": "Student roster — CE 2026",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/CE%20Permanent%20Section%2015_09_2026.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:33.362Z",
+      "fetchedAt": "2026-11-23T08:05:26.591Z",
       "count": 127
     },
     {
       "label": "Student roster — CS 2026",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/CS%20Permanent%20Section%2015_09_2026.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:34.219Z",
+      "fetchedAt": "2026-11-23T08:05:27.413Z",
       "count": 379
     },
     {
       "label": "Student roster — EC 2026",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/EC%20Permanent%20Section%2015_09_2026.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:36.359Z",
+      "fetchedAt": "2026-11-23T08:05:32.520Z",
       "count": 128
     },
     {
       "label": "Student roster — EE 2026",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/EE%20Permanent%20Section%2015_09_2026.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:37.791Z",
+      "fetchedAt": "2026-11-23T08:05:34.935Z",
       "count": 128
     },
     {
       "label": "Student roster — IT 2026",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/IT%20Permanent%20Section%2015_09_2026.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:38.836Z",
+      "fetchedAt": "2026-11-23T08:05:36.549Z",
       "count": 191
     },
     {
       "label": "Student roster — ME 2026",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/ME%20Permanent%20Section%2015_09_2026_0.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:39.867Z",
+      "fetchedAt": "2026-11-23T08:05:37.665Z",
       "count": 128
     },
     {
       "label": "Student roster — RAI 2026",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-09/RAI%20Permanent%20Section%2015_09_2026.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:40.603Z",
+      "fetchedAt": "2026-11-23T08:05:38.459Z",
       "count": 65
     },
     {
       "label": "Student roster — CE 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/CE%20Sections%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:41.414Z",
+      "fetchedAt": "2026-11-23T08:05:39.345Z",
       "count": 117
     },
     {
       "label": "Student roster — CS 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/CS%20Sections%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:42.623Z",
+      "fetchedAt": "2026-11-23T08:05:40.495Z",
       "count": 316
     },
     {
       "label": "Student roster — EC 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/EC%20Sections%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:43.365Z",
+      "fetchedAt": "2026-11-23T08:05:41.334Z",
       "count": 95
     },
     {
       "label": "Student roster — EE 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/EE%20Sections%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:44.173Z",
+      "fetchedAt": "2026-11-23T08:05:41.894Z",
       "count": 123
     },
     {
       "label": "Student roster — IT 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/IT%20Sections%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:44.983Z",
+      "fetchedAt": "2026-11-23T08:05:42.774Z",
       "count": 191
     },
     {
       "label": "Student roster — ME 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/ME%20Sections%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:45.541Z",
+      "fetchedAt": "2026-11-23T08:05:43.334Z",
       "count": 90
     },
     {
       "label": "Student roster — RAI 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/RAI%20Sections%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:46.009Z",
+      "fetchedAt": "2026-11-23T08:05:43.627Z",
       "count": 30
     },
     {
       "label": "Student roster — EC 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/ECBITD%20Section%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:46.549Z",
+      "fetchedAt": "2026-11-23T08:05:44.166Z",
       "count": 59
     },
     {
       "label": "Student roster — MX 2025",
       "url": "https://appsc.gndec.ac.in/sites/default/files/2026-02/MX%20Section%20sem-2%202025.pdf",
       "kind": "roster",
-      "fetchedAt": "2026-11-22T19:56:47.042Z",
+      "fetchedAt": "2026-11-23T08:05:44.721Z",
       "count": 58
     },
     {
       "label": "Academics page — IT",
       "url": "https://it.gndec.ac.in/?q=academics",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:56:54.047Z"
+      "fetchedAt": "2026-11-23T08:05:52.272Z"
     },
     {
       "label": "Academics page — CE",
       "url": "https://ce.gndec.ac.in/?q=node/2",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:56:55.799Z"
+      "fetchedAt": "2026-11-23T08:05:53.913Z"
     },
     {
       "label": "Academics page — CSE",
       "url": "https://cse.gndec.ac.in/?q=node/14",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:56:57.420Z"
+      "fetchedAt": "2026-11-23T08:05:56.581Z"
     },
     {
       "label": "Academics page — ECE",
       "url": "https://ece.gndec.ac.in/?q=node/2",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:56:59.084Z"
+      "fetchedAt": "2026-11-23T08:05:58.120Z"
     },
     {
       "label": "Academics page — ME",
       "url": "https://me.gndec.ac.in/?q=node/2",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:57:00.874Z"
+      "fetchedAt": "2026-11-23T08:05:59.816Z"
     },
     {
       "label": "Academics page — EE",
       "url": "https://ee.gndec.ac.in/",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:57:02.505Z"
+      "fetchedAt": "2026-11-23T08:06:01.391Z"
     },
     {
       "label": "Academics page — MBA",
       "url": "https://mba.gndec.ac.in/?q=node/11",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:57:03.899Z"
+      "fetchedAt": "2026-11-23T08:06:02.961Z"
     },
     {
       "label": "Academics page — MCA",
       "url": "https://mca.gndec.ac.in/?q=node/12",
       "kind": "syllabus-index",
-      "fetchedAt": "2026-11-22T19:57:05.362Z"
+      "fetchedAt": "2026-11-23T08:06:04.954Z"
     },
     {
       "label": "Subject Question Bank — IT Department",
       "url": "https://it.gndec.ac.in/?q=sqb",
       "kind": "notes",
-      "fetchedAt": "2026-11-22T19:57:05.674Z"
+      "fetchedAt": "2026-11-23T08:06:05.312Z"
     }
   ],
   "rosterFiles": [
